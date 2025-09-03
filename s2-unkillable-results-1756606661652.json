@@ -1,0 +1,21 @@
+{
+  "timestamp": 1756606661651,
+  "elapsed": 0,
+  "runs": {
+    "total": 0,
+    "successful": 0,
+    "failed": 0,
+    "successRate": 0
+  },
+  "sse": {
+    "active": -20,
+    "reconnects": 71,
+    "duplicates": 0
+  },
+  "availability": {
+    "checks": 0,
+    "failures": 0,
+    "percentage": 0
+  },
+  "fatalError": null
+}

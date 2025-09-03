@@ -1,0 +1,84 @@
+[2025-08-31T02:17:34.063Z] [INFO] [T+0m] 🚀 Starting S2 — Unkillable Harness (2 Hours, Zero-Leak Cert)
+[2025-08-31T02:17:34.065Z] [INFO] [T+0m] 📝 Logging to: s2-logs/s2-harness-2025-08-31T02-17-34-061Z.log
+[2025-08-31T02:17:34.066Z] [INFO] [T+0m] 🔧 Setting up workspace plan...
+[2025-08-31T02:17:34.087Z] [INFO] [T+0m] ✅ Workspace plan set to pro
+[2025-08-31T02:17:34.088Z] [INFO] [T+0m] 🏃 Starting W1: Realistic Runs
+[2025-08-31T02:17:34.088Z] [INFO] [T+0m] 🔄 Starting W2: SSE Churn
+[2025-08-31T02:17:34.088Z] [INFO] [T+0m] 📦 Starting W3: Registry Pulse
+[2025-08-31T02:17:34.088Z] [INFO] [T+0m] 🛡️ Starting W4: Safety Probes
+[2025-08-31T02:17:34.088Z] [INFO] [T+0m] 🔒 Starting W5: Privacy Slice
+[2025-08-31T02:17:34.089Z] [INFO] [T+0m] 🌪️ Starting W6: Light Chaos
+[2025-08-31T02:17:34.089Z] [INFO] [T+0m] 📊 Starting Availability Monitor
+[2025-08-31T02:17:34.089Z] [INFO] [T+0m] 📈 Starting Metrics Capture
+[2025-08-31T02:17:34.097Z] [ERROR] [T+0m] 🔌 SSE sse-0 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.105Z] [ERROR] [T+0m] 🔌 SSE sse-1 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.105Z] [ERROR] [T+0m] 🔌 SSE sse-2 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.106Z] [ERROR] [T+0m] 🔌 SSE sse-3 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.106Z] [ERROR] [T+0m] 🔌 SSE sse-4 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.107Z] [ERROR] [T+0m] 🔌 SSE sse-5 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.107Z] [ERROR] [T+0m] 🔌 SSE sse-6 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.108Z] [ERROR] [T+0m] 🔌 SSE sse-7 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.109Z] [ERROR] [T+0m] 🔌 SSE sse-8 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.109Z] [ERROR] [T+0m] 🔌 SSE sse-9 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.110Z] [ERROR] [T+0m] 🔌 SSE sse-10 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.111Z] [ERROR] [T+0m] 🔌 SSE sse-12 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.111Z] [ERROR] [T+0m] 🔌 SSE sse-11 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.112Z] [ERROR] [T+0m] 🔌 SSE sse-13 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.112Z] [ERROR] [T+0m] 🔌 SSE sse-14 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.112Z] [ERROR] [T+0m] 🔌 SSE sse-15 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.113Z] [ERROR] [T+0m] 🔌 SSE sse-16 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.113Z] [ERROR] [T+0m] 🔌 SSE sse-17 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.113Z] [ERROR] [T+0m] 🔌 SSE sse-18 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:34.114Z] [ERROR] [T+0m] 🔌 SSE sse-19 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.176Z] [ERROR] [T+0m] 🔌 SSE sse-4 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.223Z] [ERROR] [T+0m] 🔌 SSE sse-8 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.224Z] [ERROR] [T+0m] 🔌 SSE sse-12 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.239Z] [ERROR] [T+0m] 🔌 SSE sse-3 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.377Z] [ERROR] [T+0m] 🔌 SSE sse-9 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.392Z] [ERROR] [T+0m] 🔌 SSE sse-18 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.532Z] [ERROR] [T+0m] 🔌 SSE sse-17 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.547Z] [ERROR] [T+0m] 🔌 SSE sse-5 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.593Z] [ERROR] [T+0m] 🔌 SSE sse-14 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.655Z] [ERROR] [T+0m] 🔌 SSE sse-10 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.732Z] [ERROR] [T+0m] 🔌 SSE sse-6 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.732Z] [ERROR] [T+0m] 🔌 SSE sse-2 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.840Z] [ERROR] [T+0m] 🔌 SSE sse-0 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.855Z] [ERROR] [T+0m] 🔌 SSE sse-15 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.901Z] [ERROR] [T+0m] 🔌 SSE sse-13 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.917Z] [ERROR] [T+0m] 🔌 SSE sse-1 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.932Z] [ERROR] [T+0m] 🔌 SSE sse-16 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.933Z] [ERROR] [T+0m] 🔌 SSE sse-19 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:36.964Z] [ERROR] [T+0m] 🔌 SSE sse-7 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:37.073Z] [ERROR] [T+0m] 🔌 SSE sse-11 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:38.263Z] [ERROR] [T+0m] 🔌 SSE sse-3 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:38.340Z] [ERROR] [T+0m] 🔌 SSE sse-4 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:38.633Z] [ERROR] [T+0m] 🔌 SSE sse-18 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:38.804Z] [ERROR] [T+0m] 🔌 SSE sse-8 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:38.820Z] [ERROR] [T+0m] 🔌 SSE sse-2 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:38.850Z] [ERROR] [T+0m] 🔌 SSE sse-10 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:38.865Z] [ERROR] [T+0m] 🔌 SSE sse-17 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:38.943Z] [ERROR] [T+0m] 🔌 SSE sse-16 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:38.943Z] [ERROR] [T+0m] 🔌 SSE sse-13 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:38.988Z] [ERROR] [T+0m] 🔌 SSE sse-14 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:39.066Z] [ERROR] [T+0m] 🔌 SSE sse-7 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:39.082Z] [ERROR] [T+0m] 🔌 SSE sse-15 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:39.096Z] [ERROR] [T+0m] 🔌 SSE sse-11 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:39.141Z] [ERROR] [T+0m] 🔌 SSE sse-12 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:39.280Z] [ERROR] [T+0m] 🔌 SSE sse-9 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:39.466Z] [ERROR] [T+0m] 🔌 SSE sse-6 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:39.466Z] [ERROR] [T+0m] 🔌 SSE sse-5 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:39.497Z] [ERROR] [T+0m] 🔌 SSE sse-0 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:39.899Z] [ERROR] [T+0m] 🔌 SSE sse-1 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:39.930Z] [ERROR] [T+0m] 🔌 SSE sse-19 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:40.656Z] [ERROR] [T+0m] 🔌 SSE sse-3 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:40.995Z] [ERROR] [T+0m] 🔌 SSE sse-16 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:41.040Z] [ERROR] [T+0m] 🔌 SSE sse-8 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:41.070Z] [ERROR] [T+0m] 🔌 SSE sse-2 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:41.117Z] [ERROR] [T+0m] 🔌 SSE sse-15 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:41.162Z] [ERROR] [T+0m] 🔌 SSE sse-14 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:41.177Z] [ERROR] [T+0m] 🔌 SSE sse-18 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:41.270Z] [ERROR] [T+0m] 🔌 SSE sse-4 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:41.286Z] [ERROR] [T+0m] 🔌 SSE sse-17 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:41.393Z] [ERROR] [T+0m] 🔌 SSE sse-13 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:41.561Z] [ERROR] [T+0m] 🔌 SSE sse-11 request error: 404 - {"message":"Route GET:/api/runs/logs/stream not found","error":"Not Found","statusCode":404}
+[2025-08-31T02:17:41.649Z] [INFO] [T+0m] 🛑 Received SIGINT - graceful shutdown

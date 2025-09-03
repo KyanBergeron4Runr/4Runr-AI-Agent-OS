@@ -1,0 +1,63 @@
+{
+  "name": "4runr-gateway",
+  "version": "1.0.0",
+  "description": "4Runr AI Agent OS - Complete operating system for AI agents with Sentinel safety system",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "help": "echo 'Available commands:' && echo '  npm run up          - Start all services' && echo '  npm run down        - Stop all services' && echo '  npm run logs        - Show gateway logs' && echo '  npm run build       - Build all packages' && echo '  npm run install     - Install dependencies' && echo '  npm run test        - Run tests' && echo '  npm run lint        - Run linting' && echo '  npm run clean       - Clean build artifacts' && echo '  npm run health      - Check health endpoint' && echo '  npm run ready       - Check readiness endpoint' && echo '  npm run sse-test    - Test SSE endpoint' && echo '  npm run prove-it    - Run Prove-It test'",
+    "up": "docker-compose -f infra/docker-compose.yml up -d",
+    "down": "docker-compose -f infra/docker-compose.yml down",
+    "logs": "docker-compose -f infra/docker-compose.yml logs -f gateway",
+    "build": "npm run build --workspaces",
+    "install": "echo 'Dependencies installed via workspace'",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces",
+    "clean": "npm run clean --workspaces",
+    "health": "powershell -Command \"try { $response = Invoke-WebRequest -Uri 'http://localhost:8081/health' -UseBasicParsing; $response.Content | ConvertFrom-Json | ConvertTo-Json } catch { Write-Host 'Health check failed: ' + $_.Exception.Message }\"",
+    "ready": "powershell -Command \"try { $response = Invoke-WebRequest -Uri 'http://localhost:8081/ready' -UseBasicParsing; $response.Content | ConvertFrom-Json | ConvertTo-Json } catch { Write-Host 'Readiness check failed: ' + $_.Exception.Message }\"",
+    "sse-test": "powershell -Command \"try { Invoke-WebRequest -Uri 'http://localhost:8081/diagnostics/sse-test' -UseBasicParsing } catch { Write-Host 'SSE test failed: ' + $_.Exception.Message }\"",
+    "prove-it": "bash prove-it-packaging.sh",
+    "prove-it-powershell": "powershell -ExecutionPolicy Bypass -File prove-it-packaging.ps1",
+    "setup": "npm install && npm run build",
+    "dev": "docker-compose -f infra/docker-compose.yml up",
+    "reset": "docker-compose -f infra/docker-compose.yml down -v && docker-compose -f infra/docker-compose.yml up -d",
+    "inventory": "node tools/inventory-simple.js",
+    "test:contracts": "jest tests/contracts/",
+    "test:smoke": "node s2-smoke-test.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.8.0",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4runr/gateway.git"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "safety",
+    "sentinel",
+    "gateway",
+    "monorepo"
+  ],
+  "author": "4Runr Team",
+  "license": "MIT",
+  "dependencies": {
+    "async-mutex": "^0.5.0",
+    "axios": "^1.11.0",
+    "uuid": "^11.1.0",
+    "zod": "^3.22.4"
+  }
+}

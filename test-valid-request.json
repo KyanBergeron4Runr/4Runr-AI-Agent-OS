@@ -1,0 +1,6 @@
+{
+  "name": "Test Run",
+  "input": "test input",
+  "client_token": "test12345",
+  "tags": ["tag1", "tag2"]
+}

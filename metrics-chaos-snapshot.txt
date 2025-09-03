@@ -1,0 +1,206 @@
+# HELP gateway_process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE gateway_process_start_time_seconds gauge
+gateway_process_start_time_seconds 1755038025.696
+
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="9791f2b5-4cbe-4dbe-bad8-e0d3599edcca"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="86b4950e-1d7b-4b33-91c0-dff59cee7bbd"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="2ef49619-895f-4a43-8d59-a58b9824126e"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="369a01c7-b33c-4093-b220-8e234dbd108e"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="2933a76f-6cf9-465e-9e32-12f7735746ff"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="2933a76f-6cf9-465e-9e32-12f7735746ff"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="3f4a8e8e-cc17-4c68-aaff-b37d6308c2b5"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="3f4a8e8e-cc17-4c68-aaff-b37d6308c2b5"} 1
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="3f4a8e8e-cc17-4c68-aaff-b37d6308c2b5",success="true"} 2
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="search",agent_id="3f4a8e8e-cc17-4c68-aaff-b37d6308c2b5",tool="serpapi"} 1
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="send",agent_id="3f4a8e8e-cc17-4c68-aaff-b37d6308c2b5",tool="gmail_send"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="689bb384-f6dc-43eb-801e-eac8f588618f"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="e4981d3f-ad64-4b62-a7c3-cf3d20518785"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="9790358c-2ca2-4614-bd20-c6549e32f153"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="689bb384-f6dc-43eb-801e-eac8f588618f"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="e4981d3f-ad64-4b62-a7c3-cf3d20518785"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="9790358c-2ca2-4614-bd20-c6549e32f153"} 1
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="e4981d3f-ad64-4b62-a7c3-cf3d20518785",success="true"} 210
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="get",agent_id="e4981d3f-ad64-4b62-a7c3-cf3d20518785",tool="http_fetch"} 105
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="689bb384-f6dc-43eb-801e-eac8f588618f",success="true"} 230
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="search",agent_id="689bb384-f6dc-43eb-801e-eac8f588618f",tool="serpapi"} 172
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="chat",agent_id="e4981d3f-ad64-4b62-a7c3-cf3d20518785",tool="openai"} 105
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="9790358c-2ca2-4614-bd20-c6549e32f153",success="true"} 85
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="send",agent_id="9790358c-2ca2-4614-bd20-c6549e32f153",tool="gmail_send"} 85
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="send",agent_id="689bb384-f6dc-43eb-801e-eac8f588618f",tool="gmail_send"} 58
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="aa351488-ba39-459b-a982-1d1bce1027ea"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="b17fe45d-04e7-4cde-a020-e10d807d8dad"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="074017f5-bf85-40bd-91bb-37b1a300d348"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="aa351488-ba39-459b-a982-1d1bce1027ea"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="b17fe45d-04e7-4cde-a020-e10d807d8dad"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="074017f5-bf85-40bd-91bb-37b1a300d348"} 1
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="b17fe45d-04e7-4cde-a020-e10d807d8dad",success="true"} 170
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="get",agent_id="b17fe45d-04e7-4cde-a020-e10d807d8dad",tool="http_fetch"} 85
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="aa351488-ba39-459b-a982-1d1bce1027ea",success="true"} 174
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="search",agent_id="aa351488-ba39-459b-a982-1d1bce1027ea",tool="serpapi"} 130
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="chat",agent_id="b17fe45d-04e7-4cde-a020-e10d807d8dad",tool="openai"} 85
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="send",agent_id="aa351488-ba39-459b-a982-1d1bce1027ea",tool="gmail_send"} 44
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="074017f5-bf85-40bd-91bb-37b1a300d348",success="true"} 66
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="send",agent_id="074017f5-bf85-40bd-91bb-37b1a300d348",tool="gmail_send"} 66
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="0ed3cf4b-6ad9-465f-80eb-9285920b67a3"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="2ee2a79c-bae5-46cd-b101-79b4c1092310"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="eacc74e3-cbb4-4101-b8fd-4188b1c45ec6"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="0ed3cf4b-6ad9-465f-80eb-9285920b67a3"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="2ee2a79c-bae5-46cd-b101-79b4c1092310"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="eacc74e3-cbb4-4101-b8fd-4188b1c45ec6"} 1
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="eacc74e3-cbb4-4101-b8fd-4188b1c45ec6",success="true"} 40
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="send",agent_id="eacc74e3-cbb4-4101-b8fd-4188b1c45ec6",tool="gmail_send"} 40
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="0ed3cf4b-6ad9-465f-80eb-9285920b67a3",success="true"} 100
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="search",agent_id="0ed3cf4b-6ad9-465f-80eb-9285920b67a3",tool="serpapi"} 71
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="2ee2a79c-bae5-46cd-b101-79b4c1092310",success="true"} 126
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="get",agent_id="2ee2a79c-bae5-46cd-b101-79b4c1092310",tool="http_fetch"} 63
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="send",agent_id="0ed3cf4b-6ad9-465f-80eb-9285920b67a3",tool="gmail_send"} 29
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="chat",agent_id="2ee2a79c-bae5-46cd-b101-79b4c1092310",tool="openai"} 63
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="575bb65a-da72-43c8-a866-2ed4f3b67c59"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="f1ec8aa6-d155-4d13-a8cf-f2c5c4aab14e"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="c5995b96-7fbc-444a-8ef1-5bad189b31b0"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="575bb65a-da72-43c8-a866-2ed4f3b67c59"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="f1ec8aa6-d155-4d13-a8cf-f2c5c4aab14e"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="c5995b96-7fbc-444a-8ef1-5bad189b31b0"} 1
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="575bb65a-da72-43c8-a866-2ed4f3b67c59",success="true"} 112
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="search",agent_id="575bb65a-da72-43c8-a866-2ed4f3b67c59",tool="serpapi"} 83
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="c5995b96-7fbc-444a-8ef1-5bad189b31b0",success="true"} 51
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="send",agent_id="c5995b96-7fbc-444a-8ef1-5bad189b31b0",tool="gmail_send"} 51
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="f1ec8aa6-d155-4d13-a8cf-f2c5c4aab14e",success="true"} 80
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="get",agent_id="f1ec8aa6-d155-4d13-a8cf-f2c5c4aab14e",tool="http_fetch"} 40
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="send",agent_id="575bb65a-da72-43c8-a866-2ed4f3b67c59",tool="gmail_send"} 29
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="chat",agent_id="f1ec8aa6-d155-4d13-a8cf-f2c5c4aab14e",tool="openai"} 40
+

@@ -1,0 +1,35 @@
+# HELP gateway_process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE gateway_process_start_time_seconds gauge
+gateway_process_start_time_seconds 1755268776.771
+
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="ad160a15-5e58-4180-b7cd-edfb9e5bd0ea"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="ad160a15-5e58-4180-b7cd-edfb9e5bd0ea"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="17ef15a4-b117-488a-9ef7-b3afd485d61e"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="a3d57e2d-bd37-484e-8322-2024d4cdd6f9"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="c7bc7cd1-d833-4e8f-994a-ca1801ac7f81"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="17ef15a4-b117-488a-9ef7-b3afd485d61e"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="a3d57e2d-bd37-484e-8322-2024d4cdd6f9"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="c7bc7cd1-d833-4e8f-994a-ca1801ac7f81"} 1
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="17ef15a4-b117-488a-9ef7-b3afd485d61e",success="true"} 465
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="search",agent_id="17ef15a4-b117-488a-9ef7-b3afd485d61e",tool="serpapi"} 465
+

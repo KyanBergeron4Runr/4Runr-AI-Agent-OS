@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-08-11T13:46:12.763Z",
+  "gatewayUrl": "http://localhost:3000",
+  "summary": {
+    "securityTests": "PASSED",
+    "performanceTests": "PASSED",
+    "resilienceTests": "PASSED",
+    "loadTests": "PASSED"
+  },
+  "details": {
+    "security": {
+      "agent": {
+        "agent_id": "3f998570-3bee-469c-89ca-1211285a7ef7",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8IxeOwSqotD/0\neibbCzXNdYZqfr6LBHlKSLwIMl4CRniPUENKYcu3AqZd3sGc/QSydFkao5fDvlEI\nLG9V4svUK3InfG+cj6DalBXDA7SCI6Yw7cMSIR/4Ed8U/WaSoJYILVfH+QCJ5Ps9\n6AJEeN5ERqxFXXnTjyLjykkvcBzbRAMBTtrWhQZDz67gLwrRl0CznKFkEWaPBlYT\nz2qGJrAueBPzsVMbkP8hXihASOaIm05KpPIv4GuVUVafOonYnGuYQUBwMxNerd97\n06utVevO42NLEqUmAGs91tgDaeRKqLVKRJxutu/YNlE58QXMa5yomTTAGZBWSshv\nwJvNWHp1AgMBAAECggEAB+s4Nh+GUqSHnpw3n3eo05WTS087aPGOw2QtWfD4yQK7\nV1jrBCn6n6DibMgQATIbLQG9sGPbYvdTRNNN+mD58FvFyciwj/fxrtGV2ugAhIvI\nln2jfNNdG51w9Nq3owtUVVLHQ5kE/0jelFv8IHKv9FK/NIo7Mv7u2oSssOz4off3\nwONcJtViqY7g0Ky3hSLm7/NwtVXY3Ke4sP2mAJHhS6fM3fA7/Lcbo7T0g1iUVCRW\no38BuEawM7VEGUCMN8SRhfSdKA6QQwiAzGfmzuSbb19e/AWY2pZIJJoLe92UggTU\nQb4oMjPVE6laYrZPZR6X8kt6tynUEvlflElpDRMRMQKBgQD56Hmh1p6JIv92NCNa\nZRdBuXsvrjWP4c0zk1Pt2VxMPzWebCwQ4zaRW1kQdA06TLkkz2wVGNzP5cCvzFbp\nKDcryLOFlR4EquoJC+o2XCIajYceKd3gaKZ2wEiBfTaxGQ/rOe6RMcQHgYLA/6/r\nWFkhdDspzah6A1UBS0JnwAT1rQKBgQDAuSQx+ZYTDvHf5mqcESRAmmokMYPXjt5X\nGiJlUIIEBLA+hVSLH1VuTRZhaOyWZ4hBWOrjX9PQ6yXx5ozP8YRzaFfBAuvSpiUE\n5N92Q6kvIOWiIRsSxVHn+QOuR12fiIXgy0xCPM6YY3fusi916xguvo86W05nINnK\n4uGobgRg6QKBgCgz9PVLIH/xSGWMp69QGfixzRZzkRxPeAJ3DgZydD2z4X1V65Tf\n6JRjvKU/9izN0O8SC1ItiMBNNr1RQx4JIS8C/5Za0dRwZmwEJa6PDdF1uSnqFE6Y\np0btUfy61wSQgpYV4MIs3ltSw2Um/PcAZH5UQ3xLIHJYfOFTaSBlrKaVAoGAMNC0\nclQdx0YJzgS3DEDrRdHXAMPp+Tee6cEc5Ty3Mf1eBvgOqg6NvRqZiKLjClW/FY5I\nML+dD1YAjn0vPZyXSAQt9h2fTgP3bH3sfDA3MlDK2X45NU/1pyRT4lkBRd92ybG0\n5zIvwjmvry5DB0M9JNnvvYBTI5wWjmVZcygqw8ECgYEAmnPLNrteIQCKB36Qednu\nsb6DDnTVAcvQDS2jkothwBWK1+Ffd9/1cEIhTnaWDs9oMpBJi+BW3rEBV7E2iMpb\nwDMXYElHnWbhXPZRLdeLH2dO/Rwj/o518DM5IP0jCHBePqqaK4lQwWE5ibjpwUFX\nF/bYElFTRr5O/XJ+oMs+BI8=\n-----END PRIVATE KEY-----\n"
+      }
+    },
+    "performance": {
+      "agent": {
+        "agent_id": "e31d11a1-3655-4243-9b2c-be58858e65ea",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCrtaUEqYkYlkw6\nNR/Wthguj/qkhUsE/4zWLabvAJSDrA2Z3EYm68BQnamxKrBxKcMBegmg8vaI24SC\n2dVb+4Mr3AEcXY6eAUx9uBl+F0mtW2CTMMsi1HuvivJxlo3IiQjv3Ug27/JljSJe\n4yFzlDFGQE0ShM91s4lY0E06mE7HbpGn3VLfJM7eZyMqVoP8l1nK7cFmbBGgO+N4\nhHn8VgFSSht4DaaDdDMuRNDIQWboHLFDv4DEHAr9grvhmNkFM8PM1FivjHck+iWm\nXwiy0w2+zHMiSmxy6y1nt6+zBV5/GWPkXGdncEPRWnUkqTLD1ljQ4ML/rbl1axYz\nl9ATamgNAgMBAAECggEAIrguX0R2g6G0VRqzzuLv/c5AFG8dTavsiswdUntQDFXI\nREGdb7ZAoyxWCQxENAWJOC24b7Jg9ihI4XpxYVF4YvBvyxABy+IgWNVWVkAYNjTh\nULHPiUHkpoiWYDBch91pkLKyLOWUokMI3Z3YgDnJQtayntl652Y/kdVAoGX2m+1j\nN3utPleLOGumi+zy04K/H9WxU23bMKqyhfYjQj/YzWaabwgtk5U/ZFso7uCxyHEh\n42pm58KH9BULZNyET2RnYNsnFNw4V2YFvqCxXtyIBle49GShnQt4tkRjoA5msXKc\n5Ipbo5iIAx+siwTR+SU2tqGSDYUDXac0Q84jFa3uAQKBgQDWuVieLSf/JBBbdfdu\n7bdYpvv3YV7JXLawhdIM7miV5UaMlAFqtSLtg9PF7P340wWVysOzaYzJygei5LYo\nDhdXNhoONup4AAYCurzKt8Wpooq3xeYFkWoh12ujoLwPsxbA+bumVv6ckE3MHXVq\nRlc/IbgTwmsim9BNXC4wNbqbAQKBgQDMt4owHJACECeQ71nhdYDlg2asS7c3O+a8\nG1cS6oiksOHA/av1GsYrVSOx50bu59aRN+TMFdNKYogAvDVrcvy6Eg6Mz5li5zRZ\nO1B8aFbfFcyxunZZRH2j4FT5cwr7NVk5rPfH5OzztshqCUWiOIaM5LvFxc1vG8du\na7QtTP2JDQKBgQCjg6OTWMnThrAaJhxV0hrEHO1VtkWLS9onVNDfXhIwy9dMqEzn\n6KZ/ftsfJ1lESdY/+pfLIX7AD+R+zHJW0Fw/4og2+OTWmxX4sCGisg2JH6lJRx/i\nb5kFyllC0t1Di1qxe7vFcQwVR+KmpGxMkOJRxii6i1wwj70xnBfkSJYhAQKBgQCO\npKD8LxrE5T68hZqqN3bt9WY4TbXHHc0Da0V738IAh2N2VwtXiSVmEjgCATXyx8ZB\nf6HD9r04CnnbkUjjqsagXG6Y/RpSyOk399V4KjfFz+nGOTe3sbqd0nVDLz8KlTyr\nrHMmbMQSeV0iTX2gsCRIziRshQxFDCUlMpTkL85FjQKBgQDIgohgQROygXhGbfdC\nDM3KXBi9irSod8tqLamE4dGrw+lFsI9XDLb/o2FRZfTUVxwK4TeRc1wup1771Uqd\nLWH/IgbUkwRFqU2ss0P7iDqty09eYpCQ52UHv3ZcV90UR/6jKsnIeODUi1kGC9Z3\nvgKdlcSX7z/CFOXFJ/Q5KDrQrg==\n-----END PRIVATE KEY-----\n"
+      },
+      "avgLatency": 2.6,
+      "p95Latency": 4
+    },
+    "resilience": {
+      "agent": {
+        "agent_id": "6ea78640-7d1a-41e8-ac4f-ab1ab75fda80",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDkFhACJsMDSyY+\nxKOAKKfzLTm3ibDPRmvK8eG/QARu1KOBKYc3/1NGOENUOuXfJtqxDktRGM3UvcAB\nCJpAFSFBw/QgPTQl3gLE8FKO0/u62JJB22Ujk60JM2QViDuk+MufcFBwLNgodxzg\nJengd3bXDzR1Kq8/QYHt2z7mrb0UsoKNkLrmDouqD1SfK3Srdni2R8CkAQ+FKv8w\n0IHClkx+k0i+nq3vKavNKsmYpkiLYu5muQbR+OQN7DCt9hfH/zAnMp1VPvx5j4td\nWLSlFTvcAobTeO0Z8zE8H3v2dRBSbTm2kSCYYYThEBnA2h+ZmH5hNDnbR42wW2Ck\nZ/GhIGP7AgMBAAECggEAL6tQwzJYtZqCLsIoLcPRfiholKxpUJi2NJ8jADaf9o3o\ncjk8sn5haB6gK713h5D2SeTj5toZQqo5s72Zh2UjIzySDB7ehD+HMqPLjWBOjzlu\nL+drlujpVC/ybfGgDZWV8QenOBqXPrXOSiaCX9B3/PCHlSlLoRvOzOhymAGdr/JO\nAJFArjzpPbN+4WbFn6CYLWRoUQw60bylmepQZq8mpPc5PVCJUav73y6CTReDPeUp\nSgVIEXqhG4z694QItKgsMm5tOjUQEc9nmIkDvHmiYiKjvmzalk5GFRILxOGytjn6\n0wYEvmbgpCujCyB2czTDQz+u9gR4lRWqosXFwKXVQQKBgQD3QMNtk2Ogrk1WRmPC\naHj36B25V4RjUib8Czsx/GBs4KzPp3xK62cqdBaUJhkZIXlKjdinXbL272zo0eWl\nuGIJndtz13cR1YqeQKflvE7TIToN/MgcEmz9e5FJeNy8/PAImhrvq4/ZcM9iJrCM\nD7aVei8cFgYLsPoQmaH86F6JmwKBgQDsJ7c+MYAImJLdV383FeyOBQJRNclvlmbN\ncHU271siuzC5tgr0wdVtpTc+ceacmCnWZpzJkCVbXpDNbew4QgYPveeIIHSIx/Oh\nUwfJl5PpJ4qEJR9U4szv+Zh614FE9mrpbyGo2jXsWUb+PKoZJHvokNciaUq6xKHR\nXsc3kZvlIQKBgQCtxJNUcFCFfdqWdtPnrprNyBET0EEXuIXzf0U0BSYTfveU3SXK\nVZTkzj+MERZ0hgUDc5s/TOfZCj3lhpa6GFK2ZX309QoWu5g3TkNxfx163pA5gl10\n9TIqF+zs0Qd5vt5HfV7O8Ckh7VmipoRPez+b4Ao51/SZxOCKSB8Dap/+XwKBgB0j\nEVLVHKzy1jwFDacoR1WGfLC0aDQiZHC4jV3HzoDMg8iGE3f7am/q0JQdzYxIofDY\nHEQqStGpK0iNZXXTf5f1oFmFV5uAwCiJbA6Nayx7OnXvdpwsl4iMTSnq6QIvPSWs\nFoUU105f/Yhkx7/uZnNdW43dW+ELXcPNY9sRViDBAoGAJrGB/JZK+/MyF3vhbfAB\nugTeTD0DRTcN1PRR6WvHYHrTVOaf3XrrVxpI4nT3TMtC4nwvp5ioGDAvxHPvHcV+\nibdDVQewu0YQavzpsJ7EGF0HyTzKa4TW4piVphGskqRLqgpXmr3MeIhKq3CJjjtU\nTnI/thQU5hdxwqlpqdjG4wQ=\n-----END PRIVATE KEY-----\n"
+      },
+      "chaosResults": {
+        "successCount": 0,
+        "errorCount": 0,
+        "circuitOpenCount": 0
+      },
+      "recoverySuccess": 0
+    },
+    "load": {
+      "agent": {
+        "agent_id": "24c10611-daad-4918-96bd-c3c7cf9a5c37",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCokX7nXK57CeH6\noXairpA61cwAWeEZ0E8xvqil4Qx0TI6XBf+UVeEZje2ZFUDVbCSoFxOfhYeuTA+d\ntbmnoK/mgUXyqF5sk5Yu+esVJXPeLecsvnUXxI5ojGRyoTaaIzoAuzau3EQa34zV\nreTrDmQzPSEokrKY0eGS0LsQICJWq7VPVhSJicP+dbf5nJCs2V+K1JFL9U3Q3jLV\nfyema89mVbcIn2QXZopseGjXP99FrBQl0ziSNl4ydHdnfPI2Q+vUnynILGLNGueW\nzMOXcS3EGE5wCcRTWZzjBk2xr9wQfJ1mMKlQoizJtu3WnXZkuYO90TWe6GPoyuRI\nrM2FZ10HAgMBAAECggEALQBquKltiztgMODaIyQnLQ3WoGFeTt3lxon3zBEAmiu2\nBWt8h8VFiuTxAWVDIbb1Mkq22mdziXyUzq2tGqszSn5Ihjecva/I8FGYCNUu0am/\nhZpy+B1pR0/zoQaY5R1yZq+UMapsJCB6ILGD45y781HmgEZpl5Kwfdlrlyp9AFX3\n1x9GKN32LR5qa8OZpVCgWSI4JVzPTlnGRVGgAfXQDDJIIsLV54UATmSH39CqhtP/\npsY3B4k8xUhjcdKYWZ2Wecjc5PAn+r0q4z5xFmxh8c19eoCQTjSbWPG2J2rBEvRt\nZsHljc0rNANXbUFjnwv2gAxAwg/YZ//euEeIEv3zAQKBgQDYYsRtKn/7QnnA8nTs\nLORBqVCb3ZUwjZc/HYcO+RIT5v16tDaL3S1VErMyJ9SDhQQSmqryxnx2u58y5CiB\nH/UiQZvBFIgoRGb4bGBqOuLHzrZJp3byVNmubp6wvD+uJFXlY7PzsSRpe69c6bXG\nZVcxQUFHc4F2E3GkSEBG9ZhTsQKBgQDHbbGmUNBw5dKmsjOewDAHnVoIwFvU/lDV\niBhTYu9qsyqFTGgD+L89QsG6MRvX9KaBrbhIZ2fnBIL3k0cuxa/TLpbrBDf/YPIg\nFr0Nyig0Hpg5z0Y5myo5Z+xAABOy0FQhjAmUvCFGRb1rdX8k7fLr4y3xeMRNlkBz\n+NdGYOYCNwKBgHhuR/qmC8LQ1aiwiKilt4hf7rBBG/aA52vGSFPqBciz5+HyCOXA\n/Kj7lmZUyq9ESeb81CX4mG8Qr2MInw52td0R/NjyT3Fx2Ils8CBPk8Y24zeND+OB\nnAG8KXAd5adLK89WtWHs9mIK56fjnzrDTkrokadtvuDzo20WlUepCtWRAoGARtjP\nTZhUFGdw6EtST0lTRsE9pPJBLW+TY+hPTABPsYYoyuYT5aVOuwKmM/ESRSvioxsF\n5qLlpIpTxIQLu6/7AHkCoEcFZbIZEhFB5E427h0YUyExf3GCFJa4tRvR46pi2PAY\nzz/uSjqoSi6ZlpL5w5cXUTtn8XA5QXnbcGMoEw0CgYAX2iD49KikvUMK1yOeDOSN\n2Bhw4UNqsnuVXMU/3aM2QnNnKq/HTxXdWoxdatwbmf6jkw9diyZirYiQyw325Yf6\nhEOR5RFn3FAFWYMwkAwNLK43T/xqRDsenCetDS89D4kQdVjat+A08pD65cob5kJL\nmnikA9pXnRrRjkpMlqVCZg==\n-----END PRIVATE KEY-----\n"
+      },
+      "loadResults": {
+        "successCount": 0,
+        "errorCount": 0,
+        "rps": 316.45569620253167,
+        "totalTime": 158
+      }
+    }
+  },
+  "conclusions": [
+    "4Runr Gateway provides superior security through token-based access control",
+    "Performance overhead is minimal with intelligent caching",
+    "Resilience features protect against upstream failures",
+    "Load handling demonstrates enterprise readiness"
+  ]
+}

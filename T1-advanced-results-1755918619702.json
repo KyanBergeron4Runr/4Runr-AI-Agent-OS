@@ -1,0 +1,801 @@
+{
+  "summary": {
+    "totalTests": 11,
+    "passedTests": 9,
+    "failedTests": 2,
+    "totalDuration": 53850,
+    "performanceStats": {
+      "totalRequests": 28,
+      "average": 3.107142857142857,
+      "p50": 2,
+      "p95": 7,
+      "p99": 22,
+      "min": 1,
+      "max": 22
+    },
+    "criticalIssues": 4,
+    "missingFeatures": 0
+  },
+  "details": {
+    "apiResponses": [],
+    "timingAnalysis": {},
+    "errorAnalysis": {},
+    "performanceMetrics": {},
+    "securityChecks": {},
+    "featureGaps": {},
+    "sseAnalysis": {},
+    "registryAnalysis": {},
+    "sentinelAnalysis": {},
+    "sanityTests": [
+      {
+        "path": "/health",
+        "method": "GET",
+        "expectedStatus": 200,
+        "actualStatus": 200,
+        "duration": 25,
+        "success": true,
+        "data": {
+          "status": "healthy",
+          "timestamp": "2025-08-23T03:09:25.873Z",
+          "uptime": 141.6296749,
+          "version": "2.0.0"
+        },
+        "responseTime": 22,
+        "issues": []
+      },
+      {
+        "path": "/ready",
+        "method": "GET",
+        "expectedStatus": 200,
+        "actualStatus": 200,
+        "duration": 3,
+        "success": true,
+        "data": {
+          "ready": true,
+          "timestamp": "2025-08-23T03:09:25.880Z"
+        },
+        "responseTime": 2,
+        "issues": []
+      },
+      {
+        "path": "/metrics",
+        "method": "GET",
+        "expectedStatus": 200,
+        "actualStatus": 200,
+        "duration": 2,
+        "success": true,
+        "data": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 12\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 20\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 4\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 4\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 4\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 0\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 28\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 1\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 1",
+        "responseTime": 1,
+        "issues": []
+      }
+    ],
+    "agentRuns": [
+      {
+        "runId": "5bdb8200-1dbd-442c-99ab-651e74f1ddbc",
+        "agentSlug": "demo-enricher",
+        "runNumber": 1,
+        "startTime": "2025-08-23T03:09:25.891Z",
+        "endTime": "2025-08-23T03:09:39.614Z",
+        "duration": 13723,
+        "status": "complete",
+        "attempts": 4,
+        "sseResults": {
+          "logs": {
+            "error": "SSE timeout after 10000ms"
+          },
+          "guard": {
+            "error": "SSE timeout after 10000ms"
+          }
+        },
+        "runData": {
+          "id": "5bdb8200-1dbd-442c-99ab-651e74f1ddbc",
+          "agent_id": "550e8400-e29b-41d4-a716-446655440001",
+          "workspace_id": "550e8400-e29b-41d4-a716-446655440000",
+          "status": "complete",
+          "created_at": "2025-08-23T03:09:25.893Z",
+          "started_at": "2025-08-23T03:09:25.894Z",
+          "ended_at": "2025-08-23T03:09:29.597Z",
+          "duration": 3702,
+          "spans": [
+            {
+              "id": "e62127b1-da9b-4435-826b-81146515e556",
+              "type": "initialization",
+              "timestamp": "2025-08-23T03:09:25.894Z",
+              "duration": 0,
+              "input": {
+                "agent": "demo-enricher",
+                "config": {
+                  "entry": "node apps/agents/enricher/index.js",
+                  "language": "js",
+                  "env_refs": [
+                    "OPENAI_API_KEY"
+                  ],
+                  "policy_refs": [
+                    "default"
+                  ],
+                  "resources": {
+                    "cpu": "0.5",
+                    "mem": "512Mi"
+                  }
+                }
+              },
+              "output": {
+                "status": "initialized"
+              }
+            },
+            {
+              "id": "059bf5bb-d80e-4f34-a7e6-57dc54b5e86a",
+              "type": "execution",
+              "timestamp": "2025-08-23T03:09:25.894Z",
+              "duration": 3702,
+              "input": {
+                "command": "node apps/agents/enricher/index.js"
+              },
+              "output": {
+                "status": "completed",
+                "duration": 3702
+              }
+            },
+            {
+              "id": "90d109d5-5be1-40da-9f79-476788b70b3b",
+              "type": "completion",
+              "timestamp": "2025-08-23T03:09:29.596Z",
+              "duration": 0,
+              "input": {
+                "duration": 3702
+              },
+              "output": {
+                "status": "success",
+                "result": "Agent execution completed successfully"
+              }
+            }
+          ],
+          "verdict": {
+            "id": "e64476a9-e0fb-485b-81d4-c6db9f49515a",
+            "timestamp": "2025-08-23T03:09:29.597Z",
+            "groundedness": 0.837238810640883,
+            "coverage": 0.8650921515143942,
+            "confidence": 0.9832156175407585,
+            "reasoning": "AI safety evaluation completed successfully",
+            "spans_analyzed": 3
+          },
+          "shield_decision": {
+            "id": "1254c063-a618-45ef-ac46-c1a90c266b4b",
+            "timestamp": "2025-08-23T03:09:29.597Z",
+            "action": "allow",
+            "confidence": 0.9832156175407585,
+            "reasoning": "Content meets safety thresholds",
+            "policy_applied": "default_safety_policy"
+          },
+          "guard_events": [
+            {
+              "id": "9dae01aa-a4d0-4685-872d-ca828b410919",
+              "type": "agent.start",
+              "timestamp": "2025-08-23T03:09:25.894Z",
+              "run_id": "5bdb8200-1dbd-442c-99ab-651e74f1ddbc",
+              "agent_id": "550e8400-e29b-41d4-a716-446655440001",
+              "agent_slug": "demo-enricher",
+              "span_id": "e62127b1-da9b-4435-826b-81146515e556"
+            },
+            {
+              "id": "16e222d1-012c-4fec-9786-5676f1df0ccd",
+              "type": "agent.execution",
+              "timestamp": "2025-08-23T03:09:25.894Z",
+              "run_id": "5bdb8200-1dbd-442c-99ab-651e74f1ddbc",
+              "span_id": "059bf5bb-d80e-4f34-a7e6-57dc54b5e86a",
+              "command": "node apps/agents/enricher/index.js"
+            },
+            {
+              "id": "abe8889a-03f6-44f6-a718-d857bbfb4d08",
+              "type": "sentinel.verdict",
+              "timestamp": "2025-08-23T03:09:29.597Z",
+              "run_id": "5bdb8200-1dbd-442c-99ab-651e74f1ddbc",
+              "verdict_id": "e64476a9-e0fb-485b-81d4-c6db9f49515a",
+              "groundedness": 0.837238810640883,
+              "coverage": 0.8650921515143942
+            },
+            {
+              "id": "d4863136-eb94-4b7c-b589-f6f05239aea2",
+              "type": "shield.decision",
+              "timestamp": "2025-08-23T03:09:29.597Z",
+              "run_id": "5bdb8200-1dbd-442c-99ab-651e74f1ddbc",
+              "decision_id": "1254c063-a618-45ef-ac46-c1a90c266b4b",
+              "action": "allow",
+              "reasoning": "Content meets safety thresholds"
+            },
+            {
+              "id": "412a5c04-3cf0-49bf-affe-fa869d0053ea",
+              "type": "agent.complete",
+              "timestamp": "2025-08-23T03:09:29.597Z",
+              "run_id": "5bdb8200-1dbd-442c-99ab-651e74f1ddbc",
+              "span_id": "90d109d5-5be1-40da-9f79-476788b70b3b",
+              "duration": 3702,
+              "verdict_id": "e64476a9-e0fb-485b-81d4-c6db9f49515a",
+              "shield_decision_id": "1254c063-a618-45ef-ac46-c1a90c266b4b"
+            }
+          ]
+        },
+        "issues": [
+          "Run too slow: 13723ms"
+        ]
+      },
+      {
+        "runId": "36bda32f-3a0b-4a89-ad11-b564a033f7d0",
+        "agentSlug": "demo-enricher",
+        "runNumber": 2,
+        "startTime": "2025-08-23T03:09:39.615Z",
+        "endTime": "2025-08-23T03:09:54.061Z",
+        "duration": 14446,
+        "status": "complete",
+        "attempts": 5,
+        "sseResults": {
+          "logs": {
+            "error": "SSE timeout after 10000ms"
+          },
+          "guard": {
+            "error": "SSE timeout after 10000ms"
+          }
+        },
+        "runData": {
+          "id": "36bda32f-3a0b-4a89-ad11-b564a033f7d0",
+          "agent_id": "550e8400-e29b-41d4-a716-446655440001",
+          "workspace_id": "550e8400-e29b-41d4-a716-446655440000",
+          "status": "complete",
+          "created_at": "2025-08-23T03:09:39.619Z",
+          "started_at": "2025-08-23T03:09:39.619Z",
+          "ended_at": "2025-08-23T03:09:44.043Z",
+          "duration": 4423,
+          "spans": [
+            {
+              "id": "cd2e280f-866e-4879-9d87-647c27d895c2",
+              "type": "initialization",
+              "timestamp": "2025-08-23T03:09:39.619Z",
+              "duration": 0,
+              "input": {
+                "agent": "demo-enricher",
+                "config": {
+                  "entry": "node apps/agents/enricher/index.js",
+                  "language": "js",
+                  "env_refs": [
+                    "OPENAI_API_KEY"
+                  ],
+                  "policy_refs": [
+                    "default"
+                  ],
+                  "resources": {
+                    "cpu": "0.5",
+                    "mem": "512Mi"
+                  }
+                }
+              },
+              "output": {
+                "status": "initialized"
+              }
+            },
+            {
+              "id": "ccda55ee-286c-4639-9c00-623aa3c151a6",
+              "type": "execution",
+              "timestamp": "2025-08-23T03:09:39.619Z",
+              "duration": 4423,
+              "input": {
+                "command": "node apps/agents/enricher/index.js"
+              },
+              "output": {
+                "status": "completed",
+                "duration": 4423
+              }
+            },
+            {
+              "id": "53dfe427-a420-42bc-b5ea-31c1337df9ee",
+              "type": "completion",
+              "timestamp": "2025-08-23T03:09:44.042Z",
+              "duration": 0,
+              "input": {
+                "duration": 4423
+              },
+              "output": {
+                "status": "success",
+                "result": "Agent execution completed successfully"
+              }
+            }
+          ],
+          "verdict": {
+            "id": "ecc06f67-20be-44a3-a520-8ec793fd7591",
+            "timestamp": "2025-08-23T03:09:44.043Z",
+            "groundedness": 0.7443374242305225,
+            "coverage": 0.9344785992232749,
+            "confidence": 0.9278633929149832,
+            "reasoning": "AI safety evaluation completed successfully",
+            "spans_analyzed": 3
+          },
+          "shield_decision": {
+            "id": "59ff25f0-957b-4b10-a467-48d43765ce3c",
+            "timestamp": "2025-08-23T03:09:44.043Z",
+            "action": "require_approval",
+            "confidence": 0.9278633929149832,
+            "reasoning": "Content requires human review",
+            "policy_applied": "default_safety_policy"
+          },
+          "guard_events": [
+            {
+              "id": "d673707b-929c-4b14-8f73-affaee5a7e70",
+              "type": "agent.start",
+              "timestamp": "2025-08-23T03:09:39.619Z",
+              "run_id": "36bda32f-3a0b-4a89-ad11-b564a033f7d0",
+              "agent_id": "550e8400-e29b-41d4-a716-446655440001",
+              "agent_slug": "demo-enricher",
+              "span_id": "cd2e280f-866e-4879-9d87-647c27d895c2"
+            },
+            {
+              "id": "9aa19374-35d0-4c81-a9a4-e3b434d3bb0a",
+              "type": "agent.execution",
+              "timestamp": "2025-08-23T03:09:39.619Z",
+              "run_id": "36bda32f-3a0b-4a89-ad11-b564a033f7d0",
+              "span_id": "ccda55ee-286c-4639-9c00-623aa3c151a6",
+              "command": "node apps/agents/enricher/index.js"
+            },
+            {
+              "id": "fa148563-f4ef-424d-98cc-fed00c28b7d6",
+              "type": "sentinel.verdict",
+              "timestamp": "2025-08-23T03:09:44.043Z",
+              "run_id": "36bda32f-3a0b-4a89-ad11-b564a033f7d0",
+              "verdict_id": "ecc06f67-20be-44a3-a520-8ec793fd7591",
+              "groundedness": 0.7443374242305225,
+              "coverage": 0.9344785992232749
+            },
+            {
+              "id": "38a196b1-baac-4f79-b446-b5e491ece7d8",
+              "type": "shield.decision",
+              "timestamp": "2025-08-23T03:09:44.043Z",
+              "run_id": "36bda32f-3a0b-4a89-ad11-b564a033f7d0",
+              "decision_id": "59ff25f0-957b-4b10-a467-48d43765ce3c",
+              "action": "require_approval",
+              "reasoning": "Content requires human review"
+            },
+            {
+              "id": "31dcb2c0-2b8d-4cc3-a59a-5d1ad137d402",
+              "type": "agent.complete",
+              "timestamp": "2025-08-23T03:09:44.043Z",
+              "run_id": "36bda32f-3a0b-4a89-ad11-b564a033f7d0",
+              "span_id": "53dfe427-a420-42bc-b5ea-31c1337df9ee",
+              "duration": 4423,
+              "verdict_id": "ecc06f67-20be-44a3-a520-8ec793fd7591",
+              "shield_decision_id": "59ff25f0-957b-4b10-a467-48d43765ce3c"
+            }
+          ]
+        },
+        "issues": [
+          "Run too slow: 14446ms"
+        ]
+      },
+      {
+        "runId": "ed3c427a-3b01-45c6-a8b4-a366ffe64566",
+        "agentSlug": "demo-scraper",
+        "runNumber": 1,
+        "startTime": "2025-08-23T03:09:54.062Z",
+        "endTime": "2025-08-23T03:10:07.007Z",
+        "duration": 12945,
+        "status": "complete",
+        "attempts": 3,
+        "sseResults": {
+          "logs": {
+            "error": "SSE timeout after 10000ms"
+          },
+          "guard": {
+            "error": "SSE timeout after 10000ms"
+          }
+        },
+        "runData": {
+          "id": "ed3c427a-3b01-45c6-a8b4-a366ffe64566",
+          "agent_id": "550e8400-e29b-41d4-a716-446655440002",
+          "workspace_id": "550e8400-e29b-41d4-a716-446655440000",
+          "status": "complete",
+          "created_at": "2025-08-23T03:09:54.069Z",
+          "started_at": "2025-08-23T03:09:54.069Z",
+          "ended_at": "2025-08-23T03:09:57.004Z",
+          "duration": 2935,
+          "spans": [
+            {
+              "id": "9073a7a2-dc9b-4a24-a301-3b44c90a4634",
+              "type": "initialization",
+              "timestamp": "2025-08-23T03:09:54.069Z",
+              "duration": 0,
+              "input": {
+                "agent": "demo-scraper",
+                "config": {
+                  "entry": "python apps/agents/scraper/main.py",
+                  "language": "py",
+                  "env_refs": [
+                    "SCRAPER_API_KEY"
+                  ],
+                  "policy_refs": [
+                    "default"
+                  ],
+                  "resources": {
+                    "cpu": "0.3",
+                    "mem": "256Mi"
+                  }
+                }
+              },
+              "output": {
+                "status": "initialized"
+              }
+            },
+            {
+              "id": "3f823bde-984b-4ac1-a1be-62d44184fe7b",
+              "type": "execution",
+              "timestamp": "2025-08-23T03:09:54.069Z",
+              "duration": 2935,
+              "input": {
+                "command": "python apps/agents/scraper/main.py"
+              },
+              "output": {
+                "status": "completed",
+                "duration": 2935
+              }
+            },
+            {
+              "id": "0e4d9b45-27d0-454f-966f-779928e31d96",
+              "type": "completion",
+              "timestamp": "2025-08-23T03:09:57.004Z",
+              "duration": 0,
+              "input": {
+                "duration": 2935
+              },
+              "output": {
+                "status": "success",
+                "result": "Agent execution completed successfully"
+              }
+            }
+          ],
+          "verdict": {
+            "id": "17a1a9d3-75fd-45e7-a1d1-73f8db15a1b3",
+            "timestamp": "2025-08-23T03:09:57.004Z",
+            "groundedness": 0.9370898162681047,
+            "coverage": 0.8858616807950986,
+            "confidence": 0.9758988785549131,
+            "reasoning": "AI safety evaluation completed successfully",
+            "spans_analyzed": 3
+          },
+          "shield_decision": {
+            "id": "5dcb3bd1-4d7d-4bdb-af78-0c6543f30219",
+            "timestamp": "2025-08-23T03:09:57.004Z",
+            "action": "allow",
+            "confidence": 0.9758988785549131,
+            "reasoning": "Content meets safety thresholds",
+            "policy_applied": "default_safety_policy"
+          },
+          "guard_events": [
+            {
+              "id": "2a6dd45d-d44b-4b4e-acb0-bbf2c17e2125",
+              "type": "agent.start",
+              "timestamp": "2025-08-23T03:09:54.069Z",
+              "run_id": "ed3c427a-3b01-45c6-a8b4-a366ffe64566",
+              "agent_id": "550e8400-e29b-41d4-a716-446655440002",
+              "agent_slug": "demo-scraper",
+              "span_id": "9073a7a2-dc9b-4a24-a301-3b44c90a4634"
+            },
+            {
+              "id": "2130ce7c-4ef1-45e9-9c6b-6c0ab06237da",
+              "type": "agent.execution",
+              "timestamp": "2025-08-23T03:09:54.069Z",
+              "run_id": "ed3c427a-3b01-45c6-a8b4-a366ffe64566",
+              "span_id": "3f823bde-984b-4ac1-a1be-62d44184fe7b",
+              "command": "python apps/agents/scraper/main.py"
+            },
+            {
+              "id": "daa4e317-4a83-411e-8f88-f20849ec4d98",
+              "type": "sentinel.verdict",
+              "timestamp": "2025-08-23T03:09:57.004Z",
+              "run_id": "ed3c427a-3b01-45c6-a8b4-a366ffe64566",
+              "verdict_id": "17a1a9d3-75fd-45e7-a1d1-73f8db15a1b3",
+              "groundedness": 0.9370898162681047,
+              "coverage": 0.8858616807950986
+            },
+            {
+              "id": "2455dc45-5b91-4515-a885-e3b76c0a6455",
+              "type": "shield.decision",
+              "timestamp": "2025-08-23T03:09:57.004Z",
+              "run_id": "ed3c427a-3b01-45c6-a8b4-a366ffe64566",
+              "decision_id": "5dcb3bd1-4d7d-4bdb-af78-0c6543f30219",
+              "action": "allow",
+              "reasoning": "Content meets safety thresholds"
+            },
+            {
+              "id": "c73f5919-ff1f-4ca1-9aa0-8e026bdca00c",
+              "type": "agent.complete",
+              "timestamp": "2025-08-23T03:09:57.004Z",
+              "run_id": "ed3c427a-3b01-45c6-a8b4-a366ffe64566",
+              "span_id": "0e4d9b45-27d0-454f-966f-779928e31d96",
+              "duration": 2935,
+              "verdict_id": "17a1a9d3-75fd-45e7-a1d1-73f8db15a1b3",
+              "shield_decision_id": "5dcb3bd1-4d7d-4bdb-af78-0c6543f30219"
+            }
+          ]
+        },
+        "issues": [
+          "Run too slow: 12945ms"
+        ]
+      },
+      {
+        "runId": "3424011b-e520-4b51-a755-fce2abe5ae34",
+        "agentSlug": "demo-scraper",
+        "runNumber": 2,
+        "startTime": "2025-08-23T03:10:07.008Z",
+        "endTime": "2025-08-23T03:10:19.681Z",
+        "duration": 12673,
+        "status": "complete",
+        "attempts": 3,
+        "sseResults": {
+          "logs": {
+            "error": "SSE timeout after 10000ms"
+          },
+          "guard": {
+            "error": "SSE timeout after 10000ms"
+          }
+        },
+        "runData": {
+          "id": "3424011b-e520-4b51-a755-fce2abe5ae34",
+          "agent_id": "550e8400-e29b-41d4-a716-446655440002",
+          "workspace_id": "550e8400-e29b-41d4-a716-446655440000",
+          "status": "complete",
+          "created_at": "2025-08-23T03:10:07.011Z",
+          "started_at": "2025-08-23T03:10:07.011Z",
+          "ended_at": "2025-08-23T03:10:09.668Z",
+          "duration": 2656,
+          "spans": [
+            {
+              "id": "0f2ec5d3-d7b2-44a6-a17a-45455fda2cc5",
+              "type": "initialization",
+              "timestamp": "2025-08-23T03:10:07.011Z",
+              "duration": 0,
+              "input": {
+                "agent": "demo-scraper",
+                "config": {
+                  "entry": "python apps/agents/scraper/main.py",
+                  "language": "py",
+                  "env_refs": [
+                    "SCRAPER_API_KEY"
+                  ],
+                  "policy_refs": [
+                    "default"
+                  ],
+                  "resources": {
+                    "cpu": "0.3",
+                    "mem": "256Mi"
+                  }
+                }
+              },
+              "output": {
+                "status": "initialized"
+              }
+            },
+            {
+              "id": "43444165-4707-4b5e-83f8-65f7df8e221f",
+              "type": "execution",
+              "timestamp": "2025-08-23T03:10:07.011Z",
+              "duration": 2656,
+              "input": {
+                "command": "python apps/agents/scraper/main.py"
+              },
+              "output": {
+                "status": "completed",
+                "duration": 2656
+              }
+            },
+            {
+              "id": "f681c0af-5017-4f3c-88a1-200aff1c9fcb",
+              "type": "completion",
+              "timestamp": "2025-08-23T03:10:09.667Z",
+              "duration": 0,
+              "input": {
+                "duration": 2656
+              },
+              "output": {
+                "status": "success",
+                "result": "Agent execution completed successfully"
+              }
+            }
+          ],
+          "verdict": {
+            "id": "705905fc-5582-4d02-842f-f2f387763841",
+            "timestamp": "2025-08-23T03:10:09.667Z",
+            "groundedness": 0.9712435390223388,
+            "coverage": 0.9289810051288665,
+            "confidence": 0.9093800586846565,
+            "reasoning": "AI safety evaluation completed successfully",
+            "spans_analyzed": 3
+          },
+          "shield_decision": {
+            "id": "e30c1b10-43e8-4cc7-bc32-be4bbd421211",
+            "timestamp": "2025-08-23T03:10:09.667Z",
+            "action": "allow",
+            "confidence": 0.9093800586846565,
+            "reasoning": "Content meets safety thresholds",
+            "policy_applied": "default_safety_policy"
+          },
+          "guard_events": [
+            {
+              "id": "13f6983c-3f10-4291-9606-a22fdd7337a6",
+              "type": "agent.start",
+              "timestamp": "2025-08-23T03:10:07.011Z",
+              "run_id": "3424011b-e520-4b51-a755-fce2abe5ae34",
+              "agent_id": "550e8400-e29b-41d4-a716-446655440002",
+              "agent_slug": "demo-scraper",
+              "span_id": "0f2ec5d3-d7b2-44a6-a17a-45455fda2cc5"
+            },
+            {
+              "id": "cdc0d702-8480-418f-9bd8-f06417d5863f",
+              "type": "agent.execution",
+              "timestamp": "2025-08-23T03:10:07.011Z",
+              "run_id": "3424011b-e520-4b51-a755-fce2abe5ae34",
+              "span_id": "43444165-4707-4b5e-83f8-65f7df8e221f",
+              "command": "python apps/agents/scraper/main.py"
+            },
+            {
+              "id": "e7d51050-3dcf-4d85-9e5b-f488a78bcbf8",
+              "type": "sentinel.verdict",
+              "timestamp": "2025-08-23T03:10:09.667Z",
+              "run_id": "3424011b-e520-4b51-a755-fce2abe5ae34",
+              "verdict_id": "705905fc-5582-4d02-842f-f2f387763841",
+              "groundedness": 0.9712435390223388,
+              "coverage": 0.9289810051288665
+            },
+            {
+              "id": "be668aa2-6327-4a8d-bf7b-e1bc6dcd579e",
+              "type": "shield.decision",
+              "timestamp": "2025-08-23T03:10:09.668Z",
+              "run_id": "3424011b-e520-4b51-a755-fce2abe5ae34",
+              "decision_id": "e30c1b10-43e8-4cc7-bc32-be4bbd421211",
+              "action": "allow",
+              "reasoning": "Content meets safety thresholds"
+            },
+            {
+              "id": "6ce6f07c-868c-4e3c-ae90-18b371d9eacd",
+              "type": "agent.complete",
+              "timestamp": "2025-08-23T03:10:09.668Z",
+              "run_id": "3424011b-e520-4b51-a755-fce2abe5ae34",
+              "span_id": "f681c0af-5017-4f3c-88a1-200aff1c9fcb",
+              "duration": 2656,
+              "verdict_id": "705905fc-5582-4d02-842f-f2f387763841",
+              "shield_decision_id": "e30c1b10-43e8-4cc7-bc32-be4bbd421211"
+            }
+          ]
+        },
+        "issues": [
+          "Run too slow: 12673ms"
+        ]
+      }
+    ],
+    "featureTests": [
+      {
+        "path": "/api/workspace/privacy",
+        "method": "POST",
+        "expectedStatus": 404,
+        "actualStatus": 200,
+        "duration": 3,
+        "success": false,
+        "data": {
+          "workspace_id": "default",
+          "storePlain": false,
+          "updated_at": "2025-08-23T03:10:19.684Z"
+        },
+        "responseTime": 2,
+        "issues": [
+          "Expected 404, got 200"
+        ]
+      },
+      {
+        "path": "/api/workspace/plan",
+        "method": "POST",
+        "expectedStatus": 404,
+        "actualStatus": 200,
+        "duration": 2,
+        "success": false,
+        "data": {
+          "workspace_id": "default",
+          "plan": "free",
+          "updated_at": "2025-08-23T03:10:19.687Z"
+        },
+        "responseTime": 1,
+        "issues": [
+          "Expected 404, got 200"
+        ]
+      },
+      {
+        "path": "/api/registry/agents",
+        "method": "GET",
+        "expectedStatus": 200,
+        "actualStatus": 200,
+        "duration": 3,
+        "success": true,
+        "data": {
+          "agents": [
+            {
+              "name": "hello-world",
+              "slug": "demo/hello-world",
+              "version": "1.0.0",
+              "tags": [
+                "demo",
+                "hello-world",
+                "simple"
+              ],
+              "verified": true,
+              "summary": "A simple hello world agent for demonstration",
+              "namespace": "demo"
+            }
+          ],
+          "total": 1,
+          "cursor": null
+        },
+        "responseTime": 2,
+        "issues": []
+      },
+      {
+        "path": "/api/registry/public-key",
+        "method": "GET",
+        "expectedStatus": 200,
+        "actualStatus": 200,
+        "duration": 2,
+        "success": true,
+        "data": "registry-public-key-450ff65c",
+        "responseTime": 1,
+        "issues": []
+      }
+    ],
+    "baselineMetrics": {
+      "timestamp": "2025-08-23T03:09:25.887Z",
+      "label": "baseline",
+      "responseTime": 1,
+      "metricsSize": 1260,
+      "counters": {
+        "sentinel_spans_total": 12,
+        "sentinel_guard_events_total": 20,
+        "sentinel_verdicts_total": 4,
+        "shield_decisions_total": 4,
+        "runs_started_total": 4,
+        "logs_emitted_total": 28,
+        "registry_agents_total": 1,
+        "registry_publishers_total": 1,
+        "registry_workspaces_total": 1
+      },
+      "gauges": {
+        "runs_concurrent_gauge": 0
+      },
+      "histograms": {},
+      "issues": []
+    },
+    "finalMetrics": {
+      "timestamp": "2025-08-23T03:10:19.700Z",
+      "label": "final",
+      "responseTime": 1,
+      "metricsSize": 1260,
+      "counters": {
+        "sentinel_spans_total": 24,
+        "sentinel_guard_events_total": 40,
+        "sentinel_verdicts_total": 8,
+        "shield_decisions_total": 8,
+        "runs_started_total": 8,
+        "logs_emitted_total": 56,
+        "registry_agents_total": 1,
+        "registry_publishers_total": 1,
+        "registry_workspaces_total": 1
+      },
+      "gauges": {
+        "runs_concurrent_gauge": 0
+      },
+      "histograms": {},
+      "issues": []
+    },
+    "performanceStats": {
+      "totalRequests": 28,
+      "average": 3.107142857142857,
+      "p50": 2,
+      "p95": 7,
+      "p99": 22,
+      "min": 1,
+      "max": 22
+    }
+  },
+  "recommendations": []
+}

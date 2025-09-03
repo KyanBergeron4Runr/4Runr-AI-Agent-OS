@@ -1,0 +1,218 @@
+🚀 Starting T1 FULL AUTO Functionality & Correctness Test
+Workspace ID: test-workspace-1755915873214
+Workspace ID 2: test-workspace-2-1755915873214
+🎯 Testing EVERYTHING - No interaction required
+
+=== 1. SANITY & BASELINE ===
+Health: 200
+Ready: 200
+
+=== t0 Metrics Snapshot ===
+Status: 200
+Key counters: {
+  sentinel_spans_total: 108,
+  sentinel_guard_events_total: 72,
+  registry_agents_total: 1,
+  registry_publishers_total: 1,
+  registry_workspaces_total: 1
+}
+✅ Sanity & Baseline: PASS
+
+=== 2. AGENTS & RUNS (CORE HAPPY PATH) ===
+Found 2 agents
+Using Agent A: Demo Enricher (demo-enricher)
+Using Agent B: Demo Scraper (demo-scraper)
+Agent A Run 1: d2ff979f-4588-4963-8b49-f67b46ecfb4e
+Attaching to logs SSE for first run...
+SSE events captured: 0, first log time: 8003ms
+Agent A Run 2: e8f7ea39-1e73-4bcc-b60c-6124e4aa104e
+Agent A Run 3: 8b4de5fc-a71e-4ab5-b75e-40ba72a9d9ad
+Agent A Run 4: e515cbd9-edf3-49f2-b011-d40258c69b98
+Agent A Run 5: cfbac902-f96d-4654-b864-d429fdeda51d
+Agent B Run 1: 8d9e959d-87d9-4591-bcff-ee972e34f865
+Agent B Run 2: 96e12ea3-0a18-47c6-b3a7-a9afe40133c1
+Agent B Run 3: 4d5ad76e-7ac8-4b7b-90e3-8c8458acb731
+Agent B Run 4: 02c9a085-2111-424a-b7f8-b4cae2f9cadb
+Agent B Run 5: 28ea9be7-a565-4c79-a310-e7b4624e8fbb
+
+Waiting for runs to complete...
+Run d2ff979f-4588-4963-8b49-f67b46ecfb4e: complete
+Run d2ff979f-4588-4963-8b49-f67b46ecfb4e duration: 8016ms
+Run e8f7ea39-1e73-4bcc-b60c-6124e4aa104e: complete
+Run e8f7ea39-1e73-4bcc-b60c-6124e4aa104e duration: 5051ms
+Run 8b4de5fc-a71e-4ab5-b75e-40ba72a9d9ad: complete
+Run 8b4de5fc-a71e-4ab5-b75e-40ba72a9d9ad duration: 5049ms
+Run e515cbd9-edf3-49f2-b011-d40258c69b98: complete
+Run e515cbd9-edf3-49f2-b011-d40258c69b98 duration: 5048ms
+Run cfbac902-f96d-4654-b864-d429fdeda51d: complete
+Run cfbac902-f96d-4654-b864-d429fdeda51d duration: 5047ms
+Run 8d9e959d-87d9-4591-bcff-ee972e34f865: complete
+Run 8d9e959d-87d9-4591-bcff-ee972e34f865 duration: 5046ms
+Run 96e12ea3-0a18-47c6-b3a7-a9afe40133c1: complete
+Run 96e12ea3-0a18-47c6-b3a7-a9afe40133c1 duration: 5045ms
+Run 4d5ad76e-7ac8-4b7b-90e3-8c8458acb731: complete
+Run 4d5ad76e-7ac8-4b7b-90e3-8c8458acb731 duration: 5046ms
+Run 02c9a085-2111-424a-b7f8-b4cae2f9cadb: complete
+Run 02c9a085-2111-424a-b7f8-b4cae2f9cadb duration: 5045ms
+Run 28ea9be7-a565-4c79-a310-e7b4624e8fbb: complete
+Run 28ea9be7-a565-4c79-a310-e7b4624e8fbb duration: 5045ms
+
+=== t1 Metrics Snapshot ===
+Status: 200
+Key counters: {
+  sentinel_spans_total: 138,
+  sentinel_guard_events_total: 92,
+  registry_agents_total: 1,
+  registry_publishers_total: 1,
+  registry_workspaces_total: 1
+}
+
+=== RUN ANALYSIS ===
+Total runs: 10
+Completed runs: 10
+Runs with spans: 0
+Runs with verdict: 0
+Runs with shield decision: 0
+Runs with guard events: 0
+P95 duration: 8016ms
+✅ Agents & Runs: PASS
+
+=== 3. PRIVACY MODE (HASH-ONLY) ===
+⚠️  Privacy mode endpoint not implemented - SKIPPED
+
+=== t2 Metrics Snapshot ===
+Status: 200
+Key counters: {
+  sentinel_spans_total: 138,
+  sentinel_guard_events_total: 92,
+  registry_agents_total: 1,
+  registry_publishers_total: 1,
+  registry_workspaces_total: 1
+}
+✅ Privacy Mode: SKIPPED
+
+=== 4. REGISTRY ROUND-TRIP ===
+Registry search results: 1 agents found
+Registry public key: undefined
+
+=== t3 Metrics Snapshot ===
+Status: 200
+Key counters: {
+  sentinel_spans_total: 138,
+  sentinel_guard_events_total: 92,
+  registry_agents_total: 1,
+  registry_publishers_total: 1,
+  registry_workspaces_total: 1
+}
+✅ Registry Round-Trip: PASS
+
+=== 5. PLAN & CAPS ===
+⚠️  Plan management endpoint not implemented - SKIPPED
+
+=== t4 Metrics Snapshot ===
+Status: 200
+Key counters: {
+  sentinel_spans_total: 138,
+  sentinel_guard_events_total: 92,
+  registry_agents_total: 1,
+  registry_publishers_total: 1,
+  registry_workspaces_total: 1
+}
+✅ Plan & Caps: SKIPPED
+
+=== 6. SSE REPLAY & RECONNECT ===
+Connecting to guard stream...
+Initial SSE events: 0
+Reconnecting to guard stream...
+Reconnect SSE events: 0
+✅ SSE Replay & Reconnect: PASS
+
+🎉 T1 FULL AUTO TEST COMPLETE
+
+=== T1 FULL AUTO TEST SUMMARY ===
+Status: ⚠️  PASS WITH ISSUES
+Failures: 0
+Performance Issues: 2
+Missing Features: 42
+
+🐌 PERFORMANCE ISSUES:
+1. First log time too slow: 8003ms > 1000ms
+2. P95 duration too slow: 8016ms > 8000ms
+
+🔧 MISSING FEATURES:
+1. Run d2ff979f-4588-4963-8b49-f67b46ecfb4e missing spans
+2. Run d2ff979f-4588-4963-8b49-f67b46ecfb4e missing verdict
+3. Run d2ff979f-4588-4963-8b49-f67b46ecfb4e missing shield decision
+4. Run d2ff979f-4588-4963-8b49-f67b46ecfb4e missing guard events
+5. Run e8f7ea39-1e73-4bcc-b60c-6124e4aa104e missing spans
+6. Run e8f7ea39-1e73-4bcc-b60c-6124e4aa104e missing verdict
+7. Run e8f7ea39-1e73-4bcc-b60c-6124e4aa104e missing shield decision
+8. Run e8f7ea39-1e73-4bcc-b60c-6124e4aa104e missing guard events
+9. Run 8b4de5fc-a71e-4ab5-b75e-40ba72a9d9ad missing spans
+10. Run 8b4de5fc-a71e-4ab5-b75e-40ba72a9d9ad missing verdict
+11. Run 8b4de5fc-a71e-4ab5-b75e-40ba72a9d9ad missing shield decision
+12. Run 8b4de5fc-a71e-4ab5-b75e-40ba72a9d9ad missing guard events
+13. Run e515cbd9-edf3-49f2-b011-d40258c69b98 missing spans
+14. Run e515cbd9-edf3-49f2-b011-d40258c69b98 missing verdict
+15. Run e515cbd9-edf3-49f2-b011-d40258c69b98 missing shield decision
+16. Run e515cbd9-edf3-49f2-b011-d40258c69b98 missing guard events
+17. Run cfbac902-f96d-4654-b864-d429fdeda51d missing spans
+18. Run cfbac902-f96d-4654-b864-d429fdeda51d missing verdict
+19. Run cfbac902-f96d-4654-b864-d429fdeda51d missing shield decision
+20. Run cfbac902-f96d-4654-b864-d429fdeda51d missing guard events
+21. Run 8d9e959d-87d9-4591-bcff-ee972e34f865 missing spans
+22. Run 8d9e959d-87d9-4591-bcff-ee972e34f865 missing verdict
+23. Run 8d9e959d-87d9-4591-bcff-ee972e34f865 missing shield decision
+24. Run 8d9e959d-87d9-4591-bcff-ee972e34f865 missing guard events
+25. Run 96e12ea3-0a18-47c6-b3a7-a9afe40133c1 missing spans
+26. Run 96e12ea3-0a18-47c6-b3a7-a9afe40133c1 missing verdict
+27. Run 96e12ea3-0a18-47c6-b3a7-a9afe40133c1 missing shield decision
+28. Run 96e12ea3-0a18-47c6-b3a7-a9afe40133c1 missing guard events
+29. Run 4d5ad76e-7ac8-4b7b-90e3-8c8458acb731 missing spans
+30. Run 4d5ad76e-7ac8-4b7b-90e3-8c8458acb731 missing verdict
+31. Run 4d5ad76e-7ac8-4b7b-90e3-8c8458acb731 missing shield decision
+32. Run 4d5ad76e-7ac8-4b7b-90e3-8c8458acb731 missing guard events
+33. Run 02c9a085-2111-424a-b7f8-b4cae2f9cadb missing spans
+34. Run 02c9a085-2111-424a-b7f8-b4cae2f9cadb missing verdict
+35. Run 02c9a085-2111-424a-b7f8-b4cae2f9cadb missing shield decision
+36. Run 02c9a085-2111-424a-b7f8-b4cae2f9cadb missing guard events
+37. Run 28ea9be7-a565-4c79-a310-e7b4624e8fbb missing spans
+38. Run 28ea9be7-a565-4c79-a310-e7b4624e8fbb missing verdict
+39. Run 28ea9be7-a565-4c79-a310-e7b4624e8fbb missing shield decision
+40. Run 28ea9be7-a565-4c79-a310-e7b4624e8fbb missing guard events
+41. Privacy mode endpoint not implemented
+42. Plan management endpoint not implemented
+
+📊 METRICS:
+Total runs executed: 10
+Completed runs: 10
+SSE transcripts captured: 2
+Error bodies collected: 0
+Registry evidence: {
+  "searchTest": "PASS"
+}
+
+⏱️  TIMING:
+baseline: 34ms
+agentRuns: 13062ms
+privacyMode: 0ms
+registryRoundTrip: 2ms
+planCaps: 1ms
+sseReconnect: 3ms
+total: 13106ms
+
+📁 Detailed results saved to: T1-full-auto-results.json
+
+🔍 CRITICAL ISSUES TO FIX:
+- Review all failures above
+- Fix performance bottlenecks
+- Implement missing features
+- Test with full Sentinel/Shield integration
+
+🚀 IMPLEMENTATION ROADMAP:
+- Add privacy mode support
+- Add plan enforcement
+- Complete registry functionality
+- Implement SSE event generation
+
+✅ Test completed automatically - no user interaction required

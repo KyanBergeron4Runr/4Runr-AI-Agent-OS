@@ -1,0 +1,210 @@
+{
+  "startTime": "2025-08-23T03:26:19.102Z",
+  "metrics": {
+    "t0": {
+      "timestamp": "2025-08-23T03:26:19.159Z",
+      "data": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 0\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 0\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 0\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 0\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 0\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 0\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 0\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 1\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 1"
+    },
+    "t1": {
+      "timestamp": "2025-08-23T03:27:01.581Z",
+      "data": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 30\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 50\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 10\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 10\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 10\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 0\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 70\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 1\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 1"
+    },
+    "t2": {
+      "timestamp": "2025-08-23T03:27:07.602Z",
+      "data": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 33\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 55\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 11\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 11\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 11\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 0\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 77\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 1\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 1"
+    },
+    "t3": null,
+    "t4": {
+      "timestamp": "2025-08-23T03:27:07.614Z",
+      "data": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 35\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 57\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 11\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 11\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 12\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 1\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 80\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 1\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 1"
+    },
+    "final": {
+      "timestamp": "2025-08-23T03:27:07.620Z",
+      "data": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 35\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 57\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 11\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 11\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 12\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 1\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 80\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 1\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 1"
+    }
+  },
+  "runIds": [
+    "13238c44-9f57-4162-b756-f57be59e6fcd",
+    "f8933bcd-38b3-4853-b8bc-82c290cd2b37",
+    "c460db29-9e3a-451f-bd34-bf2610f459ae",
+    "422e628b-0377-4716-b071-271a6abe127c",
+    "d296a16f-cd0f-4fa0-a3ef-e3a3910b7e64",
+    "7f5b2d0d-be27-42b9-b865-bdc8eadb92cd",
+    "21d945c5-1f6d-41fd-86e1-57336fccc668",
+    "222306ee-bf34-4eeb-a269-1e0ce6656121",
+    "1faf11d7-76d7-487b-ad23-19f20272e3ff",
+    "33912751-24a3-4d05-a088-d094a6d56597"
+  ],
+  "sseTranscripts": {
+    "logs": [
+      {
+        "type": "log",
+        "timestamp": "2025-08-23T03:26:19.174Z",
+        "level": "info",
+        "message": "Starting agent: Demo Enricher (demo-enricher)",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-23T03:26:19.174Z",
+        "level": "info",
+        "message": "Entry point: node apps/agents/enricher/index.js",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-23T03:26:19.175Z",
+        "level": "info",
+        "message": "Language: js",
+        "span_id": null
+      },
+      {
+        "type": "status",
+        "status": "running"
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-23T03:26:22.844Z",
+        "level": "info",
+        "message": "Agent initialized successfully",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-23T03:26:22.844Z",
+        "level": "info",
+        "message": "Execution completed in 3668ms",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-23T03:26:22.845Z",
+        "level": "info",
+        "message": "Sentinel verdict: 0.84 groundedness, 0.83 coverage",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-23T03:26:22.845Z",
+        "level": "info",
+        "message": "Shield decision: allow",
+        "span_id": null
+      },
+      {
+        "type": "status",
+        "timestamp": "2025-08-23T03:26:22.845Z",
+        "status": "complete"
+      },
+      {
+        "type": "done",
+        "timestamp": "2025-08-23T03:26:22.845Z",
+        "status": "complete"
+      }
+    ],
+    "guard": []
+  },
+  "errorBodies": [
+    {
+      "type": "agent_creation_limit",
+      "status": 201,
+      "data": {
+        "id": "50b15c36-016f-4e93-9f96-a1d29e09fa4f",
+        "workspace_id": "e2e-workspace-1755919579101",
+        "name": "Test Agent 3",
+        "slug": "test-agent-3",
+        "visibility": "private",
+        "config_json": {
+          "entry": "test.js",
+          "language": "js"
+        },
+        "created_at": "2025-08-23T03:27:07.608Z"
+      }
+    }
+  ],
+  "registryEvidence": {},
+  "privacyProof": {
+    "runId": "52bc3379-b3fa-4583-9bd7-5ab92956d604",
+    "hasPlaintext": false,
+    "hasHashes": true,
+    "secretsFound": [],
+    "sseEvents": [
+      {
+        "type": "log",
+        "timestamp": "2025-08-23T03:27:01.585Z",
+        "level": "info",
+        "message": "Starting agent: Demo Enricher (demo-enricher)",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-23T03:27:01.585Z",
+        "level": "info",
+        "message": "Entry point: node apps/agents/enricher/index.js",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-23T03:27:01.585Z",
+        "level": "info",
+        "message": "Language: js",
+        "span_id": null
+      },
+      {
+        "type": "status",
+        "status": "running"
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-23T03:27:04.433Z",
+        "level": "info",
+        "message": "Agent initialized successfully",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-23T03:27:04.433Z",
+        "level": "info",
+        "message": "Execution completed in 2845ms",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-23T03:27:04.433Z",
+        "level": "info",
+        "message": "Sentinel verdict: 0.86 groundedness, 0.94 coverage",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-23T03:27:04.433Z",
+        "level": "info",
+        "message": "Shield decision: allow",
+        "span_id": null
+      },
+      {
+        "type": "status",
+        "timestamp": "2025-08-23T03:27:04.433Z",
+        "status": "complete"
+      },
+      {
+        "type": "done",
+        "timestamp": "2025-08-23T03:27:04.433Z",
+        "status": "complete"
+      }
+    ]
+  },
+  "artifacts": {},
+  "kpis": {
+    "startToFirstLog": 72,
+    "spansTotal": 35,
+    "guardEventsTotal": 57,
+    "verdictsTotal": 11
+  },
+  "failures": [],
+  "summary": {
+    "totalTests": 70,
+    "passedTests": 66,
+    "failedTests": 4,
+    "criticalIssues": 4
+  }
+}

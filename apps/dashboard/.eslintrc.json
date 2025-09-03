@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    // General code quality rules
+    "prefer-const": "warn",
+    "no-var": "error",
+    // Disable unescaped entities warning for code examples
+    "react/no-unescaped-entities": "off"
+  }
+}

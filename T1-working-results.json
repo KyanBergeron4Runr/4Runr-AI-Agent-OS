@@ -1,0 +1,192 @@
+{
+  "t0": {
+    "timestamp": "2025-08-23T02:17:12.467Z",
+    "counters": {
+      "sentinel_spans_total": 0,
+      "sentinel_guard_events_total": 0,
+      "registry_agents_total": 1,
+      "registry_publishers_total": 1,
+      "registry_workspaces_total": 1
+    }
+  },
+  "t1": {
+    "timestamp": "2025-08-23T02:17:25.555Z",
+    "counters": {
+      "sentinel_spans_total": 30,
+      "sentinel_guard_events_total": 20,
+      "registry_agents_total": 1,
+      "registry_publishers_total": 1,
+      "registry_workspaces_total": 1
+    }
+  },
+  "t2": {
+    "timestamp": "2025-08-23T02:17:25.559Z",
+    "counters": {
+      "sentinel_spans_total": 30,
+      "sentinel_guard_events_total": 20,
+      "registry_agents_total": 1,
+      "registry_publishers_total": 1,
+      "registry_workspaces_total": 1
+    }
+  },
+  "t3": {
+    "timestamp": "2025-08-23T02:17:25.564Z",
+    "counters": {
+      "sentinel_spans_total": 30,
+      "sentinel_guard_events_total": 20,
+      "registry_agents_total": 1,
+      "registry_publishers_total": 1,
+      "registry_workspaces_total": 1
+    }
+  },
+  "t4": {
+    "timestamp": "2025-08-23T02:17:25.567Z",
+    "counters": {
+      "sentinel_spans_total": 30,
+      "sentinel_guard_events_total": 20,
+      "registry_agents_total": 1,
+      "registry_publishers_total": 1,
+      "registry_workspaces_total": 1
+    }
+  },
+  "runIds": [
+    "865e4a7f-e04f-4aa2-89e5-2b76bc004e91",
+    "56b3e3f3-6932-4e1d-aaa2-f425ae26b349",
+    "ab0b9e4f-b66e-4d8a-a7f1-c83d0943bcfe",
+    "ea873873-74aa-42ae-8f80-75d04eb71143",
+    "6fc04a5b-86ee-4252-b9f3-3345c17de7b5",
+    "4abb389a-a0ba-47c1-a942-92624213944b",
+    "c014f2f8-9506-4387-a03a-3ba2e66372cf",
+    "9a56b84f-8a8d-4228-9dc3-a39d64ec7902",
+    "25dd4c61-5e93-4975-9644-bac6f99919ee",
+    "b0157898-875c-41d0-83e0-4f3012be9624"
+  ],
+  "sseTranscripts": [
+    {
+      "runId": "865e4a7f-e04f-4aa2-89e5-2b76bc004e91",
+      "type": "logs",
+      "events": [],
+      "firstLogTime": 8007
+    },
+    {
+      "runId": "574e54c4-8b96-48cc-8707-522f5f9c560f",
+      "type": "guard",
+      "initialEvents": [],
+      "reconnectEvents": [],
+      "duplicates": 0
+    }
+  ],
+  "errorBodies": [],
+  "registryEvidence": {
+    "searchTest": "PASS"
+  },
+  "timing": {
+    "baseline": 38,
+    "agentRuns": 13084,
+    "privacyMode": 1,
+    "registryRoundTrip": 3,
+    "planCaps": 1,
+    "sseReconnect": 9,
+    "total": 13146
+  },
+  "failures": [
+    "First log time too slow: 8007ms > 1000ms",
+    "P95 duration too slow: 8038ms > 8000ms"
+  ],
+  "skippedTests": [
+    "Privacy mode endpoint not implemented",
+    "Plan management endpoint not implemented"
+  ],
+  "runStatuses": [
+    {
+      "runId": "865e4a7f-e04f-4aa2-89e5-2b76bc004e91",
+      "status": "complete",
+      "duration": 8038,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "56b3e3f3-6932-4e1d-aaa2-f425ae26b349",
+      "status": "complete",
+      "duration": 5064,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "ab0b9e4f-b66e-4d8a-a7f1-c83d0943bcfe",
+      "status": "complete",
+      "duration": 5057,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "ea873873-74aa-42ae-8f80-75d04eb71143",
+      "status": "complete",
+      "duration": 5055,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "6fc04a5b-86ee-4252-b9f3-3345c17de7b5",
+      "status": "complete",
+      "duration": 5053,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "4abb389a-a0ba-47c1-a942-92624213944b",
+      "status": "complete",
+      "duration": 5052,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "c014f2f8-9506-4387-a03a-3ba2e66372cf",
+      "status": "complete",
+      "duration": 5050,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "9a56b84f-8a8d-4228-9dc3-a39d64ec7902",
+      "status": "complete",
+      "duration": 5049,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "25dd4c61-5e93-4975-9644-bac6f99919ee",
+      "status": "complete",
+      "duration": 5047,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "b0157898-875c-41d0-83e0-4f3012be9624",
+      "status": "complete",
+      "duration": 5046,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    }
+  ]
+}

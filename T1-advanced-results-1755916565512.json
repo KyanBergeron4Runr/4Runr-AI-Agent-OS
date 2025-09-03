@@ -1,0 +1,462 @@
+{
+  "summary": {
+    "totalTests": 11,
+    "passedTests": 11,
+    "failedTests": 0,
+    "totalDuration": 60195,
+    "performanceStats": {
+      "totalRequests": 33,
+      "average": 2.9393939393939394,
+      "p50": 2,
+      "p95": 5,
+      "p99": 38,
+      "min": 0,
+      "max": 38
+    },
+    "criticalIssues": 4,
+    "missingFeatures": 2
+  },
+  "details": {
+    "apiResponses": [],
+    "timingAnalysis": {},
+    "errorAnalysis": {
+      "/api/workspace/privacy": {
+        "status": 404,
+        "error": {
+          "error": "Not found"
+        },
+        "timestamp": "2025-08-23T02:36:05.494Z"
+      },
+      "/api/workspace/plan": {
+        "status": 404,
+        "error": {
+          "error": "Not found"
+        },
+        "timestamp": "2025-08-23T02:36:05.497Z"
+      }
+    },
+    "performanceMetrics": {},
+    "securityChecks": {},
+    "featureGaps": {},
+    "sseAnalysis": {
+      "733d8c76-7bf9-4249-b375-f88366509cb3-guard": {
+        "connectionTime": 9,
+        "totalTime": 10,
+        "eventsReceived": 0,
+        "timeSinceLastEvent": 1,
+        "eventsPerSecond": 0,
+        "status": 404
+      },
+      "d528fe63-e790-4d61-9b5d-7ea54dc8d9be-guard": {
+        "connectionTime": 7,
+        "totalTime": 8,
+        "eventsReceived": 0,
+        "timeSinceLastEvent": 0,
+        "eventsPerSecond": 0,
+        "status": 404
+      },
+      "af5117a1-0625-4b8f-be18-a6cdd86be2ce-guard": {
+        "connectionTime": 6,
+        "totalTime": 8,
+        "eventsReceived": 0,
+        "timeSinceLastEvent": 1,
+        "eventsPerSecond": 0,
+        "status": 404
+      },
+      "f7b57cd2-8c90-4c0e-a275-fd0009a3915d-guard": {
+        "connectionTime": 6,
+        "totalTime": 7,
+        "eventsReceived": 0,
+        "timeSinceLastEvent": 0,
+        "eventsPerSecond": 0,
+        "status": 404
+      }
+    },
+    "registryAnalysis": {},
+    "sentinelAnalysis": {},
+    "sanityTests": [
+      {
+        "path": "/health",
+        "method": "GET",
+        "expectedStatus": 200,
+        "actualStatus": 200,
+        "duration": 43,
+        "success": true,
+        "data": {
+          "ok": true,
+          "version": "1.0.0",
+          "time": "2025-08-23T02:35:05.355Z"
+        },
+        "responseTime": 38,
+        "issues": []
+      },
+      {
+        "path": "/ready",
+        "method": "GET",
+        "expectedStatus": 200,
+        "actualStatus": 200,
+        "duration": 3,
+        "success": true,
+        "data": {
+          "ready": true,
+          "timestamp": "2025-08-23T02:35:05.363Z"
+        },
+        "responseTime": 2,
+        "issues": []
+      },
+      {
+        "path": "/metrics",
+        "method": "GET",
+        "expectedStatus": 200,
+        "actualStatus": 200,
+        "duration": 4,
+        "success": true,
+        "data": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 144\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 96\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 48\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 0\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 288\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 1\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 1",
+        "responseTime": 2,
+        "issues": []
+      }
+    ],
+    "agentRuns": [
+      {
+        "runId": "733d8c76-7bf9-4249-b375-f88366509cb3",
+        "agentSlug": "demo-enricher",
+        "runNumber": 1,
+        "startTime": "2025-08-23T02:35:05.379Z",
+        "endTime": "2025-08-23T02:35:20.409Z",
+        "duration": 15030,
+        "status": "complete",
+        "attempts": 5,
+        "sseResults": {
+          "logs": {
+            "error": "SSE timeout after 10000ms"
+          },
+          "guard": {
+            "events": [],
+            "status": 404,
+            "analysis": {
+              "connectionTime": 9,
+              "totalTime": 10,
+              "eventsReceived": 0,
+              "timeSinceLastEvent": 1,
+              "eventsPerSecond": 0,
+              "status": 404
+            }
+          }
+        },
+        "runData": {
+          "id": "733d8c76-7bf9-4249-b375-f88366509cb3",
+          "agent_id": "550e8400-e29b-41d4-a716-446655440001",
+          "workspace_id": "550e8400-e29b-41d4-a716-446655440000",
+          "status": "complete",
+          "created_at": "2025-08-23T02:35:05.382Z",
+          "started_at": "2025-08-23T02:35:05.382Z",
+          "ended_at": "2025-08-23T02:35:10.398Z",
+          "duration_ms": 5016,
+          "sentinel_stats": {
+            "spans_total": 3,
+            "guard_events_total": 2,
+            "shield_decisions_total": 1
+          }
+        },
+        "issues": [
+          "No spans generated",
+          "No verdict generated",
+          "No shield decision",
+          "No guard events",
+          "Run too slow: 15030ms",
+          "No guard SSE events"
+        ]
+      },
+      {
+        "runId": "d528fe63-e790-4d61-9b5d-7ea54dc8d9be",
+        "agentSlug": "demo-enricher",
+        "runNumber": 2,
+        "startTime": "2025-08-23T02:35:20.410Z",
+        "endTime": "2025-08-23T02:35:35.442Z",
+        "duration": 15032,
+        "status": "complete",
+        "attempts": 5,
+        "sseResults": {
+          "logs": {
+            "error": "SSE timeout after 10000ms"
+          },
+          "guard": {
+            "events": [],
+            "status": 404,
+            "analysis": {
+              "connectionTime": 7,
+              "totalTime": 8,
+              "eventsReceived": 0,
+              "timeSinceLastEvent": 0,
+              "eventsPerSecond": 0,
+              "status": 404
+            }
+          }
+        },
+        "runData": {
+          "id": "d528fe63-e790-4d61-9b5d-7ea54dc8d9be",
+          "agent_id": "550e8400-e29b-41d4-a716-446655440001",
+          "workspace_id": "550e8400-e29b-41d4-a716-446655440000",
+          "status": "complete",
+          "created_at": "2025-08-23T02:35:20.415Z",
+          "started_at": "2025-08-23T02:35:20.415Z",
+          "ended_at": "2025-08-23T02:35:25.426Z",
+          "duration_ms": 5011,
+          "sentinel_stats": {
+            "spans_total": 3,
+            "guard_events_total": 2,
+            "shield_decisions_total": 1
+          }
+        },
+        "issues": [
+          "No spans generated",
+          "No verdict generated",
+          "No shield decision",
+          "No guard events",
+          "Run too slow: 15032ms",
+          "No guard SSE events"
+        ]
+      },
+      {
+        "runId": "af5117a1-0625-4b8f-be18-a6cdd86be2ce",
+        "agentSlug": "demo-scraper",
+        "runNumber": 1,
+        "startTime": "2025-08-23T02:35:35.443Z",
+        "endTime": "2025-08-23T02:35:50.468Z",
+        "duration": 15025,
+        "status": "complete",
+        "attempts": 5,
+        "sseResults": {
+          "logs": {
+            "error": "SSE timeout after 10000ms"
+          },
+          "guard": {
+            "events": [],
+            "status": 404,
+            "analysis": {
+              "connectionTime": 6,
+              "totalTime": 8,
+              "eventsReceived": 0,
+              "timeSinceLastEvent": 1,
+              "eventsPerSecond": 0,
+              "status": 404
+            }
+          }
+        },
+        "runData": {
+          "id": "af5117a1-0625-4b8f-be18-a6cdd86be2ce",
+          "agent_id": "550e8400-e29b-41d4-a716-446655440002",
+          "workspace_id": "550e8400-e29b-41d4-a716-446655440000",
+          "status": "complete",
+          "created_at": "2025-08-23T02:35:35.446Z",
+          "started_at": "2025-08-23T02:35:35.446Z",
+          "ended_at": "2025-08-23T02:35:40.457Z",
+          "duration_ms": 5011,
+          "sentinel_stats": {
+            "spans_total": 3,
+            "guard_events_total": 2,
+            "shield_decisions_total": 1
+          }
+        },
+        "issues": [
+          "No spans generated",
+          "No verdict generated",
+          "No shield decision",
+          "No guard events",
+          "Run too slow: 15025ms",
+          "No guard SSE events"
+        ]
+      },
+      {
+        "runId": "f7b57cd2-8c90-4c0e-a275-fd0009a3915d",
+        "agentSlug": "demo-scraper",
+        "runNumber": 2,
+        "startTime": "2025-08-23T02:35:50.469Z",
+        "endTime": "2025-08-23T02:36:05.490Z",
+        "duration": 15021,
+        "status": "complete",
+        "attempts": 5,
+        "sseResults": {
+          "logs": {
+            "error": "SSE timeout after 10000ms"
+          },
+          "guard": {
+            "events": [],
+            "status": 404,
+            "analysis": {
+              "connectionTime": 6,
+              "totalTime": 7,
+              "eventsReceived": 0,
+              "timeSinceLastEvent": 0,
+              "eventsPerSecond": 0,
+              "status": 404
+            }
+          }
+        },
+        "runData": {
+          "id": "f7b57cd2-8c90-4c0e-a275-fd0009a3915d",
+          "agent_id": "550e8400-e29b-41d4-a716-446655440002",
+          "workspace_id": "550e8400-e29b-41d4-a716-446655440000",
+          "status": "complete",
+          "created_at": "2025-08-23T02:35:50.471Z",
+          "started_at": "2025-08-23T02:35:50.471Z",
+          "ended_at": "2025-08-23T02:35:55.479Z",
+          "duration_ms": 5008,
+          "sentinel_stats": {
+            "spans_total": 3,
+            "guard_events_total": 2,
+            "shield_decisions_total": 1
+          }
+        },
+        "issues": [
+          "No spans generated",
+          "No verdict generated",
+          "No shield decision",
+          "No guard events",
+          "Run too slow: 15021ms",
+          "No guard SSE events"
+        ]
+      }
+    ],
+    "featureTests": [
+      {
+        "path": "/api/workspace/privacy",
+        "method": "POST",
+        "expectedStatus": 404,
+        "actualStatus": 404,
+        "duration": 4,
+        "success": true,
+        "data": {
+          "error": "Not found"
+        },
+        "responseTime": 2,
+        "issues": []
+      },
+      {
+        "path": "/api/workspace/plan",
+        "method": "POST",
+        "expectedStatus": 404,
+        "actualStatus": 404,
+        "duration": 3,
+        "success": true,
+        "data": {
+          "error": "Not found"
+        },
+        "responseTime": 1,
+        "issues": []
+      },
+      {
+        "path": "/api/registry/agents",
+        "method": "GET",
+        "expectedStatus": 200,
+        "actualStatus": 200,
+        "duration": 2,
+        "success": true,
+        "data": {
+          "agents": [
+            {
+              "name": "hello-world",
+              "slug": "demo/hello-world",
+              "version": "1.0.0",
+              "tags": [
+                "demo",
+                "hello-world",
+                "simple"
+              ],
+              "verified": true,
+              "summary": "A simple hello world agent for demonstration",
+              "namespace": "demo"
+            }
+          ],
+          "total": 1,
+          "cursor": null
+        },
+        "responseTime": 1,
+        "issues": []
+      },
+      {
+        "path": "/api/registry/public-key",
+        "method": "GET",
+        "expectedStatus": 200,
+        "actualStatus": 200,
+        "duration": 1,
+        "success": true,
+        "data": "registry-public-key-b7b24718",
+        "responseTime": 0,
+        "issues": []
+      }
+    ],
+    "baselineMetrics": {
+      "timestamp": "2025-08-23T02:35:05.373Z",
+      "label": "baseline",
+      "responseTime": 1,
+      "metricsSize": 1005,
+      "counters": {
+        "sentinel_spans_total": 144,
+        "sentinel_guard_events_total": 96,
+        "runs_started_total": 48,
+        "logs_emitted_total": 288,
+        "registry_agents_total": 1,
+        "registry_publishers_total": 1,
+        "registry_workspaces_total": 1
+      },
+      "gauges": {
+        "runs_concurrent_gauge": 0
+      },
+      "histograms": {},
+      "issues": []
+    },
+    "finalMetrics": {
+      "timestamp": "2025-08-23T02:36:05.510Z",
+      "label": "final",
+      "responseTime": 2,
+      "metricsSize": 1006,
+      "counters": {
+        "sentinel_spans_total": 156,
+        "sentinel_guard_events_total": 104,
+        "runs_started_total": 52,
+        "logs_emitted_total": 312,
+        "registry_agents_total": 1,
+        "registry_publishers_total": 1,
+        "registry_workspaces_total": 1
+      },
+      "gauges": {
+        "runs_concurrent_gauge": 0
+      },
+      "histograms": {},
+      "issues": []
+    },
+    "performanceStats": {
+      "totalRequests": 33,
+      "average": 2.9393939393939394,
+      "p50": 2,
+      "p95": 5,
+      "p99": 38,
+      "min": 0,
+      "max": 38
+    }
+  },
+  "recommendations": [
+    {
+      "priority": "CRITICAL",
+      "category": "Sentinel",
+      "description": "Implement span generation",
+      "impact": "Core safety feature missing",
+      "timestamp": "2025-08-23T02:36:05.511Z"
+    },
+    {
+      "priority": "CRITICAL",
+      "category": "Sentinel",
+      "description": "Implement guard event generation",
+      "impact": "Real-time monitoring broken",
+      "timestamp": "2025-08-23T02:36:05.511Z"
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "Features",
+      "description": "Implement missing endpoints",
+      "impact": "Core features not available",
+      "timestamp": "2025-08-23T02:36:05.511Z"
+    }
+  ]
+}

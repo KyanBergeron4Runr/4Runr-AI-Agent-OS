@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-08-30T23:55:01.839Z",
+  "duration": 900017,
+  "durationMinutes": 15,
+  "metrics": {
+    "runsStarted": 44,
+    "runsCompleted": 0,
+    "runsFailed": 40,
+    "sseConnections": 28,
+    "sseReconnects": 240,
+    "sseDuplicates": 0,
+    "sseDropped": 8,
+    "sseActive": 0,
+    "errors": {
+      "4xx": 0,
+      "5xx": 0
+    },
+    "latencies": {
+      "startToLog": [],
+      "judge": [],
+      "shield": [],
+      "sseWrite": []
+    },
+    "availability": {
+      "checks": 29,
+      "failures": 0
+    },
+    "safety": {
+      "injectionsBlocked": 0,
+      "injectionsAttempted": 2,
+      "piiMasked": 0,
+      "piiAttempted": 2,
+      "requireApproval": 0,
+      "requireApprovalAttempted": 0
+    },
+    "registry": {
+      "publishes": 0,
+      "searches": 0,
+      "tamperAttempts": 0,
+      "tamperRejected": 0
+    },
+    "privacy": {
+      "hashOnlyRuns": 0,
+      "plaintextLeaks": 0
+    }
+  },
+  "summary": {
+    "duration": "15 minutes",
+    "availability": "100.00%",
+    "totalRuns": 44,
+    "sseConnections": 28,
+    "sseReconnects": 240,
+    "sseDuplicates": 0,
+    "safetyScore": "0/2",
+    "privacyLeaks": 0,
+    "registryPublishes": 0,
+    "errorRate": "0.00%"
+  },
+  "fatalError": null
+}

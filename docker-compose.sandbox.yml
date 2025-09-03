@@ -1,0 +1,90 @@
+version: '3.8'
+services:
+  # Redis for gateway storage
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+
+  # 4Runr Gateway
+  gateway:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - REDIS_URL=redis://redis:6379
+      - TOKEN_HMAC_SECRET=sandbox-secret-key-not-for-production
+      - SECRETS_BACKEND=env
+      - HTTP_TIMEOUT_MS=30000
+      - DEFAULT_TIMEZONE=UTC
+      - KEK_BASE64=c2FuZGJveC1lbmNyeXB0aW9uLWtleS1ub3QtZm9yLXByb2R1Y3Rpb24=
+      - NODE_ENV=development
+      - DEBUG=4runr:*
+    depends_on:
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./src:/app/src
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Prometheus for metrics collection
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./sandbox/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--web.enable-lifecycle'
+    depends_on:
+      - gateway
+
+  # Grafana for metrics visualization
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=sandbox
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./sandbox/grafana-dashboards:/etc/grafana/provisioning/dashboards
+      - ./sandbox/grafana-datasources:/etc/grafana/provisioning/datasources
+    depends_on:
+      - prometheus
+
+  # Nginx for serving sandbox UI
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./sandbox:/usr/share/nginx/html
+      - ./docs:/usr/share/nginx/html/docs
+    depends_on:
+      - gateway
+
+volumes:
+  redis_data:
+  prometheus_data:
+  grafana_data:

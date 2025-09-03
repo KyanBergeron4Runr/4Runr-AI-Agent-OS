@@ -1,0 +1,30 @@
+{
+  "name": "@4runr/sentinel",
+  "version": "1.0.0",
+  "description": "4Runr Sentinel Safety System - Watchdog and kill-switch functionality",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@4runr/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2",
+    "rimraf": "^5.0.5"
+  },
+  "keywords": [
+    "4runr",
+    "sentinel",
+    "safety",
+    "watchdog",
+    "kill-switch"
+  ],
+  "author": "4Runr Team",
+  "license": "MIT"
+}

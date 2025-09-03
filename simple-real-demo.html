@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4Runr Gateway - What It Actually Does</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .terminal { font-family: 'Courier New', monospace; }
+        .success { color: #22c55e; }
+        .error { color: #ef4444; }
+        .warning { color: #f59e0b; }
+        .info { color: #3b82f6; }
+    </style>
+</head>
+<body class="bg-zinc-900 text-zinc-100 min-h-screen p-6">
+    <div class="max-w-6xl mx-auto">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <h1 class="text-4xl font-bold mb-4">4Runr Gateway</h1>
+            <p class="text-xl text-zinc-400 mb-6">Zero-Trust API Security for AI Agents</p>
+            <div class="flex justify-center gap-4">
+                <button onclick="testGateway()" class="px-6 py-3 bg-green-600 text-white rounded-lg hover:opacity-90">
+                    Test Gateway
+                </button>
+                <button onclick="runDemo()" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:opacity-90">
+                    Run Demo
+                </button>
+            </div>
+        </div>
+
+        <!-- What It Does -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+            <!-- Problem -->
+            <div class="bg-red-900/20 border border-red-500 rounded-lg p-6">
+                <h2 class="text-2xl font-bold text-red-400 mb-4">❌ The Problem</h2>
+                <div class="space-y-3 text-sm">
+                    <div class="flex items-start gap-2">
+                        <span class="text-red-400">•</span>
+                        <span>AI agents need API keys for tools (SerpAPI, OpenAI, etc.)</span>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-red-400">•</span>
+                        <span>API keys are stored in code/config files (security risk)</span>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-red-400">•</span>
+                        <span>No control over what agents can access</span>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-red-400">•</span>
+                        <span>No monitoring of API usage or costs</span>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-red-400">•</span>
+                        <span>Agents can use any API without restrictions</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Solution -->
+            <div class="bg-green-900/20 border border-green-500 rounded-lg p-6">
+                <h2 class="text-2xl font-bold text-green-400 mb-4">✅ 4Runr Gateway Solution</h2>
+                <div class="space-y-3 text-sm">
+                    <div class="flex items-start gap-2">
+                        <span class="text-green-400">•</span>
+                        <span>Agents get JWT tokens instead of API keys</span>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-green-400">•</span>
+                        <span>API keys stored securely in gateway (zero-trust)</span>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-green-400">•</span>
+                        <span>Fine-grained control: which tools, actions, limits</span>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-green-400">•</span>
+                        <span>Real-time monitoring and cost tracking</span>
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-green-400">•</span>
+                        <span>Agents can only access what they're authorized for</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Live Demo -->
+        <div class="bg-zinc-800 rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-bold mb-4">🧪 Live Demo</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                <button onclick="step1()" class="p-4 bg-blue-600 rounded-lg hover:opacity-90">
+                    <h3 class="font-bold">Step 1: Create Agent</h3>
+                    <p class="text-sm text-blue-200">Generate a new AI agent with unique ID</p>
+                </button>
+                <button onclick="step2()" class="p-4 bg-yellow-600 rounded-lg hover:opacity-90">
+                    <h3 class="font-bold">Step 2: List Agents</h3>
+                    <p class="text-sm text-yellow-200">See all created agents</p>
+                </button>
+                <button onclick="step3()" class="p-4 bg-green-600 rounded-lg hover:opacity-90">
+                    <h3 class="font-bold">Step 3: Test API</h3>
+                    <p class="text-sm text-green-200">Test proxy functionality</p>
+                </button>
+            </div>
+            
+            <!-- Status -->
+            <div class="mb-4">
+                <div id="status" class="text-red-400">❌ Gateway not tested</div>
+            </div>
+
+            <!-- Results -->
+            <div class="bg-black rounded-lg p-4 h-64 overflow-y-auto terminal text-sm" id="results">
+                <div class="text-zinc-400">Click "Test Gateway" then "Run Demo" to see 4Runr Gateway in action...</div>
+            </div>
+        </div>
+
+        <!-- Why This Matters -->
+        <div class="bg-zinc-800 rounded-lg p-6">
+            <h2 class="text-2xl font-bold mb-4">🎯 Why This Matters</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-green-400 mb-2">Security</h3>
+                    <ul class="text-sm space-y-1">
+                        <li>• No API keys in agent code</li>
+                        <li>• JWT tokens expire automatically</li>
+                        <li>• Fine-grained access control</li>
+                        <li>• Audit trail of all requests</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-blue-400 mb-2">Control</h3>
+                    <ul class="text-sm space-y-1">
+                        <li>• Limit which tools agents can use</li>
+                        <li>• Set rate limits and quotas</li>
+                        <li>• Monitor usage and costs</li>
+                        <li>• Revoke access instantly</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-purple-400 mb-2">Monitoring</h3>
+                    <ul class="text-sm space-y-1">
+                        <li>• Real-time metrics and alerts</li>
+                        <li>• Track API usage per agent</li>
+                        <li>• Monitor performance and errors</li>
+                        <li>• Cost analysis and optimization</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-yellow-400 mb-2">Scalability</h3>
+                    <ul class="text-sm space-y-1">
+                        <li>• Centralized API management</li>
+                        <li>• Easy to add new agents</li>
+                        <li>• Consistent security policies</li>
+                        <li>• Enterprise-ready architecture</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let gatewayUrl = 'http://localhost:3000';
+        let currentAgent = null;
+
+        function log(message, type = 'info') {
+            const results = document.getElementById('results');
+            const timestamp = new Date().toISOString().substr(11, 8);
+            const colorClass = type === 'success' ? 'success' : type === 'error' ? 'error' : type === 'warning' ? 'warning' : 'info';
+            
+            results.innerHTML += `<div class="${colorClass}">[${timestamp}] ${message}</div>`;
+            results.scrollTop = results.scrollHeight;
+        }
+
+        function updateStatus(message, isConnected = false) {
+            const status = document.getElementById('status');
+            if (isConnected) {
+                status.innerHTML = `✅ ${message}`;
+                status.className = 'text-green-400';
+            } else {
+                status.innerHTML = `❌ ${message}`;
+                status.className = 'text-red-400';
+            }
+        }
+
+        async function testGateway() {
+            log('Testing 4Runr Gateway connection...', 'info');
+            
+            try {
+                const response = await fetch(`${gatewayUrl}/api/agents`);
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    updateStatus('Gateway is running!', true);
+                    log(`✅ Gateway connected! Found ${data.agents.length} agents`, 'success');
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+            } catch (error) {
+                updateStatus('Gateway not running', false);
+                log(`❌ Gateway not available: ${error.message}`, 'error');
+                log('💡 Make sure the gateway is running on localhost:3000', 'warning');
+            }
+        }
+
+        async function step1() {
+            log('Creating a new AI agent...', 'info');
+            try {
+                const response = await fetch(`${gatewayUrl}/api/create-agent`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        name: `demo-agent-${Date.now()}`, 
+                        created_by: 'demo',
+                        role: 'demo'
+                    })
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    currentAgent = data;
+                    log(`✅ Agent created! ID: ${data.agent_id}`, 'success');
+                    log(`🔑 Private key generated for secure authentication`, 'info');
+                    log(`🔐 Agent can now be used for API access`, 'info');
+                } else {
+                    const error = await response.text();
+                    log(`❌ Failed to create agent: ${error}`, 'error');
+                }
+            } catch (error) {
+                log(`❌ Error creating agent: ${error.message}`, 'error');
+            }
+        }
+
+        async function step2() {
+            log('Fetching all agents...', 'info');
+            try {
+                const response = await fetch(`${gatewayUrl}/api/agents`);
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    log(`✅ Found ${data.agents.length} agents`, 'success');
+                    
+                    data.agents.forEach(agent => {
+                        log(`  - ${agent.name} (ID: ${agent.id}, Role: ${agent.role})`, 'info');
+                    });
+                } else {
+                    log(`❌ Failed to fetch agents: HTTP ${response.status}`, 'error');
+                }
+            } catch (error) {
+                log(`❌ Error fetching agents: ${error.message}`, 'error');
+            }
+        }
+
+        async function step3() {
+            log('Testing API proxy functionality...', 'info');
+            
+            // Test 1: Try to access a tool without authentication
+            try {
+                log('🚫 Testing unauthorized access (no token)...', 'info');
+                const response = await fetch(`${gatewayUrl}/api/proxy/serpapi/search`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query: 'unauthorized test' })
+                });
+
+                if (response.status === 401 || response.status === 403) {
+                    log(`✅ Security working! Unauthorized request blocked (${response.status})`, 'success');
+                } else {
+                    log(`⚠️ Unexpected response: HTTP ${response.status}`, 'warning');
+                }
+            } catch (error) {
+                log(`❌ Error testing security: ${error.message}`, 'error');
+            }
+
+            // Test 2: Check if proxy endpoint exists
+            try {
+                log('🔍 Testing proxy endpoint availability...', 'info');
+                const response = await fetch(`${gatewayUrl}/api/proxy/serpapi/search`, {
+                    method: 'OPTIONS'
+                });
+                
+                if (response.ok) {
+                    log(`✅ Proxy endpoint is available`, 'success');
+                } else {
+                    log(`⚠️ Proxy endpoint status: ${response.status}`, 'warning');
+                }
+            } catch (error) {
+                log(`❌ Error testing proxy: ${error.message}`, 'error');
+            }
+        }
+
+        async function runDemo() {
+            log('🚀 Running complete 4Runr Gateway demo...', 'info');
+            await step1();
+            await step2();
+            await step3();
+            log('🎉 Demo completed! This shows real zero-trust API security.', 'success');
+        }
+
+        // Auto-test gateway on load
+        window.addEventListener('load', () => {
+            testGateway();
+        });
+    </script>
+</body>
+</html>

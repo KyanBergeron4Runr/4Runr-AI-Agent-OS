@@ -1,0 +1,18 @@
+{
+  "name": "enricher-example",
+  "version": "1.0.0",
+  "description": "Data enricher example using 4Runr Gateway SDK",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@4runr/gateway": "file:../../sdk-js",
+    "dotenv": "^17.2.1"
+  },
+  "keywords": ["4runr", "gateway", "enricher", "example"],
+  "author": "4Runr Team",
+  "license": "MIT"
+}

@@ -1,0 +1,202 @@
+{
+  "startTime": "2025-08-28T14:28:06.207Z",
+  "metrics": {
+    "t0": {
+      "timestamp": "2025-08-28T14:28:06.238Z",
+      "data": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 0\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 0\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 0\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 0\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 0\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 0\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 0\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 1\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 1\n\n# HELP idempotency_hits_total Total number of idempotency hits\n# TYPE idempotency_hits_total counter\nidempotency_hits_total 0\n\n# HELP idempotency_misses_total Total number of idempotency misses\n# TYPE idempotency_misses_total counter\nidempotency_misses_total 0\n\n# HELP rate_limited_total Total number of rate limited requests\n# TYPE rate_limited_total counter\nrate_limited_total 0\n\n# HELP concurrency_denials_total Total number of concurrency denials\n# TYPE concurrency_denials_total counter\nconcurrency_denials_total 0\n\n# HELP run_starts_total Total number of run starts\n# TYPE run_starts_total counter\nrun_starts_total 0"
+    },
+    "t1": {
+      "timestamp": "2025-08-28T14:28:49.544Z",
+      "data": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 30\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 50\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 10\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 10\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 10\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 0\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 70\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 1\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 1\n\n# HELP idempotency_hits_total Total number of idempotency hits\n# TYPE idempotency_hits_total counter\nidempotency_hits_total 0\n\n# HELP idempotency_misses_total Total number of idempotency misses\n# TYPE idempotency_misses_total counter\nidempotency_misses_total 0\n\n# HELP rate_limited_total Total number of rate limited requests\n# TYPE rate_limited_total counter\nrate_limited_total 0\n\n# HELP concurrency_denials_total Total number of concurrency denials\n# TYPE concurrency_denials_total counter\nconcurrency_denials_total 0\n\n# HELP run_starts_total Total number of run starts\n# TYPE run_starts_total counter\nrun_starts_total 10"
+    },
+    "t2": {
+      "timestamp": "2025-08-28T14:28:55.558Z",
+      "data": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 33\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 55\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 11\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 11\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 11\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 0\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 77\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 1\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 1\n\n# HELP idempotency_hits_total Total number of idempotency hits\n# TYPE idempotency_hits_total counter\nidempotency_hits_total 0\n\n# HELP idempotency_misses_total Total number of idempotency misses\n# TYPE idempotency_misses_total counter\nidempotency_misses_total 0\n\n# HELP rate_limited_total Total number of rate limited requests\n# TYPE rate_limited_total counter\nrate_limited_total 0\n\n# HELP concurrency_denials_total Total number of concurrency denials\n# TYPE concurrency_denials_total counter\nconcurrency_denials_total 0\n\n# HELP run_starts_total Total number of run starts\n# TYPE run_starts_total counter\nrun_starts_total 11"
+    },
+    "t3": {
+      "timestamp": "2025-08-28T14:28:55.570Z",
+      "data": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 33\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 55\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 11\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 11\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 11\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 0\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 77\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 2\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 2\n\n# HELP idempotency_hits_total Total number of idempotency hits\n# TYPE idempotency_hits_total counter\nidempotency_hits_total 0\n\n# HELP idempotency_misses_total Total number of idempotency misses\n# TYPE idempotency_misses_total counter\nidempotency_misses_total 0\n\n# HELP rate_limited_total Total number of rate limited requests\n# TYPE rate_limited_total counter\nrate_limited_total 0\n\n# HELP concurrency_denials_total Total number of concurrency denials\n# TYPE concurrency_denials_total counter\nconcurrency_denials_total 0\n\n# HELP run_starts_total Total number of run starts\n# TYPE run_starts_total counter\nrun_starts_total 11"
+    },
+    "t4": {
+      "timestamp": "2025-08-28T14:28:55.575Z",
+      "data": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 35\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 57\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 11\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 11\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 12\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 1\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 80\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 2\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 2\n\n# HELP idempotency_hits_total Total number of idempotency hits\n# TYPE idempotency_hits_total counter\nidempotency_hits_total 0\n\n# HELP idempotency_misses_total Total number of idempotency misses\n# TYPE idempotency_misses_total counter\nidempotency_misses_total 0\n\n# HELP rate_limited_total Total number of rate limited requests\n# TYPE rate_limited_total counter\nrate_limited_total 0\n\n# HELP concurrency_denials_total Total number of concurrency denials\n# TYPE concurrency_denials_total counter\nconcurrency_denials_total 1\n\n# HELP run_starts_total Total number of run starts\n# TYPE run_starts_total counter\nrun_starts_total 12"
+    },
+    "final": {
+      "timestamp": "2025-08-28T14:28:55.580Z",
+      "data": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 35\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 57\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 11\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 11\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 12\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 1\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 80\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 2\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 2\n\n# HELP idempotency_hits_total Total number of idempotency hits\n# TYPE idempotency_hits_total counter\nidempotency_hits_total 0\n\n# HELP idempotency_misses_total Total number of idempotency misses\n# TYPE idempotency_misses_total counter\nidempotency_misses_total 1\n\n# HELP rate_limited_total Total number of rate limited requests\n# TYPE rate_limited_total counter\nrate_limited_total 0\n\n# HELP concurrency_denials_total Total number of concurrency denials\n# TYPE concurrency_denials_total counter\nconcurrency_denials_total 3\n\n# HELP run_starts_total Total number of run starts\n# TYPE run_starts_total counter\nrun_starts_total 12"
+    }
+  },
+  "runIds": [
+    "b232161a-e97c-4dc7-bd41-27e1b4e8e622",
+    "f14e2c27-49aa-431d-9551-7e4953dbee89",
+    "3e4c97ba-0d35-4a43-bd7c-05e956ffc709",
+    "150a7102-c890-431a-9f1e-9a6c5c8e0e75",
+    "77ee9214-4405-43ab-ab50-d14934fff4de",
+    "680125a4-5b72-4ae0-bd2a-d99d055b5dad",
+    "5cb8f9a5-ba9d-4f82-ae14-3f8f36d16b61",
+    "452b4c2a-beb5-40bf-aaa4-4652ce8f9a01",
+    "76a0667a-bcd9-4779-86d6-8b4b9b36ea7b",
+    "9967fb85-8351-4ad4-97c2-f3ed0c11bdc0"
+  ],
+  "sseTranscripts": {
+    "logs": [
+      {
+        "type": "log",
+        "timestamp": "2025-08-28T14:28:06.247Z",
+        "level": "info",
+        "message": "Starting agent: Demo Enricher (demo-enricher)",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-28T14:28:06.247Z",
+        "level": "info",
+        "message": "Entry point: node apps/agents/enricher/index.js",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-28T14:28:06.247Z",
+        "level": "info",
+        "message": "Language: js",
+        "span_id": null
+      },
+      {
+        "type": "status",
+        "status": "running"
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-28T14:28:08.643Z",
+        "level": "info",
+        "message": "Agent initialized successfully",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-28T14:28:08.643Z",
+        "level": "info",
+        "message": "Execution completed in 2395ms",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-28T14:28:08.643Z",
+        "level": "info",
+        "message": "Sentinel verdict: 0.73 groundedness, 0.94 coverage",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-28T14:28:08.643Z",
+        "level": "info",
+        "message": "Shield decision: require_approval",
+        "span_id": null
+      },
+      {
+        "type": "status",
+        "timestamp": "2025-08-28T14:28:08.643Z",
+        "status": "complete"
+      },
+      {
+        "type": "done",
+        "timestamp": "2025-08-28T14:28:08.643Z",
+        "status": "complete"
+      }
+    ],
+    "guard": []
+  },
+  "errorBodies": [],
+  "registryEvidence": {
+    "publishedSlug": "test/registry-agent@1.0.0",
+    "searchResults": 1,
+    "manifestVerified": true,
+    "tamperRejected": true,
+    "publicKey": "registry-public-key-45ee07e0"
+  },
+  "privacyProof": {
+    "runId": "49d9c139-f377-4870-ab40-c07d07c7d088",
+    "hasPlaintext": false,
+    "hasHashes": true,
+    "secretsFound": [],
+    "sseEvents": [
+      {
+        "type": "log",
+        "timestamp": "2025-08-28T14:28:49.548Z",
+        "level": "info",
+        "message": "Starting agent: Demo Enricher (demo-enricher)",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-28T14:28:49.548Z",
+        "level": "info",
+        "message": "Entry point: node apps/agents/enricher/index.js",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-28T14:28:49.548Z",
+        "level": "info",
+        "message": "Language: js",
+        "span_id": null
+      },
+      {
+        "type": "status",
+        "status": "running"
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-28T14:28:53.346Z",
+        "level": "info",
+        "message": "Agent initialized successfully",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-28T14:28:53.346Z",
+        "level": "info",
+        "message": "Execution completed in 3797ms",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-28T14:28:53.346Z",
+        "level": "info",
+        "message": "Sentinel verdict: 0.88 groundedness, 0.93 coverage",
+        "span_id": null
+      },
+      {
+        "type": "log",
+        "timestamp": "2025-08-28T14:28:53.346Z",
+        "level": "info",
+        "message": "Shield decision: allow",
+        "span_id": null
+      },
+      {
+        "type": "status",
+        "timestamp": "2025-08-28T14:28:53.346Z",
+        "status": "complete"
+      },
+      {
+        "type": "done",
+        "timestamp": "2025-08-28T14:28:53.346Z",
+        "status": "complete"
+      }
+    ]
+  },
+  "artifacts": {},
+  "kpis": {
+    "startToFirstLog": 40,
+    "spansTotal": 35,
+    "guardEventsTotal": 57,
+    "verdictsTotal": 11
+  },
+  "failures": [],
+  "summary": {
+    "totalTests": 74,
+    "passedTests": 72,
+    "failedTests": 2,
+    "criticalIssues": 2
+  }
+}

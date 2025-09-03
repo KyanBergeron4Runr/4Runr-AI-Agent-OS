@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-08-11T02:44:35.134Z",
+  "gatewayUrl": "http://localhost:3000",
+  "agentIds": {},
+  "results": [
+    {
+      "scenario": "baseline-ramp",
+      "success": false,
+      "error": "Command failed: artillery run bench/artillery.yml --phase baseline-ramp --output C:\\Users\\kyanb\\4Runr.Gateway\\reports\\baseline-ramp-1754880203783.json"
+    },
+    {
+      "scenario": "spike-test",
+      "success": false,
+      "error": "Command failed: artillery run bench/artillery.yml --phase spike --output C:\\Users\\kyanb\\4Runr.Gateway\\reports\\spike-test-1754880236587.json"
+    },
+    {
+      "scenario": "cache-test",
+      "success": false,
+      "error": "Command failed: artillery run bench/artillery.yml --scenario cache-test --output C:\\Users\\kyanb\\4Runr.Gateway\\reports\\cache-test-1754880268819.json"
+    },
+    {
+      "scenario": "chaos-test",
+      "success": false,
+      "error": "Command failed: artillery run bench/artillery.yml --scenario chaos-retryable --output C:\\Users\\kyanb\\4Runr.Gateway\\reports\\chaos-test-1754880271727.json"
+    }
+  ],
+  "metrics": {
+    "metricsFile": "C:\\Users\\kyanb\\4Runr.Gateway\\reports\\metrics-1754880274903.txt",
+    "chaosFile": "C:\\Users\\kyanb\\4Runr.Gateway\\reports\\chaos-state-1754880275133.json"
+  }
+}

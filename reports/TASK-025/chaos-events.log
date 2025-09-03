@@ -1,0 +1,144 @@
+[2025-08-16T12:37:54.290Z] 🔥 Starting 48-hour burn-in chaos controller
+[2025-08-16T12:37:54.292Z] Test start time: 2025-08-16T12:37:54.288Z
+[2025-08-16T12:37:54.292Z] EXECUTING: Capturing metrics for hour 0
+[2025-08-16T12:37:54.332Z] SUCCESS: Capturing metrics for hour 0
+[2025-08-16T12:37:54.333Z] EXECUTING: Capturing Docker stats for hour 0
+[2025-08-16T12:37:56.985Z] SUCCESS: Capturing Docker stats for hour 0
+[2025-08-17T13:18:56.366Z] 🔥 Starting 48-hour burn-in chaos controller
+[2025-08-17T13:18:56.369Z] Test start time: 2025-08-17T13:18:56.364Z
+[2025-08-17T13:18:56.369Z] EXECUTING: Capturing metrics for hour 0
+[2025-08-17T13:18:56.413Z] SUCCESS: Capturing metrics for hour 0
+[2025-08-17T13:18:56.415Z] EXECUTING: Capturing Docker stats for hour 0
+[2025-08-17T13:18:59.059Z] SUCCESS: Capturing Docker stats for hour 0
+[2025-08-17T14:18:59.086Z] === HOUR 1 OF 48 ===
+[2025-08-17T14:18:59.092Z] EXECUTING: Capturing metrics for hour 1
+[2025-08-17T14:19:29.102Z] ERROR: Capturing metrics for hour 1 - spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+[2025-08-17T14:19:29.103Z] Failed to capture metrics for hour 1: spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+[2025-08-17T14:19:29.103Z] EXECUTING: Capturing Docker stats for hour 1
+[2025-08-17T14:19:31.749Z] SUCCESS: Capturing Docker stats for hour 1
+[2025-08-17T15:19:31.765Z] === HOUR 2 OF 48 ===
+[2025-08-17T15:19:31.772Z] EXECUTING: Capturing metrics for hour 2
+[2025-08-17T15:20:01.782Z] ERROR: Capturing metrics for hour 2 - spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+[2025-08-17T15:20:01.783Z] Failed to capture metrics for hour 2: spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+[2025-08-17T15:20:01.783Z] EXECUTING: Capturing Docker stats for hour 2
+[2025-08-17T15:20:04.528Z] SUCCESS: Capturing Docker stats for hour 2
+[2025-08-17T16:20:04.542Z] === HOUR 3 OF 48 ===
+[2025-08-17T16:20:04.544Z] EXECUTING: Capturing metrics for hour 3
+[2025-08-17T16:20:34.549Z] ERROR: Capturing metrics for hour 3 - spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+[2025-08-17T16:20:34.549Z] Failed to capture metrics for hour 3: spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+[2025-08-17T16:20:34.549Z] EXECUTING: Capturing Docker stats for hour 3
+[2025-08-17T16:20:37.195Z] SUCCESS: Capturing Docker stats for hour 3
+[2025-08-17T17:20:37.213Z] === HOUR 4 OF 48 ===
+[2025-08-17T17:20:37.220Z] EXECUTING: Capturing metrics for hour 4
+[2025-08-17T17:21:07.240Z] ERROR: Capturing metrics for hour 4 - spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+[2025-08-17T17:21:07.241Z] Failed to capture metrics for hour 4: spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+[2025-08-17T17:21:07.241Z] EXECUTING: Capturing Docker stats for hour 4
+[2025-08-17T17:21:09.921Z] SUCCESS: Capturing Docker stats for hour 4
+[2025-08-17T18:21:09.947Z] === HOUR 5 OF 48 ===
+[2025-08-17T18:21:09.949Z] EXECUTING: Capturing metrics for hour 5
+[2025-08-17T18:21:12.236Z] ERROR: Capturing metrics for hour 5 - Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-05.prom
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-17T18:21:12.236Z] Failed to capture metrics for hour 5: Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-05.prom
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-17T18:21:12.236Z] EXECUTING: Capturing Docker stats for hour 5
+[2025-08-17T18:21:14.902Z] SUCCESS: Capturing Docker stats for hour 5
+[2025-08-17T19:55:52.433Z] === HOUR 6 OF 48 ===
+[2025-08-17T19:55:52.438Z] EXECUTING: Capturing metrics for hour 6
+[2025-08-17T19:55:55.783Z] ERROR: Capturing metrics for hour 6 - Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-06.prom
+curl: (7) Failed to connect to localhost port 3000 after 2229 ms: Could not connect to server
+
+[2025-08-17T19:55:55.787Z] Failed to capture metrics for hour 6: Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-06.prom
+curl: (7) Failed to connect to localhost port 3000 after 2229 ms: Could not connect to server
+
+[2025-08-17T19:55:55.787Z] EXECUTING: Capturing Docker stats for hour 6
+[2025-08-17T19:55:58.069Z] SUCCESS: Capturing Docker stats for hour 6
+[2025-08-17T19:55:58.081Z] EXECUTING: Enabling chaos injection (40% weight)
+[2025-08-17T19:55:58.912Z] ERROR: Enabling chaos injection (40% weight) - Command failed: echo 'FF_CHAOS=on' >> config/.env && docker compose restart gateway
+time="2025-08-17T15:55:58-04:00" level=warning msg="C:\\Users\\kyanb\\4Runr.Gateway\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+failed to read C:\Users\kyanb\4Runr.Gateway\config\.env: line 64: unexpected character "'" in variable name "'FF_CHAOS=on'  \r"
+
+[2025-08-17T19:55:58.912Z] Error during hour 6 chaos events: Command failed: echo 'FF_CHAOS=on' >> config/.env && docker compose restart gateway
+time="2025-08-17T15:55:58-04:00" level=warning msg="C:\\Users\\kyanb\\4Runr.Gateway\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+failed to read C:\Users\kyanb\4Runr.Gateway\config\.env: line 64: unexpected character "'" in variable name "'FF_CHAOS=on'  \r"
+
+[2025-08-17T21:47:22.138Z] === HOUR 7 OF 48 ===
+[2025-08-17T21:47:22.141Z] EXECUTING: Capturing metrics for hour 7
+[2025-08-17T21:47:27.789Z] ERROR: Capturing metrics for hour 7 - Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-07.prom
+curl: (7) Failed to connect to localhost port 3000 after 2484 ms: Could not connect to server
+
+[2025-08-17T21:47:27.789Z] Failed to capture metrics for hour 7: Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-07.prom
+curl: (7) Failed to connect to localhost port 3000 after 2484 ms: Could not connect to server
+
+[2025-08-17T21:47:27.789Z] EXECUTING: Capturing Docker stats for hour 7
+[2025-08-17T21:47:30.472Z] SUCCESS: Capturing Docker stats for hour 7
+[2025-08-17T23:02:38.172Z] === HOUR 8 OF 48 ===
+[2025-08-17T23:02:38.173Z] EXECUTING: Capturing metrics for hour 8
+[2025-08-17T23:02:45.877Z] ERROR: Capturing metrics for hour 8 - Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-08.prom
+curl: (7) Failed to connect to localhost port 3000 after 2583 ms: Could not connect to server
+
+[2025-08-17T23:02:45.877Z] Failed to capture metrics for hour 8: Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-08.prom
+curl: (7) Failed to connect to localhost port 3000 after 2583 ms: Could not connect to server
+
+[2025-08-17T23:02:45.877Z] EXECUTING: Capturing Docker stats for hour 8
+[2025-08-17T23:02:48.560Z] SUCCESS: Capturing Docker stats for hour 8
+[2025-08-18T00:02:48.584Z] === HOUR 9 OF 48 ===
+[2025-08-18T00:02:48.592Z] EXECUTING: Capturing metrics for hour 9
+[2025-08-18T00:02:50.870Z] ERROR: Capturing metrics for hour 9 - Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-09.prom
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-18T00:02:50.872Z] Failed to capture metrics for hour 9: Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-09.prom
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-18T00:02:50.872Z] EXECUTING: Capturing Docker stats for hour 9
+[2025-08-18T00:02:53.507Z] SUCCESS: Capturing Docker stats for hour 9
+[2025-08-18T01:02:53.519Z] === HOUR 10 OF 48 ===
+[2025-08-18T01:02:53.522Z] EXECUTING: Capturing metrics for hour 10
+[2025-08-18T01:02:55.812Z] ERROR: Capturing metrics for hour 10 - Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-10.prom
+curl: (7) Failed to connect to localhost port 3000 after 2248 ms: Could not connect to server
+
+[2025-08-18T01:02:55.812Z] Failed to capture metrics for hour 10: Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-10.prom
+curl: (7) Failed to connect to localhost port 3000 after 2248 ms: Could not connect to server
+
+[2025-08-18T01:02:55.812Z] EXECUTING: Capturing Docker stats for hour 10
+[2025-08-18T01:02:58.448Z] SUCCESS: Capturing Docker stats for hour 10
+[2025-08-18T02:02:58.452Z] === HOUR 11 OF 48 ===
+[2025-08-18T02:02:58.453Z] EXECUTING: Capturing metrics for hour 11
+[2025-08-18T02:03:00.737Z] ERROR: Capturing metrics for hour 11 - Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-11.prom
+curl: (7) Failed to connect to localhost port 3000 after 2252 ms: Could not connect to server
+
+[2025-08-18T02:03:00.737Z] Failed to capture metrics for hour 11: Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-11.prom
+curl: (7) Failed to connect to localhost port 3000 after 2252 ms: Could not connect to server
+
+[2025-08-18T02:03:00.737Z] EXECUTING: Capturing Docker stats for hour 11
+[2025-08-18T02:03:03.352Z] SUCCESS: Capturing Docker stats for hour 11
+[2025-08-18T11:08:26.097Z] === HOUR 12 OF 48 ===
+[2025-08-18T11:08:26.099Z] EXECUTING: Capturing metrics for hour 12
+[2025-08-18T11:08:31.236Z] ERROR: Capturing metrics for hour 12 - Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-12.prom
+curl: (7) Failed to connect to localhost port 3000 after 2508 ms: Could not connect to server
+
+[2025-08-18T11:08:31.236Z] Failed to capture metrics for hour 12: Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-12.prom
+curl: (7) Failed to connect to localhost port 3000 after 2508 ms: Could not connect to server
+
+[2025-08-18T11:08:31.236Z] EXECUTING: Capturing Docker stats for hour 12
+[2025-08-18T11:08:33.624Z] SUCCESS: Capturing Docker stats for hour 12
+[2025-08-18T11:08:33.632Z] EXECUTING: Restarting gateway container
+[2025-08-18T11:08:33.974Z] ERROR: Restarting gateway container - Command failed: docker compose restart gateway
+time="2025-08-18T07:08:33-04:00" level=warning msg="C:\\Users\\kyanb\\4Runr.Gateway\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+failed to read C:\Users\kyanb\4Runr.Gateway\config\.env: line 64: unexpected character "'" in variable name "'FF_CHAOS=on'  \r"
+
+[2025-08-18T11:08:33.976Z] Error during hour 12 chaos events: Command failed: docker compose restart gateway
+time="2025-08-18T07:08:33-04:00" level=warning msg="C:\\Users\\kyanb\\4Runr.Gateway\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+failed to read C:\Users\kyanb\4Runr.Gateway\config\.env: line 64: unexpected character "'" in variable name "'FF_CHAOS=on'  \r"
+
+[2025-08-18T12:08:35.384Z] === HOUR 13 OF 48 ===
+[2025-08-18T12:08:35.388Z] EXECUTING: Capturing metrics for hour 13
+[2025-08-18T12:08:37.678Z] ERROR: Capturing metrics for hour 13 - Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-13.prom
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T12:08:37.679Z] Failed to capture metrics for hour 13: Command failed: curl -fsS http://localhost:3000/metrics > reports/TASK-025/metrics-hour-13.prom
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T12:08:37.679Z] EXECUTING: Capturing Docker stats for hour 13
+[2025-08-18T12:08:40.084Z] SUCCESS: Capturing Docker stats for hour 13

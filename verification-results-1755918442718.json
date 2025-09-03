@@ -1,0 +1,151 @@
+{
+  "startTime": "2025-08-23T03:07:04.538Z",
+  "tests": [
+    {
+      "name": "Health endpoint",
+      "passed": true,
+      "details": "Status: 200",
+      "critical": false,
+      "timestamp": "2025-08-23T03:07:04.589Z"
+    },
+    {
+      "name": "Ready endpoint",
+      "passed": true,
+      "details": "Status: 200",
+      "critical": false,
+      "timestamp": "2025-08-23T03:07:04.592Z"
+    },
+    {
+      "name": "Metrics endpoint",
+      "passed": true,
+      "details": "Status: 200",
+      "critical": false,
+      "timestamp": "2025-08-23T03:07:04.595Z"
+    },
+    {
+      "name": "Security header: x-frame-options",
+      "passed": true,
+      "details": "Present",
+      "critical": false,
+      "timestamp": "2025-08-23T03:07:04.597Z"
+    },
+    {
+      "name": "Security header: x-content-type-options",
+      "passed": true,
+      "details": "Present",
+      "critical": false,
+      "timestamp": "2025-08-23T03:07:04.598Z"
+    },
+    {
+      "name": "Security header: x-xss-protection",
+      "passed": true,
+      "details": "Present",
+      "critical": false,
+      "timestamp": "2025-08-23T03:07:04.598Z"
+    },
+    {
+      "name": "Security header: referrer-policy",
+      "passed": true,
+      "details": "Present",
+      "critical": false,
+      "timestamp": "2025-08-23T03:07:04.599Z"
+    },
+    {
+      "name": "Security header: content-security-policy",
+      "passed": true,
+      "details": "Present",
+      "critical": false,
+      "timestamp": "2025-08-23T03:07:04.599Z"
+    },
+    {
+      "name": "Privacy endpoint",
+      "passed": true,
+      "details": "Status: 200",
+      "critical": true,
+      "timestamp": "2025-08-23T03:07:04.602Z"
+    },
+    {
+      "name": "Plan endpoint",
+      "passed": true,
+      "details": "Status: 200",
+      "critical": true,
+      "timestamp": "2025-08-23T03:07:04.606Z"
+    },
+    {
+      "name": "Start agent run",
+      "passed": true,
+      "details": "Run ID: 3304f117-682e-4cc7-9c38-d9923ff41b22",
+      "critical": false,
+      "timestamp": "2025-08-23T03:07:04.613Z"
+    },
+    {
+      "name": "Run completed",
+      "passed": true,
+      "details": "Status: complete",
+      "critical": false,
+      "timestamp": "2025-08-23T03:07:09.674Z"
+    },
+    {
+      "name": "Sentinel spans generated",
+      "passed": true,
+      "details": "3 spans",
+      "critical": true,
+      "timestamp": "2025-08-23T03:07:09.674Z"
+    },
+    {
+      "name": "Sentinel verdict generated",
+      "passed": true,
+      "details": "Verdict present",
+      "critical": true,
+      "timestamp": "2025-08-23T03:07:09.674Z"
+    },
+    {
+      "name": "Shield decision generated",
+      "passed": true,
+      "details": "Decision present",
+      "critical": true,
+      "timestamp": "2025-08-23T03:07:09.674Z"
+    },
+    {
+      "name": "Guard events generated",
+      "passed": true,
+      "details": "5 events",
+      "critical": true,
+      "timestamp": "2025-08-23T03:07:09.675Z"
+    },
+    {
+      "name": "Performance improved",
+      "passed": true,
+      "details": "Duration: 4801ms",
+      "critical": true,
+      "timestamp": "2025-08-23T03:07:09.675Z"
+    },
+    {
+      "name": "Guard SSE endpoint",
+      "passed": false,
+      "details": "Timeout",
+      "critical": false,
+      "timestamp": "2025-08-23T03:07:22.708Z"
+    },
+    {
+      "name": "Registry search",
+      "passed": true,
+      "details": "Status: 200",
+      "critical": false,
+      "timestamp": "2025-08-23T03:07:22.715Z"
+    },
+    {
+      "name": "Registry public key",
+      "passed": true,
+      "details": "Status: 200",
+      "critical": false,
+      "timestamp": "2025-08-23T03:07:22.716Z"
+    }
+  ],
+  "summary": {
+    "total": 20,
+    "passed": 19,
+    "failed": 1,
+    "criticalIssues": 0
+  }
+}

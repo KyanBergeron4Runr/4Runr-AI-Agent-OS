@@ -1,0 +1,16 @@
+{
+  "t0": {
+    "timestamp": "2025-08-23T02:04:45.559Z",
+    "counters": {}
+  },
+  "t1": null,
+  "t2": null,
+  "t3": null,
+  "t4": null,
+  "runIds": [],
+  "sseTranscripts": [],
+  "errorBodies": [],
+  "registryEvidence": {},
+  "error": "aborted",
+  "stack": "Error: aborted\n    at Socket.socketCloseListener (node:_http_client:478:19)\n    at Socket.emit (node:events:530:35)\n    at TCP.<anonymous> (node:net:351:12)"
+}

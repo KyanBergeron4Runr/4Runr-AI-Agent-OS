@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Gateway Up",
+      "type": "shell",
+      "command": "docker compose up -d --remove-orphans"
+    },
+    {
+      "label": "Run Quick k6 Test",
+      "type": "shell",
+      "command": "k6 run bench/k6-quick-spike.js",
+      "options": { "env": { "GATEWAY_URL": "http://localhost:3000" } }
+    },
+    {
+      "label": "Run Health Sampler",
+      "type": "shell",
+      "command": "node scripts/health-sampler.js",
+      "options": { "env": { "GATEWAY_URL": "http://localhost:3000" } }
+    },
+    {
+      "label": "Run Stress Test",
+      "type": "shell",
+      "command": "k6 run bench/k6-stress-test.js",
+      "options": { "env": { "GATEWAY_URL": "http://localhost:3000" } }
+    },
+    {
+      "label": "Run Stress Health Monitor",
+      "type": "shell",
+      "command": "node scripts/stress-health-monitor.js",
+      "options": { "env": { "GATEWAY_URL": "http://localhost:3000" } }
+    }
+  ]
+}

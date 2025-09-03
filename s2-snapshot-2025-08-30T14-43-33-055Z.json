@@ -1,0 +1,23 @@
+{
+  "timestamp": 1756565013055,
+  "elapsed": 10,
+  "metrics": {
+    "runs_total": 41,
+    "sse_active": 24,
+    "rate_limit_requests_total": 0,
+    "rate_limit_rejected_total": 0,
+    "concurrency_rejected_total": 0,
+    "auth_failures_total": 0
+  },
+  "testState": {
+    "runsStarted": 29,
+    "runsSuccessful": 29,
+    "runsFailed": 0,
+    "sseActive": 20,
+    "sseReconnects": 0,
+    "sseDuplicatesDropped": 0,
+    "availabilityChecks": 19,
+    "availabilityFailures": 0,
+    "lastSnapshot": null
+  }
+}

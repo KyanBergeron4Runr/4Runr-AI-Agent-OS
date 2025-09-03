@@ -1,0 +1,14 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/agents/[id]/page": "app/agents/[id]/page.js",
+  "/ui-kit/pillars/page": "app/ui-kit/pillars/page.js",
+  "/ui-kit/shell/page": "app/ui-kit/shell/page.js",
+  "/ui-kit/tokens/page": "app/ui-kit/tokens/page.js",
+  "/page": "app/page.js",
+  "/agents/[id]/logs/page": "app/agents/[id]/logs/page.js",
+  "/(site)/docs/page": "app/(site)/docs/page.js",
+  "/(site)/demo/page": "app/(site)/demo/page.js",
+  "/(site)/pricing/page": "app/(site)/pricing/page.js",
+  "/(site)/sandbox/page": "app/(site)/sandbox/page.js",
+  "/(site)/page": "app/(site)/page.js"
+}

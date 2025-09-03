@@ -1,0 +1,181 @@
+{
+  "enabled": true,
+  "mode": "enforce",
+  "defaultAction": "block",
+  "hotReloadInterval": 5000,
+  "performance": {
+    "maxDecisionTimeMs": 200,
+    "rewriteMaxAttempts": 1,
+    "rewriteLatencyBudgetMs": 150,
+    "rewriteTemperature": 0.3
+  },
+  "privacy": {
+    "redactionToken": "[REDACTED:{type}]",
+    "storePlainText": true,
+    "maskPatterns": {
+      "email": "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b",
+      "phone": "\\b\\d{3}[-.]?\\d{3}[-.]?\\d{4}\\b",
+      "ssn": "\\b\\d{3}-\\d{2}-\\d{4}\\b",
+      "creditCard": "\\b\\d{4}[\\s-]?\\d{4}[\\s-]?\\d{4}[\\s-]?\\d{4}\\b",
+      "apiKey": "\\b(?:sk-|pk-|AKIA|ghp_|gho_)[A-Za-z0-9]{20,}\\b"
+    }
+  },
+  "policies": [
+    {
+      "id": "critical_injection_block",
+      "priority": 1,
+      "continue": false,
+      "conditions": {
+        "injection_detected": true
+      },
+      "action": "block",
+      "params": {
+        "reason": "Critical security violation: prompt injection detected"
+      }
+    },
+    {
+      "id": "pii_external_mask",
+      "priority": 2,
+      "continue": false,
+      "conditions": {
+        "pii_found": { "length": { "min": 1 } },
+        "external_action": true
+      },
+      "action": "mask",
+      "params": {
+        "patterns": ["email", "phone", "ssn", "creditCard", "apiKey"],
+        "reason": "PII detected in external action - masking sensitive data"
+      }
+    },
+    {
+      "id": "low_groundedness_external_approval",
+      "priority": 3,
+      "continue": false,
+      "conditions": {
+        "groundedness": { "max": 0.7 },
+        "external_action": true
+      },
+      "action": "require_approval",
+      "params": {
+        "reason": "Low groundedness score for external action requires manual review"
+      }
+    },
+    {
+      "id": "very_low_groundedness_rewrite",
+      "priority": 4,
+      "continue": false,
+      "conditions": {
+        "groundedness": { "max": 0.5 }
+      },
+      "action": "rewrite",
+      "params": {
+        "goal": "Improve factual grounding and citation coverage",
+        "instruction": "Only produce statements supported by provided evidence; include inline citations [1],[2].",
+        "maxAttempts": 1
+      }
+    },
+    {
+      "id": "low_citation_coverage_rewrite",
+      "priority": 5,
+      "continue": false,
+      "conditions": {
+        "citation_coverage": { "max": 0.6 }
+      },
+      "action": "rewrite",
+      "params": {
+        "goal": "Improve citation coverage",
+        "instruction": "Ensure all factual statements are supported by evidence with proper citations.",
+        "maxAttempts": 1
+      }
+    },
+    {
+      "id": "cost_spike_block",
+      "priority": 6,
+      "continue": false,
+      "conditions": {
+        "cost": { "min": 10.0 }
+      },
+      "action": "block",
+      "params": {
+        "reason": "Cost threshold exceeded - blocking expensive operation"
+      }
+    },
+    {
+      "id": "latency_spike_block",
+      "priority": 7,
+      "continue": false,
+      "conditions": {
+        "latency": { "min": 5000 }
+      },
+      "action": "block",
+      "params": {
+        "reason": "Latency threshold exceeded - blocking slow operation"
+      }
+    },
+    {
+      "id": "moderate_hallucination_warn",
+      "priority": 8,
+      "continue": true,
+      "conditions": {
+        "hallucination_severity": { "min": 2 }
+      },
+      "action": "flag",
+      "params": {
+        "reason": "Moderate hallucination detected - flagging for review"
+      }
+    },
+    {
+      "id": "default_allow",
+      "priority": 100,
+      "continue": false,
+      "conditions": {},
+      "action": "allow",
+      "params": {
+        "reason": "Default policy - allowing safe output"
+      }
+    }
+  ],
+  "actions": {
+    "allow": {
+      "description": "Pass output through unchanged",
+      "auditLevel": "info"
+    },
+    "mask": {
+      "description": "Redact sensitive content before output",
+      "auditLevel": "info",
+      "patterns": ["email", "phone", "ssn", "creditCard", "apiKey"]
+    },
+    "rewrite": {
+      "description": "Attempt to improve output quality",
+      "auditLevel": "info",
+      "maxAttempts": 1,
+      "temperature": 0.3
+    },
+    "require_approval": {
+      "description": "Block output pending manual approval",
+      "auditLevel": "warn",
+      "approvalTimeout": 3600000
+    },
+    "block": {
+      "description": "Completely block output",
+      "auditLevel": "error"
+    },
+    "flag": {
+      "description": "Flag for monitoring without blocking",
+      "auditLevel": "info"
+    }
+  },
+  "audit": {
+    "enabled": true,
+    "storeDecisions": true,
+    "storeDiffs": true,
+    "privacyMode": "hash",
+    "retentionDays": 30
+  },
+  "failureBehavior": {
+    "defaultAction": "block",
+    "externalSinkDefault": "block",
+    "internalSinkDefault": "allow",
+    "logErrors": true
+  }
+}

@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4Runr Gateway - Live Sandbox</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#6E56CF',
+                        success: '#22C55E',
+                        warning: '#F59E0B',
+                        danger: '#EF4444'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .terminal { font-family: 'Courier New', monospace; }
+    </style>
+</head>
+<body class="bg-zinc-900 text-zinc-100 min-h-screen">
+    <!-- Header -->
+    <div class="border-b border-zinc-800 bg-zinc-950">
+        <div class="px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">4R</span>
+                    </div>
+                    <h1 class="text-xl font-bold">4Runr Gateway - Live Sandbox</h1>
+                    <div id="connectionStatus" class="flex items-center gap-2">
+                        <span class="w-2 h-2 bg-red-500 rounded-full"></span>
+                        <span class="text-sm text-zinc-400">Connecting...</span>
+                    </div>
+                </div>
+                <div class="flex gap-3">
+                    <button onclick="testConnection()" class="px-4 py-2 bg-primary text-white rounded-lg hover:opacity-90">
+                        Test Connection
+                    </button>
+                    <button onclick="clearLogs()" class="px-4 py-2 bg-zinc-700 text-white rounded-lg hover:bg-zinc-600">
+                        Clear Logs
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex h-[calc(100vh-80px)]">
+        <!-- Left Sidebar - API Testing -->
+        <div class="w-1/3 border-r border-zinc-800 p-6 overflow-y-auto">
+            <h2 class="text-lg font-semibold mb-4">🧪 Live API Testing</h2>
+            
+            <!-- Gateway Connection -->
+            <div class="mb-6 p-4 bg-zinc-800 rounded-lg">
+                <h3 class="font-medium mb-3">Gateway Connection</h3>
+                <input id="gatewayUrl" type="text" placeholder="http://localhost:3000" 
+                       class="w-full p-2 bg-zinc-700 rounded border border-zinc-600 mb-3">
+                <button onclick="connectToGateway()" class="w-full px-4 py-2 bg-primary text-white rounded hover:opacity-90">
+                    Connect to Gateway
+                </button>
+            </div>
+
+            <!-- Agent Management -->
+            <div class="mb-6 p-4 bg-zinc-800 rounded-lg">
+                <h3 class="font-medium mb-3">🤖 Agent Management</h3>
+                <input id="agentName" type="text" placeholder="my-test-agent" 
+                       class="w-full p-2 bg-zinc-700 rounded border border-zinc-600 mb-2">
+                <div class="grid grid-cols-2 gap-2">
+                    <button onclick="createAgent()" class="px-3 py-2 bg-success text-white rounded text-sm hover:opacity-90">
+                        Create Agent
+                    </button>
+                    <button onclick="listAgents()" class="px-3 py-2 bg-blue-600 text-white rounded text-sm hover:opacity-90">
+                        List Agents
+                    </button>
+                </div>
+            </div>
+
+            <!-- Token Management -->
+            <div class="mb-6 p-4 bg-zinc-800 rounded-lg">
+                <h3 class="font-medium mb-3">🔑 Token Management</h3>
+                <select id="agentSelect" class="w-full p-2 bg-zinc-700 rounded border border-zinc-600 mb-2">
+                    <option value="">Select Agent</option>
+                </select>
+                <div class="grid grid-cols-2 gap-2 mb-2">
+                    <button onclick="generateToken()" class="px-3 py-2 bg-warning text-white rounded text-sm hover:opacity-90">
+                        Generate Token
+                    </button>
+                    <button onclick="validateToken()" class="px-3 py-2 bg-purple-600 text-white rounded text-sm hover:opacity-90">
+                        Validate Token
+                    </button>
+                </div>
+                <textarea id="tokenDisplay" placeholder="Generated tokens will appear here..." 
+                          class="w-full p-2 bg-zinc-700 rounded border border-zinc-600 h-20 text-xs" readonly></textarea>
+            </div>
+
+            <!-- API Testing -->
+            <div class="mb-6 p-4 bg-zinc-800 rounded-lg">
+                <h3 class="font-medium mb-3">🔧 API Testing</h3>
+                <select id="toolSelect" class="w-full p-2 bg-zinc-700 rounded border border-zinc-600 mb-2">
+                    <option value="serpapi">SerpAPI</option>
+                    <option value="http_fetch">HTTP Fetch</option>
+                    <option value="code_exec">Code Execution</option>
+                </select>
+                <select id="actionSelect" class="w-full p-2 bg-zinc-700 rounded border border-zinc-600 mb-2">
+                    <option value="search">Search</option>
+                    <option value="get">GET</option>
+                    <option value="post">POST</option>
+                </select>
+                <div class="grid grid-cols-2 gap-2">
+                    <button onclick="makeProxyRequest()" class="px-3 py-2 bg-success text-white rounded text-sm hover:opacity-90">
+                        Valid Request
+                    </button>
+                    <button onclick="makeUnauthorizedRequest()" class="px-3 py-2 bg-danger text-white rounded text-sm hover:opacity-90">
+                        Test Security
+                    </button>
+                </div>
+            </div>
+
+            <!-- Live Metrics -->
+            <div class="mb-6 p-4 bg-zinc-800 rounded-lg">
+                <h3 class="font-medium mb-3">📊 Live Metrics</h3>
+                <button onclick="fetchMetrics()" class="w-full px-4 py-2 bg-primary text-white rounded hover:opacity-90 mb-2">
+                    Fetch Real Metrics
+                </button>
+                <div class="grid grid-cols-2 gap-2 text-sm">
+                    <div class="p-2 bg-zinc-700 rounded">
+                        <div class="text-zinc-400">Requests</div>
+                        <div id="metricRequests" class="text-lg font-semibold">-</div>
+                    </div>
+                    <div class="p-2 bg-zinc-700 rounded">
+                        <div class="text-zinc-400">Errors</div>
+                        <div id="metricErrors" class="text-lg font-semibold">-</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Panel - Live Logs and Results -->
+        <div class="flex-1 flex flex-col">
+            <!-- Tabs -->
+            <div class="flex border-b border-zinc-800">
+                <button id="logsTab" onclick="switchTab('logs')" class="px-6 py-3 bg-zinc-800 text-white border-r border-zinc-700">
+                    Live Logs
+                </button>
+                <button id="metricsTab" onclick="switchTab('metrics')" class="px-6 py-3 text-zinc-400 hover:text-white border-r border-zinc-700">
+                    Real Metrics
+                </button>
+                <button id="docsTab" onclick="switchTab('docs')" class="px-6 py-3 text-zinc-400 hover:text-white">
+                    Documentation
+                </button>
+            </div>
+
+            <!-- Logs Panel -->
+            <div id="logsPanel" class="flex-1 p-6">
+                <div class="h-full bg-black rounded-lg p-4 terminal text-sm overflow-y-auto" id="liveTerminal">
+                    <div class="text-green-400">[SANDBOX] 4Runr Gateway Live Sandbox initialized</div>
+                    <div class="text-blue-400">[SANDBOX] Ready to test real gateway functionality</div>
+                    <div class="text-yellow-400">[SANDBOX] Connect to your gateway above to begin</div>
+                </div>
+            </div>
+
+            <!-- Metrics Panel -->
+            <div id="metricsPanel" class="flex-1 p-6 hidden">
+                <div class="h-full bg-zinc-800 rounded-lg p-4 overflow-y-auto">
+                    <h3 class="text-lg font-semibold mb-4">Real-Time Metrics</h3>
+                    <div id="metricsDisplay" class="text-sm font-mono">
+                        <div class="text-zinc-400">Click "Fetch Real Metrics" to load live data from gateway...</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Documentation Panel -->
+            <div id="docsPanel" class="flex-1 p-6 hidden">
+                <div class="h-full bg-zinc-800 rounded-lg p-4 overflow-y-auto">
+                    <h3 class="text-lg font-semibold mb-4">API Documentation</h3>
+                    <div class="space-y-4 text-sm">
+                        <div>
+                            <h4 class="font-medium text-primary mb-2">POST /api/agents</h4>
+                            <p class="text-zinc-400 mb-2">Create a new agent</p>
+                            <pre class="bg-black p-3 rounded text-xs overflow-x-auto">
+{
+  "name": "my-agent",
+  "description": "Test agent for sandbox"
+}</pre>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-primary mb-2">POST /api/agents/:id/tokens</h4>
+                            <p class="text-zinc-400 mb-2">Generate access token for agent</p>
+                            <pre class="bg-black p-3 rounded text-xs overflow-x-auto">
+{
+  "tools": ["serpapi", "http_fetch"],
+  "expires_in": 3600
+}</pre>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-primary mb-2">POST /api/proxy/:tool/:action</h4>
+                            <p class="text-zinc-400 mb-2">Make proxied request through gateway</p>
+                            <pre class="bg-black p-3 rounded text-xs overflow-x-auto">
+Headers:
+  Authorization: Bearer &lt;token&gt;
+  Content-Type: application/json
+
+Body: { "query": "test search" }
+</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let gatewayUrl = 'http://localhost:3000';
+        let currentToken = null;
+        let agents = [];
+
+        // Tab switching
+        function switchTab(tab) {
+            // Hide all panels
+            document.getElementById('logsPanel').classList.add('hidden');
+            document.getElementById('metricsPanel').classList.add('hidden');
+            document.getElementById('docsPanel').classList.add('hidden');
+            
+            // Reset tab styles
+            document.getElementById('logsTab').className = 'px-6 py-3 text-zinc-400 hover:text-white border-r border-zinc-700';
+            document.getElementById('metricsTab').className = 'px-6 py-3 text-zinc-400 hover:text-white border-r border-zinc-700';
+            document.getElementById('docsTab').className = 'px-6 py-3 text-zinc-400 hover:text-white';
+            
+            // Show selected panel and highlight tab
+            if (tab === 'logs') {
+                document.getElementById('logsPanel').classList.remove('hidden');
+                document.getElementById('logsTab').className = 'px-6 py-3 bg-zinc-800 text-white border-r border-zinc-700';
+            } else if (tab === 'metrics') {
+                document.getElementById('metricsPanel').classList.remove('hidden');
+                document.getElementById('metricsTab').className = 'px-6 py-3 bg-zinc-800 text-white border-r border-zinc-700';
+            } else if (tab === 'docs') {
+                document.getElementById('docsPanel').classList.remove('hidden');
+                document.getElementById('docsTab').className = 'px-6 py-3 bg-zinc-800 text-white';
+            }
+        }
+
+        // Logging function
+        function log(message, type = 'info') {
+            const terminal = document.getElementById('liveTerminal');
+            const timestamp = new Date().toISOString().substr(11, 8);
+            const colors = {
+                info: 'text-blue-400',
+                success: 'text-green-400',
+                error: 'text-red-400',
+                warning: 'text-yellow-400'
+            };
+            
+            terminal.innerHTML += `<div class="${colors[type]}">[${timestamp}] ${message}</div>`;
+            terminal.scrollTop = terminal.scrollHeight;
+        }
+
+        function clearLogs() {
+            document.getElementById('liveTerminal').innerHTML = '';
+            log('Logs cleared', 'info');
+        }
+
+        // Connection functions
+        function connectToGateway() {
+            gatewayUrl = document.getElementById('gatewayUrl').value || 'http://localhost:3000';
+            log(`Connecting to gateway at ${gatewayUrl}...`, 'info');
+            testConnection();
+        }
+
+        async function testConnection() {
+            try {
+                log('Testing gateway connection...', 'info');
+                const response = await fetch(`${gatewayUrl}/api/health`, {
+                    method: 'GET',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    log(`✅ Gateway connected successfully!`, 'success');
+                    log(`Gateway uptime: ${data.uptime || 'unknown'}`, 'info');
+                    updateConnectionStatus(true);
+                    listAgents(); // Auto-load agents
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+            } catch (error) {
+                log(`❌ Gateway connection failed: ${error.message}`, 'error');
+                log('💡 Make sure the gateway is running on the specified URL', 'warning');
+                updateConnectionStatus(false);
+            }
+        }
+
+        function updateConnectionStatus(connected) {
+            const status = document.getElementById('connectionStatus');
+            if (connected) {
+                status.innerHTML = '<span class="w-2 h-2 bg-green-500 rounded-full"></span><span class="text-sm text-green-400">Connected</span>';
+            } else {
+                status.innerHTML = '<span class="w-2 h-2 bg-red-500 rounded-full"></span><span class="text-sm text-red-400">Disconnected</span>';
+            }
+        }
+
+        // Agent management
+        async function createAgent() {
+            const name = document.getElementById('agentName').value;
+            if (!name) {
+                log('❌ Please enter an agent name', 'error');
+                return;
+            }
+
+            try {
+                log(`Creating agent: ${name}...`, 'info');
+                const response = await fetch(`${gatewayUrl}/api/agents`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ name, description: `Sandbox test agent: ${name}` })
+                });
+
+                if (response.ok) {
+                    const agent = await response.json();
+                    log(`✅ Agent created successfully! ID: ${agent.id}`, 'success');
+                    agents.push(agent);
+                    updateAgentSelect();
+                } else {
+                    const error = await response.text();
+                    log(`❌ Failed to create agent: ${error}`, 'error');
+                }
+            } catch (error) {
+                log(`❌ Error creating agent: ${error.message}`, 'error');
+            }
+        }
+
+        async function listAgents() {
+            try {
+                log('Fetching agents list...', 'info');
+                const response = await fetch(`${gatewayUrl}/api/agents`);
+                
+                if (response.ok) {
+                    agents = await response.json();
+                    log(`✅ Found ${agents.length} agents`, 'success');
+                    agents.forEach(agent => {
+                        log(`  - ${agent.name} (ID: ${agent.id})`, 'info');
+                    });
+                    updateAgentSelect();
+                } else {
+                    log(`❌ Failed to fetch agents: HTTP ${response.status}`, 'error');
+                }
+            } catch (error) {
+                log(`❌ Error fetching agents: ${error.message}`, 'error');
+            }
+        }
+
+        function updateAgentSelect() {
+            const select = document.getElementById('agentSelect');
+            select.innerHTML = '<option value="">Select Agent</option>';
+            agents.forEach(agent => {
+                select.innerHTML += `<option value="${agent.id}">${agent.name}</option>`;
+            });
+        }
+
+        // Token management
+        async function generateToken() {
+            const agentId = document.getElementById('agentSelect').value;
+            if (!agentId) {
+                log('❌ Please select an agent first', 'error');
+                return;
+            }
+
+            try {
+                log(`Generating token for agent ${agentId}...`, 'info');
+                const response = await fetch(`${gatewayUrl}/api/agents/${agentId}/tokens`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        tools: ['serpapi', 'http_fetch', 'code_exec'],
+                        expires_in: 3600
+                    })
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    currentToken = data.token;
+                    document.getElementById('tokenDisplay').value = currentToken;
+                    log(`✅ Token generated successfully!`, 'success');
+                    log(`Token expires in: ${data.expires_in} seconds`, 'info');
+                } else {
+                    const error = await response.text();
+                    log(`❌ Failed to generate token: ${error}`, 'error');
+                }
+            } catch (error) {
+                log(`❌ Error generating token: ${error.message}`, 'error');
+            }
+        }
+
+        async function validateToken() {
+            if (!currentToken) {
+                log('❌ No token to validate. Generate a token first.', 'error');
+                return;
+            }
+
+            try {
+                log('Validating current token...', 'info');
+                const response = await fetch(`${gatewayUrl}/api/validate`, {
+                    method: 'POST',
+                    headers: { 
+                        'Authorization': `Bearer ${currentToken}`,
+                        'Content-Type': 'application/json' 
+                    }
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    log(`✅ Token is valid!`, 'success');
+                    log(`Agent: ${data.agent_id}, Tools: ${data.tools.join(', ')}`, 'info');
+                } else {
+                    log(`❌ Token validation failed: HTTP ${response.status}`, 'error');
+                }
+            } catch (error) {
+                log(`❌ Error validating token: ${error.message}`, 'error');
+            }
+        }
+
+        // API testing
+        async function makeProxyRequest() {
+            if (!currentToken) {
+                log('❌ No token available. Generate a token first.', 'error');
+                return;
+            }
+
+            const tool = document.getElementById('toolSelect').value;
+            const action = document.getElementById('actionSelect').value;
+
+            try {
+                log(`Making proxy request: ${tool}/${action}...`, 'info');
+                const response = await fetch(`${gatewayUrl}/api/proxy/${tool}/${action}`, {
+                    method: 'POST',
+                    headers: { 
+                        'Authorization': `Bearer ${currentToken}`,
+                        'Content-Type': 'application/json' 
+                    },
+                    body: JSON.stringify({ query: 'test sandbox request' })
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    log(`✅ Proxy request successful!`, 'success');
+                    log(`Response: ${JSON.stringify(data).substring(0, 200)}...`, 'info');
+                } else {
+                    const error = await response.text();
+                    log(`❌ Proxy request failed: ${error}`, 'error');
+                }
+            } catch (error) {
+                log(`❌ Error making proxy request: ${error.message}`, 'error');
+            }
+        }
+
+        async function makeUnauthorizedRequest() {
+            const tool = document.getElementById('toolSelect').value;
+            const action = document.getElementById('actionSelect').value;
+
+            try {
+                log(`Testing security: unauthorized request to ${tool}/${action}...`, 'warning');
+                const response = await fetch(`${gatewayUrl}/api/proxy/${tool}/${action}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query: 'unauthorized request' })
+                });
+
+                if (response.status === 401 || response.status === 403) {
+                    log(`✅ Security working! Request properly denied (${response.status})`, 'success');
+                } else {
+                    log(`⚠️ Unexpected response: HTTP ${response.status}`, 'warning');
+                }
+            } catch (error) {
+                log(`❌ Error testing security: ${error.message}`, 'error');
+            }
+        }
+
+        // Metrics
+        async function fetchMetrics() {
+            try {
+                log('Fetching real metrics from gateway...', 'info');
+                const response = await fetch(`${gatewayUrl}/api/metrics`);
+                
+                if (response.ok) {
+                    const metrics = await response.text();
+                    log(`✅ Metrics fetched successfully!`, 'success');
+                    
+                    // Parse some key metrics
+                    const requestsMatch = metrics.match(/gateway_requests_total\s+(\d+)/);
+                    const errorsMatch = metrics.match(/gateway_errors_total\s+(\d+)/);
+                    
+                    if (requestsMatch) {
+                        document.getElementById('metricRequests').textContent = requestsMatch[1];
+                    }
+                    if (errorsMatch) {
+                        document.getElementById('metricErrors').textContent = errorsMatch[1];
+                    }
+                    
+                    // Display full metrics
+                    document.getElementById('metricsDisplay').innerHTML = `<pre class="text-xs">${metrics}</pre>`;
+                    log(`Metrics updated. Requests: ${requestsMatch?.[1] || 'N/A'}, Errors: ${errorsMatch?.[1] || 'N/A'}`, 'info');
+                } else {
+                    log(`❌ Failed to fetch metrics: HTTP ${response.status}`, 'error');
+                }
+            } catch (error) {
+                log(`❌ Error fetching metrics: ${error.message}`, 'error');
+            }
+        }
+
+        // Auto-connect on page load
+        window.addEventListener('load', () => {
+            log('Sandbox initialized. Ready to test!', 'success');
+            testConnection();
+        });
+    </script>
+</body>
+</html>

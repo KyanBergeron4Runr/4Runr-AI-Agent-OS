@@ -1,0 +1,138 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - duration: 600  # 10m ramp
+      arrivalRate: 1
+      rampTo: 50
+      name: baseline-ramp
+    - duration: 120  # spike
+      arrivalRate: 150
+      name: spike
+    - duration: 7200 # 2h soak (run separately at night)
+      arrivalRate: 15
+      name: soak
+  defaults:
+    headers:
+      Content-Type: application/json
+  plugins:
+    expect: {}
+  processor: "./processor.js"
+
+scenarios:
+  - name: scraper-serpapi
+    weight: 4
+    flow:
+      - function: getTokenScraper
+      - post:
+          url: "/api/proxy-request"
+          json:
+            agent_token: "{{ token }}"
+            tool: "serpapi"
+            action: "search"
+            params:
+              q: "{{ keyword }}"
+              engine: "google"
+          expect:
+            - statusCode: 200
+
+  - name: enricher-http-openai
+    weight: 3
+    flow:
+      - function: getTokenEnricherHTTP
+      - post:
+          url: "/api/proxy-request"
+          json:
+            agent_token: "{{ token }}"
+            tool: "http_fetch"
+            action: "get"
+            params:
+              url: "{{ url }}"
+          expect: [{ statusCode: 200 }]
+      - function: getTokenEnricherAI
+      - post:
+          url: "/api/proxy-request"
+          json:
+            agent_token: "{{ token }}"
+            tool: "openai"
+            action: "chat"
+            params:
+              model: "gpt-4o-mini"
+              input: "Summarize the following: {{ $prevResponse.body | truncate(5000) }}"
+          expect: [{ statusCode: 200 }]
+
+  - name: engager-gmail
+    weight: 1
+    flow:
+      - function: getTokenEngager
+      - post:
+          url: "/api/proxy-request"
+          json:
+            agent_token: "{{ token }}"
+            tool: "gmail_send"
+            action: "send"
+            params:
+              to: "sandbox@company.com"
+              subject: "Hello {{ uuid }}"
+              text: "Proof test {{ uuid }}"
+          expect: [{ statusCode: 200 }]
+
+  - name: denial-tests
+    weight: 1
+    flow:
+      - function: getTokenScraper
+      - post:
+          url: "/api/proxy-request"
+          json:
+            agent_token: "{{ token }}"
+            tool: "gmail_send"
+            action: "send"
+            params: { to: "x@y.com", subject: "no", text: "no" }
+          expect: [{ statusCode: 403 }]
+
+  - name: chaos-retryable
+    weight: 1
+    flow:
+      - function: getTokenScraper
+      - post:
+          url: "/api/proxy-request"
+          json:
+            agent_token: "{{ token }}"
+            tool: "http_fetch"
+            action: "get"
+            params:
+              url: "https://httpstat.us/503?sleep=3000"
+          expect:
+            - statusCode: 200
+            - hasProperty: "body"
+
+  - name: cache-test
+    weight: 2
+    flow:
+      - function: getTokenScraper
+      - post:
+          url: "/api/proxy-request"
+          json:
+            agent_token: "{{ token }}"
+            tool: "serpapi"
+            action: "search"
+            params:
+              q: "{{ cacheKeyword }}"
+              engine: "google"
+          expect:
+            - statusCode: 200
+
+  - name: security-test
+    weight: 1
+    flow:
+      - function: getTokenScraper
+      - post:
+          url: "/api/proxy-request"
+          json:
+            agent_token: "{{ token }}"
+            tool: "serpapi"
+            action: "search"
+            params:
+              q: "{{ keyword }}"
+              engine: "google"
+            proof_payload: "{\"wrong\":\"proof\"}"
+          expect: [{ statusCode: 403 }]

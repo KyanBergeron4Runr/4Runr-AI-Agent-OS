@@ -1,0 +1,41 @@
+[2025-08-31T12:54:45.982Z] [INFO] [T+0m] 🚀 Starting S2 — Unkillable Harness (2 Hours, Zero-Leak Cert)
+[2025-08-31T12:54:45.985Z] [INFO] [T+0m] 📝 Logging to: s2-logs/s2-harness-2025-08-31T12-54-45-979Z.log
+[2025-08-31T12:54:45.985Z] [INFO] [T+0m] 🔧 Setting up workspace plan...
+[2025-08-31T12:54:46.010Z] [INFO] [T+0m] ✅ Workspace plan set to pro
+[2025-08-31T12:54:46.010Z] [INFO] [T+0m] 🏃 Starting W1: Realistic Runs
+[2025-08-31T12:54:46.011Z] [INFO] [T+0m] 🔄 Starting W2: SSE Churn
+[2025-08-31T12:54:46.011Z] [INFO] [T+0m] 📦 Starting W3: Registry Pulse
+[2025-08-31T12:54:46.011Z] [INFO] [T+0m] 🛡️ Starting W4: Safety Probes
+[2025-08-31T12:54:46.011Z] [INFO] [T+0m] 🔒 Starting W5: Privacy Slice
+[2025-08-31T12:54:46.011Z] [INFO] [T+0m] 🌪️ Starting W6: Light Chaos
+[2025-08-31T12:54:46.012Z] [INFO] [T+0m] 📊 Starting Availability Monitor
+[2025-08-31T12:54:46.012Z] [INFO] [T+0m] 📈 Starting Metrics Capture
+[2025-08-31T12:54:46.020Z] [INFO] [T+0m] 🔌 SSE sse-0 connected
+[2025-08-31T12:54:46.026Z] [INFO] [T+0m] 🔌 SSE sse-1 connected
+[2025-08-31T12:54:46.027Z] [INFO] [T+0m] 🔌 SSE sse-2 connected
+[2025-08-31T12:54:46.027Z] [INFO] [T+0m] 🔌 SSE sse-3 connected
+[2025-08-31T12:54:46.028Z] [INFO] [T+0m] 🔌 SSE sse-4 connected
+[2025-08-31T12:54:46.028Z] [INFO] [T+0m] 🔌 SSE sse-5 connected
+[2025-08-31T12:54:46.028Z] [INFO] [T+0m] 🔌 SSE sse-6 connected
+[2025-08-31T12:54:46.029Z] [INFO] [T+0m] 🔌 SSE sse-7 connected
+[2025-08-31T12:54:46.029Z] [INFO] [T+0m] 🔌 SSE sse-8 connected
+[2025-08-31T12:54:46.029Z] [INFO] [T+0m] 🔌 SSE sse-9 connected
+[2025-08-31T12:54:46.029Z] [INFO] [T+0m] 🔌 SSE sse-10 connected
+[2025-08-31T12:54:46.030Z] [INFO] [T+0m] 🔌 SSE sse-11 connected
+[2025-08-31T12:54:46.030Z] [INFO] [T+0m] 🔌 SSE sse-12 connected
+[2025-08-31T12:54:46.030Z] [INFO] [T+0m] 🔌 SSE sse-13 connected
+[2025-08-31T12:54:46.030Z] [INFO] [T+0m] 🔌 SSE sse-14 connected
+[2025-08-31T12:54:46.030Z] [INFO] [T+0m] 🔌 SSE sse-15 connected
+[2025-08-31T12:54:46.031Z] [INFO] [T+0m] 🔌 SSE sse-16 connected
+[2025-08-31T12:54:46.031Z] [INFO] [T+0m] 🔌 SSE sse-18 connected
+[2025-08-31T12:54:46.031Z] [INFO] [T+0m] 🔌 SSE sse-17 connected
+[2025-08-31T12:54:46.031Z] [INFO] [T+0m] 🔌 SSE sse-19 connected
+[2025-08-31T12:55:06.028Z] [ERROR] [T+0m] ❌ Run 299a5db7-7342-4788-a2e5-86dc447d0490 start failed: 404 - {"error":"Run not found"}
+[2025-08-31T12:55:26.028Z] [ERROR] [T+0m] ❌ Run e373c3b0-8fe8-4f53-a5e8-d53f1dfb0b50 start failed: 404 - {"error":"Run not found"}
+[2025-08-31T12:55:46.030Z] [ERROR] [T+1m] ❌ Run 2f9a4e70-1241-4b54-bf4b-b362171dae6a start failed: 404 - {"error":"Run not found"}
+[2025-08-31T12:56:06.031Z] [ERROR] [T+1m] ❌ Run 4bcfd77b-1137-429d-b6d8-c71c914fc467 start failed: 404 - {"error":"Run not found"}
+[2025-08-31T12:56:26.036Z] [ERROR] [T+1m] ❌ Run 7b2821e2-88b1-4de5-bfb0-83b7a393b387 start failed: 404 - {"error":"Run not found"}
+[2025-08-31T12:56:46.036Z] [ERROR] [T+2m] ❌ Run 49821932-bfc1-44bd-9bd3-83118cc32391 start failed: 404 - {"error":"Run not found"}
+[2025-08-31T12:57:06.046Z] [ERROR] [T+2m] ❌ Run aceceb2f-462a-4eaf-9d0f-a089ab059af1 start failed: 404 - {"error":"Run not found"}
+[2025-08-31T12:57:26.057Z] [ERROR] [T+2m] ❌ Run e7178360-92b1-416d-a618-c64b3595bf84 start failed: 404 - {"error":"Run not found"}
+[2025-08-31T12:57:28.726Z] [INFO] [T+2m] 🛑 Received SIGINT - graceful shutdown

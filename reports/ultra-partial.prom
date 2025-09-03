@@ -1,0 +1,14 @@
+# HELP gateway_process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE gateway_process_start_time_seconds gauge
+gateway_process_start_time_seconds 1755279025.587
+
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="c80bd56a-50bd-4b98-b4d8-c067f89484fb"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="f27543e6-ba45-4775-8360-e4e3204c763d"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="fa1b54a9-4aa6-485b-8e78-ffdcda0dd296"} 1
+

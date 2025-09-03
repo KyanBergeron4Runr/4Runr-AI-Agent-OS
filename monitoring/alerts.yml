@@ -1,0 +1,120 @@
+groups:
+  - name: gateway-alerts
+    rules:
+      # Availability SLO: ≥ 97% of requests complete without 5xx
+      - alert: HighErrorRate
+        expr: sum(rate(gateway_requests_total{code=~"5.."}[5m])) / sum(rate(gateway_requests_total[5m])) > 0.03
+        for: 5m
+        labels:
+          severity: page
+          service: gateway
+        annotations:
+          summary: "High error rate in Gateway"
+          description: "Error rate > 3% for 5m. Current error rate: {{ $value | humanizePercentage }}. Investigate logs and check /metrics endpoint."
+
+      # Policy Accuracy SLO: ≥ 99% of policy-denied attempts are blocked
+      - alert: PolicyEnforcementFailure
+        expr: sum(rate(gateway_policy_denials_total[5m])) / sum(rate(gateway_requests_total[5m])) < 0.01
+        for: 2m
+        labels:
+          severity: warning
+          service: gateway
+        annotations:
+          summary: "Policy enforcement may be failing"
+          description: "Policy denial rate < 1% for 2m. Expected some denials. Check policy engine."
+
+      # Breaker Recovery SLO: Breaker moves from OPEN → HALF_OPEN → CLOSED within ≤ 60 sec
+      - alert: BreakerStuckOpen
+        expr: gateway_breaker_state == 2
+        for: 2m
+        labels:
+          severity: page
+          service: gateway
+        annotations:
+          summary: "Circuit breaker stuck OPEN"
+          description: "Breaker has been OPEN > 2m for {{ $labels.tool }}. Check upstream service health."
+
+      - alert: BreakerStuckHalfOpen
+        expr: gateway_breaker_state == 1
+        for: 1m
+        labels:
+          severity: warning
+          service: gateway
+        annotations:
+          summary: "Circuit breaker stuck HALF_OPEN"
+          description: "Breaker has been HALF_OPEN > 1m for {{ $labels.tool }}. May indicate upstream instability."
+
+      # Latency SLO: p95 under 500 ms in mock mode
+      - alert: HighLatencyP95
+        expr: histogram_quantile(0.95, sum(rate(gateway_request_duration_ms_bucket[5m])) by (le)) > 500
+        for: 5m
+        labels:
+          severity: warning
+          service: gateway
+        annotations:
+          summary: "High request latency"
+          description: "p95 latency > 500 ms for 5m. Current p95: {{ $value }}ms"
+
+      # Additional operational alerts
+      - alert: HighRetryRate
+        expr: sum(rate(gateway_retries_total[5m])) / sum(rate(gateway_requests_total[5m])) > 0.1
+        for: 5m
+        labels:
+          severity: warning
+          service: gateway
+        annotations:
+          summary: "High retry rate detected"
+          description: "Retry rate > 10% for 5m. May indicate upstream instability. Current retry rate: {{ $value | humanizePercentage }}"
+
+      - alert: NoRequests
+        expr: sum(rate(gateway_requests_total[5m])) == 0
+        for: 5m
+        labels:
+          severity: warning
+          service: gateway
+        annotations:
+          summary: "No requests received"
+          description: "No requests received in the last 5m. Check if Gateway is receiving traffic."
+
+      - alert: HighCacheMissRate
+        expr: sum(rate(gateway_cache_misses_total[5m])) / (sum(rate(gateway_cache_hits_total[5m])) + sum(rate(gateway_cache_misses_total[5m]))) > 0.8
+        for: 5m
+        labels:
+          severity: info
+          service: gateway
+        annotations:
+          summary: "High cache miss rate"
+          description: "Cache miss rate > 80% for 5m. Consider cache warming or configuration review."
+
+      # Chaos testing specific alerts
+      - alert: ChaosTestFailure
+        expr: sum(rate(gateway_requests_total{code=~"5.."}[5m])) / sum(rate(gateway_requests_total[5m])) > 0.5
+        for: 1m
+        labels:
+          severity: info
+          service: gateway
+          chaos_test: "true"
+        annotations:
+          summary: "Chaos test failure rate high"
+          description: "Error rate > 50% for 1m. This may be expected during chaos testing with FF_CHAOS=on."
+
+      # Token and authentication alerts
+      - alert: HighTokenValidationFailure
+        expr: sum(rate(gateway_token_validations_total{success="false"}[5m])) / sum(rate(gateway_token_validations_total[5m])) > 0.1
+        for: 5m
+        labels:
+          severity: warning
+          service: gateway
+        annotations:
+          summary: "High token validation failure rate"
+          description: "Token validation failure rate > 10% for 5m. Check token generation and validation logic."
+
+      - alert: HighTokenExpirationRate
+        expr: sum(rate(gateway_token_expirations_total[5m])) > 0
+        for: 5m
+        labels:
+          severity: info
+          service: gateway
+        annotations:
+          summary: "Tokens expiring frequently"
+          description: "Tokens are expiring. Consider adjusting token TTL or implementing rotation."

@@ -1,0 +1,35 @@
+# HELP gateway_process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE gateway_process_start_time_seconds gauge
+gateway_process_start_time_seconds 1755278477.398
+
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="953f4bd0-f6fe-4032-8406-d4044fd5cea6"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="5fa3f0b4-895d-4cfe-a163-d2b86b883a1f"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="478684a2-b045-4a91-b3dd-137a310fc3e6"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="953f4bd0-f6fe-4032-8406-d4044fd5cea6"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="5fa3f0b4-895d-4cfe-a163-d2b86b883a1f"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="478684a2-b045-4a91-b3dd-137a310fc3e6"} 1
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="5fa3f0b4-895d-4cfe-a163-d2b86b883a1f",success="true"} 2928
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="get",agent_id="5fa3f0b4-895d-4cfe-a163-d2b86b883a1f",tool="http_fetch"} 2928
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="953f4bd0-f6fe-4032-8406-d4044fd5cea6",success="true"} 2771
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="search",agent_id="953f4bd0-f6fe-4032-8406-d4044fd5cea6",tool="serpapi"} 2771
+

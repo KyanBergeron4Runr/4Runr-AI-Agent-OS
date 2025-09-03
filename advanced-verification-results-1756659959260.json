@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-08-31T17:05:59.260Z",
+  "results": {
+    "sseResume": true,
+    "gatewayRestart": true,
+    "rateLimiting": true,
+    "cancellation": true,
+    "idempotency": false,
+    "malformedInput": false
+  },
+  "summary": "4/6 tests passed"
+}

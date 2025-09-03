@@ -1,0 +1,6 @@
+{
+  "name": "SSE Debug Test",
+  "input": "debug input",
+  "client_token": "sse-debug-20250831",
+  "tags": ["debug", "sse-test"]
+}

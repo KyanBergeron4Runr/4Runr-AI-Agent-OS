@@ -1,0 +1,214 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Agent {
+  id         String   @id @default(uuid())
+  name       String
+  role       String
+  createdBy  String
+  publicKey  String
+  status     String   @default("active")
+  createdAt  DateTime @default(now())
+  tokens     Token[]
+  requestLogs RequestLog[]
+  policies   Policy[]
+  policyLogs PolicyLog[]
+  tokenRegistries TokenRegistry[]
+}
+
+model Token {
+  id         String   @id @default(uuid())
+  agentId    String
+  agent      Agent    @relation(fields: [agentId], references: [id])
+  encrypted  String
+  expiresAt  DateTime
+  revoked    Boolean  @default(false)
+  createdAt  DateTime @default(now())
+}
+
+model RequestLog {
+  id           String   @id @default(uuid())
+  agentId      String
+  agent        Agent    @relation(fields: [agentId], references: [id])
+  tool         String
+  action       String
+  responseTime Int      // milliseconds
+  statusCode   Int
+  success      Boolean
+  createdAt    DateTime @default(now())
+}
+
+model Policy {
+  id          String   @id @default(uuid())
+  name        String
+  description String?
+  agentId     String?  // null for role-based policies
+  role        String?  // null for agent-specific policies
+  spec        String   // JSON policy specification
+  specHash    String   // SHA256 hash of spec for change detection
+  active      Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  agent       Agent?   @relation(fields: [agentId], references: [id])
+  policyLogs  PolicyLog[]
+  quotaCounters QuotaCounter[]
+}
+
+model PolicyLog {
+  id          String   @id @default(uuid())
+  policyId    String
+  agentId     String
+  tool        String
+  action      String
+  decision    String   // "allow", "deny"
+  reason      String?  // denial reason
+  requestData String?  // JSON request data (truncated)
+  responseData String? // JSON response data (truncated)
+  createdAt   DateTime @default(now())
+  policy      Policy   @relation(fields: [policyId], references: [id])
+  agent       Agent    @relation(fields: [agentId], references: [id])
+}
+
+model QuotaCounter {
+  id          String   @id @default(uuid())
+  policyId    String
+  quotaKey    String   // e.g., "serpapi:search:2024-01-15"
+  current     Int      @default(0)
+  resetAt     DateTime
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  policy      Policy   @relation(fields: [policyId], references: [id])
+}
+
+model ToolCredential {
+  id          String   @id @default(uuid())
+  tool        String   // e.g., "serpapi", "openai", "gmail_send"
+  version     String   // e.g., "v1", "v2"
+  isActive    Boolean  @default(false)
+  encryptedCredential String // Encrypted credential data
+  metadata    String?  // JSON metadata (encrypted)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  activatedAt DateTime?
+  deactivatedAt DateTime?
+  
+  @@unique([tool, version])
+}
+
+model TokenRegistry {
+  id          String   @id @default(uuid())
+  tokenId     String   @unique // The token ID issued to the agent
+  agentId     String
+  payloadHash String   // SHA256 hash of the token payload
+  issuedAt    DateTime @default(now())
+  expiresAt   DateTime
+  isRevoked   Boolean  @default(false)
+  revokedAt   DateTime?
+  agent       Agent    @relation(fields: [agentId], references: [id])
+}
+
+// ====== AI AGENT RUNTIME MODELS (TASK-001) ======
+
+model RuntimeAgent {
+  id           String   @id @default(uuid())
+  name         String
+  language     AgentLanguage
+  sourceType   SourceType   @default(ZIP) // ZIP | GIT (ZIP for MVP)
+  sourceUri    String?      // path to extracted zip in local FS (MVP)
+  entrypoint   String       // index.js | main.py
+  env          Json         // non-secret env vars (secrets via Gateway only)
+  limitsCpu    Float?       // e.g. 0.5
+  limitsMemMb  Int?         // e.g. 256
+  networkMode  NetworkMode  @default(NONE) // NONE | EGRESS (via Gateway proxy only)
+  status       AgentStatus  @default(READY)
+  // NEW: restart policy & limits
+  maxRestarts  Int      @default(2)  // per run
+  restartBackoffMs Int  @default(5000)
+  // NEW: tags for demo functionality (JSON array for SQLite compatibility)
+  tags         Json     @default("[]")
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+
+  runs         RuntimeRun[]
+  schedules    RuntimeSchedule[]
+
+  @@map("runtime_agents")
+}
+
+model RuntimeRun {
+  id          String    @id @default(uuid())
+  agentId     String
+  agent       RuntimeAgent @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  status      RunStatus @default(QUEUED)  // QUEUED | RUNNING | SUCCEEDED | FAILED | KILLED
+  startedAt   DateTime?
+  endedAt     DateTime?
+  exitCode    Int?
+  reason      String?        // containerId or failure reason
+  // NEW: restart policy & limits
+  cpuSeconds  Float?         // cumulative seconds
+  maxMemMb    Int?           // peak RSS MB
+  restarts    Int            @default(0)
+  lastSampleAt DateTime?     // last stats collection time
+  // NEW: trigger tracking
+  triggeredBy TriggerType    @default(MANUAL)
+  // (optional) logsPtr for future
+  createdAt   DateTime  @default(now())
+
+  @@map("runtime_runs")
+}
+
+model RuntimeSchedule {
+  id        String   @id @default(uuid())
+  agentId   String
+  agent     RuntimeAgent @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  cronExpr  String
+  enabled   Boolean  @default(true)
+  lastRunAt DateTime?
+  nextRunAt DateTime?
+  createdAt DateTime @default(now())
+
+  @@map("runtime_schedules")
+}
+
+enum AgentLanguage {
+  NODE
+  PYTHON
+}
+
+enum SourceType {
+  ZIP
+  GIT
+}
+
+enum NetworkMode {
+  NONE
+  EGRESS
+}
+
+enum AgentStatus {
+  READY
+  ERROR
+  DISABLED
+}
+
+enum RunStatus {
+  QUEUED
+  RUNNING
+  SUCCEEDED
+  FAILED
+  KILLED
+}
+
+enum TriggerType {
+  MANUAL
+  SCHEDULE
+}

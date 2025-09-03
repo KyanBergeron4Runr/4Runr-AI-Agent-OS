@@ -1,0 +1,103 @@
+{
+  "t0": {
+    "timestamp": "2025-08-23T02:06:01.798Z",
+    "counters": {
+      "#": null,
+      "sentinel_spans_total": 6,
+      "sentinel_guard_events_total": 4
+    }
+  },
+  "t1": {
+    "timestamp": "2025-08-23T02:06:06.842Z",
+    "counters": {
+      "#": null,
+      "sentinel_spans_total": 36,
+      "sentinel_guard_events_total": 24
+    }
+  },
+  "runIds": [
+    "ca9dee94-a751-4d8c-aa3f-4f4058f1c024",
+    "59e5ee77-0513-48a1-8e21-ba3b6fc478cf",
+    "ace77078-9aa2-40ff-b47f-f4b8e94854cf",
+    "e36cd1e1-d19c-4682-8ecc-acd5ed740b8b",
+    "f4f55be7-e5a5-4b79-8f37-14ef77ebcd8a",
+    "54adaebe-a22a-470e-bb4a-370cc90fd0ac",
+    "ac470741-c636-4c73-a2e2-202dc7a55c8a",
+    "b2e760c9-44d1-40a6-8f6f-228107fc5924",
+    "d0636c27-ad0f-478d-87de-5d202242d66b",
+    "d9766ed3-fdfb-4674-8731-b0f81ac1c566"
+  ],
+  "runStatuses": [
+    {
+      "runId": "ca9dee94-a751-4d8c-aa3f-4f4058f1c024",
+      "status": "complete",
+      "duration": 5028,
+      "hasVerdict": false,
+      "hasShieldDecision": false
+    },
+    {
+      "runId": "59e5ee77-0513-48a1-8e21-ba3b6fc478cf",
+      "status": "complete",
+      "duration": 5028,
+      "hasVerdict": false,
+      "hasShieldDecision": false
+    },
+    {
+      "runId": "ace77078-9aa2-40ff-b47f-f4b8e94854cf",
+      "status": "complete",
+      "duration": 5029,
+      "hasVerdict": false,
+      "hasShieldDecision": false
+    },
+    {
+      "runId": "e36cd1e1-d19c-4682-8ecc-acd5ed740b8b",
+      "status": "complete",
+      "duration": 5029,
+      "hasVerdict": false,
+      "hasShieldDecision": false
+    },
+    {
+      "runId": "f4f55be7-e5a5-4b79-8f37-14ef77ebcd8a",
+      "status": "complete",
+      "duration": 5030,
+      "hasVerdict": false,
+      "hasShieldDecision": false
+    },
+    {
+      "runId": "54adaebe-a22a-470e-bb4a-370cc90fd0ac",
+      "status": "complete",
+      "duration": 5029,
+      "hasVerdict": false,
+      "hasShieldDecision": false
+    },
+    {
+      "runId": "ac470741-c636-4c73-a2e2-202dc7a55c8a",
+      "status": "complete",
+      "duration": 5029,
+      "hasVerdict": false,
+      "hasShieldDecision": false
+    },
+    {
+      "runId": "b2e760c9-44d1-40a6-8f6f-228107fc5924",
+      "status": "complete",
+      "duration": 5029,
+      "hasVerdict": false,
+      "hasShieldDecision": false
+    },
+    {
+      "runId": "d0636c27-ad0f-478d-87de-5d202242d66b",
+      "status": "complete",
+      "duration": 5030,
+      "hasVerdict": false,
+      "hasShieldDecision": false
+    },
+    {
+      "runId": "d9766ed3-fdfb-4674-8731-b0f81ac1c566",
+      "status": "complete",
+      "duration": 5030,
+      "hasVerdict": false,
+      "hasShieldDecision": false
+    }
+  ],
+  "metrics": {}
+}

@@ -1,0 +1,255 @@
+[2025-08-31T01:53:32.193Z] [INFO] [T+0m] 🚀 Starting S2 — Unkillable Harness (2 Hours, Zero-Leak Cert)
+[2025-08-31T01:53:32.195Z] [INFO] [T+0m] 📝 Logging to: s2-logs/s2-harness-2025-08-31T01-53-32-190Z.log
+[2025-08-31T01:53:32.196Z] [INFO] [T+0m] 🔧 Setting up workspace plan...
+[2025-08-31T01:53:32.218Z] [INFO] [T+0m] ✅ Workspace plan set to pro
+[2025-08-31T01:53:32.219Z] [INFO] [T+0m] 🏃 Starting W1: Realistic Runs
+[2025-08-31T01:53:32.219Z] [INFO] [T+0m] 🔄 Starting W2: SSE Churn
+[2025-08-31T01:53:32.219Z] [INFO] [T+0m] 📦 Starting W3: Registry Pulse
+[2025-08-31T01:53:32.219Z] [INFO] [T+0m] 🛡️ Starting W4: Safety Probes
+[2025-08-31T01:53:32.220Z] [INFO] [T+0m] 🔒 Starting W5: Privacy Slice
+[2025-08-31T01:53:32.220Z] [INFO] [T+0m] 🌪️ Starting W6: Light Chaos
+[2025-08-31T01:53:32.220Z] [INFO] [T+0m] 📊 Starting Availability Monitor
+[2025-08-31T01:53:32.220Z] [INFO] [T+0m] 📈 Starting Metrics Capture
+[2025-08-31T01:53:32.230Z] [ERROR] [T+0m] 🔌 SSE sse-0 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.238Z] [ERROR] [T+0m] 🔌 SSE sse-1 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.238Z] [ERROR] [T+0m] 🔌 SSE sse-2 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.239Z] [ERROR] [T+0m] 🔌 SSE sse-3 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.240Z] [ERROR] [T+0m] 🔌 SSE sse-4 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.240Z] [ERROR] [T+0m] 🔌 SSE sse-5 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.246Z] [ERROR] [T+0m] 🔌 SSE sse-6 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.247Z] [ERROR] [T+0m] 🔌 SSE sse-7 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.248Z] [ERROR] [T+0m] 🔌 SSE sse-8 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.249Z] [ERROR] [T+0m] 🔌 SSE sse-9 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.251Z] [ERROR] [T+0m] 🔌 SSE sse-10 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.253Z] [ERROR] [T+0m] 🔌 SSE sse-11 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.254Z] [ERROR] [T+0m] 🔌 SSE sse-12 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.257Z] [ERROR] [T+0m] 🔌 SSE sse-13 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.258Z] [ERROR] [T+0m] 🔌 SSE sse-14 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.261Z] [ERROR] [T+0m] 🔌 SSE sse-15 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.262Z] [ERROR] [T+0m] 🔌 SSE sse-17 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.264Z] [ERROR] [T+0m] 🔌 SSE sse-16 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.265Z] [ERROR] [T+0m] 🔌 SSE sse-18 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:32.265Z] [ERROR] [T+0m] 🔌 SSE sse-19 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:34.237Z] [ERROR] [T+0m] 🔌 SSE sse-0 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:34.252Z] [ERROR] [T+0m] 🔌 SSE sse-5 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:34.376Z] [ERROR] [T+0m] 🔌 SSE sse-13 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:34.391Z] [ERROR] [T+0m] 🔌 SSE sse-1 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:34.483Z] [ERROR] [T+0m] 🔌 SSE sse-3 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:34.667Z] [ERROR] [T+0m] 🔌 SSE sse-19 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:34.668Z] [ERROR] [T+0m] 🔌 SSE sse-10 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:34.728Z] [ERROR] [T+0m] 🔌 SSE sse-9 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:34.838Z] [ERROR] [T+0m] 🔌 SSE sse-12 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:34.839Z] [ERROR] [T+0m] 🔌 SSE sse-2 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:34.840Z] [ERROR] [T+0m] 🔌 SSE sse-11 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:34.854Z] [ERROR] [T+0m] 🔌 SSE sse-15 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:34.900Z] [ERROR] [T+0m] 🔌 SSE sse-7 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:34.931Z] [ERROR] [T+0m] 🔌 SSE sse-18 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:35.008Z] [ERROR] [T+0m] 🔌 SSE sse-6 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:35.009Z] [ERROR] [T+0m] 🔌 SSE sse-16 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:35.054Z] [ERROR] [T+0m] 🔌 SSE sse-14 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:35.084Z] [ERROR] [T+0m] 🔌 SSE sse-8 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:35.115Z] [ERROR] [T+0m] 🔌 SSE sse-17 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:35.176Z] [ERROR] [T+0m] 🔌 SSE sse-4 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:36.348Z] [ERROR] [T+0m] 🔌 SSE sse-5 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:36.364Z] [ERROR] [T+0m] 🔌 SSE sse-0 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:36.897Z] [ERROR] [T+0m] 🔌 SSE sse-3 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.035Z] [ERROR] [T+0m] 🔌 SSE sse-12 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.112Z] [ERROR] [T+0m] 🔌 SSE sse-14 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.127Z] [ERROR] [T+0m] 🔌 SSE sse-10 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.127Z] [ERROR] [T+0m] 🔌 SSE sse-2 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.174Z] [ERROR] [T+0m] 🔌 SSE sse-15 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.189Z] [ERROR] [T+0m] 🔌 SSE sse-1 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.312Z] [ERROR] [T+0m] 🔌 SSE sse-13 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.404Z] [ERROR] [T+0m] 🔌 SSE sse-9 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.451Z] [ERROR] [T+0m] 🔌 SSE sse-8 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.574Z] [ERROR] [T+0m] 🔌 SSE sse-7 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.576Z] [ERROR] [T+0m] 🔌 SSE sse-4 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.635Z] [ERROR] [T+0m] 🔌 SSE sse-19 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.697Z] [ERROR] [T+0m] 🔌 SSE sse-11 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.743Z] [ERROR] [T+0m] 🔌 SSE sse-17 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.914Z] [ERROR] [T+0m] 🔌 SSE sse-6 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.930Z] [ERROR] [T+0m] 🔌 SSE sse-18 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:37.930Z] [ERROR] [T+0m] 🔌 SSE sse-16 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:38.409Z] [ERROR] [T+0m] 🔌 SSE sse-0 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:39.150Z] [ERROR] [T+0m] 🔌 SSE sse-5 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:39.242Z] [ERROR] [T+0m] 🔌 SSE sse-10 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:39.365Z] [ERROR] [T+0m] 🔌 SSE sse-12 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:39.370Z] [ERROR] [T+0m] 🔌 SSE sse-15 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:39.549Z] [ERROR] [T+0m] 🔌 SSE sse-13 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:39.565Z] [ERROR] [T+0m] 🔌 SSE sse-1 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:39.595Z] [ERROR] [T+0m] 🔌 SSE sse-3 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:39.782Z] [ERROR] [T+0m] 🔌 SSE sse-14 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:39.888Z] [ERROR] [T+0m] 🔌 SSE sse-2 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:39.903Z] [ERROR] [T+0m] 🔌 SSE sse-9 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:40.118Z] [ERROR] [T+0m] 🔌 SSE sse-18 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:40.181Z] [ERROR] [T+0m] 🔌 SSE sse-8 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:40.226Z] [ERROR] [T+0m] 🔌 SSE sse-11 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:40.303Z] [ERROR] [T+0m] 🔌 SSE sse-7 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:40.366Z] [ERROR] [T+0m] 🔌 SSE sse-19 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:40.382Z] [ERROR] [T+0m] 🔌 SSE sse-4 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:40.427Z] [ERROR] [T+0m] 🔌 SSE sse-16 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:40.459Z] [ERROR] [T+0m] 🔌 SSE sse-17 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:40.491Z] [ERROR] [T+0m] 🔌 SSE sse-6 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:41.173Z] [ERROR] [T+0m] 🔌 SSE sse-0 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:41.344Z] [ERROR] [T+0m] 🔌 SSE sse-10 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:41.358Z] [ERROR] [T+0m] 🔌 SSE sse-5 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:41.452Z] [ERROR] [T+0m] 🔌 SSE sse-15 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:41.561Z] [ERROR] [T+0m] 🔌 SSE sse-13 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:41.622Z] [ERROR] [T+0m] 🔌 SSE sse-3 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:41.638Z] [ERROR] [T+0m] 🔌 SSE sse-1 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:42.055Z] [ERROR] [T+0m] 🔌 SSE sse-2 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:42.071Z] [ERROR] [T+0m] 🔌 SSE sse-9 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:42.242Z] [ERROR] [T+0m] 🔌 SSE sse-11 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:42.304Z] [ERROR] [T+0m] 🔌 SSE sse-12 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:42.319Z] [ERROR] [T+0m] 🔌 SSE sse-18 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:42.457Z] [ERROR] [T+0m] 🔌 SSE sse-14 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:42.459Z] [ERROR] [T+0m] 🔌 SSE sse-16 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:42.659Z] [ERROR] [T+0m] 🔌 SSE sse-19 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:42.662Z] [ERROR] [T+0m] 🔌 SSE sse-6 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:42.831Z] [ERROR] [T+0m] 🔌 SSE sse-17 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:43.139Z] [ERROR] [T+0m] 🔌 SSE sse-8 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:43.232Z] [ERROR] [T+0m] 🔌 SSE sse-7 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:43.326Z] [ERROR] [T+0m] 🔌 SSE sse-4 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:43.450Z] [ERROR] [T+0m] 🔌 SSE sse-0 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:43.663Z] [ERROR] [T+0m] 🔌 SSE sse-13 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:43.773Z] [ERROR] [T+0m] 🔌 SSE sse-10 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:43.789Z] [ERROR] [T+0m] 🔌 SSE sse-1 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:44.067Z] [ERROR] [T+0m] 🔌 SSE sse-15 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:44.128Z] [ERROR] [T+0m] 🔌 SSE sse-2 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:44.130Z] [ERROR] [T+0m] 🔌 SSE sse-3 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:44.360Z] [ERROR] [T+0m] 🔌 SSE sse-5 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:44.561Z] [ERROR] [T+0m] 🔌 SSE sse-11 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:44.653Z] [ERROR] [T+0m] 🔌 SSE sse-18 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:44.776Z] [ERROR] [T+0m] 🔌 SSE sse-12 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:44.883Z] [ERROR] [T+0m] 🔌 SSE sse-14 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:45.038Z] [ERROR] [T+0m] 🔌 SSE sse-9 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:45.146Z] [ERROR] [T+0m] 🔌 SSE sse-16 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:45.240Z] [ERROR] [T+0m] 🔌 SSE sse-17 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:45.241Z] [ERROR] [T+0m] 🔌 SSE sse-8 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:45.317Z] [ERROR] [T+0m] 🔌 SSE sse-6 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:45.504Z] [ERROR] [T+0m] 🔌 SSE sse-19 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:45.979Z] [ERROR] [T+0m] 🔌 SSE sse-4 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:46.026Z] [ERROR] [T+0m] 🔌 SSE sse-0 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:46.042Z] [ERROR] [T+0m] 🔌 SSE sse-10 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:46.180Z] [ERROR] [T+0m] 🔌 SSE sse-7 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:46.395Z] [ERROR] [T+0m] 🔌 SSE sse-13 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:46.426Z] [ERROR] [T+0m] 🔌 SSE sse-2 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:46.488Z] [ERROR] [T+0m] 🔌 SSE sse-1 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:46.595Z] [ERROR] [T+0m] 🔌 SSE sse-5 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:46.719Z] [ERROR] [T+0m] 🔌 SSE sse-15 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:47.075Z] [ERROR] [T+0m] 🔌 SSE sse-3 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:47.228Z] [ERROR] [T+0m] 🔌 SSE sse-11 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:47.336Z] [ERROR] [T+0m] 🔌 SSE sse-16 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:47.491Z] [ERROR] [T+0m] 🔌 SSE sse-17 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:47.522Z] [ERROR] [T+0m] 🔌 SSE sse-18 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:47.538Z] [ERROR] [T+0m] 🔌 SSE sse-9 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:47.568Z] [ERROR] [T+0m] 🔌 SSE sse-14 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:47.614Z] [ERROR] [T+0m] 🔌 SSE sse-19 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:47.629Z] [ERROR] [T+0m] 🔌 SSE sse-12 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:48.198Z] [ERROR] [T+0m] 🔌 SSE sse-8 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:48.213Z] [ERROR] [T+0m] 🔌 SSE sse-6 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:48.460Z] [ERROR] [T+0m] 🔌 SSE sse-0 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:48.490Z] [ERROR] [T+0m] 🔌 SSE sse-10 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:48.537Z] [ERROR] [T+0m] 🔌 SSE sse-4 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:48.539Z] [ERROR] [T+0m] 🔌 SSE sse-7 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:48.583Z] [ERROR] [T+0m] 🔌 SSE sse-1 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:48.598Z] [ERROR] [T+0m] 🔌 SSE sse-13 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:48.831Z] [ERROR] [T+0m] 🔌 SSE sse-2 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:49.140Z] [ERROR] [T+0m] 🔌 SSE sse-3 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:49.297Z] [ERROR] [T+0m] 🔌 SSE sse-11 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:49.359Z] [ERROR] [T+0m] 🔌 SSE sse-5 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:49.561Z] [ERROR] [T+0m] 🔌 SSE sse-9 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:49.636Z] [ERROR] [T+0m] 🔌 SSE sse-15 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:49.776Z] [ERROR] [T+0m] 🔌 SSE sse-17 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:49.914Z] [ERROR] [T+0m] 🔌 SSE sse-12 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:50.085Z] [ERROR] [T+0m] 🔌 SSE sse-16 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:50.177Z] [ERROR] [T+0m] 🔌 SSE sse-14 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:50.424Z] [ERROR] [T+0m] 🔌 SSE sse-18 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:50.544Z] [ERROR] [T+0m] 🔌 SSE sse-19 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:50.667Z] [ERROR] [T+0m] 🔌 SSE sse-4 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:50.852Z] [ERROR] [T+0m] 🔌 SSE sse-6 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:50.853Z] [ERROR] [T+0m] 🔌 SSE sse-0 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:51.190Z] [ERROR] [T+0m] 🔌 SSE sse-8 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:51.281Z] [ERROR] [T+0m] 🔌 SSE sse-1 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:51.312Z] [ERROR] [T+0m] 🔌 SSE sse-10 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:51.437Z] [ERROR] [T+0m] 🔌 SSE sse-7 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:51.576Z] [ERROR] [T+0m] 🔌 SSE sse-13 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:51.621Z] [ERROR] [T+0m] 🔌 SSE sse-2 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:51.823Z] [ERROR] [T+0m] 🔌 SSE sse-9 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:51.824Z] [ERROR] [T+0m] 🔌 SSE sse-3 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:51.978Z] [ERROR] [T+0m] 🔌 SSE sse-11 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:52.072Z] [ERROR] [T+0m] 🔌 SSE sse-5 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:52.227Z] [ERROR] [T+0m] 🔌 SSE sse-15 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:52.227Z] [ERROR] [T+0m] 🔌 SSE sse-16 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:52.229Z] [ERROR] [T+0m] ❌ Run 3e2dd71f-43e6-41df-bd8a-33a050b905fd failed: 200 - {"success":true,"run":{"id":"run-1756605232228-2","name":"S2-Run-3e2dd71f","status":"created","created_at":"2025-08-31T01:53:52.228Z","updated_at":"2025-08-31T01:53:52.229Z","input":"","output":null,"logs":[]}}
+[2025-08-31T01:53:52.644Z] [ERROR] [T+0m] 🔌 SSE sse-14 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:52.707Z] [ERROR] [T+0m] 🔌 SSE sse-12 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:52.754Z] [ERROR] [T+0m] 🔌 SSE sse-4 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:52.784Z] [ERROR] [T+0m] 🔌 SSE sse-17 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:53.265Z] [ERROR] [T+0m] 🔌 SSE sse-8 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:53.357Z] [ERROR] [T+0m] 🔌 SSE sse-1 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:53.372Z] [ERROR] [T+0m] 🔌 SSE sse-19 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:53.387Z] [ERROR] [T+0m] 🔌 SSE sse-18 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:53.388Z] [ERROR] [T+0m] 🔌 SSE sse-0 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:53.542Z] [ERROR] [T+0m] 🔌 SSE sse-6 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:53.683Z] [ERROR] [T+0m] 🔌 SSE sse-7 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:53.837Z] [ERROR] [T+0m] 🔌 SSE sse-10 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:54.070Z] [ERROR] [T+0m] 🔌 SSE sse-2 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:54.071Z] [ERROR] [T+0m] 🔌 SSE sse-9 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:54.147Z] [ERROR] [T+0m] 🔌 SSE sse-11 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:54.316Z] [ERROR] [T+0m] 🔌 SSE sse-13 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:54.549Z] [ERROR] [T+0m] 🔌 SSE sse-3 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:54.827Z] [ERROR] [T+0m] 🔌 SSE sse-5 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:54.889Z] [ERROR] [T+0m] 🔌 SSE sse-14 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:54.997Z] [ERROR] [T+0m] 🔌 SSE sse-4 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:55.059Z] [ERROR] [T+0m] 🔌 SSE sse-12 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:55.135Z] [ERROR] [T+0m] 🔌 SSE sse-15 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:55.180Z] [ERROR] [T+0m] 🔌 SSE sse-16 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:55.491Z] [ERROR] [T+0m] 🔌 SSE sse-17 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:55.599Z] [ERROR] [T+0m] 🔌 SSE sse-8 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:55.630Z] [ERROR] [T+0m] 🔌 SSE sse-6 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:55.708Z] [ERROR] [T+0m] 🔌 SSE sse-19 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:55.876Z] [ERROR] [T+0m] 🔌 SSE sse-18 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:55.908Z] [ERROR] [T+0m] 🔌 SSE sse-10 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:55.908Z] [ERROR] [T+0m] 🔌 SSE sse-10 max reconnects reached
+[2025-08-31T01:53:56.155Z] [ERROR] [T+0m] 🔌 SSE sse-9 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:56.155Z] [ERROR] [T+0m] 🔌 SSE sse-9 max reconnects reached
+[2025-08-31T01:53:56.170Z] [ERROR] [T+0m] 🔌 SSE sse-11 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:56.170Z] [ERROR] [T+0m] 🔌 SSE sse-11 max reconnects reached
+[2025-08-31T01:53:56.186Z] [ERROR] [T+0m] 🔌 SSE sse-0 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:56.186Z] [ERROR] [T+0m] 🔌 SSE sse-0 max reconnects reached
+[2025-08-31T01:53:56.264Z] [ERROR] [T+0m] 🔌 SSE sse-1 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:56.265Z] [ERROR] [T+0m] 🔌 SSE sse-1 max reconnects reached
+[2025-08-31T01:53:56.358Z] [ERROR] [T+0m] 🔌 SSE sse-7 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:56.666Z] [ERROR] [T+0m] 🔌 SSE sse-13 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:56.667Z] [ERROR] [T+0m] 🔌 SSE sse-13 max reconnects reached
+[2025-08-31T01:53:57.036Z] [ERROR] [T+0m] 🔌 SSE sse-2 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:57.036Z] [ERROR] [T+0m] 🔌 SSE sse-2 max reconnects reached
+[2025-08-31T01:53:57.037Z] [ERROR] [T+0m] 🔌 SSE sse-14 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:57.037Z] [ERROR] [T+0m] 🔌 SSE sse-14 max reconnects reached
+[2025-08-31T01:53:57.532Z] [ERROR] [T+0m] 🔌 SSE sse-3 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:57.532Z] [ERROR] [T+0m] 🔌 SSE sse-3 max reconnects reached
+[2025-08-31T01:53:57.588Z] [ERROR] [T+0m] 🔌 SSE sse-12 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:57.589Z] [ERROR] [T+0m] 🔌 SSE sse-12 max reconnects reached
+[2025-08-31T01:53:57.686Z] [ERROR] [T+0m] 🔌 SSE sse-5 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:57.686Z] [ERROR] [T+0m] 🔌 SSE sse-5 max reconnects reached
+[2025-08-31T01:53:57.748Z] [ERROR] [T+0m] 🔌 SSE sse-16 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:57.748Z] [ERROR] [T+0m] 🔌 SSE sse-16 max reconnects reached
+[2025-08-31T01:53:57.779Z] [ERROR] [T+0m] 🔌 SSE sse-15 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:57.779Z] [ERROR] [T+0m] 🔌 SSE sse-15 max reconnects reached
+[2025-08-31T01:53:57.811Z] [ERROR] [T+0m] 🔌 SSE sse-4 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:57.811Z] [ERROR] [T+0m] 🔌 SSE sse-4 max reconnects reached
+[2025-08-31T01:53:58.208Z] [ERROR] [T+0m] 🔌 SSE sse-8 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:58.209Z] [ERROR] [T+0m] 🔌 SSE sse-8 max reconnects reached
+[2025-08-31T01:53:58.318Z] [ERROR] [T+0m] 🔌 SSE sse-19 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:58.318Z] [ERROR] [T+0m] 🔌 SSE sse-19 max reconnects reached
+[2025-08-31T01:53:58.334Z] [ERROR] [T+0m] 🔌 SSE sse-17 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:58.335Z] [ERROR] [T+0m] 🔌 SSE sse-17 max reconnects reached
+[2025-08-31T01:53:58.564Z] [ERROR] [T+0m] 🔌 SSE sse-6 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:58.565Z] [ERROR] [T+0m] 🔌 SSE sse-6 max reconnects reached
+[2025-08-31T01:53:58.565Z] [ERROR] [T+0m] 🔌 SSE sse-18 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:58.565Z] [ERROR] [T+0m] 🔌 SSE sse-18 max reconnects reached
+[2025-08-31T01:53:59.317Z] [ERROR] [T+0m] 🔌 SSE sse-7 request error: 404 - {"error":"Run not found"}
+[2025-08-31T01:53:59.317Z] [ERROR] [T+0m] 🔌 SSE sse-7 max reconnects reached
+[2025-08-31T01:54:02.235Z] [ERROR] [T+0m] ❌ Registry pulse error: 200 - {"success":true,"name":"s2-test-package","version":"1.0.1756605242233","published_at":"2025-08-31T01:54:02.234Z"}
+[2025-08-31T01:54:03.567Z] [INFO] [T+0m] 🛑 Received SIGINT - graceful shutdown

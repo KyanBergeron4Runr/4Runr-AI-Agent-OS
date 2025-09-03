@@ -1,0 +1,6 @@
+{
+  "name": "Quick SSE Test",
+  "input": "quick test",
+  "client_token": "quick-sse-test-123",
+  "tags": ["quick", "sse-test"]
+}

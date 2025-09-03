@@ -1,0 +1,285 @@
+{
+  "timestamp": "2025-08-29T23:42:04.309Z",
+  "duration": 600078,
+  "metrics": {
+    "runsStarted": 28,
+    "runsCompleted": 0,
+    "runsFailed": 0,
+    "sseConnections": 24,
+    "sseReconnects": 8,
+    "sseDuplicates": 0,
+    "sseDropped": 0,
+    "errors": {
+      "4xx": 0,
+      "5xx": 0
+    },
+    "latencies": {
+      "startToLog": [],
+      "judge": [],
+      "shield": [],
+      "sseWrite": []
+    },
+    "availability": {
+      "checks": 59,
+      "failures": 0
+    },
+    "safety": {
+      "injectionsBlocked": 0,
+      "injectionsAttempted": 4,
+      "piiMasked": 4,
+      "piiAttempted": 4,
+      "requireApproval": 4,
+      "requireApprovalAttempted": 4
+    },
+    "registry": {
+      "publishes": 0,
+      "searches": 0,
+      "tamperAttempts": 1,
+      "tamperRejected": 0
+    },
+    "privacy": {
+      "hashOnlyRuns": 3,
+      "plaintextLeaks": 0
+    }
+  },
+  "snapshots": {
+    "S2-SHORT-02": {
+      "timestamp": 1756510444321,
+      "metrics": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 29\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 47\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 9\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 9\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 10\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 1\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 66\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 1\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 1\n\n# HELP idempotency_hits_total Total number of idempotency hits\n# TYPE idempotency_hits_total counter\nidempotency_hits_total 0\n\n# HELP idempotency_misses_total Total number of idempotency misses\n# TYPE idempotency_misses_total counter\nidempotency_misses_total 0\n\n# HELP rate_limited_total Total number of rate limited requests\n# TYPE rate_limited_total counter\nrate_limited_total 0\n\n# HELP concurrency_denials_total Total number of concurrency denials\n# TYPE concurrency_denials_total counter\nconcurrency_denials_total 0\n\n# HELP run_starts_total Total number of run starts\n# TYPE run_starts_total counter\nrun_starts_total 10\n\n# HELP sse_replay_events_total Total number of SSE replay events\n# TYPE sse_replay_events_total counter\nsse_replay_events_total 90\n\n# HELP sse_live_events_total Total number of SSE live events\n# TYPE sse_live_events_total counter\nsse_live_events_total 141\n\n# HELP sse_duplicates_dropped_total Total number of SSE duplicates dropped\n# TYPE sse_duplicates_dropped_total counter\nsse_duplicates_dropped_total 57\n\n# HELP sse_connections_total Total number of SSE connections\n# TYPE sse_connections_total counter\nsse_connections_total 21",
+      "testState": {
+        "runsStarted": 9,
+        "runsCompleted": 0,
+        "runsFailed": 0,
+        "sseConnections": 12,
+        "sseReconnects": 0,
+        "sseDuplicates": 0,
+        "sseDropped": 0,
+        "errors": {
+          "4xx": 0,
+          "5xx": 0
+        },
+        "latencies": {
+          "startToLog": [],
+          "judge": [],
+          "shield": [],
+          "sseWrite": []
+        },
+        "availability": {
+          "checks": 59,
+          "failures": 0
+        },
+        "safety": {
+          "injectionsBlocked": 0,
+          "injectionsAttempted": 4,
+          "piiMasked": 4,
+          "piiAttempted": 4,
+          "requireApproval": 4,
+          "requireApprovalAttempted": 4
+        },
+        "registry": {
+          "publishes": 0,
+          "searches": 0,
+          "tamperAttempts": 1,
+          "tamperRejected": 0
+        },
+        "privacy": {
+          "hashOnlyRuns": 3,
+          "plaintextLeaks": 0
+        }
+      },
+      "systemMetrics": {
+        "rss": 29831168,
+        "heapUsed": 6131984,
+        "heapTotal": 8839168,
+        "external": 1951503,
+        "cpu": {
+          "user": 218000,
+          "system": 93000
+        }
+      }
+    },
+    "S2-SHORT-04": {
+      "timestamp": 1756510564326,
+      "metrics": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 53\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 87\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 17\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 17\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 18\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 1\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 122\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 1\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 1\n\n# HELP idempotency_hits_total Total number of idempotency hits\n# TYPE idempotency_hits_total counter\nidempotency_hits_total 0\n\n# HELP idempotency_misses_total Total number of idempotency misses\n# TYPE idempotency_misses_total counter\nidempotency_misses_total 0\n\n# HELP rate_limited_total Total number of rate limited requests\n# TYPE rate_limited_total counter\nrate_limited_total 0\n\n# HELP concurrency_denials_total Total number of concurrency denials\n# TYPE concurrency_denials_total counter\nconcurrency_denials_total 0\n\n# HELP run_starts_total Total number of run starts\n# TYPE run_starts_total counter\nrun_starts_total 18\n\n# HELP sse_replay_events_total Total number of SSE replay events\n# TYPE sse_replay_events_total counter\nsse_replay_events_total 137\n\n# HELP sse_live_events_total Total number of SSE live events\n# TYPE sse_live_events_total counter\nsse_live_events_total 261\n\n# HELP sse_duplicates_dropped_total Total number of SSE duplicates dropped\n# TYPE sse_duplicates_dropped_total counter\nsse_duplicates_dropped_total 81\n\n# HELP sse_connections_total Total number of SSE connections\n# TYPE sse_connections_total counter\nsse_connections_total 29",
+      "testState": {
+        "runsStarted": 14,
+        "runsCompleted": 0,
+        "runsFailed": 0,
+        "sseConnections": 15,
+        "sseReconnects": 2,
+        "sseDuplicates": 0,
+        "sseDropped": 0,
+        "errors": {
+          "4xx": 0,
+          "5xx": 0
+        },
+        "latencies": {
+          "startToLog": [],
+          "judge": [],
+          "shield": [],
+          "sseWrite": []
+        },
+        "availability": {
+          "checks": 59,
+          "failures": 0
+        },
+        "safety": {
+          "injectionsBlocked": 0,
+          "injectionsAttempted": 4,
+          "piiMasked": 4,
+          "piiAttempted": 4,
+          "requireApproval": 4,
+          "requireApprovalAttempted": 4
+        },
+        "registry": {
+          "publishes": 0,
+          "searches": 0,
+          "tamperAttempts": 1,
+          "tamperRejected": 0
+        },
+        "privacy": {
+          "hashOnlyRuns": 3,
+          "plaintextLeaks": 0
+        }
+      },
+      "systemMetrics": {
+        "rss": 20451328,
+        "heapUsed": 6624736,
+        "heapTotal": 7790592,
+        "external": 1978295,
+        "cpu": {
+          "user": 250000,
+          "system": 125000
+        }
+      }
+    },
+    "S2-SHORT-06": {
+      "timestamp": 1756510684324,
+      "metrics": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 78\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 126\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 24\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 24\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 27\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 3\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 177\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 1\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 1\n\n# HELP idempotency_hits_total Total number of idempotency hits\n# TYPE idempotency_hits_total counter\nidempotency_hits_total 0\n\n# HELP idempotency_misses_total Total number of idempotency misses\n# TYPE idempotency_misses_total counter\nidempotency_misses_total 0\n\n# HELP rate_limited_total Total number of rate limited requests\n# TYPE rate_limited_total counter\nrate_limited_total 0\n\n# HELP concurrency_denials_total Total number of concurrency denials\n# TYPE concurrency_denials_total counter\nconcurrency_denials_total 0\n\n# HELP run_starts_total Total number of run starts\n# TYPE run_starts_total counter\nrun_starts_total 27\n\n# HELP sse_replay_events_total Total number of SSE replay events\n# TYPE sse_replay_events_total counter\nsse_replay_events_total 184\n\n# HELP sse_live_events_total Total number of SSE live events\n# TYPE sse_live_events_total counter\nsse_live_events_total 378\n\n# HELP sse_duplicates_dropped_total Total number of SSE duplicates dropped\n# TYPE sse_duplicates_dropped_total counter\nsse_duplicates_dropped_total 104\n\n# HELP sse_connections_total Total number of SSE connections\n# TYPE sse_connections_total counter\nsse_connections_total 37",
+      "testState": {
+        "runsStarted": 19,
+        "runsCompleted": 0,
+        "runsFailed": 0,
+        "sseConnections": 19,
+        "sseReconnects": 4,
+        "sseDuplicates": 0,
+        "sseDropped": 0,
+        "errors": {
+          "4xx": 0,
+          "5xx": 0
+        },
+        "latencies": {
+          "startToLog": [],
+          "judge": [],
+          "shield": [],
+          "sseWrite": []
+        },
+        "availability": {
+          "checks": 59,
+          "failures": 0
+        },
+        "safety": {
+          "injectionsBlocked": 0,
+          "injectionsAttempted": 4,
+          "piiMasked": 4,
+          "piiAttempted": 4,
+          "requireApproval": 4,
+          "requireApprovalAttempted": 4
+        },
+        "registry": {
+          "publishes": 0,
+          "searches": 0,
+          "tamperAttempts": 1,
+          "tamperRejected": 0
+        },
+        "privacy": {
+          "hashOnlyRuns": 3,
+          "plaintextLeaks": 0
+        }
+      },
+      "systemMetrics": {
+        "rss": 21266432,
+        "heapUsed": 6551400,
+        "heapTotal": 7790592,
+        "external": 1964257,
+        "cpu": {
+          "user": 312000,
+          "system": 140000
+        }
+      }
+    },
+    "S2-SHORT-08": {
+      "timestamp": 1756510804331,
+      "metrics": "# HELP sentinel_spans_total Total number of Sentinel spans\n# TYPE sentinel_spans_total counter\nsentinel_spans_total 98\n\n# HELP sentinel_guard_events_total Total number of Guard events\n# TYPE sentinel_guard_events_total counter\nsentinel_guard_events_total 162\n\n# HELP sentinel_verdicts_total Total number of Sentinel verdicts\n# TYPE sentinel_verdicts_total counter\nsentinel_verdicts_total 32\n\n# HELP shield_decisions_total Total number of Shield decisions\n# TYPE shield_decisions_total counter\nshield_decisions_total 32\n\n# HELP runs_started_total Total number of runs started\n# TYPE runs_started_total counter\nruns_started_total 33\n\n# HELP runs_concurrent_gauge Current number of running agents\n# TYPE runs_concurrent_gauge gauge\nruns_concurrent_gauge 1\n\n# HELP logs_emitted_total Total number of log entries\n# TYPE logs_emitted_total counter\nlogs_emitted_total 227\n\n# HELP registry_agents_total Total number of registry agents\n# TYPE registry_agents_total counter\nregistry_agents_total 1\n\n# HELP registry_publishers_total Total number of registry publishers\n# TYPE registry_publishers_total counter\nregistry_publishers_total 1\n\n# HELP registry_workspaces_total Total number of registry workspaces\n# TYPE registry_workspaces_total counter\nregistry_workspaces_total 1\n\n# HELP idempotency_hits_total Total number of idempotency hits\n# TYPE idempotency_hits_total counter\nidempotency_hits_total 0\n\n# HELP idempotency_misses_total Total number of idempotency misses\n# TYPE idempotency_misses_total counter\nidempotency_misses_total 0\n\n# HELP rate_limited_total Total number of rate limited requests\n# TYPE rate_limited_total counter\nrate_limited_total 0\n\n# HELP concurrency_denials_total Total number of concurrency denials\n# TYPE concurrency_denials_total counter\nconcurrency_denials_total 0\n\n# HELP run_starts_total Total number of run starts\n# TYPE run_starts_total counter\nrun_starts_total 33\n\n# HELP sse_replay_events_total Total number of SSE replay events\n# TYPE sse_replay_events_total counter\nsse_replay_events_total 226\n\n# HELP sse_live_events_total Total number of SSE live events\n# TYPE sse_live_events_total counter\nsse_live_events_total 486\n\n# HELP sse_duplicates_dropped_total Total number of SSE duplicates dropped\n# TYPE sse_duplicates_dropped_total counter\nsse_duplicates_dropped_total 125\n\n# HELP sse_connections_total Total number of SSE connections\n# TYPE sse_connections_total counter\nsse_connections_total 44",
+      "testState": {
+        "runsStarted": 23,
+        "runsCompleted": 0,
+        "runsFailed": 0,
+        "sseConnections": 21,
+        "sseReconnects": 6,
+        "sseDuplicates": 0,
+        "sseDropped": 0,
+        "errors": {
+          "4xx": 0,
+          "5xx": 0
+        },
+        "latencies": {
+          "startToLog": [],
+          "judge": [],
+          "shield": [],
+          "sseWrite": []
+        },
+        "availability": {
+          "checks": 59,
+          "failures": 0
+        },
+        "safety": {
+          "injectionsBlocked": 0,
+          "injectionsAttempted": 4,
+          "piiMasked": 4,
+          "piiAttempted": 4,
+          "requireApproval": 4,
+          "requireApprovalAttempted": 4
+        },
+        "registry": {
+          "publishes": 0,
+          "searches": 0,
+          "tamperAttempts": 1,
+          "tamperRejected": 0
+        },
+        "privacy": {
+          "hashOnlyRuns": 3,
+          "plaintextLeaks": 0
+        }
+      },
+      "systemMetrics": {
+        "rss": 21643264,
+        "heapUsed": 6836480,
+        "heapTotal": 7790592,
+        "external": 1979902,
+        "cpu": {
+          "user": 359000,
+          "system": 171000
+        }
+      }
+    }
+  },
+  "validation": {
+    "passed": false,
+    "failures": [
+      "Not all prompt injections blocked",
+      "Not all tampered manifests rejected"
+    ]
+  },
+  "summary": {
+    "duration": "10 minutes",
+    "availability": "100.00%",
+    "totalRuns": 28,
+    "sseConnections": 24,
+    "sseDuplicates": 0,
+    "safetyScore": "0/4",
+    "privacyLeaks": 0,
+    "registryPublishes": 0,
+    "errorRate": "0.00%"
+  }
+}

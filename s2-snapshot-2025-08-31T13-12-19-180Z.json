@@ -1,0 +1,16 @@
+{
+  "timestamp": 1756645939180,
+  "elapsed": 10,
+  "metrics": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 39\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 24\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 48\n\n# HELP sse_connections_total Total SSE connections made\n# TYPE sse_connections_total counter\nsse_connections_total 24",
+  "testState": {
+    "runsStarted": 29,
+    "runsSuccessful": 29,
+    "runsFailed": 0,
+    "sseActive": 16,
+    "sseReconnects": 0,
+    "sseDuplicatesDropped": 0,
+    "availabilityChecks": 19,
+    "availabilityFailures": 0,
+    "lastSnapshot": null
+  }
+}

@@ -1,0 +1,342 @@
+[2025-08-30T13:07:18.291Z] [INFO] [T+0m] 📝 Logging to: s2-logs/s2-smoke-2025-08-30T13-07-18-289Z.log
+[2025-08-30T13:07:18.291Z] [INFO] [T+0m] 🏃 Starting W1: Realistic Runs
+[2025-08-30T13:07:18.291Z] [INFO] [T+0m] 🔄 Starting W2: SSE Churn
+[2025-08-30T13:07:18.309Z] [INFO] [T+0m] 📦 Starting W3: Registry Pulse
+[2025-08-30T13:07:18.309Z] [INFO] [T+0m] 🛡️ Starting W4: Safety Probes
+[2025-08-30T13:07:18.310Z] [INFO] [T+0m] 🔒 Starting W5: Privacy Slice
+[2025-08-30T13:07:18.310Z] [INFO] [T+0m] 🌪️ Starting W6: Light Chaos (disabled for smoke test)
+[2025-08-30T13:07:18.310Z] [INFO] [T+0m] 📊 Starting Availability Monitor
+[2025-08-30T13:07:18.321Z] [ERROR] [T+0m] SSE sse-1 request error: 
+[2025-08-30T13:07:18.321Z] [ERROR] [T+0m] SSE sse-0 request error: 
+[2025-08-30T13:07:18.322Z] [ERROR] [T+0m] SSE sse-3 request error: 
+[2025-08-30T13:07:18.322Z] [ERROR] [T+0m] SSE sse-2 request error: 
+[2025-08-30T13:07:18.322Z] [ERROR] [T+0m] SSE sse-4 request error: 
+[2025-08-30T13:07:18.323Z] [ERROR] [T+0m] SSE sse-5 request error: 
+[2025-08-30T13:07:18.323Z] [ERROR] [T+0m] SSE sse-6 request error: 
+[2025-08-30T13:07:18.323Z] [ERROR] [T+0m] SSE sse-7 request error: 
+[2025-08-30T13:07:18.323Z] [ERROR] [T+0m] SSE sse-8 request error: 
+[2025-08-30T13:07:18.324Z] [ERROR] [T+0m] SSE sse-9 request error: 
+[2025-08-30T13:07:18.324Z] [ERROR] [T+0m] SSE sse-10 request error: 
+[2025-08-30T13:07:18.324Z] [ERROR] [T+0m] SSE sse-11 request error: 
+[2025-08-30T13:07:18.324Z] [ERROR] [T+0m] SSE sse-12 request error: 
+[2025-08-30T13:07:18.324Z] [ERROR] [T+0m] SSE sse-13 request error: 
+[2025-08-30T13:07:18.324Z] [ERROR] [T+0m] SSE sse-14 request error: 
+[2025-08-30T13:07:18.325Z] [ERROR] [T+0m] SSE sse-15 request error: 
+[2025-08-30T13:07:18.325Z] [ERROR] [T+0m] SSE sse-16 request error: 
+[2025-08-30T13:07:18.325Z] [ERROR] [T+0m] SSE sse-17 request error: 
+[2025-08-30T13:07:18.325Z] [ERROR] [T+0m] SSE sse-18 request error: 
+[2025-08-30T13:07:18.326Z] [ERROR] [T+0m] SSE sse-19 request error: 
+[2025-08-30T13:07:20.099Z] [ERROR] [T+0m] SSE sse-1 request error: 
+[2025-08-30T13:07:20.099Z] [ERROR] [T+0m] SSE sse-0 request error: 
+[2025-08-30T13:07:20.100Z] [ERROR] [T+0m] SSE sse-3 request error: 
+[2025-08-30T13:07:20.100Z] [ERROR] [T+0m] SSE sse-2 request error: 
+[2025-08-30T13:07:20.100Z] [ERROR] [T+0m] SSE sse-4 request error: 
+[2025-08-30T13:07:20.100Z] [ERROR] [T+0m] SSE sse-5 request error: 
+[2025-08-30T13:07:20.101Z] [ERROR] [T+0m] SSE sse-6 request error: 
+[2025-08-30T13:07:20.101Z] [ERROR] [T+0m] SSE sse-7 request error: 
+[2025-08-30T13:07:20.101Z] [ERROR] [T+0m] SSE sse-8 request error: 
+[2025-08-30T13:07:20.101Z] [ERROR] [T+0m] SSE sse-9 request error: 
+[2025-08-30T13:07:20.102Z] [ERROR] [T+0m] SSE sse-10 request error: 
+[2025-08-30T13:07:20.102Z] [ERROR] [T+0m] SSE sse-11 request error: 
+[2025-08-30T13:07:20.102Z] [ERROR] [T+0m] SSE sse-12 request error: 
+[2025-08-30T13:07:20.102Z] [ERROR] [T+0m] SSE sse-13 request error: 
+[2025-08-30T13:07:20.103Z] [ERROR] [T+0m] SSE sse-14 request error: 
+[2025-08-30T13:07:20.103Z] [ERROR] [T+0m] SSE sse-15 request error: 
+[2025-08-30T13:07:20.103Z] [ERROR] [T+0m] SSE sse-16 request error: 
+[2025-08-30T13:07:20.103Z] [ERROR] [T+0m] SSE sse-17 request error: 
+[2025-08-30T13:07:20.104Z] [ERROR] [T+0m] SSE sse-18 request error: 
+[2025-08-30T13:07:20.104Z] [ERROR] [T+0m] SSE sse-19 request error: 
+[2025-08-30T13:07:23.645Z] [ERROR] [T+0m] SSE sse-1 request error: 
+[2025-08-30T13:07:23.645Z] [ERROR] [T+0m] SSE sse-3 request error: 
+[2025-08-30T13:07:23.645Z] [ERROR] [T+0m] SSE sse-0 request error: 
+[2025-08-30T13:07:23.646Z] [ERROR] [T+0m] SSE sse-2 request error: 
+[2025-08-30T13:07:23.646Z] [ERROR] [T+0m] SSE sse-4 request error: 
+[2025-08-30T13:07:23.646Z] [ERROR] [T+0m] SSE sse-5 request error: 
+[2025-08-30T13:07:23.646Z] [ERROR] [T+0m] SSE sse-7 request error: 
+[2025-08-30T13:07:23.646Z] [ERROR] [T+0m] SSE sse-6 request error: 
+[2025-08-30T13:07:23.646Z] [ERROR] [T+0m] SSE sse-8 request error: 
+[2025-08-30T13:07:23.647Z] [ERROR] [T+0m] SSE sse-9 request error: 
+[2025-08-30T13:07:23.647Z] [ERROR] [T+0m] SSE sse-10 request error: 
+[2025-08-30T13:07:23.647Z] [ERROR] [T+0m] SSE sse-11 request error: 
+[2025-08-30T13:07:23.647Z] [ERROR] [T+0m] SSE sse-12 request error: 
+[2025-08-30T13:07:23.647Z] [ERROR] [T+0m] SSE sse-13 request error: 
+[2025-08-30T13:07:23.647Z] [ERROR] [T+0m] SSE sse-14 request error: 
+[2025-08-30T13:07:23.647Z] [ERROR] [T+0m] SSE sse-15 request error: 
+[2025-08-30T13:07:23.648Z] [ERROR] [T+0m] SSE sse-16 request error: 
+[2025-08-30T13:07:23.648Z] [ERROR] [T+0m] SSE sse-17 request error: 
+[2025-08-30T13:07:23.648Z] [ERROR] [T+0m] SSE sse-18 request error: 
+[2025-08-30T13:07:23.649Z] [ERROR] [T+0m] SSE sse-19 request error: 
+[2025-08-30T13:07:30.723Z] [ERROR] [T+0m] SSE sse-1 request error: 
+[2025-08-30T13:07:30.723Z] [ERROR] [T+0m] SSE sse-3 request error: 
+[2025-08-30T13:07:30.724Z] [ERROR] [T+0m] SSE sse-0 request error: 
+[2025-08-30T13:07:30.724Z] [ERROR] [T+0m] SSE sse-2 request error: 
+[2025-08-30T13:07:30.724Z] [ERROR] [T+0m] SSE sse-4 request error: 
+[2025-08-30T13:07:30.725Z] [ERROR] [T+0m] SSE sse-5 request error: 
+[2025-08-30T13:07:30.725Z] [ERROR] [T+0m] SSE sse-7 request error: 
+[2025-08-30T13:07:30.725Z] [ERROR] [T+0m] SSE sse-6 request error: 
+[2025-08-30T13:07:30.725Z] [ERROR] [T+0m] SSE sse-8 request error: 
+[2025-08-30T13:07:30.725Z] [ERROR] [T+0m] SSE sse-9 request error: 
+[2025-08-30T13:07:30.726Z] [ERROR] [T+0m] SSE sse-10 request error: 
+[2025-08-30T13:07:30.726Z] [ERROR] [T+0m] SSE sse-11 request error: 
+[2025-08-30T13:07:30.726Z] [ERROR] [T+0m] SSE sse-12 request error: 
+[2025-08-30T13:07:30.726Z] [ERROR] [T+0m] SSE sse-13 request error: 
+[2025-08-30T13:07:30.726Z] [ERROR] [T+0m] SSE sse-14 request error: 
+[2025-08-30T13:07:30.726Z] [ERROR] [T+0m] SSE sse-15 request error: 
+[2025-08-30T13:07:30.726Z] [ERROR] [T+0m] SSE sse-16 request error: 
+[2025-08-30T13:07:30.727Z] [ERROR] [T+0m] SSE sse-17 request error: 
+[2025-08-30T13:07:30.727Z] [ERROR] [T+0m] SSE sse-18 request error: 
+[2025-08-30T13:07:30.728Z] [ERROR] [T+0m] SSE sse-19 request error: 
+[2025-08-30T13:07:38.303Z] [ERROR] [T+0m] Run a97f0b36-712d-4d1b-bb0e-f1395d008290 failed: 
+[2025-08-30T13:07:44.873Z] [ERROR] [T+0m] SSE sse-1 request error: 
+[2025-08-30T13:07:44.873Z] [ERROR] [T+0m] SSE sse-3 request error: 
+[2025-08-30T13:07:44.873Z] [ERROR] [T+0m] SSE sse-0 request error: 
+[2025-08-30T13:07:44.874Z] [ERROR] [T+0m] SSE sse-2 request error: 
+[2025-08-30T13:07:44.874Z] [ERROR] [T+0m] SSE sse-4 request error: 
+[2025-08-30T13:07:44.874Z] [ERROR] [T+0m] SSE sse-5 request error: 
+[2025-08-30T13:07:44.875Z] [ERROR] [T+0m] SSE sse-7 request error: 
+[2025-08-30T13:07:44.875Z] [ERROR] [T+0m] SSE sse-6 request error: 
+[2025-08-30T13:07:44.875Z] [ERROR] [T+0m] SSE sse-8 request error: 
+[2025-08-30T13:07:44.875Z] [ERROR] [T+0m] SSE sse-9 request error: 
+[2025-08-30T13:07:44.876Z] [ERROR] [T+0m] SSE sse-11 request error: 
+[2025-08-30T13:07:44.876Z] [ERROR] [T+0m] SSE sse-10 request error: 
+[2025-08-30T13:07:44.876Z] [ERROR] [T+0m] SSE sse-12 request error: 
+[2025-08-30T13:07:44.876Z] [ERROR] [T+0m] SSE sse-13 request error: 
+[2025-08-30T13:07:44.877Z] [ERROR] [T+0m] SSE sse-14 request error: 
+[2025-08-30T13:07:44.877Z] [ERROR] [T+0m] SSE sse-15 request error: 
+[2025-08-30T13:07:44.877Z] [ERROR] [T+0m] SSE sse-16 request error: 
+[2025-08-30T13:07:44.877Z] [ERROR] [T+0m] SSE sse-17 request error: 
+[2025-08-30T13:07:44.878Z] [ERROR] [T+0m] SSE sse-18 request error: 
+[2025-08-30T13:07:44.878Z] [ERROR] [T+0m] SSE sse-19 request error: 
+[2025-08-30T13:07:48.312Z] [ERROR] [T+0m] ❌ Availability check error: 
+[2025-08-30T13:07:58.318Z] [ERROR] [T+0m] Run 97373225-58e4-4367-9417-522d54a82684 failed: 
+[2025-08-30T13:08:13.161Z] [ERROR] [T+0m] SSE sse-1 request error: 
+[2025-08-30T13:08:13.161Z] [ERROR] [T+0m] SSE sse-3 request error: 
+[2025-08-30T13:08:13.161Z] [ERROR] [T+0m] SSE sse-0 request error: 
+[2025-08-30T13:08:13.162Z] [ERROR] [T+0m] SSE sse-2 request error: 
+[2025-08-30T13:08:13.162Z] [ERROR] [T+0m] SSE sse-4 request error: 
+[2025-08-30T13:08:13.162Z] [ERROR] [T+0m] SSE sse-5 request error: 
+[2025-08-30T13:08:13.162Z] [ERROR] [T+0m] SSE sse-7 request error: 
+[2025-08-30T13:08:13.162Z] [ERROR] [T+0m] SSE sse-6 request error: 
+[2025-08-30T13:08:13.162Z] [ERROR] [T+0m] SSE sse-8 request error: 
+[2025-08-30T13:08:13.163Z] [ERROR] [T+0m] SSE sse-9 request error: 
+[2025-08-30T13:08:13.163Z] [ERROR] [T+0m] SSE sse-11 request error: 
+[2025-08-30T13:08:13.163Z] [ERROR] [T+0m] SSE sse-10 request error: 
+[2025-08-30T13:08:13.163Z] [ERROR] [T+0m] SSE sse-12 request error: 
+[2025-08-30T13:08:13.163Z] [ERROR] [T+0m] SSE sse-13 request error: 
+[2025-08-30T13:08:13.164Z] [ERROR] [T+0m] SSE sse-14 request error: 
+[2025-08-30T13:08:13.164Z] [ERROR] [T+0m] SSE sse-15 request error: 
+[2025-08-30T13:08:13.164Z] [ERROR] [T+0m] SSE sse-16 request error: 
+[2025-08-30T13:08:13.164Z] [ERROR] [T+0m] SSE sse-17 request error: 
+[2025-08-30T13:08:13.164Z] [ERROR] [T+0m] SSE sse-18 request error: 
+[2025-08-30T13:08:13.164Z] [ERROR] [T+0m] SSE sse-19 request error: 
+[2025-08-30T13:08:18.323Z] [ERROR] [T+1m] ❌ Availability check error: 
+[2025-08-30T13:08:18.323Z] [ERROR] [T+1m] Run f43badca-b316-4f04-bcca-eea2a1819a8b failed: 
+[2025-08-30T13:08:38.329Z] [ERROR] [T+1m] Run 3ef81e0d-721e-4ba2-a70a-3e8ba933f651 failed: 
+[2025-08-30T13:08:48.329Z] [ERROR] [T+1m] ❌ Availability check error: 
+[2025-08-30T13:08:58.336Z] [ERROR] [T+1m] Run 3cb6d58c-e295-4f25-9fc3-3e3e637691d5 failed: 
+[2025-08-30T13:09:09.708Z] [ERROR] [T+1m] SSE sse-1 request error: 
+[2025-08-30T13:09:09.709Z] [ERROR] [T+1m] SSE sse-3 request error: 
+[2025-08-30T13:09:09.709Z] [ERROR] [T+1m] SSE sse-0 request error: 
+[2025-08-30T13:09:09.709Z] [ERROR] [T+1m] SSE sse-2 request error: 
+[2025-08-30T13:09:09.710Z] [ERROR] [T+1m] SSE sse-4 request error: 
+[2025-08-30T13:09:09.710Z] [ERROR] [T+1m] SSE sse-5 request error: 
+[2025-08-30T13:09:09.710Z] [ERROR] [T+1m] SSE sse-7 request error: 
+[2025-08-30T13:09:09.710Z] [ERROR] [T+1m] SSE sse-6 request error: 
+[2025-08-30T13:09:09.710Z] [ERROR] [T+1m] SSE sse-8 request error: 
+[2025-08-30T13:09:09.711Z] [ERROR] [T+1m] SSE sse-9 request error: 
+[2025-08-30T13:09:09.712Z] [ERROR] [T+1m] SSE sse-11 request error: 
+[2025-08-30T13:09:09.712Z] [ERROR] [T+1m] SSE sse-10 request error: 
+[2025-08-30T13:09:09.712Z] [ERROR] [T+1m] SSE sse-12 request error: 
+[2025-08-30T13:09:09.712Z] [ERROR] [T+1m] SSE sse-13 request error: 
+[2025-08-30T13:09:09.713Z] [ERROR] [T+1m] SSE sse-14 request error: 
+[2025-08-30T13:09:09.713Z] [ERROR] [T+1m] SSE sse-15 request error: 
+[2025-08-30T13:09:09.713Z] [ERROR] [T+1m] SSE sse-16 request error: 
+[2025-08-30T13:09:09.714Z] [ERROR] [T+1m] SSE sse-17 request error: 
+[2025-08-30T13:09:09.715Z] [ERROR] [T+1m] SSE sse-18 request error: 
+[2025-08-30T13:09:09.715Z] [ERROR] [T+1m] SSE sse-19 request error: 
+[2025-08-30T13:09:18.341Z] [ERROR] [T+2m] ❌ Availability check error: 
+[2025-08-30T13:09:18.341Z] [ERROR] [T+2m] Run 0ca913d2-fb6d-4e6c-8ccc-fa1cdca6c675 failed: 
+[2025-08-30T13:09:38.352Z] [ERROR] [T+2m] Run 5a0bfc91-4d8a-42ce-a8de-db325937f602 failed: 
+[2025-08-30T13:09:48.347Z] [ERROR] [T+2m] ❌ Availability check error: 
+[2025-08-30T13:09:58.358Z] [ERROR] [T+2m] Run c8f1daa1-03e3-4339-b44e-91f6191918fb failed: 
+[2025-08-30T13:10:18.349Z] [ERROR] [T+3m] ❌ Availability check error: 
+[2025-08-30T13:10:18.365Z] [ERROR] [T+3m] Run 0e5b6af1-de66-47da-b4a8-983bbdc25f2f failed: 
+[2025-08-30T13:10:38.366Z] [ERROR] [T+3m] Run 634afc44-52da-4c9c-8d92-5f95853e6fa9 failed: 
+[2025-08-30T13:10:48.355Z] [ERROR] [T+3m] ❌ Availability check error: 
+[2025-08-30T13:10:58.366Z] [ERROR] [T+3m] Run d01fd386-55dd-4314-a501-c5df72e5ee99 failed: 
+[2025-08-30T13:11:02.790Z] [ERROR] [T+3m] SSE sse-1 request error: 
+[2025-08-30T13:11:02.790Z] [ERROR] [T+3m] SSE sse-3 request error: 
+[2025-08-30T13:11:02.791Z] [ERROR] [T+3m] SSE sse-0 request error: 
+[2025-08-30T13:11:02.791Z] [ERROR] [T+3m] SSE sse-2 request error: 
+[2025-08-30T13:11:02.791Z] [ERROR] [T+3m] SSE sse-4 request error: 
+[2025-08-30T13:11:02.791Z] [ERROR] [T+3m] SSE sse-5 request error: 
+[2025-08-30T13:11:02.791Z] [ERROR] [T+3m] SSE sse-7 request error: 
+[2025-08-30T13:11:02.791Z] [ERROR] [T+3m] SSE sse-6 request error: 
+[2025-08-30T13:11:02.792Z] [ERROR] [T+3m] SSE sse-8 request error: 
+[2025-08-30T13:11:02.793Z] [ERROR] [T+3m] SSE sse-9 request error: 
+[2025-08-30T13:11:02.793Z] [ERROR] [T+3m] SSE sse-11 request error: 
+[2025-08-30T13:11:02.793Z] [ERROR] [T+3m] SSE sse-10 request error: 
+[2025-08-30T13:11:02.793Z] [ERROR] [T+3m] SSE sse-12 request error: 
+[2025-08-30T13:11:02.793Z] [ERROR] [T+3m] SSE sse-13 request error: 
+[2025-08-30T13:11:02.794Z] [ERROR] [T+3m] SSE sse-14 request error: 
+[2025-08-30T13:11:02.794Z] [ERROR] [T+3m] SSE sse-15 request error: 
+[2025-08-30T13:11:02.794Z] [ERROR] [T+3m] SSE sse-16 request error: 
+[2025-08-30T13:11:02.794Z] [ERROR] [T+3m] SSE sse-17 request error: 
+[2025-08-30T13:11:02.795Z] [ERROR] [T+3m] SSE sse-18 request error: 
+[2025-08-30T13:11:02.795Z] [ERROR] [T+3m] SSE sse-19 request error: 
+[2025-08-30T13:11:18.367Z] [ERROR] [T+4m] ❌ Availability check error: 
+[2025-08-30T13:11:18.367Z] [ERROR] [T+4m] Run 83cd4200-7738-404d-a5b6-13b395b265f7 failed: 
+[2025-08-30T13:11:38.369Z] [ERROR] [T+4m] Run c6b9ace6-31bf-474a-b235-ac3aafcd16dd failed: 
+[2025-08-30T13:11:48.366Z] [ERROR] [T+4m] ❌ Availability check error: 
+[2025-08-30T13:11:58.372Z] [ERROR] [T+4m] Run bbe816fa-c1ce-40be-9096-c9b5896f6434 failed: 
+[2025-08-30T13:12:18.294Z] [HEARTBEAT] [T+5m] 💓 S2-SMOKE alive — t=5m, active SSE=20, runs started=14
+[2025-08-30T13:12:18.309Z] [INFO] [T+5m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-30T13:12:18.312Z] [ERROR] [T+5m] Registry pulse error: 
+[2025-08-30T13:12:18.312Z] [ERROR] [T+5m] Safety probe error: 
+[2025-08-30T13:12:18.312Z] [ERROR] [T+5m] Privacy slice error: 
+[2025-08-30T13:12:18.373Z] [ERROR] [T+5m] ❌ Availability check error: 
+[2025-08-30T13:12:18.373Z] [ERROR] [T+5m] Run d99e3ccc-67eb-4024-982d-bd25cb52fe1d failed: 
+[2025-08-30T13:12:19.317Z] [INFO] [T+5m] 🔄 SSE churn: replaced 4 clients
+[2025-08-30T13:12:19.318Z] [ERROR] [T+5m] SSE sse-replace-1756559539316-0 request error: 
+[2025-08-30T13:12:19.318Z] [ERROR] [T+5m] SSE sse-replace-1756559539316-1 request error: 
+[2025-08-30T13:12:19.319Z] [ERROR] [T+5m] SSE sse-replace-1756559539317-2 request error: 
+[2025-08-30T13:12:19.319Z] [ERROR] [T+5m] SSE sse-replace-1756559539317-3 request error: 
+[2025-08-30T13:12:21.088Z] [ERROR] [T+5m] SSE sse-replace-1756559539316-0 request error: 
+[2025-08-30T13:12:21.088Z] [ERROR] [T+5m] SSE sse-replace-1756559539317-2 request error: 
+[2025-08-30T13:12:21.089Z] [ERROR] [T+5m] SSE sse-replace-1756559539316-1 request error: 
+[2025-08-30T13:12:21.089Z] [ERROR] [T+5m] SSE sse-replace-1756559539317-3 request error: 
+[2025-08-30T13:12:24.638Z] [ERROR] [T+5m] SSE sse-replace-1756559539316-0 request error: 
+[2025-08-30T13:12:24.638Z] [ERROR] [T+5m] SSE sse-replace-1756559539317-2 request error: 
+[2025-08-30T13:12:24.639Z] [ERROR] [T+5m] SSE sse-replace-1756559539316-1 request error: 
+[2025-08-30T13:12:24.639Z] [ERROR] [T+5m] SSE sse-replace-1756559539317-3 request error: 
+[2025-08-30T13:12:31.721Z] [ERROR] [T+5m] SSE sse-replace-1756559539316-0 request error: 
+[2025-08-30T13:12:31.721Z] [ERROR] [T+5m] SSE sse-replace-1756559539317-2 request error: 
+[2025-08-30T13:12:31.722Z] [ERROR] [T+5m] SSE sse-replace-1756559539316-1 request error: 
+[2025-08-30T13:12:31.722Z] [ERROR] [T+5m] SSE sse-replace-1756559539317-3 request error: 
+[2025-08-30T13:12:38.376Z] [ERROR] [T+5m] Run 434d066a-c627-4d69-b5c8-323a5feb3491 failed: 
+[2025-08-30T13:12:45.873Z] [ERROR] [T+5m] SSE sse-replace-1756559539316-0 request error: 
+[2025-08-30T13:12:45.873Z] [ERROR] [T+5m] SSE sse-replace-1756559539316-1 request error: 
+[2025-08-30T13:12:45.874Z] [ERROR] [T+5m] SSE sse-replace-1756559539317-2 request error: 
+[2025-08-30T13:12:45.874Z] [ERROR] [T+5m] SSE sse-replace-1756559539317-3 request error: 
+[2025-08-30T13:12:48.387Z] [ERROR] [T+5m] ❌ Availability check error: 
+[2025-08-30T13:12:58.385Z] [ERROR] [T+5m] Run 4e57fcdc-457a-4c69-aa9a-bf3af4647f07 failed: 
+[2025-08-30T13:13:14.153Z] [ERROR] [T+5m] SSE sse-replace-1756559539316-0 request error: 
+[2025-08-30T13:13:14.154Z] [ERROR] [T+5m] SSE sse-replace-1756559539316-1 request error: 
+[2025-08-30T13:13:14.154Z] [ERROR] [T+5m] SSE sse-replace-1756559539317-2 request error: 
+[2025-08-30T13:13:14.154Z] [ERROR] [T+5m] SSE sse-replace-1756559539317-3 request error: 
+[2025-08-30T13:13:18.393Z] [ERROR] [T+6m] ❌ Availability check error: 
+[2025-08-30T13:13:18.393Z] [ERROR] [T+6m] Run 3ae91161-1b3e-4fcf-bbd7-ec76c2d0ab8d failed: 
+[2025-08-30T13:13:38.406Z] [ERROR] [T+6m] Run d613f2ed-aecb-485e-9ad4-697b58e84cca failed: 
+[2025-08-30T13:13:48.402Z] [ERROR] [T+6m] ❌ Availability check error: 
+[2025-08-30T13:13:58.407Z] [ERROR] [T+6m] Run 3b4d310d-8084-4c30-9318-65781faebdc4 failed: 
+[2025-08-30T13:14:10.693Z] [ERROR] [T+6m] SSE sse-replace-1756559539316-0 request error: 
+[2025-08-30T13:14:10.693Z] [ERROR] [T+6m] SSE sse-replace-1756559539316-1 request error: 
+[2025-08-30T13:14:10.693Z] [ERROR] [T+6m] SSE sse-replace-1756559539317-2 request error: 
+[2025-08-30T13:14:10.694Z] [ERROR] [T+6m] SSE sse-replace-1756559539317-3 request error: 
+[2025-08-30T13:14:18.405Z] [ERROR] [T+7m] ❌ Availability check error: 
+[2025-08-30T13:14:18.420Z] [ERROR] [T+7m] Run 87c5ec9c-16ea-44e4-b6ca-af772001080b failed: 
+[2025-08-30T13:14:38.430Z] [ERROR] [T+7m] Run 53963fa7-6c0f-4ef8-8b4e-aedb46d1a967 failed: 
+[2025-08-30T13:14:48.414Z] [ERROR] [T+7m] ❌ Availability check error: 
+[2025-08-30T13:14:48.947Z] [ERROR] [T+7m] SSE sse-1 request error: 
+[2025-08-30T13:14:48.947Z] [ERROR] [T+7m] SSE sse-3 request error: 
+[2025-08-30T13:14:48.947Z] [ERROR] [T+7m] SSE sse-2 request error: 
+[2025-08-30T13:14:48.948Z] [ERROR] [T+7m] SSE sse-0 request error: 
+[2025-08-30T13:14:48.948Z] [ERROR] [T+7m] SSE sse-4 request error: 
+[2025-08-30T13:14:48.948Z] [ERROR] [T+7m] SSE sse-5 request error: 
+[2025-08-30T13:14:48.948Z] [ERROR] [T+7m] SSE sse-7 request error: 
+[2025-08-30T13:14:48.948Z] [ERROR] [T+7m] SSE sse-6 request error: 
+[2025-08-30T13:14:48.949Z] [ERROR] [T+7m] SSE sse-9 request error: 
+[2025-08-30T13:14:48.949Z] [ERROR] [T+7m] SSE sse-8 request error: 
+[2025-08-30T13:14:48.949Z] [ERROR] [T+7m] SSE sse-11 request error: 
+[2025-08-30T13:14:48.949Z] [ERROR] [T+7m] SSE sse-10 request error: 
+[2025-08-30T13:14:48.949Z] [ERROR] [T+7m] SSE sse-12 request error: 
+[2025-08-30T13:14:48.950Z] [ERROR] [T+7m] SSE sse-14 request error: 
+[2025-08-30T13:14:48.950Z] [ERROR] [T+7m] SSE sse-13 request error: 
+[2025-08-30T13:14:48.950Z] [ERROR] [T+7m] SSE sse-15 request error: 
+[2025-08-30T13:14:48.951Z] [ERROR] [T+7m] SSE sse-16 request error: 
+[2025-08-30T13:14:48.951Z] [ERROR] [T+7m] SSE sse-17 request error: 
+[2025-08-30T13:14:48.951Z] [ERROR] [T+7m] SSE sse-18 request error: 
+[2025-08-30T13:14:48.951Z] [ERROR] [T+7m] SSE sse-19 request error: 
+[2025-08-30T13:14:58.437Z] [ERROR] [T+7m] Run fe0d932a-9f3d-4c14-9c53-d538662ab40d failed: 
+[2025-08-30T13:15:18.429Z] [ERROR] [T+8m] ❌ Availability check error: 
+[2025-08-30T13:15:18.445Z] [ERROR] [T+8m] Run a9a1c5c5-44d5-4626-a80e-6a600c8c69e1 failed: 
+[2025-08-30T13:15:38.449Z] [ERROR] [T+8m] Run db109b54-60db-45b7-b295-dcb25fa3cedb failed: 
+[2025-08-30T13:15:48.430Z] [ERROR] [T+8m] ❌ Availability check error: 
+[2025-08-30T13:15:58.454Z] [ERROR] [T+8m] Run 03a04aa2-416d-4d7d-8151-eecbb64c55f0 failed: 
+[2025-08-30T13:16:03.769Z] [ERROR] [T+8m] SSE sse-replace-1756559539316-0 request error: 
+[2025-08-30T13:16:03.770Z] [ERROR] [T+8m] SSE sse-replace-1756559539316-1 request error: 
+[2025-08-30T13:16:03.770Z] [ERROR] [T+8m] SSE sse-replace-1756559539317-2 request error: 
+[2025-08-30T13:16:03.770Z] [ERROR] [T+8m] SSE sse-replace-1756559539317-3 request error: 
+[2025-08-30T13:16:18.443Z] [ERROR] [T+9m] ❌ Availability check error: 
+[2025-08-30T13:16:18.459Z] [ERROR] [T+9m] Run 74e223d2-f701-48ac-8fa9-420b27edeca6 failed: 
+[2025-08-30T13:16:38.461Z] [ERROR] [T+9m] Run 48abfde0-88b3-4f3d-aba6-ff43c1e86c37 failed: 
+[2025-08-30T13:16:48.452Z] [ERROR] [T+9m] ❌ Availability check error: 
+[2025-08-30T13:16:58.472Z] [ERROR] [T+9m] Run 9c2b4603-f5c9-444e-8ba1-c43c8565d427 failed: 
+[2025-08-30T13:17:18.306Z] [HEARTBEAT] [T+10m] 💓 S2-SMOKE alive — t=10m, active SSE=20, runs started=29
+[2025-08-30T13:17:18.322Z] [INFO] [T+10m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-30T13:17:18.324Z] [ERROR] [T+10m] Registry pulse error: 
+[2025-08-30T13:17:18.324Z] [ERROR] [T+10m] Safety probe error: 
+[2025-08-30T13:17:18.324Z] [ERROR] [T+10m] Privacy slice error: 
+[2025-08-30T13:17:18.462Z] [ERROR] [T+10m] ❌ Availability check error: 
+[2025-08-30T13:17:18.477Z] [ERROR] [T+10m] Run 97e90e84-abfd-4358-b4d8-0e5fbf9e2883 failed: 
+[2025-08-30T13:17:19.329Z] [INFO] [T+10m] 🔄 SSE churn: replaced 4 clients
+[2025-08-30T13:17:19.330Z] [ERROR] [T+10m] SSE sse-replace-1756559839328-0 request error: 
+[2025-08-30T13:17:19.330Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-1 request error: 
+[2025-08-30T13:17:19.331Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-2 request error: 
+[2025-08-30T13:17:19.331Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-3 request error: 
+[2025-08-30T13:17:21.111Z] [ERROR] [T+10m] SSE sse-replace-1756559839328-0 request error: 
+[2025-08-30T13:17:21.112Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-1 request error: 
+[2025-08-30T13:17:21.112Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-2 request error: 
+[2025-08-30T13:17:21.112Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-3 request error: 
+[2025-08-30T13:17:24.654Z] [ERROR] [T+10m] SSE sse-replace-1756559839328-0 request error: 
+[2025-08-30T13:17:24.654Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-1 request error: 
+[2025-08-30T13:17:24.654Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-2 request error: 
+[2025-08-30T13:17:24.655Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-3 request error: 
+[2025-08-30T13:17:31.733Z] [ERROR] [T+10m] SSE sse-replace-1756559839328-0 request error: 
+[2025-08-30T13:17:31.734Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-1 request error: 
+[2025-08-30T13:17:31.734Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-2 request error: 
+[2025-08-30T13:17:31.734Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-3 request error: 
+[2025-08-30T13:17:38.477Z] [ERROR] [T+10m] Run 47094270-076e-455b-bba0-2fabb265ab2a failed: 
+[2025-08-30T13:17:45.880Z] [ERROR] [T+10m] SSE sse-replace-1756559839328-0 request error: 
+[2025-08-30T13:17:45.880Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-1 request error: 
+[2025-08-30T13:17:45.880Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-2 request error: 
+[2025-08-30T13:17:45.881Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-3 request error: 
+[2025-08-30T13:17:48.471Z] [ERROR] [T+10m] ❌ Availability check error: 
+[2025-08-30T13:17:58.480Z] [ERROR] [T+10m] Run 1385011b-280b-49a3-b420-8d372a34d721 failed: 
+[2025-08-30T13:18:14.157Z] [ERROR] [T+10m] SSE sse-replace-1756559839328-0 request error: 
+[2025-08-30T13:18:14.158Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-1 request error: 
+[2025-08-30T13:18:14.158Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-2 request error: 
+[2025-08-30T13:18:14.158Z] [ERROR] [T+10m] SSE sse-replace-1756559839329-3 request error: 
+[2025-08-30T13:18:18.476Z] [ERROR] [T+11m] ❌ Availability check error: 
+[2025-08-30T13:18:18.492Z] [ERROR] [T+11m] Run 1ff351f7-df95-4e09-9c0b-14cb10b8ffc1 failed: 
+[2025-08-30T13:18:38.495Z] [ERROR] [T+11m] Run 6716c8a2-9d36-421a-85b8-8d19c5ac5280 failed: 
+[2025-08-30T13:18:48.484Z] [ERROR] [T+11m] ❌ Availability check error: 
+[2025-08-30T13:18:58.504Z] [ERROR] [T+11m] Run 55c0621f-4def-45c4-b4b5-118c660766ba failed: 
+[2025-08-30T13:19:10.707Z] [ERROR] [T+11m] SSE sse-replace-1756559839328-0 request error: 
+[2025-08-30T13:19:10.707Z] [ERROR] [T+11m] SSE sse-replace-1756559839329-1 request error: 
+[2025-08-30T13:19:10.708Z] [ERROR] [T+11m] SSE sse-replace-1756559839329-2 request error: 
+[2025-08-30T13:19:10.708Z] [ERROR] [T+11m] SSE sse-replace-1756559839329-3 request error: 
+[2025-08-30T13:19:18.493Z] [ERROR] [T+12m] ❌ Availability check error: 
+[2025-08-30T13:19:18.509Z] [ERROR] [T+12m] Run 6257cc09-1e73-44b1-827d-00db53d92e60 failed: 
+[2025-08-30T13:19:38.515Z] [ERROR] [T+12m] Run af486523-3f95-43a9-8e42-1c56560010b0 failed: 
+[2025-08-30T13:19:48.501Z] [ERROR] [T+12m] ❌ Availability check error: 
+[2025-08-30T13:19:49.918Z] [ERROR] [T+12m] SSE sse-replace-1756559539316-0 request error: 
+[2025-08-30T13:19:49.919Z] [ERROR] [T+12m] SSE sse-replace-1756559539316-1 request error: 
+[2025-08-30T13:19:49.919Z] [ERROR] [T+12m] SSE sse-replace-1756559539317-2 request error: 
+[2025-08-30T13:19:49.919Z] [ERROR] [T+12m] SSE sse-replace-1756559539317-3 request error: 
+[2025-08-30T13:19:58.515Z] [ERROR] [T+12m] Run 1253105b-5459-4dae-979f-88a10e0829a1 failed: 
+[2025-08-30T13:20:18.516Z] [ERROR] [T+13m] ❌ Availability check error: 
+[2025-08-30T13:20:18.517Z] [ERROR] [T+13m] Run 655b69c3-f063-47dd-9653-fabf91ad2a0e failed: 
+[2025-08-30T13:20:38.522Z] [ERROR] [T+13m] Run 25b0d8f3-ffa9-4ae4-9576-622cccbc7e22 failed: 
+[2025-08-30T13:20:48.519Z] [ERROR] [T+13m] ❌ Availability check error: 
+[2025-08-30T13:20:58.532Z] [ERROR] [T+13m] Run 51f1930e-b630-4e83-bace-23d8f213ed9f failed: 
+[2025-08-30T13:21:03.798Z] [ERROR] [T+13m] SSE sse-replace-1756559839328-0 request error: 
+[2025-08-30T13:21:03.798Z] [ERROR] [T+13m] SSE sse-replace-1756559839329-1 request error: 
+[2025-08-30T13:21:03.799Z] [ERROR] [T+13m] SSE sse-replace-1756559839329-2 request error: 
+[2025-08-30T13:21:03.799Z] [ERROR] [T+13m] SSE sse-replace-1756559839329-3 request error: 
+[2025-08-30T13:21:18.534Z] [ERROR] [T+14m] ❌ Availability check error: 
+[2025-08-30T13:21:18.534Z] [ERROR] [T+14m] Run 15f35e2f-9926-4899-898f-fc29aad5c09e failed: 
+[2025-08-30T13:21:38.535Z] [ERROR] [T+14m] Run 07f6ff42-65c1-44d3-8323-935abbff5155 failed: 
+[2025-08-30T13:21:48.548Z] [ERROR] [T+14m] ❌ Availability check error: 
+[2025-08-30T13:21:58.539Z] [ERROR] [T+14m] Run 2bd80d36-7a93-46f6-acc3-7cd85525673c failed: 
+[2025-08-30T13:22:18.300Z] [INFO] [T+15m] ⏰ Master timeout reached - aborting all workers

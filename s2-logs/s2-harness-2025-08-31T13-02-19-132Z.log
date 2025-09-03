@@ -1,0 +1,209 @@
+[2025-08-31T13:02:19.134Z] [INFO] [T+0m] 🚀 Starting S2 — Unkillable Harness (2 Hours, Zero-Leak Cert)
+[2025-08-31T13:02:19.137Z] [INFO] [T+0m] 📝 Logging to: s2-logs/s2-harness-2025-08-31T13-02-19-132Z.log
+[2025-08-31T13:02:19.137Z] [INFO] [T+0m] 🔧 Setting up workspace plan...
+[2025-08-31T13:02:19.159Z] [INFO] [T+0m] ✅ Workspace plan set to pro
+[2025-08-31T13:02:19.160Z] [INFO] [T+0m] 🏃 Starting W1: Realistic Runs
+[2025-08-31T13:02:19.160Z] [INFO] [T+0m] 🔄 Starting W2: SSE Churn
+[2025-08-31T13:02:19.160Z] [INFO] [T+0m] 📦 Starting W3: Registry Pulse
+[2025-08-31T13:02:19.160Z] [INFO] [T+0m] 🛡️ Starting W4: Safety Probes
+[2025-08-31T13:02:19.161Z] [INFO] [T+0m] 🔒 Starting W5: Privacy Slice
+[2025-08-31T13:02:19.161Z] [INFO] [T+0m] 🌪️ Starting W6: Light Chaos
+[2025-08-31T13:02:19.161Z] [INFO] [T+0m] 📊 Starting Availability Monitor
+[2025-08-31T13:02:19.161Z] [INFO] [T+0m] 📈 Starting Metrics Capture
+[2025-08-31T13:02:19.171Z] [INFO] [T+0m] 🔌 SSE sse-0 connected
+[2025-08-31T13:02:19.175Z] [INFO] [T+0m] 🔌 SSE sse-1 connected
+[2025-08-31T13:02:19.176Z] [INFO] [T+0m] 🔌 SSE sse-2 connected
+[2025-08-31T13:02:19.176Z] [INFO] [T+0m] 🔌 SSE sse-3 connected
+[2025-08-31T13:02:19.177Z] [INFO] [T+0m] 🔌 SSE sse-4 connected
+[2025-08-31T13:02:19.177Z] [INFO] [T+0m] 🔌 SSE sse-5 connected
+[2025-08-31T13:02:19.178Z] [INFO] [T+0m] 🔌 SSE sse-6 connected
+[2025-08-31T13:02:19.178Z] [INFO] [T+0m] 🔌 SSE sse-7 connected
+[2025-08-31T13:02:19.178Z] [INFO] [T+0m] 🔌 SSE sse-8 connected
+[2025-08-31T13:02:19.179Z] [INFO] [T+0m] 🔌 SSE sse-9 connected
+[2025-08-31T13:02:19.179Z] [INFO] [T+0m] 🔌 SSE sse-10 connected
+[2025-08-31T13:02:19.179Z] [INFO] [T+0m] 🔌 SSE sse-11 connected
+[2025-08-31T13:02:19.179Z] [INFO] [T+0m] 🔌 SSE sse-12 connected
+[2025-08-31T13:02:19.180Z] [INFO] [T+0m] 🔌 SSE sse-13 connected
+[2025-08-31T13:02:19.180Z] [INFO] [T+0m] 🔌 SSE sse-14 connected
+[2025-08-31T13:02:19.180Z] [INFO] [T+0m] 🔌 SSE sse-15 connected
+[2025-08-31T13:02:19.181Z] [INFO] [T+0m] 🔌 SSE sse-16 connected
+[2025-08-31T13:02:19.181Z] [INFO] [T+0m] 🔌 SSE sse-17 connected
+[2025-08-31T13:02:19.181Z] [INFO] [T+0m] 🔌 SSE sse-18 connected
+[2025-08-31T13:02:19.181Z] [INFO] [T+0m] 🔌 SSE sse-19 connected
+[2025-08-31T13:07:19.160Z] [HEARTBEAT] [T+5m] 💓 S2 alive — t=5m, active SSE=20, runs started=14 (100.0% success)
+[2025-08-31T13:07:19.175Z] [INFO] [T+5m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T13:07:20.180Z] [INFO] [T+5m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T13:07:20.181Z] [INFO] [T+5m] 🔌 SSE sse-replace-1756645640179-0 connected
+[2025-08-31T13:07:20.181Z] [INFO] [T+5m] 🔌 SSE sse-replace-1756645640179-1 connected
+[2025-08-31T13:07:20.182Z] [INFO] [T+5m] 🔌 SSE sse-replace-1756645640180-2 connected
+[2025-08-31T13:07:20.182Z] [INFO] [T+5m] 🔌 SSE sse-replace-1756645640180-3 connected
+[2025-08-31T13:12:19.161Z] [HEARTBEAT] [T+10m] 💓 S2 alive — t=10m, active SSE=20, runs started=29 (100.0% success)
+[2025-08-31T13:12:19.177Z] [INFO] [T+10m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T13:12:19.182Z] [INFO] [T+10m] 📊 Metrics snapshot saved: s2-snapshot-2025-08-31T13-12-19-180Z.json
+[2025-08-31T13:12:20.179Z] [INFO] [T+10m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T13:12:20.180Z] [INFO] [T+10m] 🔌 SSE sse-replace-1756645940178-0 connected
+[2025-08-31T13:12:20.181Z] [INFO] [T+10m] 🔌 SSE sse-replace-1756645940178-1 connected
+[2025-08-31T13:12:20.182Z] [INFO] [T+10m] 🔌 SSE sse-replace-1756645940178-3 connected
+[2025-08-31T13:12:20.182Z] [INFO] [T+10m] 🔌 SSE sse-replace-1756645940178-2 connected
+[2025-08-31T13:17:19.166Z] [HEARTBEAT] [T+15m] 💓 S2 alive — t=15m, active SSE=20, runs started=44 (100.0% success)
+[2025-08-31T13:17:19.181Z] [INFO] [T+15m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T13:17:20.197Z] [INFO] [T+15m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T13:17:20.198Z] [INFO] [T+15m] 🔌 SSE sse-replace-1756646240196-0 connected
+[2025-08-31T13:17:20.199Z] [INFO] [T+15m] 🔌 SSE sse-replace-1756646240197-1 connected
+[2025-08-31T13:17:20.199Z] [INFO] [T+15m] 🔌 SSE sse-replace-1756646240197-2 connected
+[2025-08-31T13:17:20.200Z] [INFO] [T+15m] 🔌 SSE sse-replace-1756646240197-3 connected
+[2025-08-31T13:22:19.174Z] [HEARTBEAT] [T+20m] 💓 S2 alive — t=20m, active SSE=20, runs started=59 (100.0% success)
+[2025-08-31T13:22:19.190Z] [INFO] [T+20m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T13:22:19.192Z] [INFO] [T+20m] 📊 Metrics snapshot saved: s2-snapshot-2025-08-31T13-22-19-191Z.json
+[2025-08-31T13:22:20.195Z] [INFO] [T+20m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T13:22:20.196Z] [INFO] [T+20m] 🔌 SSE sse-replace-1756646540194-0 connected
+[2025-08-31T13:22:20.197Z] [INFO] [T+20m] 🔌 SSE sse-replace-1756646540194-1 connected
+[2025-08-31T13:22:20.197Z] [INFO] [T+20m] 🔌 SSE sse-replace-1756646540195-2 connected
+[2025-08-31T13:22:20.198Z] [INFO] [T+20m] 🔌 SSE sse-replace-1756646540195-3 connected
+[2025-08-31T13:27:19.183Z] [HEARTBEAT] [T+25m] 💓 S2 alive — t=25m, active SSE=20, runs started=74 (100.0% success)
+[2025-08-31T13:27:19.198Z] [INFO] [T+25m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T13:27:20.202Z] [INFO] [T+25m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T13:27:20.203Z] [INFO] [T+25m] 🔌 SSE sse-replace-1756646840201-0 connected
+[2025-08-31T13:27:20.204Z] [INFO] [T+25m] 🔌 SSE sse-replace-1756646840201-1 connected
+[2025-08-31T13:27:20.205Z] [INFO] [T+25m] 🔌 SSE sse-replace-1756646840202-2 connected
+[2025-08-31T13:27:20.205Z] [INFO] [T+25m] 🔌 SSE sse-replace-1756646840202-3 connected
+[2025-08-31T13:32:19.186Z] [HEARTBEAT] [T+30m] 💓 S2 alive — t=30m, active SSE=20, runs started=89 (100.0% success)
+[2025-08-31T13:32:19.202Z] [INFO] [T+30m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T13:32:19.204Z] [INFO] [T+30m] 📊 Metrics snapshot saved: s2-snapshot-2025-08-31T13-32-19-204Z.json
+[2025-08-31T13:32:20.208Z] [INFO] [T+30m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T13:32:20.209Z] [INFO] [T+30m] 🔌 SSE sse-replace-1756647140207-0 connected
+[2025-08-31T13:32:20.210Z] [INFO] [T+30m] 🔌 SSE sse-replace-1756647140208-1 connected
+[2025-08-31T13:32:20.211Z] [INFO] [T+30m] 🔌 SSE sse-replace-1756647140208-2 connected
+[2025-08-31T13:32:20.212Z] [INFO] [T+30m] 🔌 SSE sse-replace-1756647140208-3 connected
+[2025-08-31T13:37:19.187Z] [HEARTBEAT] [T+35m] 💓 S2 alive — t=35m, active SSE=20, runs started=104 (100.0% success)
+[2025-08-31T13:37:19.202Z] [INFO] [T+35m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T13:37:20.206Z] [INFO] [T+35m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T13:37:20.208Z] [INFO] [T+35m] 🔌 SSE sse-replace-1756647440205-0 connected
+[2025-08-31T13:37:20.209Z] [INFO] [T+35m] 🔌 SSE sse-replace-1756647440206-1 connected
+[2025-08-31T13:37:20.209Z] [INFO] [T+35m] 🔌 SSE sse-replace-1756647440206-3 connected
+[2025-08-31T13:37:20.209Z] [INFO] [T+35m] 🔌 SSE sse-replace-1756647440206-2 connected
+[2025-08-31T13:42:19.190Z] [HEARTBEAT] [T+40m] 💓 S2 alive — t=40m, active SSE=20, runs started=119 (100.0% success)
+[2025-08-31T13:42:19.205Z] [INFO] [T+40m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T13:42:19.216Z] [INFO] [T+40m] 📊 Metrics snapshot saved: s2-snapshot-2025-08-31T13-42-19-211Z.json
+[2025-08-31T13:42:20.205Z] [INFO] [T+40m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T13:42:20.206Z] [INFO] [T+40m] 🔌 SSE sse-replace-1756647740205-0 connected
+[2025-08-31T13:42:20.207Z] [INFO] [T+40m] 🔌 SSE sse-replace-1756647740205-1 connected
+[2025-08-31T13:42:20.208Z] [INFO] [T+40m] 🔌 SSE sse-replace-1756647740205-2 connected
+[2025-08-31T13:42:20.208Z] [INFO] [T+40m] 🔌 SSE sse-replace-1756647740205-3 connected
+[2025-08-31T13:47:19.186Z] [INFO] [T+45m] 🌪️ Chaos: Redis restart scheduled
+[2025-08-31T13:47:19.193Z] [HEARTBEAT] [T+45m] 💓 S2 alive — t=45m, active SSE=20, runs started=134 (100.0% success)
+[2025-08-31T13:47:19.211Z] [INFO] [T+45m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T13:47:20.220Z] [INFO] [T+45m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T13:47:20.221Z] [INFO] [T+45m] 🔌 SSE sse-replace-1756648040219-0 connected
+[2025-08-31T13:47:20.221Z] [INFO] [T+45m] 🔌 SSE sse-replace-1756648040219-1 connected
+[2025-08-31T13:47:20.222Z] [INFO] [T+45m] 🔌 SSE sse-replace-1756648040219-2 connected
+[2025-08-31T13:47:20.222Z] [INFO] [T+45m] 🔌 SSE sse-replace-1756648040219-3 connected
+[2025-08-31T13:52:19.199Z] [HEARTBEAT] [T+50m] 💓 S2 alive — t=50m, active SSE=20, runs started=149 (100.0% success)
+[2025-08-31T13:52:19.212Z] [INFO] [T+50m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T13:52:19.214Z] [INFO] [T+50m] 📊 Metrics snapshot saved: s2-snapshot-2025-08-31T13-52-19-213Z.json
+[2025-08-31T13:52:20.217Z] [INFO] [T+50m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T13:52:20.218Z] [INFO] [T+50m] 🔌 SSE sse-replace-1756648340217-0 connected
+[2025-08-31T13:52:20.219Z] [INFO] [T+50m] 🔌 SSE sse-replace-1756648340217-1 connected
+[2025-08-31T13:52:20.220Z] [INFO] [T+50m] 🔌 SSE sse-replace-1756648340217-2 connected
+[2025-08-31T13:52:20.221Z] [INFO] [T+50m] 🔌 SSE sse-replace-1756648340217-3 connected
+[2025-08-31T13:57:19.201Z] [HEARTBEAT] [T+55m] 💓 S2 alive — t=55m, active SSE=20, runs started=164 (100.0% success)
+[2025-08-31T13:57:19.216Z] [INFO] [T+55m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T13:57:20.220Z] [INFO] [T+55m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T13:57:20.221Z] [INFO] [T+55m] 🔌 SSE sse-replace-1756648640219-0 connected
+[2025-08-31T13:57:20.221Z] [INFO] [T+55m] 🔌 SSE sse-replace-1756648640220-1 connected
+[2025-08-31T13:57:20.222Z] [INFO] [T+55m] 🔌 SSE sse-replace-1756648640220-3 connected
+[2025-08-31T13:57:20.222Z] [INFO] [T+55m] 🔌 SSE sse-replace-1756648640220-2 connected
+[2025-08-31T14:02:19.213Z] [HEARTBEAT] [T+60m] 💓 S2 alive — t=60m, active SSE=20, runs started=179 (100.0% success)
+[2025-08-31T14:02:19.216Z] [INFO] [T+60m] 📊 Metrics snapshot saved: s2-snapshot-2025-08-31T14-02-19-215Z.json
+[2025-08-31T14:02:19.216Z] [INFO] [T+60m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T14:02:20.231Z] [INFO] [T+60m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T14:02:20.232Z] [INFO] [T+60m] 🔌 SSE sse-replace-1756648940230-0 connected
+[2025-08-31T14:02:20.232Z] [INFO] [T+60m] 🔌 SSE sse-replace-1756648940230-1 connected
+[2025-08-31T14:02:20.233Z] [INFO] [T+60m] 🔌 SSE sse-replace-1756648940230-2 connected
+[2025-08-31T14:02:20.233Z] [INFO] [T+60m] 🔌 SSE sse-replace-1756648940231-3 connected
+[2025-08-31T14:07:19.217Z] [HEARTBEAT] [T+65m] 💓 S2 alive — t=65m, active SSE=20, runs started=194 (100.0% success)
+[2025-08-31T14:07:19.217Z] [INFO] [T+65m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T14:07:20.233Z] [INFO] [T+65m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T14:07:20.234Z] [INFO] [T+65m] 🔌 SSE sse-replace-1756649240232-0 connected
+[2025-08-31T14:07:20.234Z] [INFO] [T+65m] 🔌 SSE sse-replace-1756649240232-1 connected
+[2025-08-31T14:07:20.235Z] [INFO] [T+65m] 🔌 SSE sse-replace-1756649240232-2 connected
+[2025-08-31T14:07:20.235Z] [INFO] [T+65m] 🔌 SSE sse-replace-1756649240233-3 connected
+[2025-08-31T14:12:19.223Z] [HEARTBEAT] [T+70m] 💓 S2 alive — t=70m, active SSE=20, runs started=209 (100.0% success)
+[2025-08-31T14:12:19.224Z] [INFO] [T+70m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T14:12:19.226Z] [INFO] [T+70m] 📊 Metrics snapshot saved: s2-snapshot-2025-08-31T14-12-19-225Z.json
+[2025-08-31T14:12:20.226Z] [INFO] [T+70m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T14:12:20.227Z] [INFO] [T+70m] 🔌 SSE sse-replace-1756649540225-0 connected
+[2025-08-31T14:12:20.227Z] [INFO] [T+70m] 🔌 SSE sse-replace-1756649540225-1 connected
+[2025-08-31T14:12:20.228Z] [INFO] [T+70m] 🔌 SSE sse-replace-1756649540225-2 connected
+[2025-08-31T14:12:20.228Z] [INFO] [T+70m] 🔌 SSE sse-replace-1756649540226-3 connected
+[2025-08-31T14:17:19.171Z] [INFO] [T+75m] 🌪️ Chaos: Gateway restart scheduled
+[2025-08-31T14:17:19.174Z] [INFO] [T+75m] 🌪️ Chaos: Gateway ready after restart
+[2025-08-31T14:17:19.231Z] [HEARTBEAT] [T+75m] 💓 S2 alive — t=75m, active SSE=20, runs started=224 (100.0% success)
+[2025-08-31T14:17:19.231Z] [INFO] [T+75m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T14:17:20.245Z] [INFO] [T+75m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T14:17:20.246Z] [INFO] [T+75m] 🔌 SSE sse-replace-1756649840245-0 connected
+[2025-08-31T14:17:20.247Z] [INFO] [T+75m] 🔌 SSE sse-replace-1756649840245-1 connected
+[2025-08-31T14:17:20.248Z] [INFO] [T+75m] 🔌 SSE sse-replace-1756649840245-3 connected
+[2025-08-31T14:17:20.248Z] [INFO] [T+75m] 🔌 SSE sse-replace-1756649840245-2 connected
+[2025-08-31T14:22:19.234Z] [HEARTBEAT] [T+80m] 💓 S2 alive — t=80m, active SSE=20, runs started=239 (100.0% success)
+[2025-08-31T14:22:19.235Z] [INFO] [T+80m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T14:22:19.241Z] [INFO] [T+80m] 📊 Metrics snapshot saved: s2-snapshot-2025-08-31T14-22-19-237Z.json
+[2025-08-31T14:22:20.239Z] [INFO] [T+80m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T14:22:20.240Z] [INFO] [T+80m] 🔌 SSE sse-replace-1756650140239-0 connected
+[2025-08-31T14:22:20.241Z] [INFO] [T+80m] 🔌 SSE sse-replace-1756650140239-1 connected
+[2025-08-31T14:22:20.242Z] [INFO] [T+80m] 🔌 SSE sse-replace-1756650140239-3 connected
+[2025-08-31T14:22:20.242Z] [INFO] [T+80m] 🔌 SSE sse-replace-1756650140239-2 connected
+[2025-08-31T14:27:19.247Z] [HEARTBEAT] [T+85m] 💓 S2 alive — t=85m, active SSE=20, runs started=254 (100.0% success)
+[2025-08-31T14:27:19.248Z] [INFO] [T+85m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T14:27:20.251Z] [INFO] [T+85m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T14:27:20.252Z] [INFO] [T+85m] 🔌 SSE sse-replace-1756650440251-0 connected
+[2025-08-31T14:27:20.252Z] [INFO] [T+85m] 🔌 SSE sse-replace-1756650440251-1 connected
+[2025-08-31T14:27:20.253Z] [INFO] [T+85m] 🔌 SSE sse-replace-1756650440251-3 connected
+[2025-08-31T14:27:20.254Z] [INFO] [T+85m] 🔌 SSE sse-replace-1756650440251-2 connected
+[2025-08-31T14:32:19.168Z] [INFO] [T+90m] 🌪️ Chaos: +150ms latency injection
+[2025-08-31T14:32:19.247Z] [INFO] [T+90m] 📊 Metrics snapshot saved: s2-snapshot-2025-08-31T14-32-19-247Z.json
+[2025-08-31T14:32:19.248Z] [HEARTBEAT] [T+90m] 💓 S2 alive — t=90m, active SSE=20, runs started=269 (100.0% success)
+[2025-08-31T14:32:19.248Z] [INFO] [T+90m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T14:32:20.262Z] [INFO] [T+90m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T14:32:20.262Z] [INFO] [T+90m] 🔌 SSE sse-replace-1756650740261-0 connected
+[2025-08-31T14:32:20.263Z] [INFO] [T+90m] 🔌 SSE sse-replace-1756650740261-1 connected
+[2025-08-31T14:32:20.264Z] [INFO] [T+90m] 🔌 SSE sse-replace-1756650740261-2 connected
+[2025-08-31T14:32:20.264Z] [INFO] [T+90m] 🔌 SSE sse-replace-1756650740261-3 connected
+[2025-08-31T14:37:19.257Z] [HEARTBEAT] [T+95m] 💓 S2 alive — t=95m, active SSE=20, runs started=284 (100.0% success)
+[2025-08-31T14:37:19.257Z] [INFO] [T+95m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T14:37:20.262Z] [INFO] [T+95m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T14:37:20.263Z] [INFO] [T+95m] 🔌 SSE sse-replace-1756651040262-0 connected
+[2025-08-31T14:37:20.264Z] [INFO] [T+95m] 🔌 SSE sse-replace-1756651040262-1 connected
+[2025-08-31T14:37:20.264Z] [INFO] [T+95m] 🔌 SSE sse-replace-1756651040262-2 connected
+[2025-08-31T14:37:20.265Z] [INFO] [T+95m] 🔌 SSE sse-replace-1756651040262-3 connected
+[2025-08-31T14:42:19.258Z] [HEARTBEAT] [T+100m] 💓 S2 alive — t=100m, active SSE=20, runs started=299 (100.0% success)
+[2025-08-31T14:42:19.259Z] [INFO] [T+100m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T14:42:19.263Z] [INFO] [T+100m] 📊 Metrics snapshot saved: s2-snapshot-2025-08-31T14-42-19-262Z.json
+[2025-08-31T14:42:20.264Z] [INFO] [T+100m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T14:42:20.265Z] [INFO] [T+100m] 🔌 SSE sse-replace-1756651340263-0 connected
+[2025-08-31T14:42:20.266Z] [INFO] [T+100m] 🔌 SSE sse-replace-1756651340263-1 connected
+[2025-08-31T14:42:20.266Z] [INFO] [T+100m] 🔌 SSE sse-replace-1756651340264-3 connected
+[2025-08-31T14:42:20.267Z] [INFO] [T+100m] 🔌 SSE sse-replace-1756651340263-2 connected
+[2025-08-31T14:47:19.264Z] [HEARTBEAT] [T+105m] 💓 S2 alive — t=105m, active SSE=20, runs started=314 (100.0% success)
+[2025-08-31T14:47:19.264Z] [INFO] [T+105m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T14:47:20.269Z] [INFO] [T+105m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T14:47:20.270Z] [INFO] [T+105m] 🔌 SSE sse-replace-1756651640268-0 connected
+[2025-08-31T14:47:20.270Z] [INFO] [T+105m] 🔌 SSE sse-replace-1756651640269-1 connected
+[2025-08-31T14:47:20.271Z] [INFO] [T+105m] 🔌 SSE sse-replace-1756651640269-3 connected
+[2025-08-31T14:47:20.271Z] [INFO] [T+105m] 🔌 SSE sse-replace-1756651640269-2 connected
+[2025-08-31T14:52:19.261Z] [INFO] [T+110m] 📊 Metrics snapshot saved: s2-snapshot-2025-08-31T14-52-19-260Z.json
+[2025-08-31T14:52:19.275Z] [HEARTBEAT] [T+110m] 💓 S2 alive — t=110m, active SSE=20, runs started=329 (100.0% success)
+[2025-08-31T14:52:19.275Z] [INFO] [T+110m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T14:52:20.290Z] [INFO] [T+110m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T14:52:20.291Z] [INFO] [T+110m] 🔌 SSE sse-replace-1756651940289-0 connected
+[2025-08-31T14:52:20.291Z] [INFO] [T+110m] 🔌 SSE sse-replace-1756651940289-1 connected
+[2025-08-31T14:52:20.292Z] [INFO] [T+110m] 🔌 SSE sse-replace-1756651940290-3 connected
+[2025-08-31T14:52:20.292Z] [INFO] [T+110m] 🔌 SSE sse-replace-1756651940289-2 connected
+[2025-08-31T14:57:19.278Z] [HEARTBEAT] [T+115m] 💓 S2 alive — t=115m, active SSE=20, runs started=344 (100.0% success)
+[2025-08-31T14:57:19.278Z] [INFO] [T+115m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T14:57:20.281Z] [INFO] [T+115m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T14:57:20.282Z] [INFO] [T+115m] 🔌 SSE sse-replace-1756652240281-0 connected
+[2025-08-31T14:57:20.282Z] [INFO] [T+115m] 🔌 SSE sse-replace-1756652240281-1 connected
+[2025-08-31T14:57:20.283Z] [INFO] [T+115m] 🔌 SSE sse-replace-1756652240281-2 connected
+[2025-08-31T14:57:20.283Z] [INFO] [T+115m] 🔌 SSE sse-replace-1756652240281-3 connected
+[2025-08-31T15:02:19.134Z] [INFO] [T+120m] ⏰ Master timeout reached - aborting all workers

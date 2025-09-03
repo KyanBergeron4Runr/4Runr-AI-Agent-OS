@@ -1,0 +1,4521 @@
+{
+  "timestamp": "2025-09-03T18:36:06.664Z",
+  "exists": {
+    "shield": true,
+    "sentinel": true,
+    "ml": true,
+    "redteamTests": true,
+    "contractsTests": true
+  },
+  "packageScripts": {
+    "help": "echo 'Available commands:' && echo '  npm run up          - Start all services' && echo '  npm run down        - Stop all services' && echo '  npm run logs        - Show gateway logs' && echo '  npm run build       - Build all packages' && echo '  npm run install     - Install dependencies' && echo '  npm run test        - Run tests' && echo '  npm run lint        - Run linting' && echo '  npm run clean       - Clean build artifacts' && echo '  npm run health      - Check health endpoint' && echo '  npm run ready       - Check readiness endpoint' && echo '  npm run sse-test    - Test SSE endpoint' && echo '  npm run prove-it    - Run Prove-It test'",
+    "up": "docker-compose -f infra/docker-compose.yml up -d",
+    "down": "docker-compose -f infra/docker-compose.yml down",
+    "logs": "docker-compose -f infra/docker-compose.yml logs -f gateway",
+    "build": "npm run build --workspaces",
+    "install": "echo 'Dependencies installed via workspace'",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces",
+    "clean": "npm run clean --workspaces",
+    "health": "powershell -Command \"try { $response = Invoke-WebRequest -Uri 'http://localhost:8081/health' -UseBasicParsing; $response.Content | ConvertFrom-Json | ConvertTo-Json } catch { Write-Host 'Health check failed: ' + $_.Exception.Message }\"",
+    "ready": "powershell -Command \"try { $response = Invoke-WebRequest -Uri 'http://localhost:8081/ready' -UseBasicParsing; $response.Content | ConvertFrom-Json | ConvertTo-Json } catch { Write-Host 'Readiness check failed: ' + $_.Exception.Message }\"",
+    "sse-test": "powershell -Command \"try { Invoke-WebRequest -Uri 'http://localhost:8081/diagnostics/sse-test' -UseBasicParsing } catch { Write-Host 'SSE test failed: ' + $_.Exception.Message }\"",
+    "prove-it": "bash prove-it-packaging.sh",
+    "prove-it-powershell": "powershell -ExecutionPolicy Bypass -File prove-it-packaging.ps1",
+    "setup": "npm install && npm run build",
+    "dev": "docker-compose -f infra/docker-compose.yml up",
+    "reset": "docker-compose -f infra/docker-compose.yml down -v && docker-compose -f infra/docker-compose.yml up -d",
+    "inventory": "node tools/inventory-simple.js",
+    "test:contracts": "jest tests/contracts/",
+    "test:smoke": "node s2-smoke-test.js"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "hits": [
+    {
+      "file": "_archive\\s2-long-haul-soak-short-results-1756504852288.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "prompt",
+        "injection",
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "_archive\\s2-long-haul-soak-short-results-1756510924309.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "prompt",
+        "injection",
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "_archive\\s2-long-haul-soak-short-results-1756511927114.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "injection",
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "_archive\\s2-long-haul-soak-short-results-1756512746428.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "injection",
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "_archive\\s2-smoke-results-1756558884530.json",
+      "hits": [
+        "shield",
+        "registry",
+        "injection",
+        "sse"
+      ]
+    },
+    {
+      "file": "_archive\\s2-smoke-results-1756560138302.json",
+      "hits": [
+        "shield",
+        "registry",
+        "injection",
+        "sse"
+      ]
+    },
+    {
+      "file": "_archive\\s2-unkillable-results-1756564070093.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "_archive\\s2-unkillable-results-1756567409813.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "_archive\\s2-unkillable-results-1756596214822.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": ".kiro\\specs\\long-term-stability\\design.md",
+      "hits": [
+        "ml",
+        "policy",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": ".kiro\\specs\\long-term-stability\\requirements.md",
+      "hits": [
+        "prompt",
+        "injection",
+        "sse"
+      ]
+    },
+    {
+      "file": ".kiro\\specs\\long-term-stability\\tasks.md",
+      "hits": [
+        "registry",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "4RUNR-GATEWAY-LOAD-TEST-REPORT.md",
+      "hits": [
+        "policy",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "add-policy.js",
+      "hits": [
+        "shield",
+        "policy"
+      ]
+    },
+    {
+      "file": "advanced-verification-results-1756659959260.json",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "advanced-verification-tests.js",
+      "hits": [
+        "prompt",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "analyze-current-metrics.js",
+      "hits": [
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\images-manifest.json",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\next-minimal-server.js.nft.json",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\next-server.js.nft.json",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\required-server-files.json",
+      "hits": [
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\app\\_not-found.js",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\app\\(site)\\page.js",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\app\\agents\\[id]\\logs\\page.js",
+      "hits": [
+        "ml",
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\app\\agents\\[id]\\page.js",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\app\\page.js",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\app\\ui-kit\\pillars\\page.js",
+      "hits": [
+        "shield",
+        "ml",
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\app\\ui-kit\\tokens\\page.js",
+      "hits": [
+        "ml",
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\chunks\\150.js",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\chunks\\166.js",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\chunks\\181.js",
+      "hits": [
+        "ml",
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\chunks\\448.js",
+      "hits": [
+        "ml",
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\chunks\\488.js",
+      "hits": [
+        "ml",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\chunks\\763.js",
+      "hits": [
+        "ml",
+        "policy",
+        "prompt",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\pages-manifest.json",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\pages\\_app.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\server\\pages\\_error.js",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\static\\chunks\\16-f687e0a14c7cbb34.js",
+      "hits": [
+        "ml",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\static\\chunks\\1dd3208c-618beedc322861c4.js",
+      "hits": [
+        "ml",
+        "policy"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\static\\chunks\\305-e24999513905bf98.js",
+      "hits": [
+        "ml",
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\static\\chunks\\37-321a3dff195ddeba.js",
+      "hits": [
+        "ml",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\static\\chunks\\91-f227bff8b409f41c.js",
+      "hits": [
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\static\\chunks\\app\\_not-found-cc570389f3b7a9e5.js",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\static\\chunks\\app\\agents\\[id]\\logs\\page-762cbb5023cd6073.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\static\\chunks\\app\\page-0f4aa53946e011c5.js",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\static\\chunks\\app\\ui-kit\\pillars\\page-556dda6d422c6372.js",
+      "hits": [
+        "shield",
+        "ml",
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\static\\chunks\\framework-6d01f304d3a0ab93.js",
+      "hits": [
+        "ml",
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\static\\chunks\\main-7fc529d9ead9b90f.js",
+      "hits": [
+        "ml",
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\static\\chunks\\polyfills-c67a75d1b6f99dc8.js",
+      "hits": [
+        "ml",
+        "registry"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\.next\\static\\chunks\\webpack-61cedad33f4c0f9c.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\package-lock.json",
+      "hits": [
+        "ml",
+        "registry",
+        "sse",
+        "zod"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\src\\app\\layout.tsx",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\src\\app\\ui-kit\\tokens\\page.tsx",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\src\\components\\AgentCard.tsx",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\src\\components\\LogViewer.tsx",
+      "hits": [
+        "ml",
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\src\\components\\sections\\demo-promo.tsx",
+      "hits": [
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\src\\components\\sections\\hero.tsx",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\src\\components\\sections\\pillars.tsx",
+      "hits": [
+        "shield",
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\src\\components\\shell\\footer.tsx",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\src\\components\\shell\\mobile-drawer.tsx",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\src\\components\\shell\\navbar.tsx",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\src\\lib\\hooks\\useScrollHeader.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\dashboard\\src\\lib\\tokens.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\gateway\\dist\\index.js",
+      "hits": [
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\gateway\\package.json",
+      "hits": [
+        "sentinel",
+        "zod"
+      ]
+    },
+    {
+      "file": "apps\\gateway\\src\\index-with-middleware.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "apps\\gateway\\src\\index.ts",
+      "hits": [
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\sse-worker\\dist\\index.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\sse-worker\\package.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "apps\\sse-worker\\src\\index.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "sse"
+      ]
+    },
+    {
+      "file": "ARCHITECTURE\\ANTI-DUPLICATION-GUARDRAILS.md",
+      "hits": [
+        "guardrail",
+        "policy",
+        "sse",
+        "idempot",
+        "zod",
+        "validation",
+        "contracts"
+      ]
+    },
+    {
+      "file": "ARCHITECTURE\\DECISIONS\\0004-validation-idempotency.md",
+      "hits": [
+        "shield",
+        "sentinel",
+        "guardrail",
+        "idempot",
+        "zod",
+        "validation",
+        "contracts"
+      ]
+    },
+    {
+      "file": "ARCHITECTURE\\DO-NOT-REBUILD.md",
+      "hits": [
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "ARCHITECTURE\\inventory\\routes.md",
+      "hits": [
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "ARCHITECTURE\\inventory\\schemas.md",
+      "hits": [
+        "zod"
+      ]
+    },
+    {
+      "file": "ARCHITECTURE\\inventory\\sse.md",
+      "hits": [
+        "sse",
+        "contracts"
+      ]
+    },
+    {
+      "file": "ARCHITECTURE\\inventory\\symbols.md",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "ARCHITECTURE\\REUSE-MAP.md",
+      "hits": [
+        "registry",
+        "sse",
+        "idempot",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "artifacts\\itg-20250901-98c100c8\\summary.json",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "artifacts\\stress-test-1hr\\checkpoint-1756687621174.json",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "artifacts\\stress-test-1hr\\checkpoint-1756687921174.json",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "artifacts\\stress-test-1hr\\checkpoint-1756688221182.json",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "artifacts\\stress-test-1hr\\checkpoint-1756688521195.json",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "artifacts\\stress-test-1hr\\checkpoint-1756688821203.json",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "artifacts\\stress-test-1hr\\checkpoint-1756689121205.json",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "artifacts\\stress-test-1hr\\checkpoint-1756689421208.json",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "artifacts\\stress-test-1hr\\checkpoint-1756689721222.json",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "artifacts\\stress-test-1hr\\checkpoint-1756690021228.json",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "artifacts\\stress-test-1hr\\checkpoint-1756690321240.json",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "artifacts\\stress-test-1hr\\checkpoint-1756690621246.json",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "artifacts\\stress-test-1hr\\complete-results.json",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "artifacts\\stress-test-1hr\\final-report-1756690921187.json",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "bench\\k6-burn-in-48h.js",
+      "hits": [
+        "policy",
+        "idempot"
+      ]
+    },
+    {
+      "file": "bench\\k6-local-ultra.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "bench\\package-lock.json",
+      "hits": [
+        "ml",
+        "registry",
+        "prompt",
+        "sse",
+        "zod"
+      ]
+    },
+    {
+      "file": "bench\\package.json",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "bench\\proof-of-concept.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "bench\\README.md",
+      "hits": [
+        "ml",
+        "policy",
+        "injection",
+        "validation"
+      ]
+    },
+    {
+      "file": "bench\\run-tests.js",
+      "hits": [
+        "ml",
+        "sse"
+      ]
+    },
+    {
+      "file": "big-verification-results-1756486914489.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "big-verification-results-1756492859915.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "big-verification-run-short.js",
+      "hits": [
+        "shield",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "big-verification-run.js",
+      "hits": [
+        "shield",
+        "registry",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "BUILD-TEST-DEMO-README.md",
+      "hits": [
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "CHAOS-TEST-COMPLETE.md",
+      "hits": [
+        "policy",
+        "injection",
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "check-policy.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "COMPLETE-METRICS-OVERVIEW.md",
+      "hits": [
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "complete-proof-demo.js",
+      "hits": [
+        "policy",
+        "prompt",
+        "sse"
+      ]
+    },
+    {
+      "file": "COMPREHENSIVE-LOAD-TEST-REPORT.md",
+      "hits": [
+        "ml",
+        "policy",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "config\\sentinel.json",
+      "hits": [
+        "shield",
+        "injection",
+        "hallucination"
+      ]
+    },
+    {
+      "file": "config\\shield.json",
+      "hits": [
+        "policy",
+        "prompt",
+        "injection",
+        "hallucination"
+      ]
+    },
+    {
+      "file": "corrected-metrics-verification.js",
+      "hits": [
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "create-metrics-dashboard.js",
+      "hits": [
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "create-policy-fixed.js",
+      "hits": [
+        "shield",
+        "policy"
+      ]
+    },
+    {
+      "file": "create-policy-server.js",
+      "hits": [
+        "shield",
+        "policy"
+      ]
+    },
+    {
+      "file": "dashboards\\gateway.json",
+      "hits": [
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "debug-api.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "debug-guard-events.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "debug-policy.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "debug-test.js",
+      "hits": [
+        "idempot"
+      ]
+    },
+    {
+      "file": "demo\\performance-test.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "demo\\README.md",
+      "hits": [
+        "validation"
+      ]
+    },
+    {
+      "file": "demo\\results\\demo-summary.md",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "demo\\run-all-demos.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "demo\\traditional-auth\\problems-demo.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "DEPLOYMENT.md",
+      "hits": [
+        "ml",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "diagnose-gateway.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\api\\admin.js",
+      "hits": [
+        "registry",
+        "injection",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\api\\demo.js",
+      "hits": [
+        "idempot"
+      ]
+    },
+    {
+      "file": "dist\\api\\policies.d.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\api\\policies.js",
+      "hits": [
+        "policy",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\api\\proxy.js",
+      "hits": [
+        "sentinel",
+        "registry",
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\api\\runs\\streamLogs.d.ts",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "dist\\api\\runs\\streamLogs.js",
+      "hits": [
+        "ml",
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\api\\sandbox.js",
+      "hits": [
+        "registry",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\api\\sentinel.d.ts",
+      "hits": [
+        "sentinel"
+      ]
+    },
+    {
+      "file": "dist\\api\\sentinel.js",
+      "hits": [
+        "sentinel",
+        "prompt",
+        "injection",
+        "hallucination",
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\api\\tokens.js",
+      "hits": [
+        "registry"
+      ]
+    },
+    {
+      "file": "dist\\config\\manager.d.ts",
+      "hits": [
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\config\\manager.js",
+      "hits": [
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\config\\manager.test.js",
+      "hits": [
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\config\\validate.d.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\index.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\models\\memory-db.d.ts",
+      "hits": [
+        "registry",
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\models\\memory-db.js",
+      "hits": [
+        "registry",
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\observability\\alert-integration.d.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\observability\\alert-manager.d.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\observability\\alert-manager.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\observability\\metrics.d.ts",
+      "hits": [
+        "policy",
+        "injection",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\observability\\metrics.js",
+      "hits": [
+        "policy",
+        "injection",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\observability\\monitoring-integration.js",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "dist\\policies\\defaults.d.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\policies\\defaults.js",
+      "hits": [
+        "policy",
+        "prompt"
+      ]
+    },
+    {
+      "file": "dist\\policies\\validators.d.ts",
+      "hits": [
+        "prompt",
+        "zod"
+      ]
+    },
+    {
+      "file": "dist\\policies\\validators.js",
+      "hits": [
+        "prompt",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\cache.d.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\cache.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\circuit.d.ts",
+      "hits": [
+        "registry"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\circuit.js",
+      "hits": [
+        "registry"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\degradation-controller.d.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\degradation-controller.js",
+      "hits": [
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\degradation-integration.d.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\degradation-integration.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\health-integration.js",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\lifecycle.js",
+      "hits": [
+        "registry"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\recovery-controller.d.ts",
+      "hits": [
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\recovery-controller.js",
+      "hits": [
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\retry.d.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\retry.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\watchdog.d.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\watchdog.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\runtime\\watcher.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\secrets\\provider.d.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\secrets\\provider.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\config.d.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "injection",
+        "hallucination"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\config.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy",
+        "prompt",
+        "injection",
+        "hallucination"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\hallucination.d.ts",
+      "hits": [
+        "hallucination"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\hallucination.js",
+      "hits": [
+        "sentinel",
+        "hallucination"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\injection.d.ts",
+      "hits": [
+        "prompt",
+        "injection"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\injection.js",
+      "hits": [
+        "sentinel",
+        "prompt",
+        "injection"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\judge.d.ts",
+      "hits": [
+        "prompt",
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\judge.js",
+      "hits": [
+        "sentinel",
+        "prompt",
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\middleware.d.ts",
+      "hits": [
+        "shield",
+        "sentinel"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\middleware.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "prompt",
+        "injection",
+        "hallucination"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\shield.d.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\shield.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy",
+        "prompt",
+        "injection",
+        "hallucination",
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\telemetry.d.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "injection",
+        "hallucination"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\telemetry.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy",
+        "injection",
+        "hallucination"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\types.d.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy",
+        "prompt",
+        "injection",
+        "hallucination"
+      ]
+    },
+    {
+      "file": "dist\\sentinel\\types.js",
+      "hits": [
+        "sentinel"
+      ]
+    },
+    {
+      "file": "dist\\server.js",
+      "hits": [
+        "ml",
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\services\\docker-container-manager.d.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\services\\docker-recovery-manager.js",
+      "hits": [
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\services\\policyEngine.d.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\services\\policyEngine.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\src\\api\\admin.js",
+      "hits": [
+        "registry",
+        "injection",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\src\\api\\policies.d.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\src\\api\\policies.js",
+      "hits": [
+        "policy",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\src\\api\\proxy.js",
+      "hits": [
+        "registry",
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\src\\api\\tokens.js",
+      "hits": [
+        "registry"
+      ]
+    },
+    {
+      "file": "dist\\src\\config\\validate.d.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\src\\index.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\src\\models\\memory-db.d.ts",
+      "hits": [
+        "registry",
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\src\\models\\memory-db.js",
+      "hits": [
+        "registry",
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\src\\observability\\metrics.d.ts",
+      "hits": [
+        "policy",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\src\\observability\\metrics.js",
+      "hits": [
+        "policy",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\src\\policies\\defaults.d.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\src\\policies\\defaults.js",
+      "hits": [
+        "policy",
+        "prompt"
+      ]
+    },
+    {
+      "file": "dist\\src\\policies\\validators.d.ts",
+      "hits": [
+        "prompt",
+        "zod"
+      ]
+    },
+    {
+      "file": "dist\\src\\policies\\validators.js",
+      "hits": [
+        "prompt",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\src\\runtime\\cache.d.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\src\\runtime\\cache.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\src\\runtime\\circuit.d.ts",
+      "hits": [
+        "registry"
+      ]
+    },
+    {
+      "file": "dist\\src\\runtime\\circuit.js",
+      "hits": [
+        "registry"
+      ]
+    },
+    {
+      "file": "dist\\src\\runtime\\lifecycle.js",
+      "hits": [
+        "registry"
+      ]
+    },
+    {
+      "file": "dist\\src\\runtime\\retry.d.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\src\\runtime\\retry.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\src\\secrets\\provider.d.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\src\\secrets\\provider.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "dist\\src\\server.js",
+      "hits": [
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\src\\services\\policyEngine.d.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\src\\services\\policyEngine.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\src\\tools\\gmail-send.d.ts",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "dist\\src\\tools\\gmail-send.js",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "dist\\src\\tools\\openai.d.ts",
+      "hits": [
+        "prompt"
+      ]
+    },
+    {
+      "file": "dist\\src\\tools\\openai.js",
+      "hits": [
+        "prompt"
+      ]
+    },
+    {
+      "file": "dist\\src\\types\\policy.d.ts",
+      "hits": [
+        "policy",
+        "zod"
+      ]
+    },
+    {
+      "file": "dist\\src\\types\\policy.js",
+      "hits": [
+        "policy",
+        "zod"
+      ]
+    },
+    {
+      "file": "dist\\src\\utils\\token-utils.d.ts",
+      "hits": [
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\src\\utils\\token-utils.js",
+      "hits": [
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\tools\\gmail-send.d.ts",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "dist\\tools\\gmail-send.js",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "dist\\tools\\index.js",
+      "hits": [
+        "ml",
+        "prompt",
+        "injection"
+      ]
+    },
+    {
+      "file": "dist\\tools\\mock\\http_fetch.mock.js",
+      "hits": [
+        "ml",
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\tools\\openai.d.ts",
+      "hits": [
+        "prompt"
+      ]
+    },
+    {
+      "file": "dist\\tools\\openai.js",
+      "hits": [
+        "prompt"
+      ]
+    },
+    {
+      "file": "dist\\types\\policy.d.ts",
+      "hits": [
+        "policy",
+        "zod"
+      ]
+    },
+    {
+      "file": "dist\\types\\policy.js",
+      "hits": [
+        "policy",
+        "zod"
+      ]
+    },
+    {
+      "file": "dist\\utils\\platform-optimizations.d.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\utils\\platform-optimizations.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "dist\\utils\\token-utils.d.ts",
+      "hits": [
+        "validation"
+      ]
+    },
+    {
+      "file": "dist\\utils\\token-utils.js",
+      "hits": [
+        "validation"
+      ]
+    },
+    {
+      "file": "DOCKER-COMPOSE-COMPLETE.md",
+      "hits": [
+        "ml",
+        "policy",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "DOCKER-COMPOSE-README.md",
+      "hits": [
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "docker-compose.sandbox.yml",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "docker-compose.yml",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "DOCKER-SETUP-COMPLETE.md",
+      "hits": [
+        "ml",
+        "validation"
+      ]
+    },
+    {
+      "file": "docs\\README.md",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "docs\\sdk-api-reference.md",
+      "hits": [
+        "policy",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "docs\\USER-GUIDE.md",
+      "hits": [
+        "ml",
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "docs\\what-is-gateway.md",
+      "hits": [
+        "ml",
+        "policy"
+      ]
+    },
+    {
+      "file": "examples\\engager-py\\README.md",
+      "hits": [
+        "policy",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "examples\\enricher-js\\index.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "examples\\enricher-js\\package-lock.json",
+      "hits": [
+        "registry"
+      ]
+    },
+    {
+      "file": "examples\\enricher-js\\README.md",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "examples\\scraper-js\\index.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "examples\\scraper-js\\package-lock.json",
+      "hits": [
+        "registry"
+      ]
+    },
+    {
+      "file": "examples\\scraper-js\\README.md",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "export-metrics.js",
+      "hits": [
+        "policy",
+        "injection",
+        "validation"
+      ]
+    },
+    {
+      "file": "FINAL-LOAD-TEST-REPORT.md",
+      "hits": [
+        "ml",
+        "policy",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "GATEWAY-README.md",
+      "hits": [
+        "sentinel",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "hardcore-proof-test.js",
+      "hits": [
+        "policy",
+        "prompt",
+        "injection"
+      ]
+    },
+    {
+      "file": "infra\\docker-compose.yml",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "integration-flow-test.js",
+      "hits": [
+        "registry",
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "integration-variants.js",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "INVESTMENT-PROOF-DEMO.js",
+      "hits": [
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "INVESTMENT-TERM-SHEET.md",
+      "hits": [
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "INVESTOR-PITCH-SCRIPT.md",
+      "hits": [
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "live-demo.js",
+      "hits": [
+        "injection"
+      ]
+    },
+    {
+      "file": "live-metrics-proof.js",
+      "hits": [
+        "policy",
+        "prompt",
+        "injection",
+        "validation"
+      ]
+    },
+    {
+      "file": "live-revolutionary-demo.js",
+      "hits": [
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "LOAD-TEST-COMPLETE-SUMMARY.md",
+      "hits": [
+        "policy",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "mega-stress-results-1756659511127.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "mega-stress-test.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "metrics-analysis-2025-08-13T02-33-11-742Z.md",
+      "hits": [
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "metrics-verification-test.js",
+      "hits": [
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "minimal-test.js",
+      "hits": [
+        "idempot"
+      ]
+    },
+    {
+      "file": "mock-gateway.js",
+      "hits": [
+        "registry",
+        "injection",
+        "sse"
+      ]
+    },
+    {
+      "file": "MOCK-MODE-COMPLETE.md",
+      "hits": [
+        "ml",
+        "policy",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "MONITORING-AND-ALERTING-COMPLETE.md",
+      "hits": [
+        "ml",
+        "policy",
+        "injection",
+        "sse"
+      ]
+    },
+    {
+      "file": "monitoring\\alerts.yml",
+      "hits": [
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "monitoring\\slo-dashboard.json",
+      "hits": [
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "MONOREPO-README.md",
+      "hits": [
+        "shield",
+        "sentinel",
+        "ml",
+        "feedback",
+        "sse"
+      ]
+    },
+    {
+      "file": "OFFICIAL-LOAD-TEST-REPORT.md",
+      "hits": [
+        "ml",
+        "policy",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "package-lock.json",
+      "hits": [
+        "ml",
+        "registry",
+        "prompt",
+        "sse",
+        "zod"
+      ]
+    },
+    {
+      "file": "package.json",
+      "hits": [
+        "sentinel",
+        "ml",
+        "policy",
+        "sse",
+        "zod",
+        "contracts"
+      ]
+    },
+    {
+      "file": "packages\\adapters\\gateway\\idempotency.ts",
+      "hits": [
+        "idempot"
+      ]
+    },
+    {
+      "file": "packages\\adapters\\gateway\\validation.ts",
+      "hits": [
+        "validation"
+      ]
+    },
+    {
+      "file": "packages\\adapters\\README.md",
+      "hits": [
+        "sse",
+        "zod",
+        "validation",
+        "contracts"
+      ]
+    },
+    {
+      "file": "packages\\adapters\\redis\\IdempotencyStore.ts",
+      "hits": [
+        "idempot"
+      ]
+    },
+    {
+      "file": "packages\\cli\\dist\\index.js",
+      "hits": [
+        "sentinel",
+        "feedback"
+      ]
+    },
+    {
+      "file": "packages\\cli\\src\\index.ts",
+      "hits": [
+        "sentinel",
+        "feedback"
+      ]
+    },
+    {
+      "file": "packages\\middleware\\config.ts",
+      "hits": [
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "packages\\middleware\\idempotency\\idempotency.ts",
+      "hits": [
+        "idempot"
+      ]
+    },
+    {
+      "file": "packages\\middleware\\idempotency\\normalizers\\RunCreate.normalizer.ts",
+      "hits": [
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "packages\\middleware\\validation\\schemas\\RunCreate.schema.ts",
+      "hits": [
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "packages\\middleware\\validation\\validateRequest.ts",
+      "hits": [
+        "sse",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "packages\\sdk-js\\dist\\index.d.ts",
+      "hits": [
+        "sentinel",
+        "sse"
+      ]
+    },
+    {
+      "file": "packages\\sdk-js\\dist\\index.js",
+      "hits": [
+        "sentinel",
+        "sse"
+      ]
+    },
+    {
+      "file": "packages\\sdk-js\\src\\index.ts",
+      "hits": [
+        "sentinel",
+        "sse"
+      ]
+    },
+    {
+      "file": "packages\\shared\\dist\\env.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "packages\\shared\\dist\\env.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "packages\\shared\\dist\\index.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "packages\\shared\\dist\\logger.ts",
+      "hits": [
+        "shield",
+        "sentinel"
+      ]
+    },
+    {
+      "file": "packages\\shared\\dist\\types.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy",
+        "prompt",
+        "injection",
+        "hallucination",
+        "sse"
+      ]
+    },
+    {
+      "file": "packages\\shared\\dist\\utils.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "packages\\shared\\package.json",
+      "hits": [
+        "zod"
+      ]
+    },
+    {
+      "file": "packages\\shared\\src\\env.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "packages\\shared\\src\\index.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "packages\\shared\\src\\logger.ts",
+      "hits": [
+        "shield",
+        "sentinel"
+      ]
+    },
+    {
+      "file": "packages\\shared\\src\\types.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy",
+        "prompt",
+        "injection",
+        "hallucination",
+        "sse"
+      ]
+    },
+    {
+      "file": "packages\\shared\\src\\utils.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "production-gateway.js",
+      "hits": [
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "PRODUCTION-README.md",
+      "hits": [
+        "injection",
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "production-stress-test.js",
+      "hits": [
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "prove-it-agents-runs.js",
+      "hits": [
+        "sentinel",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "prove-it-registry-mvp.js",
+      "hits": [
+        "registry",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "README.md",
+      "hits": [
+        "policy",
+        "prompt",
+        "sse",
+        "idempot",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "REAL-DEMO-README.md",
+      "hits": [
+        "ml",
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "real-world-security-test.js",
+      "hits": [
+        "policy",
+        "prompt"
+      ]
+    },
+    {
+      "file": "registry-cli.js",
+      "hits": [
+        "ml",
+        "registry",
+        "policy",
+        "prompt"
+      ]
+    },
+    {
+      "file": "registry-gateway-enhanced.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "policy",
+        "prompt",
+        "injection",
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "registry-gateway.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "policy",
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "registry-model.js",
+      "hits": [
+        "registry",
+        "policy"
+      ]
+    },
+    {
+      "file": "REGISTRY-README.md",
+      "hits": [
+        "ml",
+        "registry",
+        "policy",
+        "prompt",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "registry-service.js",
+      "hits": [
+        "registry",
+        "policy"
+      ]
+    },
+    {
+      "file": "reports\\4RUNR-GATEWAY-PROOF.md",
+      "hits": [
+        "injection",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "reports\\chaos-10min.md",
+      "hits": [
+        "policy",
+        "injection",
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "reports\\proof-report-1754919972763.json",
+      "hits": [
+        "ml",
+        "sse",
+        "zod"
+      ]
+    },
+    {
+      "file": "reports\\proof-report-1754921054276.json",
+      "hits": [
+        "ml",
+        "sse",
+        "zod"
+      ]
+    },
+    {
+      "file": "reports\\proof-template.md",
+      "hits": [
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "reports\\run-metadata.json",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "reports\\run-summary.md",
+      "hits": [
+        "ml",
+        "policy",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "reports\\stress-test-failure-analysis.md",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "reports\\TASK-025\\run-metadata.json",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "reports\\test-summary-1754880275134.json",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "reports\\test-summary-1754918223827.json",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "REVOLUTIONARY-IMPACT-SUMMARY.md",
+      "hits": [
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "REVOLUTIONARY-METRICS-ANALYSIS.md",
+      "hits": [
+        "ml",
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "run-gateway-with-middleware.js",
+      "hits": [
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "RUNBOOK.md",
+      "hits": [
+        "policy",
+        "injection",
+        "sse"
+      ]
+    },
+    {
+      "file": "S2-HARNESS-README.md",
+      "hits": [
+        "shield",
+        "registry",
+        "prompt",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "s2-harness-unkillable-fixed.js",
+      "hits": [
+        "registry",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "s2-harness-unkillable.js",
+      "hits": [
+        "shield",
+        "registry",
+        "prompt",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "s2-long-haul-soak-short.js",
+      "hits": [
+        "shield",
+        "registry",
+        "prompt",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "s2-long-haul-soak.js",
+      "hits": [
+        "shield",
+        "registry",
+        "prompt",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "s2-micro-smoke.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-smoke-results-1756598101840.json",
+      "hits": [
+        "shield",
+        "registry",
+        "injection",
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-smoke-results-1756600872514.json",
+      "hits": [
+        "shield",
+        "registry",
+        "injection",
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-smoke-results-1756858440146.json",
+      "hits": [
+        "shield",
+        "registry",
+        "injection",
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-smoke-test.js",
+      "hits": [
+        "shield",
+        "registry",
+        "prompt",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-30T14-43-33-055Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-30T14-53-33-063Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-30T15-03-33-078Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-30T15-13-33-079Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-30T21-25-24-606Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-30T21-35-24-605Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-30T21-45-24-607Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-30T21-55-24-622Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-30T22-05-24-629Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-30T22-15-24-642Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-30T22-25-24-653Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-30T22-35-24-653Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-30T22-45-24-666Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-31T13-12-19-180Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-31T13-22-19-191Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-31T13-32-19-204Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-31T13-42-19-211Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-31T13-52-19-213Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-31T14-02-19-215Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-31T14-12-19-225Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-31T14-22-19-237Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-31T14-32-19-247Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-31T14-42-19-262Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-snapshot-2025-08-31T14-52-19-260Z.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-unkillable-results-1756605243570.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-unkillable-results-1756605364553.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-unkillable-results-1756606661652.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-unkillable-results-1756640025705.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-unkillable-results-1756645048730.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-unkillable-results-1756645269601.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-unkillable-results-1756652539144.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "s2-unkillable-results-1756654152738.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "SANDBOX-README.md",
+      "hits": [
+        "ml",
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "sandbox\\prometheus.yml",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "sandbox\\README.md",
+      "hits": [
+        "ml",
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "scripts\\alert-integration.md",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "scripts\\burn-in-monitor.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "scripts\\chaos-controller-48h.js",
+      "hits": [
+        "policy",
+        "injection"
+      ]
+    },
+    {
+      "file": "scripts\\chaos-run-direct.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "scripts\\chaos-run-e2e-hybrid.js",
+      "hits": [
+        "policy",
+        "injection",
+        "sse"
+      ]
+    },
+    {
+      "file": "scripts\\chaos-run-e2e.js",
+      "hits": [
+        "registry",
+        "policy"
+      ]
+    },
+    {
+      "file": "scripts\\chaos-run.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "scripts\\degradation-cli.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "scripts\\degradation-integration.md",
+      "hits": [
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "scripts\\metrics-delta.js",
+      "hits": [
+        "ml",
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "scripts\\metrics-smoke.js",
+      "hits": [
+        "ml",
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "scripts\\monitoring-integration.md",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "scripts\\run-burn-in-48h.js",
+      "hits": [
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "scripts\\seed.js",
+      "hits": [
+        "policy",
+        "prompt"
+      ]
+    },
+    {
+      "file": "scripts\\test-backup-system.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "scripts\\test-health-manager.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "scripts\\test-watchdog.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "scripts\\verify-burn-in-setup.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "scripts\\watchdog-cli.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "scripts\\watchdog-integration.md",
+      "hits": [
+        "ml",
+        "sse"
+      ]
+    },
+    {
+      "file": "sdk-js\\dist\\index.d.ts",
+      "hits": [
+        "policy",
+        "idempot"
+      ]
+    },
+    {
+      "file": "sdk-js\\dist\\index.js",
+      "hits": [
+        "policy",
+        "idempot"
+      ]
+    },
+    {
+      "file": "sdk-js\\dist\\index.mjs",
+      "hits": [
+        "policy",
+        "idempot"
+      ]
+    },
+    {
+      "file": "sdk-js\\package-lock.json",
+      "hits": [
+        "ml",
+        "registry",
+        "prompt",
+        "sse",
+        "zod"
+      ]
+    },
+    {
+      "file": "sdk-js\\package.json",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "sdk-js\\README.md",
+      "hits": [
+        "policy",
+        "idempot"
+      ]
+    },
+    {
+      "file": "sdk-js\\src\\client.ts",
+      "hits": [
+        "idempot"
+      ]
+    },
+    {
+      "file": "sdk-js\\src\\errors.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "sdk-js\\src\\index.ts",
+      "hits": [
+        "policy",
+        "idempot"
+      ]
+    },
+    {
+      "file": "sdk-js\\src\\utils\\idempotency.ts",
+      "hits": [
+        "idempot"
+      ]
+    },
+    {
+      "file": "sdk-py\\README.md",
+      "hits": [
+        "policy",
+        "idempot"
+      ]
+    },
+    {
+      "file": "SENTINEL-README.md",
+      "hits": [
+        "shield",
+        "sentinel",
+        "ml",
+        "guardrail",
+        "prompt",
+        "injection",
+        "hallucination",
+        "sse"
+      ]
+    },
+    {
+      "file": "simple-gateway-fixed.js",
+      "hits": [
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "simple-gateway.js",
+      "hits": [
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "simple-metrics-export.js",
+      "hits": [
+        "policy",
+        "injection",
+        "validation"
+      ]
+    },
+    {
+      "file": "simple-prove-it.js",
+      "hits": [
+        "sentinel",
+        "sse"
+      ]
+    },
+    {
+      "file": "simple-s2-test.js",
+      "hits": [
+        "registry"
+      ]
+    },
+    {
+      "file": "simple-sse-test.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "simple-test.js",
+      "hits": [
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "SOAK-TEST-IMPLEMENTATION-COMPLETE.md",
+      "hits": [
+        "policy",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "src\\api\\admin.ts",
+      "hits": [
+        "registry",
+        "injection",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "src\\api\\coach.ts",
+      "hits": [
+        "sentinel",
+        "sse"
+      ]
+    },
+    {
+      "file": "src\\api\\demo.ts",
+      "hits": [
+        "idempot"
+      ]
+    },
+    {
+      "file": "src\\api\\policies.ts",
+      "hits": [
+        "policy",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "src\\api\\proxy.ts",
+      "hits": [
+        "sentinel",
+        "registry",
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "src\\api\\runs\\streamLogs.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "src\\api\\sandbox.ts",
+      "hits": [
+        "registry",
+        "policy",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "src\\api\\sentinel.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "prompt",
+        "injection",
+        "hallucination",
+        "sse"
+      ]
+    },
+    {
+      "file": "src\\api\\tokens.ts",
+      "hits": [
+        "registry"
+      ]
+    },
+    {
+      "file": "src\\config\\__tests__\\backup-integration.test.ts",
+      "hits": [
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "src\\config\\__tests__\\manager.test.ts",
+      "hits": [
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "src\\config\\manager.ts",
+      "hits": [
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "src\\index.ts",
+      "hits": [
+        "sentinel",
+        "policy"
+      ]
+    },
+    {
+      "file": "src\\models\\memory-db.ts",
+      "hits": [
+        "registry",
+        "policy"
+      ]
+    },
+    {
+      "file": "src\\observability\\alert-manager.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "src\\observability\\metrics.ts",
+      "hits": [
+        "policy",
+        "injection",
+        "validation"
+      ]
+    },
+    {
+      "file": "src\\observability\\monitoring-integration.ts",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "src\\policies\\defaults.ts",
+      "hits": [
+        "policy",
+        "prompt"
+      ]
+    },
+    {
+      "file": "src\\policies\\validators.ts",
+      "hits": [
+        "prompt",
+        "zod",
+        "validation"
+      ]
+    },
+    {
+      "file": "src\\runtime\\__tests__\\watchdog-process-monitoring.test.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "src\\runtime\\cache.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "src\\runtime\\circuit.ts",
+      "hits": [
+        "registry"
+      ]
+    },
+    {
+      "file": "src\\runtime\\degradation-controller.ts",
+      "hits": [
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "src\\runtime\\degradation-integration.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "src\\runtime\\health-integration.ts",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "src\\runtime\\lifecycle.ts",
+      "hits": [
+        "registry"
+      ]
+    },
+    {
+      "file": "src\\runtime\\recovery-controller.ts",
+      "hits": [
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "src\\runtime\\retry.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "src\\runtime\\watchdog.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "src\\runtime\\watcher.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "src\\secrets\\provider.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "src\\sentinel\\coach.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy",
+        "prompt",
+        "injection",
+        "sse"
+      ]
+    },
+    {
+      "file": "src\\sentinel\\config.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy",
+        "prompt",
+        "injection",
+        "hallucination"
+      ]
+    },
+    {
+      "file": "src\\sentinel\\hallucination.ts",
+      "hits": [
+        "sentinel",
+        "hallucination"
+      ]
+    },
+    {
+      "file": "src\\sentinel\\injection.ts",
+      "hits": [
+        "sentinel",
+        "prompt",
+        "injection"
+      ]
+    },
+    {
+      "file": "src\\sentinel\\judge.ts",
+      "hits": [
+        "sentinel",
+        "prompt",
+        "sse"
+      ]
+    },
+    {
+      "file": "src\\sentinel\\middleware.ts",
+      "hits": [
+        "shield",
+        "sentinel"
+      ]
+    },
+    {
+      "file": "src\\sentinel\\shield.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy",
+        "injection",
+        "hallucination"
+      ]
+    },
+    {
+      "file": "src\\sentinel\\telemetry.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy",
+        "injection",
+        "hallucination"
+      ]
+    },
+    {
+      "file": "src\\sentinel\\types.ts",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy",
+        "prompt",
+        "injection",
+        "hallucination"
+      ]
+    },
+    {
+      "file": "src\\server.ts",
+      "hits": [
+        "sentinel",
+        "ml",
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "src\\services\\docker-container-manager.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "src\\services\\docker-recovery-manager.ts",
+      "hits": [
+        "validation"
+      ]
+    },
+    {
+      "file": "src\\services\\policyEngine.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "src\\tools\\gmail-send.ts",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "src\\tools\\index.ts",
+      "hits": [
+        "ml",
+        "prompt",
+        "injection"
+      ]
+    },
+    {
+      "file": "src\\tools\\mock\\http_fetch.mock.ts",
+      "hits": [
+        "ml",
+        "policy"
+      ]
+    },
+    {
+      "file": "src\\tools\\openai.ts",
+      "hits": [
+        "prompt"
+      ]
+    },
+    {
+      "file": "src\\types\\policy.ts",
+      "hits": [
+        "policy",
+        "zod"
+      ]
+    },
+    {
+      "file": "src\\utils\\__tests__\\platform-optimizations.test.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "src\\utils\\platform-optimizations.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "src\\utils\\token-utils.ts",
+      "hits": [
+        "validation"
+      ]
+    },
+    {
+      "file": "sse-deduping-test.js",
+      "hits": [
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "STAGING-ENVIRONMENT-COMPLETE.md",
+      "hits": [
+        "ml",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "staging\\README-SOAK-TEST.md",
+      "hits": [
+        "ml",
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "staging\\README.md",
+      "hits": [
+        "ml"
+      ]
+    },
+    {
+      "file": "staging\\scripts\\mid-run-changes.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "staging\\scripts\\soak-24h.js",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "start-production-gateway.js",
+      "hits": [
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "start-server-simple.js",
+      "hits": [
+        "shield",
+        "sentinel"
+      ]
+    },
+    {
+      "file": "stress-test-1hr.js",
+      "hits": [
+        "ml",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "T1-advanced-debug-test.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-advanced-results-1755916565512.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-advanced-results-1755918619702.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1755919187909.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1755919627621.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756384661060.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756384991024.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756385227837.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756385340669.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756387739943.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756387898560.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756388007676.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756388229903.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756388491415.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756388567684.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756389138981.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756391335581.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756472362208.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756473527860.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756473693024.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756475377443.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756475765744.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756476002538.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756476291732.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756477913889.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756478003064.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756480127394.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-results-1756480915684.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-e2e-test.js",
+      "hits": [
+        "sentinel",
+        "registry",
+        "injection",
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-failure.json",
+      "hits": [
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-comprehensive-test.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-full-auto-results.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-full-auto-test.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-functionality-test.js",
+      "hits": [
+        "shield",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-simple-test-results.json",
+      "hits": [
+        "shield",
+        "sentinel"
+      ]
+    },
+    {
+      "file": "T1-simple-test.js",
+      "hits": [
+        "shield",
+        "sentinel"
+      ]
+    },
+    {
+      "file": "T1-test-failure.json",
+      "hits": [
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-TEST-REPORT.md",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-verify-fixes.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-working-results.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "T1-working-test.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "TASK_003_SUMMARY.md",
+      "hits": [
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "TASK-006-COMPLETE.md",
+      "hits": [
+        "ml",
+        "policy",
+        "injection",
+        "validation"
+      ]
+    },
+    {
+      "file": "TASK-010-COMPLETE.md",
+      "hits": [
+        "guardrail",
+        "policy",
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "TASK-012-COMPLETE.md",
+      "hits": [
+        "ml",
+        "policy",
+        "injection",
+        "validation"
+      ]
+    },
+    {
+      "file": "TASK-018-E2E-CHAOS-COMPLETE.md",
+      "hits": [
+        "policy",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "test-agent-integration.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "test-cipher-extended.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "test-coach-prove-it-fast.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "feedback",
+        "prompt",
+        "sse"
+      ]
+    },
+    {
+      "file": "test-coach-prove-it.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "feedback",
+        "prompt",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "test-coach-simple.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "feedback",
+        "prompt",
+        "sse"
+      ]
+    },
+    {
+      "file": "test-create-agent.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "test-dashboard.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "test-demo.js",
+      "hits": [
+        "sse",
+        "idempot"
+      ]
+    },
+    {
+      "file": "test-docker-setup.js",
+      "hits": [
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "test-gateway.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "test-hard-test-fixed.js",
+      "hits": [
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "test-journal.md",
+      "hits": [
+        "policy",
+        "injection",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "test-judge-direct.js",
+      "hits": [
+        "prompt",
+        "sse"
+      ]
+    },
+    {
+      "file": "test-middleware.js",
+      "hits": [
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "test-mock-mode.js",
+      "hits": [
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "test-policy-simple.ts",
+      "hits": [
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "test-production-features.js",
+      "hits": [
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "test-quick-sse.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "test-real-gateway.js",
+      "hits": [
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "TEST-RESULTS.md",
+      "hits": [
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "test-s2-request.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "test-s2-sse.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "test-sentinel-integration.js",
+      "hits": [
+        "sentinel",
+        "prompt",
+        "injection",
+        "hallucination",
+        "sse"
+      ]
+    },
+    {
+      "file": "test-sentinel-real.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "injection",
+        "sse"
+      ]
+    },
+    {
+      "file": "test-sentinel-realistic.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy",
+        "injection",
+        "hallucination",
+        "sse"
+      ]
+    },
+    {
+      "file": "test-sentinel-simple.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "sse"
+      ]
+    },
+    {
+      "file": "test-sentinel.js",
+      "hits": [
+        "sentinel",
+        "prompt",
+        "injection",
+        "hallucination",
+        "sse"
+      ]
+    },
+    {
+      "file": "test-shield-quick.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "injection"
+      ]
+    },
+    {
+      "file": "test-shield-simple.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "injection"
+      ]
+    },
+    {
+      "file": "test-shield.js",
+      "hits": [
+        "shield",
+        "sentinel",
+        "policy",
+        "injection",
+        "hallucination",
+        "sse"
+      ]
+    },
+    {
+      "file": "test-simple-mock.js",
+      "hits": [
+        "injection"
+      ]
+    },
+    {
+      "file": "test-simple.js",
+      "hits": [
+        "idempot"
+      ]
+    },
+    {
+      "file": "test-sse-chaos.js",
+      "hits": [
+        "injection",
+        "sse"
+      ]
+    },
+    {
+      "file": "test-sse-debug.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "test-sse-fixed.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "test-sse-fresh.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "test-sse-real.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "test-sse-simple.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "test-task-007.ts",
+      "hits": [
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "test-task-008.ts",
+      "hits": [
+        "registry",
+        "sse"
+      ]
+    },
+    {
+      "file": "test-task-009.ts",
+      "hits": [
+        "policy"
+      ]
+    },
+    {
+      "file": "test-token-simple.ts",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "tests\\contracts\\env.spec.ts",
+      "hits": [
+        "contracts"
+      ]
+    },
+    {
+      "file": "tests\\contracts\\idempotency.spec.ts",
+      "hits": [
+        "idempot",
+        "validation",
+        "contracts"
+      ]
+    },
+    {
+      "file": "tests\\contracts\\routes.spec.ts",
+      "hits": [
+        "registry",
+        "sse",
+        "contracts"
+      ]
+    },
+    {
+      "file": "tests\\contracts\\sse.spec.ts",
+      "hits": [
+        "sse",
+        "contracts"
+      ]
+    },
+    {
+      "file": "tests\\contracts\\validation.spec.ts",
+      "hits": [
+        "validation",
+        "contracts"
+      ]
+    },
+    {
+      "file": "tests\\e2e.gateway.spec.ts",
+      "hits": [
+        "policy",
+        "idempot"
+      ]
+    },
+    {
+      "file": "tests\\metrics.e2e.spec.ts",
+      "hits": [
+        "policy",
+        "sse",
+        "idempot",
+        "validation"
+      ]
+    },
+    {
+      "file": "tmp\\race.js",
+      "hits": [
+        "idempot"
+      ]
+    },
+    {
+      "file": "tools\\audit-os-scan.mjs",
+      "hits": [
+        "shield",
+        "sentinel",
+        "ml",
+        "trainer",
+        "feedback",
+        "registry",
+        "guardrail",
+        "policy",
+        "prompt",
+        "injection",
+        "hallucination",
+        "sse",
+        "idempot",
+        "zod",
+        "validation",
+        "redteam",
+        "contracts"
+      ]
+    },
+    {
+      "file": "tools\\inventory-simple.js",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "traditional-vs-4runr-comparison.js",
+      "hits": [
+        "idempot"
+      ]
+    },
+    {
+      "file": "tsconfig.json",
+      "hits": [
+        "sse"
+      ]
+    },
+    {
+      "file": "ULTIMATE-INVESTMENT-PROOF.js",
+      "hits": [
+        "policy",
+        "validation"
+      ]
+    },
+    {
+      "file": "ULTRA-LOAD-TEST-REPORT.md",
+      "hits": [
+        "ml",
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "ULTRA-TEST-REPORT-FINAL.md",
+      "hits": [
+        "ml",
+        "policy",
+        "sse",
+        "validation"
+      ]
+    },
+    {
+      "file": "verification-results-1755916937342.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "verification-results-1755917231899.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "verification-results-1755917274265.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "verification-results-1755917328284.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "verification-results-1755917819276.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "verification-results-1755918051513.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "verification-results-1755918442718.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "verification-results-1755918447272.json",
+      "hits": [
+        "shield",
+        "sentinel",
+        "registry",
+        "policy",
+        "sse"
+      ]
+    },
+    {
+      "file": "working-security-demo.js",
+      "hits": [
+        "policy",
+        "prompt"
+      ]
+    }
+  ]
+}

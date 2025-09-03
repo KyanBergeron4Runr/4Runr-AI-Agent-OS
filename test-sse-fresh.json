@@ -1,0 +1,6 @@
+{
+  "name": "Fresh SSE Test",
+  "input": "fresh input",
+  "client_token": "fresh-sse-20250831",
+  "tags": ["fresh", "sse-test"]
+}

@@ -1,0 +1,2002 @@
+[2025-08-16T12:37:54.288Z] [INFO] 🔍 Starting 48-hour burn-in monitor
+[2025-08-16T12:37:54.291Z] [INFO] Monitor iteration 1
+[2025-08-17T13:18:56.358Z] [INFO] 🔍 Starting 48-hour burn-in monitor
+[2025-08-17T13:18:56.361Z] [INFO] Monitor iteration 1
+[2025-08-17T13:23:56.408Z] [INFO] Monitor iteration 2
+[2025-08-17T13:26:10.465Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T13:27:10.468Z] [INFO] Monitor iteration 3
+[2025-08-17T13:29:00.442Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T13:30:00.457Z] [INFO] Monitor iteration 4
+[2025-08-17T13:32:14.988Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T13:33:15.003Z] [INFO] Monitor iteration 5
+[2025-08-17T13:35:29.539Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T13:36:29.541Z] [INFO] Monitor iteration 6
+[2025-08-17T13:38:44.090Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T13:39:44.102Z] [INFO] Monitor iteration 7
+[2025-08-17T13:41:26.456Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T13:42:26.467Z] [INFO] Monitor iteration 8
+[2025-08-17T13:44:03.174Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T13:45:03.188Z] [INFO] Monitor iteration 9
+[2025-08-17T13:47:18.117Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T13:48:18.133Z] [INFO] Monitor iteration 10
+[2025-08-17T13:50:32.668Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T13:51:32.679Z] [INFO] Monitor iteration 11
+[2025-08-17T13:53:47.219Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T13:54:47.232Z] [INFO] Monitor iteration 12
+[2025-08-17T13:57:01.772Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T13:58:01.779Z] [INFO] Monitor iteration 13
+[2025-08-17T14:00:16.322Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:01:16.333Z] [INFO] Monitor iteration 14
+[2025-08-17T14:03:30.875Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:04:30.878Z] [INFO] Monitor iteration 15
+[2025-08-17T14:06:22.901Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:07:22.906Z] [INFO] Monitor iteration 16
+[2025-08-17T14:08:59.977Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T14:09:59.978Z] [INFO] Monitor iteration 17
+[2025-08-17T14:12:15.142Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:13:15.151Z] [INFO] Monitor iteration 18
+[2025-08-17T14:15:13.311Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:16:13.326Z] [INFO] Monitor iteration 19
+[2025-08-17T14:18:27.863Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:19:27.873Z] [INFO] Monitor iteration 20
+[2025-08-17T14:23:28.910Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:24:28.918Z] [INFO] Monitor iteration 21
+[2025-08-17T14:26:27.076Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:27:27.078Z] [INFO] Monitor iteration 22
+[2025-08-17T14:29:39.859Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T14:30:39.871Z] [INFO] Monitor iteration 23
+[2025-08-17T14:32:54.133Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:33:54.139Z] [INFO] Monitor iteration 24
+[2025-08-17T14:36:08.689Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:37:08.693Z] [INFO] Monitor iteration 25
+[2025-08-17T14:39:23.227Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:40:23.231Z] [INFO] Monitor iteration 26
+[2025-08-17T14:42:37.781Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:43:37.786Z] [INFO] Monitor iteration 27
+[2025-08-17T14:45:52.362Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:46:52.366Z] [INFO] Monitor iteration 28
+[2025-08-17T14:49:06.878Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:50:06.894Z] [INFO] Monitor iteration 29
+[2025-08-17T14:52:21.421Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:53:21.434Z] [INFO] Monitor iteration 30
+[2025-08-17T14:55:35.968Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:56:35.973Z] [INFO] Monitor iteration 31
+[2025-08-17T14:58:50.518Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T14:59:50.522Z] [INFO] Monitor iteration 32
+[2025-08-17T15:01:40.490Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T15:02:40.506Z] [INFO] Monitor iteration 33
+[2025-08-17T15:04:55.039Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T15:05:55.039Z] [INFO] Monitor iteration 34
+[2025-08-17T15:08:09.583Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T15:09:09.588Z] [INFO] Monitor iteration 35
+[2025-08-17T15:11:11.216Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T15:12:11.225Z] [INFO] Monitor iteration 36
+[2025-08-17T15:14:26.402Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T15:15:26.403Z] [INFO] Monitor iteration 37
+[2025-08-17T15:17:40.939Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T15:18:40.945Z] [INFO] Monitor iteration 38
+[2025-08-17T15:20:28.864Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T15:21:28.875Z] [INFO] Monitor iteration 39
+[2025-08-17T15:24:01.845Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T15:25:01.857Z] [INFO] Monitor iteration 40
+[2025-08-17T15:27:16.394Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T15:28:16.405Z] [INFO] Monitor iteration 41
+[2025-08-17T15:30:30.941Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T15:31:30.948Z] [INFO] Monitor iteration 42
+[2025-08-17T15:33:25.012Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T15:34:25.016Z] [INFO] Monitor iteration 43
+[2025-08-17T15:35:59.463Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T15:36:59.475Z] [INFO] Monitor iteration 44
+[2025-08-17T15:38:34.576Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T15:39:34.588Z] [INFO] Monitor iteration 45
+[2025-08-17T15:41:48.792Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T15:42:48.800Z] [INFO] Monitor iteration 46
+[2025-08-17T15:43:04.308Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T15:44:04.320Z] [INFO] Monitor iteration 47
+[2025-08-17T15:45:47.744Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T15:46:47.750Z] [INFO] Monitor iteration 48
+[2025-08-17T15:48:19.489Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T15:49:19.493Z] [INFO] Monitor iteration 49
+[2025-08-17T15:52:15.450Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T15:53:15.455Z] [INFO] Monitor iteration 50
+[2025-08-17T15:55:05.425Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T15:56:05.438Z] [INFO] Monitor iteration 51
+[2025-08-17T15:57:57.454Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T15:58:57.466Z] [INFO] Monitor iteration 52
+[2025-08-17T16:01:31.160Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T16:02:31.168Z] [INFO] Monitor iteration 53
+[2025-08-17T16:04:15.588Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T16:05:15.588Z] [INFO] Monitor iteration 54
+[2025-08-17T16:07:30.867Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T16:08:30.874Z] [INFO] Monitor iteration 55
+[2025-08-17T16:10:45.415Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T16:11:45.429Z] [INFO] Monitor iteration 56
+[2025-08-17T16:13:59.965Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T16:14:59.969Z] [INFO] Monitor iteration 57
+[2025-08-17T16:17:14.517Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T16:18:14.522Z] [INFO] Monitor iteration 58
+[2025-08-17T16:20:29.070Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T16:21:29.084Z] [INFO] Monitor iteration 59
+[2025-08-17T16:23:11.846Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T16:24:11.854Z] [INFO] Monitor iteration 60
+[2025-08-17T16:26:25.404Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T16:27:25.414Z] [INFO] Monitor iteration 61
+[2025-08-17T16:29:39.958Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T16:30:39.960Z] [INFO] Monitor iteration 62
+[2025-08-17T16:32:54.509Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T16:33:54.522Z] [INFO] Monitor iteration 63
+[2025-08-17T16:36:09.060Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T16:37:09.073Z] [INFO] Monitor iteration 64
+[2025-08-17T16:38:51.188Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T16:39:51.201Z] [INFO] Monitor iteration 65
+[2025-08-17T16:41:42.865Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T16:42:42.867Z] [INFO] Monitor iteration 66
+[2025-08-17T16:44:32.840Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T16:45:32.850Z] [INFO] Monitor iteration 67
+[2025-08-17T16:47:47.392Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T16:48:47.394Z] [INFO] Monitor iteration 68
+[2025-08-17T16:50:42.227Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T16:51:42.229Z] [INFO] Monitor iteration 69
+[2025-08-17T16:53:31.437Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T16:54:31.452Z] [INFO] Monitor iteration 70
+[2025-08-17T16:56:06.887Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T16:57:06.892Z] [INFO] Monitor iteration 71
+[2025-08-17T16:59:21.627Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:00:21.643Z] [INFO] Monitor iteration 72
+[2025-08-17T17:02:36.177Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:03:36.185Z] [INFO] Monitor iteration 73
+[2025-08-17T17:05:50.731Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:06:50.744Z] [INFO] Monitor iteration 74
+[2025-08-17T17:09:05.282Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:10:05.289Z] [INFO] Monitor iteration 75
+[2025-08-17T17:12:19.832Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:13:19.842Z] [INFO] Monitor iteration 76
+[2025-08-17T17:15:34.382Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:16:34.383Z] [INFO] Monitor iteration 77
+[2025-08-17T17:18:48.965Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:19:48.969Z] [INFO] Monitor iteration 78
+[2025-08-17T17:22:03.483Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:23:03.497Z] [INFO] Monitor iteration 79
+[2025-08-17T17:26:33.807Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:27:33.816Z] [INFO] Monitor iteration 80
+[2025-08-17T17:29:37.585Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T17:30:37.596Z] [INFO] Monitor iteration 81
+[2025-08-17T17:32:52.672Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:33:52.683Z] [INFO] Monitor iteration 82
+[2025-08-17T17:36:07.218Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:37:07.219Z] [INFO] Monitor iteration 83
+[2025-08-17T17:39:13.583Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:40:13.593Z] [INFO] Monitor iteration 84
+[2025-08-17T17:42:28.128Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:43:28.135Z] [INFO] Monitor iteration 85
+[2025-08-17T17:45:41.065Z] [ERROR] Failed to fetch metrics: spawnSync C:\Windows\system32\cmd.exe ENOBUFS
+[2025-08-17T17:46:41.075Z] [INFO] Monitor iteration 86
+[2025-08-17T17:48:55.181Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:49:55.187Z] [INFO] Monitor iteration 87
+[2025-08-17T17:52:09.723Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:53:09.727Z] [INFO] Monitor iteration 88
+[2025-08-17T17:55:24.273Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (52) Empty reply from server
+
+[2025-08-17T17:56:24.284Z] [INFO] Monitor iteration 89
+[2025-08-17T17:56:26.582Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-17T17:57:26.595Z] [INFO] Monitor iteration 90
+[2025-08-17T17:57:28.885Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2252 ms: Could not connect to server
+
+[2025-08-17T17:58:28.902Z] [INFO] Monitor iteration 91
+[2025-08-17T17:58:31.163Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-17T17:59:31.171Z] [INFO] Monitor iteration 92
+[2025-08-17T17:59:33.436Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T18:00:33.448Z] [INFO] Monitor iteration 93
+[2025-08-17T18:00:35.735Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-17T18:01:35.749Z] [INFO] Monitor iteration 94
+[2025-08-17T18:01:38.004Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2227 ms: Could not connect to server
+
+[2025-08-17T18:02:38.007Z] [INFO] Monitor iteration 95
+[2025-08-17T18:02:40.307Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-17T18:03:40.317Z] [INFO] Monitor iteration 96
+[2025-08-17T18:03:42.619Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2250 ms: Could not connect to server
+
+[2025-08-17T18:04:42.621Z] [INFO] Monitor iteration 97
+[2025-08-17T18:04:44.905Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2249 ms: Could not connect to server
+
+[2025-08-17T18:05:44.915Z] [INFO] Monitor iteration 98
+[2025-08-17T18:05:47.172Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2230 ms: Could not connect to server
+
+[2025-08-17T18:06:47.180Z] [INFO] Monitor iteration 99
+[2025-08-17T18:06:49.463Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-17T18:07:49.466Z] [INFO] Monitor iteration 100
+[2025-08-17T18:07:51.724Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2225 ms: Could not connect to server
+
+[2025-08-17T18:08:51.731Z] [INFO] Monitor iteration 101
+[2025-08-17T18:08:54.011Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-17T18:09:54.021Z] [INFO] Monitor iteration 102
+[2025-08-17T18:09:56.306Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T18:10:56.312Z] [INFO] Monitor iteration 103
+[2025-08-17T18:10:58.596Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-17T18:11:58.608Z] [INFO] Monitor iteration 104
+[2025-08-17T18:12:00.874Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-17T18:13:00.884Z] [INFO] Monitor iteration 105
+[2025-08-17T18:13:03.163Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-17T18:14:03.175Z] [INFO] Monitor iteration 106
+[2025-08-17T18:14:05.457Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-17T18:15:05.466Z] [INFO] Monitor iteration 107
+[2025-08-17T18:15:07.737Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2222 ms: Could not connect to server
+
+[2025-08-17T18:16:07.747Z] [INFO] Monitor iteration 108
+[2025-08-17T18:16:10.040Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2252 ms: Could not connect to server
+
+[2025-08-17T18:17:10.042Z] [INFO] Monitor iteration 109
+[2025-08-17T18:17:12.322Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-17T18:18:12.328Z] [INFO] Monitor iteration 110
+[2025-08-17T18:18:14.596Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-17T18:19:14.602Z] [INFO] Monitor iteration 111
+[2025-08-17T18:19:16.886Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-17T18:20:16.892Z] [INFO] Monitor iteration 112
+[2025-08-17T18:20:19.155Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-17T18:21:19.164Z] [INFO] Monitor iteration 113
+[2025-08-17T18:21:21.447Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2250 ms: Could not connect to server
+
+[2025-08-17T18:22:21.456Z] [INFO] Monitor iteration 114
+[2025-08-17T18:22:23.741Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T18:23:23.744Z] [INFO] Monitor iteration 115
+[2025-08-17T18:23:26.009Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2229 ms: Could not connect to server
+
+[2025-08-17T18:24:26.022Z] [INFO] Monitor iteration 116
+[2025-08-17T18:24:28.300Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2235 ms: Could not connect to server
+
+[2025-08-17T18:25:28.304Z] [INFO] Monitor iteration 117
+[2025-08-17T18:25:30.556Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2223 ms: Could not connect to server
+
+[2025-08-17T18:26:30.561Z] [INFO] Monitor iteration 118
+[2025-08-17T18:26:32.818Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2230 ms: Could not connect to server
+
+[2025-08-17T18:27:32.830Z] [INFO] Monitor iteration 119
+[2025-08-17T18:27:35.081Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2229 ms: Could not connect to server
+
+[2025-08-17T18:28:35.092Z] [INFO] Monitor iteration 120
+[2025-08-17T18:28:37.348Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-17T18:29:37.360Z] [INFO] Monitor iteration 121
+[2025-08-17T18:29:39.621Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-17T18:30:39.631Z] [INFO] Monitor iteration 122
+[2025-08-17T18:30:41.885Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2231 ms: Could not connect to server
+
+[2025-08-17T18:31:41.886Z] [INFO] Monitor iteration 123
+[2025-08-17T18:31:44.147Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-17T18:32:44.148Z] [INFO] Monitor iteration 124
+[2025-08-17T18:32:46.411Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-17T18:33:46.414Z] [INFO] Monitor iteration 125
+[2025-08-17T18:33:48.681Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T18:34:48.685Z] [INFO] Monitor iteration 126
+[2025-08-17T18:34:50.949Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T18:35:50.954Z] [INFO] Monitor iteration 127
+[2025-08-17T18:35:53.217Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-17T18:36:53.221Z] [INFO] Monitor iteration 128
+[2025-08-17T18:36:55.485Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T18:37:55.495Z] [INFO] Monitor iteration 129
+[2025-08-17T18:37:57.761Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T18:38:57.772Z] [INFO] Monitor iteration 130
+[2025-08-17T18:39:00.041Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2247 ms: Could not connect to server
+
+[2025-08-17T18:40:00.056Z] [INFO] Monitor iteration 131
+[2025-08-17T18:40:02.299Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2223 ms: Could not connect to server
+
+[2025-08-17T18:41:02.308Z] [INFO] Monitor iteration 132
+[2025-08-17T18:41:04.576Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-17T18:42:04.581Z] [INFO] Monitor iteration 133
+[2025-08-17T18:42:06.842Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-17T18:43:06.846Z] [INFO] Monitor iteration 134
+[2025-08-17T18:43:09.114Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T18:44:09.127Z] [INFO] Monitor iteration 135
+[2025-08-17T18:44:11.389Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T18:45:11.398Z] [INFO] Monitor iteration 136
+[2025-08-17T18:45:13.667Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-17T18:46:13.668Z] [INFO] Monitor iteration 137
+[2025-08-17T18:46:15.915Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2225 ms: Could not connect to server
+
+[2025-08-17T18:47:15.927Z] [INFO] Monitor iteration 138
+[2025-08-17T18:47:18.190Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T18:48:18.192Z] [INFO] Monitor iteration 139
+[2025-08-17T18:48:20.459Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T18:49:20.470Z] [INFO] Monitor iteration 140
+[2025-08-17T18:49:22.736Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T18:50:22.739Z] [INFO] Monitor iteration 141
+[2025-08-17T18:50:25.009Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2249 ms: Could not connect to server
+
+[2025-08-17T18:51:25.018Z] [INFO] Monitor iteration 142
+[2025-08-17T18:51:27.286Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2247 ms: Could not connect to server
+
+[2025-08-17T18:52:27.292Z] [INFO] Monitor iteration 143
+[2025-08-17T18:52:29.557Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-17T18:53:29.569Z] [INFO] Monitor iteration 144
+[2025-08-17T18:53:31.835Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-17T18:54:31.840Z] [INFO] Monitor iteration 145
+[2025-08-17T18:54:34.118Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2257 ms: Could not connect to server
+
+[2025-08-17T18:55:34.130Z] [INFO] Monitor iteration 146
+[2025-08-17T18:55:36.394Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-17T18:56:36.402Z] [INFO] Monitor iteration 147
+[2025-08-17T18:56:38.654Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2232 ms: Could not connect to server
+
+[2025-08-17T19:55:52.390Z] [INFO] Monitor iteration 148
+[2025-08-17T19:55:55.417Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-17T19:56:55.430Z] [INFO] Monitor iteration 149
+[2025-08-17T19:56:57.685Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2230 ms: Could not connect to server
+
+[2025-08-17T19:57:57.697Z] [INFO] Monitor iteration 150
+[2025-08-17T19:57:59.969Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-17T19:58:59.978Z] [INFO] Monitor iteration 151
+[2025-08-17T19:59:02.239Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-17T20:00:02.251Z] [INFO] Monitor iteration 152
+[2025-08-17T20:00:04.514Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-17T20:01:04.522Z] [INFO] Monitor iteration 153
+[2025-08-17T20:01:06.780Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2233 ms: Could not connect to server
+
+[2025-08-17T20:02:06.785Z] [INFO] Monitor iteration 154
+[2025-08-17T20:02:09.049Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-17T20:03:09.059Z] [INFO] Monitor iteration 155
+[2025-08-17T20:03:11.314Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2227 ms: Could not connect to server
+
+[2025-08-17T20:04:11.313Z] [INFO] Monitor iteration 156
+[2025-08-17T20:04:13.575Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-17T20:05:13.587Z] [INFO] Monitor iteration 157
+[2025-08-17T20:05:15.847Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-17T20:06:15.860Z] [INFO] Monitor iteration 158
+[2025-08-17T20:06:18.131Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T20:07:18.138Z] [INFO] Monitor iteration 159
+[2025-08-17T20:07:20.406Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-17T20:08:20.414Z] [INFO] Monitor iteration 160
+[2025-08-17T20:08:22.676Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-17T20:09:22.686Z] [INFO] Monitor iteration 161
+[2025-08-17T20:09:24.939Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2227 ms: Could not connect to server
+
+[2025-08-17T20:10:24.944Z] [INFO] Monitor iteration 162
+[2025-08-17T20:10:27.210Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T20:11:27.212Z] [INFO] Monitor iteration 163
+[2025-08-17T20:11:29.502Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-17T20:12:29.503Z] [INFO] Monitor iteration 164
+[2025-08-17T20:12:31.756Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2228 ms: Could not connect to server
+
+[2025-08-17T20:13:31.769Z] [INFO] Monitor iteration 165
+[2025-08-17T20:13:34.026Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2235 ms: Could not connect to server
+
+[2025-08-17T20:14:34.039Z] [INFO] Monitor iteration 166
+[2025-08-17T20:14:36.300Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-17T20:15:36.309Z] [INFO] Monitor iteration 167
+[2025-08-17T20:15:38.574Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-17T20:16:38.575Z] [INFO] Monitor iteration 168
+[2025-08-17T20:16:40.841Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-17T20:17:40.853Z] [INFO] Monitor iteration 169
+[2025-08-17T20:17:43.117Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T20:18:43.130Z] [INFO] Monitor iteration 170
+[2025-08-17T20:18:45.386Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-17T20:19:45.394Z] [INFO] Monitor iteration 171
+[2025-08-17T20:19:47.662Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2247 ms: Could not connect to server
+
+[2025-08-17T20:20:47.669Z] [INFO] Monitor iteration 172
+[2025-08-17T20:20:49.939Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-17T20:21:49.943Z] [INFO] Monitor iteration 173
+[2025-08-17T20:21:52.207Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-17T20:22:52.217Z] [INFO] Monitor iteration 174
+[2025-08-17T20:22:54.480Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T20:23:54.493Z] [INFO] Monitor iteration 175
+[2025-08-17T20:23:56.758Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-17T20:24:56.772Z] [INFO] Monitor iteration 176
+[2025-08-17T20:24:59.034Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T20:25:59.042Z] [INFO] Monitor iteration 177
+[2025-08-17T20:26:01.312Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T20:27:01.323Z] [INFO] Monitor iteration 178
+[2025-08-17T20:27:03.594Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2248 ms: Could not connect to server
+
+[2025-08-17T20:28:03.598Z] [INFO] Monitor iteration 179
+[2025-08-17T20:28:05.865Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-17T20:29:05.872Z] [INFO] Monitor iteration 180
+[2025-08-17T20:29:08.138Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T20:30:08.146Z] [INFO] Monitor iteration 181
+[2025-08-17T20:30:10.412Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2247 ms: Could not connect to server
+
+[2025-08-17T20:31:10.423Z] [INFO] Monitor iteration 182
+[2025-08-17T20:31:12.689Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T20:32:12.690Z] [INFO] Monitor iteration 183
+[2025-08-17T20:32:14.963Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2251 ms: Could not connect to server
+
+[2025-08-17T20:33:14.970Z] [INFO] Monitor iteration 184
+[2025-08-17T20:33:17.236Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T20:34:17.236Z] [INFO] Monitor iteration 185
+[2025-08-17T20:34:19.502Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2247 ms: Could not connect to server
+
+[2025-08-17T20:35:19.515Z] [INFO] Monitor iteration 186
+[2025-08-17T20:35:21.778Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-17T20:36:21.785Z] [INFO] Monitor iteration 187
+[2025-08-17T20:36:24.057Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2252 ms: Could not connect to server
+
+[2025-08-17T20:37:24.063Z] [INFO] Monitor iteration 188
+[2025-08-17T20:37:26.335Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2253 ms: Could not connect to server
+
+[2025-08-17T20:38:26.340Z] [INFO] Monitor iteration 189
+[2025-08-17T20:38:28.603Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T20:39:28.617Z] [INFO] Monitor iteration 190
+[2025-08-17T20:39:30.880Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T20:40:30.885Z] [INFO] Monitor iteration 191
+[2025-08-17T20:40:33.157Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2252 ms: Could not connect to server
+
+[2025-08-17T21:47:22.111Z] [INFO] Monitor iteration 192
+[2025-08-17T21:47:27.863Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2475 ms: Could not connect to server
+
+[2025-08-17T21:48:27.867Z] [INFO] Monitor iteration 193
+[2025-08-17T21:48:30.143Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-17T21:49:30.152Z] [INFO] Monitor iteration 194
+[2025-08-17T21:49:32.421Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2247 ms: Could not connect to server
+
+[2025-08-17T21:50:32.425Z] [INFO] Monitor iteration 195
+[2025-08-17T21:50:34.695Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2249 ms: Could not connect to server
+
+[2025-08-17T21:51:34.707Z] [INFO] Monitor iteration 196
+[2025-08-17T21:51:36.974Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T21:52:36.986Z] [INFO] Monitor iteration 197
+[2025-08-17T21:52:39.251Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T21:53:39.264Z] [INFO] Monitor iteration 198
+[2025-08-17T21:53:41.526Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-17T21:54:41.530Z] [INFO] Monitor iteration 199
+[2025-08-17T21:54:43.787Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-17T21:55:43.791Z] [INFO] Monitor iteration 200
+[2025-08-17T21:55:46.065Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2254 ms: Could not connect to server
+
+[2025-08-17T21:56:46.066Z] [INFO] Monitor iteration 201
+[2025-08-17T21:56:48.327Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T21:57:48.330Z] [INFO] Monitor iteration 202
+[2025-08-17T21:57:50.592Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T21:58:50.605Z] [INFO] Monitor iteration 203
+[2025-08-17T21:58:52.868Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T21:59:52.877Z] [INFO] Monitor iteration 204
+[2025-08-17T21:59:55.151Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2252 ms: Could not connect to server
+
+[2025-08-17T22:00:55.153Z] [INFO] Monitor iteration 205
+[2025-08-17T22:00:57.421Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2247 ms: Could not connect to server
+
+[2025-08-17T22:01:57.433Z] [INFO] Monitor iteration 206
+[2025-08-17T22:01:59.697Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-17T22:02:59.707Z] [INFO] Monitor iteration 207
+[2025-08-17T22:03:01.971Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T22:04:01.983Z] [INFO] Monitor iteration 208
+[2025-08-17T22:04:04.249Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T22:05:04.263Z] [INFO] Monitor iteration 209
+[2025-08-17T22:05:06.521Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-17T22:06:06.530Z] [INFO] Monitor iteration 210
+[2025-08-17T22:06:08.796Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T22:07:08.802Z] [INFO] Monitor iteration 211
+[2025-08-17T22:07:11.070Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2248 ms: Could not connect to server
+
+[2025-08-17T22:08:11.084Z] [INFO] Monitor iteration 212
+[2025-08-17T22:08:13.349Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-17T22:09:13.350Z] [INFO] Monitor iteration 213
+[2025-08-17T22:09:15.625Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2254 ms: Could not connect to server
+
+[2025-08-17T22:10:15.637Z] [INFO] Monitor iteration 214
+[2025-08-17T22:10:17.901Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-17T22:11:17.916Z] [INFO] Monitor iteration 215
+[2025-08-17T22:11:20.184Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-17T22:12:20.193Z] [INFO] Monitor iteration 216
+[2025-08-17T22:12:22.459Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-17T22:13:22.467Z] [INFO] Monitor iteration 217
+[2025-08-17T22:13:24.732Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T22:14:24.738Z] [INFO] Monitor iteration 218
+[2025-08-17T22:14:27.004Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T22:15:27.018Z] [INFO] Monitor iteration 219
+[2025-08-17T22:15:29.277Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-17T22:16:29.280Z] [INFO] Monitor iteration 220
+[2025-08-17T22:16:31.544Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T22:17:31.554Z] [INFO] Monitor iteration 221
+[2025-08-17T22:17:33.833Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-17T22:18:33.834Z] [INFO] Monitor iteration 222
+[2025-08-17T22:18:36.097Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-17T22:19:36.101Z] [INFO] Monitor iteration 223
+[2025-08-17T22:19:38.365Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T22:20:38.377Z] [INFO] Monitor iteration 224
+[2025-08-17T22:20:40.642Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T22:21:40.653Z] [INFO] Monitor iteration 225
+[2025-08-17T22:21:42.913Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-17T22:22:42.923Z] [INFO] Monitor iteration 226
+[2025-08-17T22:22:45.195Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2252 ms: Could not connect to server
+
+[2025-08-17T22:23:45.207Z] [INFO] Monitor iteration 227
+[2025-08-17T22:23:47.480Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2254 ms: Could not connect to server
+
+[2025-08-17T22:24:47.483Z] [INFO] Monitor iteration 228
+[2025-08-17T22:24:49.751Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2247 ms: Could not connect to server
+
+[2025-08-17T22:25:49.762Z] [INFO] Monitor iteration 229
+[2025-08-17T22:25:52.025Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T22:26:52.037Z] [INFO] Monitor iteration 230
+[2025-08-17T22:26:54.318Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2262 ms: Could not connect to server
+
+[2025-08-17T22:27:54.319Z] [INFO] Monitor iteration 231
+[2025-08-17T22:27:56.605Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-17T22:28:56.617Z] [INFO] Monitor iteration 232
+[2025-08-17T22:28:58.872Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2235 ms: Could not connect to server
+
+[2025-08-17T22:29:58.884Z] [INFO] Monitor iteration 233
+[2025-08-17T22:30:01.148Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-17T22:31:01.160Z] [INFO] Monitor iteration 234
+[2025-08-17T22:31:03.426Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2247 ms: Could not connect to server
+
+[2025-08-17T22:32:03.436Z] [INFO] Monitor iteration 235
+[2025-08-17T22:32:05.703Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-17T22:33:05.715Z] [INFO] Monitor iteration 236
+[2025-08-17T22:33:07.984Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2249 ms: Could not connect to server
+
+[2025-08-17T22:34:08.000Z] [INFO] Monitor iteration 237
+[2025-08-17T22:34:10.264Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-17T22:35:10.275Z] [INFO] Monitor iteration 238
+[2025-08-17T22:35:12.538Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T23:02:38.133Z] [INFO] Monitor iteration 239
+[2025-08-17T23:02:46.022Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2778 ms: Could not connect to server
+
+[2025-08-17T23:03:46.033Z] [INFO] Monitor iteration 240
+[2025-08-17T23:03:48.319Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-17T23:04:48.330Z] [INFO] Monitor iteration 241
+[2025-08-17T23:04:50.596Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-17T23:05:50.597Z] [INFO] Monitor iteration 242
+[2025-08-17T23:05:52.856Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2235 ms: Could not connect to server
+
+[2025-08-17T23:06:52.867Z] [INFO] Monitor iteration 243
+[2025-08-17T23:06:55.149Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-17T23:07:55.160Z] [INFO] Monitor iteration 244
+[2025-08-17T23:07:57.428Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T23:08:57.437Z] [INFO] Monitor iteration 245
+[2025-08-17T23:08:59.697Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-17T23:09:59.702Z] [INFO] Monitor iteration 246
+[2025-08-17T23:10:01.968Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-17T23:11:01.971Z] [INFO] Monitor iteration 247
+[2025-08-17T23:11:04.230Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-17T23:12:04.245Z] [INFO] Monitor iteration 248
+[2025-08-17T23:12:06.511Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T23:13:06.514Z] [INFO] Monitor iteration 249
+[2025-08-17T23:13:08.802Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T23:14:08.806Z] [INFO] Monitor iteration 250
+[2025-08-17T23:14:11.065Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2229 ms: Could not connect to server
+
+[2025-08-17T23:15:11.070Z] [INFO] Monitor iteration 251
+[2025-08-17T23:15:13.343Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2252 ms: Could not connect to server
+
+[2025-08-17T23:16:13.355Z] [INFO] Monitor iteration 252
+[2025-08-17T23:16:15.624Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T23:17:15.626Z] [INFO] Monitor iteration 253
+[2025-08-17T23:17:17.953Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T23:18:17.954Z] [INFO] Monitor iteration 254
+[2025-08-17T23:18:20.226Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2227 ms: Could not connect to server
+
+[2025-08-17T23:19:20.230Z] [INFO] Monitor iteration 255
+[2025-08-17T23:19:22.494Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-17T23:20:22.501Z] [INFO] Monitor iteration 256
+[2025-08-17T23:20:24.770Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-17T23:21:24.785Z] [INFO] Monitor iteration 257
+[2025-08-17T23:21:27.051Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T23:22:27.052Z] [INFO] Monitor iteration 258
+[2025-08-17T23:22:29.312Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-17T23:23:29.322Z] [INFO] Monitor iteration 259
+[2025-08-17T23:23:31.589Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-17T23:24:31.593Z] [INFO] Monitor iteration 260
+[2025-08-17T23:24:33.858Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-17T23:25:33.868Z] [INFO] Monitor iteration 261
+[2025-08-17T23:25:36.133Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-17T23:26:36.145Z] [INFO] Monitor iteration 262
+[2025-08-17T23:26:38.404Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-17T23:27:38.407Z] [INFO] Monitor iteration 263
+[2025-08-17T23:27:40.685Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T23:28:40.695Z] [INFO] Monitor iteration 264
+[2025-08-17T23:28:42.977Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-17T23:29:42.991Z] [INFO] Monitor iteration 265
+[2025-08-17T23:29:45.247Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2233 ms: Could not connect to server
+
+[2025-08-17T23:30:45.248Z] [INFO] Monitor iteration 266
+[2025-08-17T23:30:47.511Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T23:31:47.524Z] [INFO] Monitor iteration 267
+[2025-08-17T23:31:49.790Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-17T23:32:49.791Z] [INFO] Monitor iteration 268
+[2025-08-17T23:32:52.057Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-17T23:33:52.071Z] [INFO] Monitor iteration 269
+[2025-08-17T23:33:54.332Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-17T23:34:54.344Z] [INFO] Monitor iteration 270
+[2025-08-17T23:34:56.622Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2250 ms: Could not connect to server
+
+[2025-08-17T23:35:56.637Z] [INFO] Monitor iteration 271
+[2025-08-17T23:35:58.896Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-17T23:36:58.906Z] [INFO] Monitor iteration 272
+[2025-08-17T23:37:01.174Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-17T23:38:01.188Z] [INFO] Monitor iteration 273
+[2025-08-17T23:38:03.459Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2250 ms: Could not connect to server
+
+[2025-08-17T23:39:03.468Z] [INFO] Monitor iteration 274
+[2025-08-17T23:39:05.745Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-17T23:40:05.745Z] [INFO] Monitor iteration 275
+[2025-08-17T23:40:08.013Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T23:41:08.023Z] [INFO] Monitor iteration 276
+[2025-08-17T23:41:10.298Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-17T23:42:10.305Z] [INFO] Monitor iteration 277
+[2025-08-17T23:42:12.566Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-17T23:43:12.575Z] [INFO] Monitor iteration 278
+[2025-08-17T23:43:14.843Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-17T23:44:14.855Z] [INFO] Monitor iteration 279
+[2025-08-17T23:44:17.121Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-17T23:45:17.122Z] [INFO] Monitor iteration 280
+[2025-08-17T23:45:19.380Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-17T23:46:19.392Z] [INFO] Monitor iteration 281
+[2025-08-17T23:46:21.672Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-17T23:47:21.683Z] [INFO] Monitor iteration 282
+[2025-08-17T23:47:23.946Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-17T23:48:23.953Z] [INFO] Monitor iteration 283
+[2025-08-17T23:48:26.209Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2233 ms: Could not connect to server
+
+[2025-08-17T23:49:26.217Z] [INFO] Monitor iteration 284
+[2025-08-17T23:49:28.478Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-17T23:50:28.484Z] [INFO] Monitor iteration 285
+[2025-08-17T23:50:30.743Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-17T23:51:30.754Z] [INFO] Monitor iteration 286
+[2025-08-17T23:51:33.019Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-17T23:52:33.020Z] [INFO] Monitor iteration 287
+[2025-08-17T23:52:35.286Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-17T23:53:35.290Z] [INFO] Monitor iteration 288
+[2025-08-17T23:53:37.553Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-17T23:54:37.554Z] [INFO] Monitor iteration 289
+[2025-08-17T23:54:39.816Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2235 ms: Could not connect to server
+
+[2025-08-17T23:55:39.816Z] [INFO] Monitor iteration 290
+[2025-08-17T23:55:42.065Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2227 ms: Could not connect to server
+
+[2025-08-17T23:56:42.067Z] [INFO] Monitor iteration 291
+[2025-08-17T23:56:44.334Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2247 ms: Could not connect to server
+
+[2025-08-17T23:57:44.340Z] [INFO] Monitor iteration 292
+[2025-08-17T23:57:46.597Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-17T23:58:46.598Z] [INFO] Monitor iteration 293
+[2025-08-17T23:58:48.847Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2226 ms: Could not connect to server
+
+[2025-08-17T23:59:48.862Z] [INFO] Monitor iteration 294
+[2025-08-17T23:59:51.123Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-18T00:00:51.134Z] [INFO] Monitor iteration 295
+[2025-08-18T00:00:53.409Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2231 ms: Could not connect to server
+
+[2025-08-18T00:01:53.413Z] [INFO] Monitor iteration 296
+[2025-08-18T00:01:55.674Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-18T00:02:55.683Z] [INFO] Monitor iteration 297
+[2025-08-18T00:02:57.936Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2227 ms: Could not connect to server
+
+[2025-08-18T00:03:57.936Z] [INFO] Monitor iteration 298
+[2025-08-18T00:04:00.200Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-18T00:05:00.207Z] [INFO] Monitor iteration 299
+[2025-08-18T00:05:02.465Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2232 ms: Could not connect to server
+
+[2025-08-18T00:06:02.479Z] [INFO] Monitor iteration 300
+[2025-08-18T00:06:04.739Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2231 ms: Could not connect to server
+
+[2025-08-18T00:07:04.746Z] [INFO] Monitor iteration 301
+[2025-08-18T00:07:07.011Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-18T00:08:07.024Z] [INFO] Monitor iteration 302
+[2025-08-18T00:08:09.287Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T00:09:09.299Z] [INFO] Monitor iteration 303
+[2025-08-18T00:09:11.565Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T00:10:11.576Z] [INFO] Monitor iteration 304
+[2025-08-18T00:10:13.845Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-18T00:11:13.853Z] [INFO] Monitor iteration 305
+[2025-08-18T00:11:16.116Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-18T00:12:16.130Z] [INFO] Monitor iteration 306
+[2025-08-18T00:12:18.385Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2233 ms: Could not connect to server
+
+[2025-08-18T00:13:18.393Z] [INFO] Monitor iteration 307
+[2025-08-18T00:13:20.660Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T00:14:20.669Z] [INFO] Monitor iteration 308
+[2025-08-18T00:14:22.930Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-18T00:15:22.941Z] [INFO] Monitor iteration 309
+[2025-08-18T00:15:25.208Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-18T00:16:25.216Z] [INFO] Monitor iteration 310
+[2025-08-18T00:16:27.482Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-18T00:17:27.485Z] [INFO] Monitor iteration 311
+[2025-08-18T00:17:29.745Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-18T00:18:29.754Z] [INFO] Monitor iteration 312
+[2025-08-18T00:18:32.019Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-18T00:19:32.028Z] [INFO] Monitor iteration 313
+[2025-08-18T00:19:34.289Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-18T00:20:34.296Z] [INFO] Monitor iteration 314
+[2025-08-18T00:20:36.566Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2249 ms: Could not connect to server
+
+[2025-08-18T00:21:36.579Z] [INFO] Monitor iteration 315
+[2025-08-18T00:21:38.840Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T00:22:38.840Z] [INFO] Monitor iteration 316
+[2025-08-18T00:22:41.103Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-18T00:23:41.111Z] [INFO] Monitor iteration 317
+[2025-08-18T00:23:43.376Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-18T00:24:43.389Z] [INFO] Monitor iteration 318
+[2025-08-18T00:24:45.651Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2230 ms: Could not connect to server
+
+[2025-08-18T00:25:45.653Z] [INFO] Monitor iteration 319
+[2025-08-18T00:25:47.915Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-18T00:26:47.917Z] [INFO] Monitor iteration 320
+[2025-08-18T00:26:50.177Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-18T00:27:50.191Z] [INFO] Monitor iteration 321
+[2025-08-18T00:27:52.456Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T00:28:52.469Z] [INFO] Monitor iteration 322
+[2025-08-18T00:28:54.732Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T00:29:54.742Z] [INFO] Monitor iteration 323
+[2025-08-18T00:29:57.017Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2250 ms: Could not connect to server
+
+[2025-08-18T00:30:57.033Z] [INFO] Monitor iteration 324
+[2025-08-18T00:30:59.308Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T00:31:59.314Z] [INFO] Monitor iteration 325
+[2025-08-18T00:32:01.581Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-18T00:33:01.587Z] [INFO] Monitor iteration 326
+[2025-08-18T00:33:03.860Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-18T00:34:03.863Z] [INFO] Monitor iteration 327
+[2025-08-18T00:34:06.123Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-18T00:35:06.129Z] [INFO] Monitor iteration 328
+[2025-08-18T00:35:08.391Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T00:36:08.397Z] [INFO] Monitor iteration 329
+[2025-08-18T00:36:10.663Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T00:37:10.676Z] [INFO] Monitor iteration 330
+[2025-08-18T00:37:12.940Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T00:38:12.944Z] [INFO] Monitor iteration 331
+[2025-08-18T00:38:15.206Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-18T00:39:15.207Z] [INFO] Monitor iteration 332
+[2025-08-18T00:39:17.467Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T00:40:17.476Z] [INFO] Monitor iteration 333
+[2025-08-18T00:40:19.741Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-18T00:41:19.753Z] [INFO] Monitor iteration 334
+[2025-08-18T00:41:22.028Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2251 ms: Could not connect to server
+
+[2025-08-18T00:42:22.037Z] [INFO] Monitor iteration 335
+[2025-08-18T00:42:24.302Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T00:43:24.310Z] [INFO] Monitor iteration 336
+[2025-08-18T00:43:26.574Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-18T00:44:26.582Z] [INFO] Monitor iteration 337
+[2025-08-18T00:44:28.842Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-18T00:45:28.853Z] [INFO] Monitor iteration 338
+[2025-08-18T00:45:31.117Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T00:46:31.122Z] [INFO] Monitor iteration 339
+[2025-08-18T00:46:33.394Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-18T00:47:33.409Z] [INFO] Monitor iteration 340
+[2025-08-18T00:47:35.671Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-18T00:48:35.679Z] [INFO] Monitor iteration 341
+[2025-08-18T00:48:37.942Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T00:49:37.956Z] [INFO] Monitor iteration 342
+[2025-08-18T00:49:40.215Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2235 ms: Could not connect to server
+
+[2025-08-18T00:50:40.215Z] [INFO] Monitor iteration 343
+[2025-08-18T00:50:42.473Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2233 ms: Could not connect to server
+
+[2025-08-18T00:51:42.483Z] [INFO] Monitor iteration 344
+[2025-08-18T00:51:44.748Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T00:52:44.759Z] [INFO] Monitor iteration 345
+[2025-08-18T00:52:47.022Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T00:53:47.035Z] [INFO] Monitor iteration 346
+[2025-08-18T00:53:49.297Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-18T00:54:49.307Z] [INFO] Monitor iteration 347
+[2025-08-18T00:54:51.570Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T00:55:51.572Z] [INFO] Monitor iteration 348
+[2025-08-18T00:55:53.842Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2250 ms: Could not connect to server
+
+[2025-08-18T00:56:53.851Z] [INFO] Monitor iteration 349
+[2025-08-18T00:56:56.118Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T00:57:56.130Z] [INFO] Monitor iteration 350
+[2025-08-18T00:57:58.388Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-18T00:58:58.392Z] [INFO] Monitor iteration 351
+[2025-08-18T00:59:00.655Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-18T01:00:00.668Z] [INFO] Monitor iteration 352
+[2025-08-18T01:00:02.931Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-18T01:01:02.943Z] [INFO] Monitor iteration 353
+[2025-08-18T01:01:05.210Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T01:02:05.222Z] [INFO] Monitor iteration 354
+[2025-08-18T01:02:07.486Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T01:03:07.499Z] [INFO] Monitor iteration 355
+[2025-08-18T01:03:09.764Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T01:04:09.778Z] [INFO] Monitor iteration 356
+[2025-08-18T01:04:12.041Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T01:05:12.043Z] [INFO] Monitor iteration 357
+[2025-08-18T01:05:14.299Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-18T01:06:14.313Z] [INFO] Monitor iteration 358
+[2025-08-18T01:06:16.574Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-18T01:07:16.575Z] [INFO] Monitor iteration 359
+[2025-08-18T01:07:18.838Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-18T01:08:18.851Z] [INFO] Monitor iteration 360
+[2025-08-18T01:08:21.117Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T01:09:21.131Z] [INFO] Monitor iteration 361
+[2025-08-18T01:09:23.403Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2251 ms: Could not connect to server
+
+[2025-08-18T01:10:23.416Z] [INFO] Monitor iteration 362
+[2025-08-18T01:10:25.680Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2232 ms: Could not connect to server
+
+[2025-08-18T01:11:25.683Z] [INFO] Monitor iteration 363
+[2025-08-18T01:11:27.948Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T01:12:27.960Z] [INFO] Monitor iteration 364
+[2025-08-18T01:12:30.224Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-18T01:13:30.231Z] [INFO] Monitor iteration 365
+[2025-08-18T01:13:32.497Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2247 ms: Could not connect to server
+
+[2025-08-18T01:14:32.498Z] [INFO] Monitor iteration 366
+[2025-08-18T01:14:34.762Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-18T01:15:34.768Z] [INFO] Monitor iteration 367
+[2025-08-18T01:15:37.033Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T01:16:37.037Z] [INFO] Monitor iteration 368
+[2025-08-18T01:16:39.301Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T01:17:39.313Z] [INFO] Monitor iteration 369
+[2025-08-18T01:17:41.590Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2249 ms: Could not connect to server
+
+[2025-08-18T01:18:41.603Z] [INFO] Monitor iteration 370
+[2025-08-18T01:18:43.871Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T01:19:43.876Z] [INFO] Monitor iteration 371
+[2025-08-18T01:19:46.142Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-18T01:20:46.155Z] [INFO] Monitor iteration 372
+[2025-08-18T01:20:48.420Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-18T01:21:48.432Z] [INFO] Monitor iteration 373
+[2025-08-18T01:21:50.696Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T01:22:50.698Z] [INFO] Monitor iteration 374
+[2025-08-18T01:22:52.957Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T01:23:52.967Z] [INFO] Monitor iteration 375
+[2025-08-18T01:23:55.219Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2231 ms: Could not connect to server
+
+[2025-08-18T01:24:55.231Z] [INFO] Monitor iteration 376
+[2025-08-18T01:24:57.497Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-18T01:25:57.505Z] [INFO] Monitor iteration 377
+[2025-08-18T01:25:59.775Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2249 ms: Could not connect to server
+
+[2025-08-18T01:26:59.781Z] [INFO] Monitor iteration 378
+[2025-08-18T01:27:02.044Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T01:28:02.058Z] [INFO] Monitor iteration 379
+[2025-08-18T01:28:04.318Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-18T01:34:08.137Z] [INFO] Monitor iteration 380
+[2025-08-18T01:34:19.359Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-18T01:35:19.375Z] [INFO] Monitor iteration 381
+[2025-08-18T01:35:21.639Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T01:36:21.649Z] [INFO] Monitor iteration 382
+[2025-08-18T01:36:23.909Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-18T01:37:23.914Z] [INFO] Monitor iteration 383
+[2025-08-18T01:37:26.174Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-18T01:38:26.180Z] [INFO] Monitor iteration 384
+[2025-08-18T01:38:28.441Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2229 ms: Could not connect to server
+
+[2025-08-18T01:39:28.452Z] [INFO] Monitor iteration 385
+[2025-08-18T01:39:30.724Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2252 ms: Could not connect to server
+
+[2025-08-18T01:40:30.738Z] [INFO] Monitor iteration 386
+[2025-08-18T01:40:32.999Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-18T01:41:33.014Z] [INFO] Monitor iteration 387
+[2025-08-18T01:41:35.273Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T01:42:35.277Z] [INFO] Monitor iteration 388
+[2025-08-18T01:42:37.543Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-18T01:43:37.551Z] [INFO] Monitor iteration 389
+[2025-08-18T01:43:39.817Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T01:44:39.819Z] [INFO] Monitor iteration 390
+[2025-08-18T01:44:42.082Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T01:45:42.087Z] [INFO] Monitor iteration 391
+[2025-08-18T01:45:44.350Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T01:46:44.354Z] [INFO] Monitor iteration 392
+[2025-08-18T01:46:46.620Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-18T01:47:46.629Z] [INFO] Monitor iteration 393
+[2025-08-18T01:47:48.896Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-18T01:48:48.898Z] [INFO] Monitor iteration 394
+[2025-08-18T01:48:51.166Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-18T01:49:51.175Z] [INFO] Monitor iteration 395
+[2025-08-18T01:49:53.453Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2253 ms: Could not connect to server
+
+[2025-08-18T01:50:53.462Z] [INFO] Monitor iteration 396
+[2025-08-18T01:50:55.728Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T01:51:55.730Z] [INFO] Monitor iteration 397
+[2025-08-18T01:51:57.992Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-18T01:52:58.006Z] [INFO] Monitor iteration 398
+[2025-08-18T01:53:00.270Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-18T01:54:00.280Z] [INFO] Monitor iteration 399
+[2025-08-18T01:54:02.541Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-18T01:55:02.545Z] [INFO] Monitor iteration 400
+[2025-08-18T01:55:04.808Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-18T01:56:04.822Z] [INFO] Monitor iteration 401
+[2025-08-18T01:56:07.093Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-18T01:57:07.094Z] [INFO] Monitor iteration 402
+[2025-08-18T01:57:09.358Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T01:58:09.359Z] [INFO] Monitor iteration 403
+[2025-08-18T01:58:11.625Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T01:59:11.630Z] [INFO] Monitor iteration 404
+[2025-08-18T01:59:13.899Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2248 ms: Could not connect to server
+
+[2025-08-18T02:00:13.900Z] [INFO] Monitor iteration 405
+[2025-08-18T02:00:16.165Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T02:01:16.174Z] [INFO] Monitor iteration 406
+[2025-08-18T02:01:18.442Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-18T02:02:18.453Z] [INFO] Monitor iteration 407
+[2025-08-18T02:02:20.714Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-18T02:03:20.728Z] [INFO] Monitor iteration 408
+[2025-08-18T02:03:22.988Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-18T02:04:23.001Z] [INFO] Monitor iteration 409
+[2025-08-18T02:04:25.267Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T02:05:25.271Z] [INFO] Monitor iteration 410
+[2025-08-18T02:05:27.537Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-18T02:06:27.546Z] [INFO] Monitor iteration 411
+[2025-08-18T02:06:29.809Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T02:07:29.821Z] [INFO] Monitor iteration 412
+[2025-08-18T02:07:32.081Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-18T02:08:32.083Z] [INFO] Monitor iteration 413
+[2025-08-18T02:08:34.347Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-18T02:09:34.355Z] [INFO] Monitor iteration 414
+[2025-08-18T02:09:36.624Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T11:08:26.098Z] [INFO] Monitor iteration 415
+[2025-08-18T11:08:31.066Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2327 ms: Could not connect to server
+
+[2025-08-18T11:09:31.072Z] [INFO] Monitor iteration 416
+[2025-08-18T11:09:33.347Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2233 ms: Could not connect to server
+
+[2025-08-18T11:10:33.357Z] [INFO] Monitor iteration 417
+[2025-08-18T11:10:35.608Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2229 ms: Could not connect to server
+
+[2025-08-18T11:11:35.617Z] [INFO] Monitor iteration 418
+[2025-08-18T11:11:37.880Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-18T11:12:37.886Z] [INFO] Monitor iteration 419
+[2025-08-18T11:12:40.147Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T11:13:40.158Z] [INFO] Monitor iteration 420
+[2025-08-18T11:13:42.745Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2562 ms: Could not connect to server
+
+[2025-08-18T11:14:42.759Z] [INFO] Monitor iteration 421
+[2025-08-18T11:14:45.012Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2230 ms: Could not connect to server
+
+[2025-08-18T11:15:45.019Z] [INFO] Monitor iteration 422
+[2025-08-18T11:15:47.281Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T11:16:47.290Z] [INFO] Monitor iteration 423
+[2025-08-18T11:16:49.551Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T11:17:49.563Z] [INFO] Monitor iteration 424
+[2025-08-18T11:17:51.824Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-18T11:18:51.835Z] [INFO] Monitor iteration 425
+[2025-08-18T11:18:54.094Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-18T11:19:55.489Z] [INFO] Monitor iteration 426
+[2025-08-18T11:19:57.755Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T11:20:57.766Z] [INFO] Monitor iteration 427
+[2025-08-18T11:21:00.026Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-18T11:22:00.032Z] [INFO] Monitor iteration 428
+[2025-08-18T11:22:02.291Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-18T11:23:02.301Z] [INFO] Monitor iteration 429
+[2025-08-18T11:23:04.568Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T11:24:04.573Z] [INFO] Monitor iteration 430
+[2025-08-18T11:24:06.830Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2233 ms: Could not connect to server
+
+[2025-08-18T11:25:06.837Z] [INFO] Monitor iteration 431
+[2025-08-18T11:25:09.106Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2248 ms: Could not connect to server
+
+[2025-08-18T11:26:09.112Z] [INFO] Monitor iteration 432
+[2025-08-18T11:26:11.369Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2235 ms: Could not connect to server
+
+[2025-08-18T11:27:11.372Z] [INFO] Monitor iteration 433
+[2025-08-18T11:27:13.633Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2235 ms: Could not connect to server
+
+[2025-08-18T11:28:13.641Z] [INFO] Monitor iteration 434
+[2025-08-18T11:28:15.902Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-18T11:29:15.912Z] [INFO] Monitor iteration 435
+[2025-08-18T11:29:18.173Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-18T11:30:18.175Z] [INFO] Monitor iteration 436
+[2025-08-18T11:30:20.446Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2251 ms: Could not connect to server
+
+[2025-08-18T11:31:20.452Z] [INFO] Monitor iteration 437
+[2025-08-18T11:31:22.724Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2249 ms: Could not connect to server
+
+[2025-08-18T11:32:22.728Z] [INFO] Monitor iteration 438
+[2025-08-18T11:32:24.985Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-18T11:33:24.988Z] [INFO] Monitor iteration 439
+[2025-08-18T11:33:27.252Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T11:34:27.268Z] [INFO] Monitor iteration 440
+[2025-08-18T11:34:29.535Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2247 ms: Could not connect to server
+
+[2025-08-18T11:35:29.537Z] [INFO] Monitor iteration 441
+[2025-08-18T11:35:31.788Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2226 ms: Could not connect to server
+
+[2025-08-18T11:36:31.791Z] [INFO] Monitor iteration 442
+[2025-08-18T11:36:34.055Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T11:37:34.055Z] [INFO] Monitor iteration 443
+[2025-08-18T11:37:36.320Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T11:38:36.324Z] [INFO] Monitor iteration 444
+[2025-08-18T11:38:38.594Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T11:39:38.595Z] [INFO] Monitor iteration 445
+[2025-08-18T11:39:40.862Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-18T11:40:40.866Z] [INFO] Monitor iteration 446
+[2025-08-18T11:40:43.121Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-18T11:41:43.125Z] [INFO] Monitor iteration 447
+[2025-08-18T11:41:45.384Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T11:42:45.384Z] [INFO] Monitor iteration 448
+[2025-08-18T11:42:47.646Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-18T11:43:47.661Z] [INFO] Monitor iteration 449
+[2025-08-18T11:43:49.922Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2241 ms: Could not connect to server
+
+[2025-08-18T11:44:49.922Z] [INFO] Monitor iteration 450
+[2025-08-18T11:44:52.180Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-18T11:45:52.188Z] [INFO] Monitor iteration 451
+[2025-08-18T11:45:54.452Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T11:46:54.467Z] [INFO] Monitor iteration 452
+[2025-08-18T11:46:56.735Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2247 ms: Could not connect to server
+
+[2025-08-18T11:47:56.741Z] [INFO] Monitor iteration 453
+[2025-08-18T11:47:59.006Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T11:48:59.011Z] [INFO] Monitor iteration 454
+[2025-08-18T11:49:01.272Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-18T11:50:01.279Z] [INFO] Monitor iteration 455
+[2025-08-18T11:50:03.536Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-18T11:51:03.542Z] [INFO] Monitor iteration 456
+[2025-08-18T11:51:05.807Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-18T11:52:05.811Z] [INFO] Monitor iteration 457
+[2025-08-18T11:52:08.074Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T11:53:08.080Z] [INFO] Monitor iteration 458
+[2025-08-18T11:53:10.346Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-18T11:54:10.346Z] [INFO] Monitor iteration 459
+[2025-08-18T11:54:12.609Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T11:55:12.613Z] [INFO] Monitor iteration 460
+[2025-08-18T11:55:14.882Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2249 ms: Could not connect to server
+
+[2025-08-18T11:56:14.884Z] [INFO] Monitor iteration 461
+[2025-08-18T11:56:17.147Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-18T11:57:17.147Z] [INFO] Monitor iteration 462
+[2025-08-18T11:57:19.405Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-18T11:58:19.412Z] [INFO] Monitor iteration 463
+[2025-08-18T11:58:21.682Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2251 ms: Could not connect to server
+
+[2025-08-18T11:59:21.687Z] [INFO] Monitor iteration 464
+[2025-08-18T11:59:23.952Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T12:00:23.959Z] [INFO] Monitor iteration 465
+[2025-08-18T12:00:26.222Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T12:01:26.231Z] [INFO] Monitor iteration 466
+[2025-08-18T12:01:28.489Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2235 ms: Could not connect to server
+
+[2025-08-18T12:02:28.494Z] [INFO] Monitor iteration 467
+[2025-08-18T12:02:30.760Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-18T12:03:30.774Z] [INFO] Monitor iteration 468
+[2025-08-18T12:03:33.038Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T12:04:33.046Z] [INFO] Monitor iteration 469
+[2025-08-18T12:04:35.320Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2252 ms: Could not connect to server
+
+[2025-08-18T12:05:35.332Z] [INFO] Monitor iteration 470
+[2025-08-18T12:05:37.597Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T12:06:37.600Z] [INFO] Monitor iteration 471
+[2025-08-18T12:06:39.857Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-18T12:07:39.861Z] [INFO] Monitor iteration 472
+[2025-08-18T12:07:42.121Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2236 ms: Could not connect to server
+
+[2025-08-18T12:08:42.133Z] [INFO] Monitor iteration 473
+[2025-08-18T12:08:44.402Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T12:09:44.405Z] [INFO] Monitor iteration 474
+[2025-08-18T12:09:46.661Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2231 ms: Could not connect to server
+
+[2025-08-18T12:10:46.670Z] [INFO] Monitor iteration 475
+[2025-08-18T12:10:48.929Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T12:11:48.937Z] [INFO] Monitor iteration 476
+[2025-08-18T12:11:51.188Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2230 ms: Could not connect to server
+
+[2025-08-18T12:12:51.188Z] [INFO] Monitor iteration 477
+[2025-08-18T12:12:53.456Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-18T12:13:53.456Z] [INFO] Monitor iteration 478
+[2025-08-18T12:13:55.722Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2246 ms: Could not connect to server
+
+[2025-08-18T12:14:55.731Z] [INFO] Monitor iteration 479
+[2025-08-18T12:14:57.997Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T12:15:58.006Z] [INFO] Monitor iteration 480
+[2025-08-18T12:16:00.269Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-18T12:17:00.272Z] [INFO] Monitor iteration 481
+[2025-08-18T12:17:02.537Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-18T12:18:02.541Z] [INFO] Monitor iteration 482
+[2025-08-18T12:18:04.809Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2248 ms: Could not connect to server
+
+[2025-08-18T12:19:04.809Z] [INFO] Monitor iteration 483
+[2025-08-18T12:19:07.078Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T12:20:07.090Z] [INFO] Monitor iteration 484
+[2025-08-18T12:20:09.351Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T12:21:09.356Z] [INFO] Monitor iteration 485
+[2025-08-18T12:21:11.614Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-18T12:22:11.620Z] [INFO] Monitor iteration 486
+[2025-08-18T12:22:13.883Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2244 ms: Could not connect to server
+
+[2025-08-18T12:23:13.883Z] [INFO] Monitor iteration 487
+[2025-08-18T12:23:16.151Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2247 ms: Could not connect to server
+
+[2025-08-18T12:24:16.155Z] [INFO] Monitor iteration 488
+[2025-08-18T12:24:18.417Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-18T12:25:18.431Z] [INFO] Monitor iteration 489
+[2025-08-18T12:25:20.693Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T12:26:20.702Z] [INFO] Monitor iteration 490
+[2025-08-18T12:26:22.967Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2243 ms: Could not connect to server
+
+[2025-08-18T12:27:22.970Z] [INFO] Monitor iteration 491
+[2025-08-18T12:27:25.244Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2252 ms: Could not connect to server
+
+[2025-08-18T12:28:25.257Z] [INFO] Monitor iteration 492
+[2025-08-18T12:28:27.517Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T12:29:27.525Z] [INFO] Monitor iteration 493
+[2025-08-18T12:29:29.781Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-18T12:30:29.790Z] [INFO] Monitor iteration 494
+[2025-08-18T12:30:32.052Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2240 ms: Could not connect to server
+
+[2025-08-18T12:31:32.064Z] [INFO] Monitor iteration 495
+[2025-08-18T12:31:34.330Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+
+[2025-08-18T12:32:34.332Z] [INFO] Monitor iteration 496
+[2025-08-18T12:32:36.581Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2227 ms: Could not connect to server
+
+[2025-08-18T12:33:36.589Z] [INFO] Monitor iteration 497
+[2025-08-18T12:33:38.854Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2239 ms: Could not connect to server
+
+[2025-08-18T12:34:38.854Z] [INFO] Monitor iteration 498
+[2025-08-18T12:34:41.122Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2247 ms: Could not connect to server
+
+[2025-08-18T12:35:41.124Z] [INFO] Monitor iteration 499
+[2025-08-18T12:35:43.378Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2233 ms: Could not connect to server
+
+[2025-08-18T12:36:43.392Z] [INFO] Monitor iteration 500
+[2025-08-18T12:36:45.652Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T12:37:45.656Z] [INFO] Monitor iteration 501
+[2025-08-18T12:37:47.922Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T12:38:47.936Z] [INFO] Monitor iteration 502
+[2025-08-18T12:38:50.234Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2261 ms: Could not connect to server
+
+[2025-08-18T12:39:50.242Z] [INFO] Monitor iteration 503
+[2025-08-18T12:39:52.503Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2234 ms: Could not connect to server
+
+[2025-08-18T12:40:52.516Z] [INFO] Monitor iteration 504
+[2025-08-18T12:40:54.776Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2235 ms: Could not connect to server
+
+[2025-08-18T12:41:54.791Z] [INFO] Monitor iteration 505
+[2025-08-18T12:41:57.056Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2238 ms: Could not connect to server
+
+[2025-08-18T12:42:57.066Z] [INFO] Monitor iteration 506
+[2025-08-18T12:42:59.330Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2233 ms: Could not connect to server
+
+[2025-08-18T12:43:59.332Z] [INFO] Monitor iteration 507
+[2025-08-18T12:44:01.595Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2237 ms: Could not connect to server
+
+[2025-08-18T12:45:01.604Z] [INFO] Monitor iteration 508
+[2025-08-18T12:45:03.868Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2242 ms: Could not connect to server
+
+[2025-08-18T12:46:03.871Z] [INFO] Monitor iteration 509
+[2025-08-18T12:46:06.139Z] [ERROR] Failed to fetch metrics: Command failed: curl -fsS http://localhost:3000/metrics
+curl: (7) Failed to connect to localhost port 3000 after 2245 ms: Could not connect to server
+

@@ -1,0 +1,323 @@
+[2025-08-30T23:40:01.835Z] [INFO] [T+0m] 📝 Logging to: s2-logs/s2-smoke-2025-08-30T23-40-01-828Z.log
+[2025-08-30T23:40:01.837Z] [INFO] [T+0m] 🏃 Starting W1: Realistic Runs
+[2025-08-30T23:40:01.838Z] [INFO] [T+0m] 🔄 Starting W2: SSE Churn
+[2025-08-30T23:40:01.866Z] [INFO] [T+0m] 📦 Starting W3: Registry Pulse
+[2025-08-30T23:40:01.867Z] [INFO] [T+0m] 🛡️ Starting W4: Safety Probes
+[2025-08-30T23:40:01.867Z] [INFO] [T+0m] 🔒 Starting W5: Privacy Slice
+[2025-08-30T23:40:01.868Z] [INFO] [T+0m] 🌪️ Starting W6: Light Chaos (disabled for smoke test)
+[2025-08-30T23:40:01.868Z] [INFO] [T+0m] 📊 Starting Availability Monitor
+[2025-08-30T23:40:01.884Z] [ERROR] [T+0m] SSE sse-1 failed to connect: 404
+[2025-08-30T23:40:01.885Z] [ERROR] [T+0m] SSE sse-0 failed to connect: 404
+[2025-08-30T23:40:01.886Z] [ERROR] [T+0m] SSE sse-2 failed to connect: 404
+[2025-08-30T23:40:01.886Z] [ERROR] [T+0m] SSE sse-3 failed to connect: 404
+[2025-08-30T23:40:01.887Z] [ERROR] [T+0m] SSE sse-4 failed to connect: 404
+[2025-08-30T23:40:01.887Z] [ERROR] [T+0m] SSE sse-5 failed to connect: 404
+[2025-08-30T23:40:01.887Z] [ERROR] [T+0m] SSE sse-6 failed to connect: 404
+[2025-08-30T23:40:01.888Z] [ERROR] [T+0m] SSE sse-7 failed to connect: 404
+[2025-08-30T23:40:01.888Z] [ERROR] [T+0m] SSE sse-8 failed to connect: 404
+[2025-08-30T23:40:01.888Z] [ERROR] [T+0m] SSE sse-9 failed to connect: 404
+[2025-08-30T23:40:01.889Z] [ERROR] [T+0m] SSE sse-10 failed to connect: 404
+[2025-08-30T23:40:01.889Z] [ERROR] [T+0m] SSE sse-11 failed to connect: 404
+[2025-08-30T23:40:01.889Z] [ERROR] [T+0m] SSE sse-12 failed to connect: 404
+[2025-08-30T23:40:01.890Z] [ERROR] [T+0m] SSE sse-13 failed to connect: 404
+[2025-08-30T23:40:01.890Z] [ERROR] [T+0m] SSE sse-14 failed to connect: 404
+[2025-08-30T23:40:01.890Z] [ERROR] [T+0m] SSE sse-15 failed to connect: 404
+[2025-08-30T23:40:01.891Z] [ERROR] [T+0m] SSE sse-16 failed to connect: 404
+[2025-08-30T23:40:01.891Z] [ERROR] [T+0m] SSE sse-17 failed to connect: 404
+[2025-08-30T23:40:01.891Z] [ERROR] [T+0m] SSE sse-18 failed to connect: 404
+[2025-08-30T23:40:01.892Z] [ERROR] [T+0m] SSE sse-19 failed to connect: 404
+[2025-08-30T23:40:03.196Z] [ERROR] [T+0m] SSE sse-1 failed to connect: 404
+[2025-08-30T23:40:03.202Z] [ERROR] [T+0m] SSE sse-0 failed to connect: 404
+[2025-08-30T23:40:03.202Z] [ERROR] [T+0m] SSE sse-2 failed to connect: 404
+[2025-08-30T23:40:03.202Z] [ERROR] [T+0m] SSE sse-3 failed to connect: 404
+[2025-08-30T23:40:03.203Z] [ERROR] [T+0m] SSE sse-4 failed to connect: 404
+[2025-08-30T23:40:03.205Z] [ERROR] [T+0m] SSE sse-5 failed to connect: 404
+[2025-08-30T23:40:03.205Z] [ERROR] [T+0m] SSE sse-6 failed to connect: 404
+[2025-08-30T23:40:03.205Z] [ERROR] [T+0m] SSE sse-7 failed to connect: 404
+[2025-08-30T23:40:03.206Z] [ERROR] [T+0m] SSE sse-8 failed to connect: 404
+[2025-08-30T23:40:03.206Z] [ERROR] [T+0m] SSE sse-9 failed to connect: 404
+[2025-08-30T23:40:03.206Z] [ERROR] [T+0m] SSE sse-10 failed to connect: 404
+[2025-08-30T23:40:03.207Z] [ERROR] [T+0m] SSE sse-11 failed to connect: 404
+[2025-08-30T23:40:03.207Z] [ERROR] [T+0m] SSE sse-12 failed to connect: 404
+[2025-08-30T23:40:03.207Z] [ERROR] [T+0m] SSE sse-13 failed to connect: 404
+[2025-08-30T23:40:03.208Z] [ERROR] [T+0m] SSE sse-14 failed to connect: 404
+[2025-08-30T23:40:03.208Z] [ERROR] [T+0m] SSE sse-15 failed to connect: 404
+[2025-08-30T23:40:03.208Z] [ERROR] [T+0m] SSE sse-16 failed to connect: 404
+[2025-08-30T23:40:03.208Z] [ERROR] [T+0m] SSE sse-17 failed to connect: 404
+[2025-08-30T23:40:03.208Z] [ERROR] [T+0m] SSE sse-18 failed to connect: 404
+[2025-08-30T23:40:03.209Z] [ERROR] [T+0m] SSE sse-19 failed to connect: 404
+[2025-08-30T23:40:05.825Z] [ERROR] [T+0m] SSE sse-1 failed to connect: 404
+[2025-08-30T23:40:05.826Z] [ERROR] [T+0m] SSE sse-0 failed to connect: 404
+[2025-08-30T23:40:05.828Z] [ERROR] [T+0m] SSE sse-2 failed to connect: 404
+[2025-08-30T23:40:05.831Z] [ERROR] [T+0m] SSE sse-3 failed to connect: 404
+[2025-08-30T23:40:05.831Z] [ERROR] [T+0m] SSE sse-4 failed to connect: 404
+[2025-08-30T23:40:05.832Z] [ERROR] [T+0m] SSE sse-5 failed to connect: 404
+[2025-08-30T23:40:05.833Z] [ERROR] [T+0m] SSE sse-6 failed to connect: 404
+[2025-08-30T23:40:05.833Z] [ERROR] [T+0m] SSE sse-7 failed to connect: 404
+[2025-08-30T23:40:05.833Z] [ERROR] [T+0m] SSE sse-8 failed to connect: 404
+[2025-08-30T23:40:05.834Z] [ERROR] [T+0m] SSE sse-9 failed to connect: 404
+[2025-08-30T23:40:05.834Z] [ERROR] [T+0m] SSE sse-10 failed to connect: 404
+[2025-08-30T23:40:05.834Z] [ERROR] [T+0m] SSE sse-11 failed to connect: 404
+[2025-08-30T23:40:05.835Z] [ERROR] [T+0m] SSE sse-13 failed to connect: 404
+[2025-08-30T23:40:05.835Z] [ERROR] [T+0m] SSE sse-12 failed to connect: 404
+[2025-08-30T23:40:05.836Z] [ERROR] [T+0m] SSE sse-14 failed to connect: 404
+[2025-08-30T23:40:05.836Z] [ERROR] [T+0m] SSE sse-15 failed to connect: 404
+[2025-08-30T23:40:05.836Z] [ERROR] [T+0m] SSE sse-16 failed to connect: 404
+[2025-08-30T23:40:05.836Z] [ERROR] [T+0m] SSE sse-17 failed to connect: 404
+[2025-08-30T23:40:05.837Z] [ERROR] [T+0m] SSE sse-18 failed to connect: 404
+[2025-08-30T23:40:05.837Z] [ERROR] [T+0m] SSE sse-19 failed to connect: 404
+[2025-08-30T23:40:11.085Z] [ERROR] [T+0m] SSE sse-1 failed to connect: 404
+[2025-08-30T23:40:11.086Z] [ERROR] [T+0m] SSE sse-0 failed to connect: 404
+[2025-08-30T23:40:11.086Z] [ERROR] [T+0m] SSE sse-2 failed to connect: 404
+[2025-08-30T23:40:11.086Z] [ERROR] [T+0m] SSE sse-3 failed to connect: 404
+[2025-08-30T23:40:11.087Z] [ERROR] [T+0m] SSE sse-4 failed to connect: 404
+[2025-08-30T23:40:11.088Z] [ERROR] [T+0m] SSE sse-5 failed to connect: 404
+[2025-08-30T23:40:11.089Z] [ERROR] [T+0m] SSE sse-6 failed to connect: 404
+[2025-08-30T23:40:11.090Z] [ERROR] [T+0m] SSE sse-7 failed to connect: 404
+[2025-08-30T23:40:11.092Z] [ERROR] [T+0m] SSE sse-8 failed to connect: 404
+[2025-08-30T23:40:11.093Z] [ERROR] [T+0m] SSE sse-9 failed to connect: 404
+[2025-08-30T23:40:11.095Z] [ERROR] [T+0m] SSE sse-10 failed to connect: 404
+[2025-08-30T23:40:11.096Z] [ERROR] [T+0m] SSE sse-11 failed to connect: 404
+[2025-08-30T23:40:11.097Z] [ERROR] [T+0m] SSE sse-13 failed to connect: 404
+[2025-08-30T23:40:11.097Z] [ERROR] [T+0m] SSE sse-12 failed to connect: 404
+[2025-08-30T23:40:11.097Z] [ERROR] [T+0m] SSE sse-14 failed to connect: 404
+[2025-08-30T23:40:11.098Z] [ERROR] [T+0m] SSE sse-15 failed to connect: 404
+[2025-08-30T23:40:11.098Z] [ERROR] [T+0m] SSE sse-16 failed to connect: 404
+[2025-08-30T23:40:11.098Z] [ERROR] [T+0m] SSE sse-17 failed to connect: 404
+[2025-08-30T23:40:11.099Z] [ERROR] [T+0m] SSE sse-18 failed to connect: 404
+[2025-08-30T23:40:11.099Z] [ERROR] [T+0m] SSE sse-19 failed to connect: 404
+[2025-08-30T23:40:21.570Z] [ERROR] [T+0m] SSE sse-1 failed to connect: 404
+[2025-08-30T23:40:21.571Z] [ERROR] [T+0m] SSE sse-0 failed to connect: 404
+[2025-08-30T23:40:21.571Z] [ERROR] [T+0m] SSE sse-2 failed to connect: 404
+[2025-08-30T23:40:21.572Z] [ERROR] [T+0m] SSE sse-3 failed to connect: 404
+[2025-08-30T23:40:21.572Z] [ERROR] [T+0m] SSE sse-4 failed to connect: 404
+[2025-08-30T23:40:21.572Z] [ERROR] [T+0m] SSE sse-5 failed to connect: 404
+[2025-08-30T23:40:21.572Z] [ERROR] [T+0m] SSE sse-6 failed to connect: 404
+[2025-08-30T23:40:21.572Z] [ERROR] [T+0m] SSE sse-8 failed to connect: 404
+[2025-08-30T23:40:21.573Z] [ERROR] [T+0m] SSE sse-7 failed to connect: 404
+[2025-08-30T23:40:21.575Z] [ERROR] [T+0m] SSE sse-9 failed to connect: 404
+[2025-08-30T23:40:21.575Z] [ERROR] [T+0m] SSE sse-10 failed to connect: 404
+[2025-08-30T23:40:21.579Z] [ERROR] [T+0m] SSE sse-11 failed to connect: 404
+[2025-08-30T23:40:21.580Z] [ERROR] [T+0m] SSE sse-13 failed to connect: 404
+[2025-08-30T23:40:21.580Z] [ERROR] [T+0m] SSE sse-12 failed to connect: 404
+[2025-08-30T23:40:21.580Z] [ERROR] [T+0m] SSE sse-14 failed to connect: 404
+[2025-08-30T23:40:21.581Z] [ERROR] [T+0m] SSE sse-15 failed to connect: 404
+[2025-08-30T23:40:21.581Z] [ERROR] [T+0m] SSE sse-16 failed to connect: 404
+[2025-08-30T23:40:21.581Z] [ERROR] [T+0m] SSE sse-17 failed to connect: 404
+[2025-08-30T23:40:21.582Z] [ERROR] [T+0m] SSE sse-18 failed to connect: 404
+[2025-08-30T23:40:21.582Z] [ERROR] [T+0m] SSE sse-19 failed to connect: 404
+[2025-08-30T23:40:42.535Z] [ERROR] [T+0m] SSE sse-1 failed to connect: 404
+[2025-08-30T23:40:42.540Z] [ERROR] [T+0m] SSE sse-2 failed to connect: 404
+[2025-08-30T23:40:42.540Z] [ERROR] [T+0m] SSE sse-0 failed to connect: 404
+[2025-08-30T23:40:42.541Z] [ERROR] [T+0m] SSE sse-4 failed to connect: 404
+[2025-08-30T23:40:42.541Z] [ERROR] [T+0m] SSE sse-3 failed to connect: 404
+[2025-08-30T23:40:42.541Z] [ERROR] [T+0m] SSE sse-6 failed to connect: 404
+[2025-08-30T23:40:42.542Z] [ERROR] [T+0m] SSE sse-5 failed to connect: 404
+[2025-08-30T23:40:42.542Z] [ERROR] [T+0m] SSE sse-8 failed to connect: 404
+[2025-08-30T23:40:42.542Z] [ERROR] [T+0m] SSE sse-9 failed to connect: 404
+[2025-08-30T23:40:42.543Z] [ERROR] [T+0m] SSE sse-7 failed to connect: 404
+[2025-08-30T23:40:42.543Z] [ERROR] [T+0m] SSE sse-10 failed to connect: 404
+[2025-08-30T23:40:42.543Z] [ERROR] [T+0m] SSE sse-11 failed to connect: 404
+[2025-08-30T23:40:42.543Z] [ERROR] [T+0m] SSE sse-13 failed to connect: 404
+[2025-08-30T23:40:42.544Z] [ERROR] [T+0m] SSE sse-14 failed to connect: 404
+[2025-08-30T23:40:42.544Z] [ERROR] [T+0m] SSE sse-12 failed to connect: 404
+[2025-08-30T23:40:42.544Z] [ERROR] [T+0m] SSE sse-15 failed to connect: 404
+[2025-08-30T23:40:42.544Z] [ERROR] [T+0m] SSE sse-16 failed to connect: 404
+[2025-08-30T23:40:42.545Z] [ERROR] [T+0m] SSE sse-17 failed to connect: 404
+[2025-08-30T23:40:42.545Z] [ERROR] [T+0m] SSE sse-18 failed to connect: 404
+[2025-08-30T23:40:42.545Z] [ERROR] [T+0m] SSE sse-19 failed to connect: 404
+[2025-08-30T23:41:24.443Z] [ERROR] [T+1m] SSE sse-1 failed to connect: 404
+[2025-08-30T23:41:24.444Z] [ERROR] [T+1m] SSE sse-2 failed to connect: 404
+[2025-08-30T23:41:24.452Z] [ERROR] [T+1m] SSE sse-0 failed to connect: 404
+[2025-08-30T23:41:24.453Z] [ERROR] [T+1m] SSE sse-4 failed to connect: 404
+[2025-08-30T23:41:24.454Z] [ERROR] [T+1m] SSE sse-3 failed to connect: 404
+[2025-08-30T23:41:24.456Z] [ERROR] [T+1m] SSE sse-6 failed to connect: 404
+[2025-08-30T23:41:24.457Z] [ERROR] [T+1m] SSE sse-5 failed to connect: 404
+[2025-08-30T23:41:24.457Z] [ERROR] [T+1m] SSE sse-8 failed to connect: 404
+[2025-08-30T23:41:24.458Z] [ERROR] [T+1m] SSE sse-9 failed to connect: 404
+[2025-08-30T23:41:24.458Z] [ERROR] [T+1m] SSE sse-7 failed to connect: 404
+[2025-08-30T23:41:24.459Z] [ERROR] [T+1m] SSE sse-10 failed to connect: 404
+[2025-08-30T23:41:24.460Z] [ERROR] [T+1m] SSE sse-11 failed to connect: 404
+[2025-08-30T23:41:24.460Z] [ERROR] [T+1m] SSE sse-13 failed to connect: 404
+[2025-08-30T23:41:24.461Z] [ERROR] [T+1m] SSE sse-14 failed to connect: 404
+[2025-08-30T23:41:24.461Z] [ERROR] [T+1m] SSE sse-12 failed to connect: 404
+[2025-08-30T23:41:24.461Z] [ERROR] [T+1m] SSE sse-15 failed to connect: 404
+[2025-08-30T23:41:24.462Z] [ERROR] [T+1m] SSE sse-16 failed to connect: 404
+[2025-08-30T23:41:24.462Z] [ERROR] [T+1m] SSE sse-17 failed to connect: 404
+[2025-08-30T23:41:24.463Z] [ERROR] [T+1m] SSE sse-18 failed to connect: 404
+[2025-08-30T23:41:24.463Z] [ERROR] [T+1m] SSE sse-19 failed to connect: 404
+[2025-08-30T23:41:51.875Z] [ERROR] [T+1m] Run 8065b77f-d2a5-48b3-ad12-eb2be13fc2c7 failed: Run timeout
+[2025-08-30T23:42:11.862Z] [ERROR] [T+2m] Run efd302bf-53b8-4971-9b39-09f31acc681e failed: Run timeout
+[2025-08-30T23:42:31.875Z] [ERROR] [T+2m] Run 42b7c222-900a-4a05-bdf5-c6eaceb91f09 failed: Run timeout
+[2025-08-30T23:42:48.262Z] [ERROR] [T+2m] SSE sse-1 failed to connect: 404
+[2025-08-30T23:42:48.266Z] [ERROR] [T+2m] SSE sse-2 failed to connect: 404
+[2025-08-30T23:42:48.266Z] [ERROR] [T+2m] SSE sse-0 failed to connect: 404
+[2025-08-30T23:42:48.266Z] [ERROR] [T+2m] SSE sse-4 failed to connect: 404
+[2025-08-30T23:42:48.267Z] [ERROR] [T+2m] SSE sse-3 failed to connect: 404
+[2025-08-30T23:42:48.267Z] [ERROR] [T+2m] SSE sse-6 failed to connect: 404
+[2025-08-30T23:42:48.268Z] [ERROR] [T+2m] SSE sse-5 failed to connect: 404
+[2025-08-30T23:42:48.268Z] [ERROR] [T+2m] SSE sse-8 failed to connect: 404
+[2025-08-30T23:42:48.268Z] [ERROR] [T+2m] SSE sse-9 failed to connect: 404
+[2025-08-30T23:42:48.268Z] [ERROR] [T+2m] SSE sse-7 failed to connect: 404
+[2025-08-30T23:42:48.268Z] [ERROR] [T+2m] SSE sse-10 failed to connect: 404
+[2025-08-30T23:42:48.269Z] [ERROR] [T+2m] SSE sse-11 failed to connect: 404
+[2025-08-30T23:42:48.269Z] [ERROR] [T+2m] SSE sse-13 failed to connect: 404
+[2025-08-30T23:42:48.269Z] [ERROR] [T+2m] SSE sse-14 failed to connect: 404
+[2025-08-30T23:42:48.270Z] [ERROR] [T+2m] SSE sse-12 failed to connect: 404
+[2025-08-30T23:42:48.270Z] [ERROR] [T+2m] SSE sse-15 failed to connect: 404
+[2025-08-30T23:42:48.270Z] [ERROR] [T+2m] SSE sse-16 failed to connect: 404
+[2025-08-30T23:42:48.271Z] [ERROR] [T+2m] SSE sse-17 failed to connect: 404
+[2025-08-30T23:42:48.271Z] [ERROR] [T+2m] SSE sse-18 failed to connect: 404
+[2025-08-30T23:42:48.271Z] [ERROR] [T+2m] SSE sse-19 failed to connect: 404
+[2025-08-30T23:42:51.879Z] [ERROR] [T+2m] Run 5e7e730d-8b68-4186-9a4b-172a3896799f failed: Run timeout
+[2025-08-30T23:43:11.883Z] [ERROR] [T+3m] Run 0b251810-9ccf-4d32-84e5-8b092d203d38 failed: Run timeout
+[2025-08-30T23:43:31.887Z] [ERROR] [T+3m] Run 7675141d-c19f-4838-9e5a-0b42b0a37042 failed: Run timeout
+[2025-08-30T23:43:51.892Z] [ERROR] [T+3m] Run e9b10080-48e4-49d6-a63a-e06f93b94f26 failed: Run timeout
+[2025-08-30T23:44:11.892Z] [ERROR] [T+4m] Run 61f76ee8-6201-4225-8b52-1783668fc4b8 failed: Run timeout
+[2025-08-30T23:44:31.910Z] [ERROR] [T+4m] Run cd9138ea-647d-4526-a339-6e1ff681bfcd failed: Run timeout
+[2025-08-30T23:44:51.933Z] [ERROR] [T+4m] Run 7b53851d-5e7b-411b-a9b6-69561b44ccd5 failed: Run timeout
+[2025-08-30T23:45:01.841Z] [HEARTBEAT] [T+5m] 💓 S2-SMOKE alive — t=5m, active SSE=20, runs started=14
+[2025-08-30T23:45:01.871Z] [INFO] [T+5m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-30T23:45:02.874Z] [INFO] [T+5m] 🔄 SSE churn: replaced 4 clients
+[2025-08-30T23:45:02.875Z] [ERROR] [T+5m] SSE sse-replace-1756597502873-0 failed to connect: 404
+[2025-08-30T23:45:02.875Z] [ERROR] [T+5m] SSE sse-replace-1756597502873-1 failed to connect: 404
+[2025-08-30T23:45:02.875Z] [ERROR] [T+5m] SSE sse-replace-1756597502874-2 failed to connect: 404
+[2025-08-30T23:45:02.876Z] [ERROR] [T+5m] SSE sse-replace-1756597502874-3 failed to connect: 404
+[2025-08-30T23:45:04.188Z] [ERROR] [T+5m] SSE sse-replace-1756597502873-0 failed to connect: 404
+[2025-08-30T23:45:04.189Z] [ERROR] [T+5m] SSE sse-replace-1756597502873-1 failed to connect: 404
+[2025-08-30T23:45:04.190Z] [ERROR] [T+5m] SSE sse-replace-1756597502874-2 failed to connect: 404
+[2025-08-30T23:45:04.190Z] [ERROR] [T+5m] SSE sse-replace-1756597502874-3 failed to connect: 404
+[2025-08-30T23:45:06.819Z] [ERROR] [T+5m] SSE sse-replace-1756597502873-0 failed to connect: 404
+[2025-08-30T23:45:06.819Z] [ERROR] [T+5m] SSE sse-replace-1756597502873-1 failed to connect: 404
+[2025-08-30T23:45:06.820Z] [ERROR] [T+5m] SSE sse-replace-1756597502874-2 failed to connect: 404
+[2025-08-30T23:45:06.820Z] [ERROR] [T+5m] SSE sse-replace-1756597502874-3 failed to connect: 404
+[2025-08-30T23:45:11.933Z] [ERROR] [T+5m] Run e393695d-fc72-4f6e-8ac2-4c5f74823c62 failed: Run timeout
+[2025-08-30T23:45:12.059Z] [ERROR] [T+5m] SSE sse-replace-1756597502873-0 failed to connect: 404
+[2025-08-30T23:45:12.059Z] [ERROR] [T+5m] SSE sse-replace-1756597502873-1 failed to connect: 404
+[2025-08-30T23:45:12.060Z] [ERROR] [T+5m] SSE sse-replace-1756597502874-2 failed to connect: 404
+[2025-08-30T23:45:12.060Z] [ERROR] [T+5m] SSE sse-replace-1756597502874-3 failed to connect: 404
+[2025-08-30T23:45:22.548Z] [ERROR] [T+5m] SSE sse-replace-1756597502873-0 failed to connect: 404
+[2025-08-30T23:45:22.549Z] [ERROR] [T+5m] SSE sse-replace-1756597502874-2 failed to connect: 404
+[2025-08-30T23:45:22.550Z] [ERROR] [T+5m] SSE sse-replace-1756597502873-1 failed to connect: 404
+[2025-08-30T23:45:22.550Z] [ERROR] [T+5m] SSE sse-replace-1756597502874-3 failed to connect: 404
+[2025-08-30T23:45:31.941Z] [ERROR] [T+5m] Run d3b24d79-1699-42b8-9c09-d5cd340be9f7 failed: Run timeout
+[2025-08-30T23:45:35.872Z] [ERROR] [T+5m] SSE sse-1 failed to connect: 404
+[2025-08-30T23:45:35.874Z] [ERROR] [T+5m] SSE sse-2 failed to connect: 404
+[2025-08-30T23:45:35.874Z] [ERROR] [T+5m] SSE sse-0 failed to connect: 404
+[2025-08-30T23:45:35.875Z] [ERROR] [T+5m] SSE sse-4 failed to connect: 404
+[2025-08-30T23:45:35.876Z] [ERROR] [T+5m] SSE sse-3 failed to connect: 404
+[2025-08-30T23:45:35.876Z] [ERROR] [T+5m] SSE sse-6 failed to connect: 404
+[2025-08-30T23:45:35.877Z] [ERROR] [T+5m] SSE sse-5 failed to connect: 404
+[2025-08-30T23:45:35.878Z] [ERROR] [T+5m] SSE sse-8 failed to connect: 404
+[2025-08-30T23:45:35.879Z] [ERROR] [T+5m] SSE sse-9 failed to connect: 404
+[2025-08-30T23:45:35.880Z] [ERROR] [T+5m] SSE sse-7 failed to connect: 404
+[2025-08-30T23:45:35.880Z] [ERROR] [T+5m] SSE sse-10 failed to connect: 404
+[2025-08-30T23:45:35.880Z] [ERROR] [T+5m] SSE sse-11 failed to connect: 404
+[2025-08-30T23:45:35.880Z] [ERROR] [T+5m] SSE sse-13 failed to connect: 404
+[2025-08-30T23:45:35.881Z] [ERROR] [T+5m] SSE sse-14 failed to connect: 404
+[2025-08-30T23:45:35.881Z] [ERROR] [T+5m] SSE sse-12 failed to connect: 404
+[2025-08-30T23:45:35.881Z] [ERROR] [T+5m] SSE sse-15 failed to connect: 404
+[2025-08-30T23:45:35.881Z] [ERROR] [T+5m] SSE sse-16 failed to connect: 404
+[2025-08-30T23:45:35.881Z] [ERROR] [T+5m] SSE sse-17 failed to connect: 404
+[2025-08-30T23:45:35.882Z] [ERROR] [T+5m] SSE sse-18 failed to connect: 404
+[2025-08-30T23:45:35.882Z] [ERROR] [T+5m] SSE sse-19 failed to connect: 404
+[2025-08-30T23:45:43.512Z] [ERROR] [T+5m] SSE sse-replace-1756597502873-0 failed to connect: 404
+[2025-08-30T23:45:43.513Z] [ERROR] [T+5m] SSE sse-replace-1756597502874-2 failed to connect: 404
+[2025-08-30T23:45:43.513Z] [ERROR] [T+5m] SSE sse-replace-1756597502873-1 failed to connect: 404
+[2025-08-30T23:45:43.513Z] [ERROR] [T+5m] SSE sse-replace-1756597502874-3 failed to connect: 404
+[2025-08-30T23:45:51.954Z] [ERROR] [T+5m] Run 0e355f1f-81ec-472b-a87f-e83a9600c5e7 failed: Run timeout
+[2025-08-30T23:46:11.955Z] [ERROR] [T+6m] Run e8f860f1-bb34-4ebd-b57f-1c14b71e78db failed: Run timeout
+[2025-08-30T23:46:25.421Z] [ERROR] [T+6m] SSE sse-replace-1756597502873-0 failed to connect: 404
+[2025-08-30T23:46:25.422Z] [ERROR] [T+6m] SSE sse-replace-1756597502873-1 failed to connect: 404
+[2025-08-30T23:46:25.423Z] [ERROR] [T+6m] SSE sse-replace-1756597502874-2 failed to connect: 404
+[2025-08-30T23:46:25.423Z] [ERROR] [T+6m] SSE sse-replace-1756597502874-3 failed to connect: 404
+[2025-08-30T23:46:31.960Z] [ERROR] [T+6m] Run fb0d2c17-5ae3-4d32-92d0-75c28f04ec11 failed: Run timeout
+[2025-08-30T23:46:51.965Z] [ERROR] [T+6m] Run 85ce63bf-d4f0-4bf2-b315-a875851d2997 failed: Run timeout
+[2025-08-30T23:47:11.990Z] [ERROR] [T+7m] Run 328f48ae-05c2-4f36-ab99-1b6bd63d9389 failed: Run timeout
+[2025-08-30T23:47:31.989Z] [ERROR] [T+7m] Run cc35bf00-2541-46eb-aa3d-a10bbf92afed failed: Run timeout
+[2025-08-30T23:47:49.234Z] [ERROR] [T+7m] SSE sse-replace-1756597502873-0 failed to connect: 404
+[2025-08-30T23:47:49.235Z] [ERROR] [T+7m] SSE sse-replace-1756597502873-1 failed to connect: 404
+[2025-08-30T23:47:49.236Z] [ERROR] [T+7m] SSE sse-replace-1756597502874-2 failed to connect: 404
+[2025-08-30T23:47:49.236Z] [ERROR] [T+7m] SSE sse-replace-1756597502874-3 failed to connect: 404
+[2025-08-30T23:47:52.011Z] [ERROR] [T+7m] Run 0f6f7755-e4c1-4a78-8fa1-aafd2d443c49 failed: Run timeout
+[2025-08-30T23:48:12.025Z] [ERROR] [T+8m] Run 3f6d691a-2b61-414d-92e5-da6faf8ec026 failed: Run timeout
+[2025-08-30T23:48:32.028Z] [ERROR] [T+8m] Run fa340a06-27e4-44b9-92d0-7dba821c15ec failed: Run timeout
+[2025-08-30T23:48:52.042Z] [ERROR] [T+8m] Run d9e85ae7-54f9-4d47-ba23-a25fdeed4ebd failed: Run timeout
+[2025-08-30T23:49:12.057Z] [ERROR] [T+9m] Run 8ee382cd-5424-4dc9-9021-acd6421d3733 failed: Run timeout
+[2025-08-30T23:49:32.059Z] [ERROR] [T+9m] Run 5a241d67-d0ae-4fc3-a6fd-e4b05c64c56c failed: Run timeout
+[2025-08-30T23:49:52.083Z] [ERROR] [T+9m] Run 9a225313-08e7-4df1-98d3-54f676ed6c9a failed: Run timeout
+[2025-08-30T23:50:01.842Z] [HEARTBEAT] [T+10m] 💓 S2-SMOKE alive — t=10m, active SSE=20, runs started=29
+[2025-08-30T23:50:01.873Z] [INFO] [T+10m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-30T23:50:02.874Z] [INFO] [T+10m] 🔄 SSE churn: replaced 4 clients
+[2025-08-30T23:50:02.875Z] [ERROR] [T+10m] SSE sse-replace-1756597802873-0 failed to connect: 404
+[2025-08-30T23:50:02.875Z] [ERROR] [T+10m] SSE sse-replace-1756597802873-1 failed to connect: 404
+[2025-08-30T23:50:02.875Z] [ERROR] [T+10m] SSE sse-replace-1756597802874-2 failed to connect: 404
+[2025-08-30T23:50:02.875Z] [ERROR] [T+10m] SSE sse-replace-1756597802874-3 failed to connect: 404
+[2025-08-30T23:50:04.190Z] [ERROR] [T+10m] SSE sse-replace-1756597802873-0 failed to connect: 404
+[2025-08-30T23:50:04.191Z] [ERROR] [T+10m] SSE sse-replace-1756597802873-1 failed to connect: 404
+[2025-08-30T23:50:04.192Z] [ERROR] [T+10m] SSE sse-replace-1756597802874-2 failed to connect: 404
+[2025-08-30T23:50:04.192Z] [ERROR] [T+10m] SSE sse-replace-1756597802874-3 failed to connect: 404
+[2025-08-30T23:50:06.811Z] [ERROR] [T+10m] SSE sse-replace-1756597802873-0 failed to connect: 404
+[2025-08-30T23:50:06.812Z] [ERROR] [T+10m] SSE sse-replace-1756597802873-1 failed to connect: 404
+[2025-08-30T23:50:06.813Z] [ERROR] [T+10m] SSE sse-replace-1756597802874-2 failed to connect: 404
+[2025-08-30T23:50:06.813Z] [ERROR] [T+10m] SSE sse-replace-1756597802874-3 failed to connect: 404
+[2025-08-30T23:50:12.051Z] [ERROR] [T+10m] SSE sse-replace-1756597802873-0 failed to connect: 404
+[2025-08-30T23:50:12.052Z] [ERROR] [T+10m] SSE sse-replace-1756597802874-2 failed to connect: 404
+[2025-08-30T23:50:12.052Z] [ERROR] [T+10m] SSE sse-replace-1756597802873-1 failed to connect: 404
+[2025-08-30T23:50:12.052Z] [ERROR] [T+10m] SSE sse-replace-1756597802874-3 failed to connect: 404
+[2025-08-30T23:50:12.097Z] [ERROR] [T+10m] Run 86f1f796-58cb-494d-97f4-f8a55edfeef9 failed: Run timeout
+[2025-08-30T23:50:22.542Z] [ERROR] [T+10m] SSE sse-replace-1756597802873-0 failed to connect: 404
+[2025-08-30T23:50:22.543Z] [ERROR] [T+10m] SSE sse-replace-1756597802874-2 failed to connect: 404
+[2025-08-30T23:50:22.543Z] [ERROR] [T+10m] SSE sse-replace-1756597802873-1 failed to connect: 404
+[2025-08-30T23:50:22.543Z] [ERROR] [T+10m] SSE sse-replace-1756597802874-3 failed to connect: 404
+[2025-08-30T23:50:32.107Z] [ERROR] [T+10m] Run b9236063-4e0c-455d-9b77-2f4b2febf07f failed: Run timeout
+[2025-08-30T23:50:36.843Z] [ERROR] [T+10m] SSE sse-replace-1756597502873-0 failed to connect: 404
+[2025-08-30T23:50:36.843Z] [ERROR] [T+10m] SSE sse-replace-1756597502873-1 failed to connect: 404
+[2025-08-30T23:50:36.845Z] [ERROR] [T+10m] SSE sse-replace-1756597502874-2 failed to connect: 404
+[2025-08-30T23:50:36.845Z] [ERROR] [T+10m] SSE sse-replace-1756597502874-3 failed to connect: 404
+[2025-08-30T23:50:43.496Z] [ERROR] [T+10m] SSE sse-replace-1756597802874-2 failed to connect: 404
+[2025-08-30T23:50:43.496Z] [ERROR] [T+10m] SSE sse-replace-1756597802873-0 failed to connect: 404
+[2025-08-30T23:50:43.497Z] [ERROR] [T+10m] SSE sse-replace-1756597802873-1 failed to connect: 404
+[2025-08-30T23:50:43.497Z] [ERROR] [T+10m] SSE sse-replace-1756597802874-3 failed to connect: 404
+[2025-08-30T23:50:52.096Z] [ERROR] [T+10m] Run 03de31f7-6b77-494b-b2f5-d1beff10def6 failed: Run timeout
+[2025-08-30T23:51:11.096Z] [ERROR] [T+11m] SSE sse-1 failed to connect: 404
+[2025-08-30T23:51:11.100Z] [ERROR] [T+11m] SSE sse-2 failed to connect: 404
+[2025-08-30T23:51:11.100Z] [ERROR] [T+11m] SSE sse-0 failed to connect: 404
+[2025-08-30T23:51:11.101Z] [ERROR] [T+11m] SSE sse-4 failed to connect: 404
+[2025-08-30T23:51:11.101Z] [ERROR] [T+11m] SSE sse-3 failed to connect: 404
+[2025-08-30T23:51:11.101Z] [ERROR] [T+11m] SSE sse-6 failed to connect: 404
+[2025-08-30T23:51:11.101Z] [ERROR] [T+11m] SSE sse-5 failed to connect: 404
+[2025-08-30T23:51:11.102Z] [ERROR] [T+11m] SSE sse-9 failed to connect: 404
+[2025-08-30T23:51:11.102Z] [ERROR] [T+11m] SSE sse-8 failed to connect: 404
+[2025-08-30T23:51:11.102Z] [ERROR] [T+11m] SSE sse-7 failed to connect: 404
+[2025-08-30T23:51:11.102Z] [ERROR] [T+11m] SSE sse-10 failed to connect: 404
+[2025-08-30T23:51:11.102Z] [ERROR] [T+11m] SSE sse-11 failed to connect: 404
+[2025-08-30T23:51:11.102Z] [ERROR] [T+11m] SSE sse-13 failed to connect: 404
+[2025-08-30T23:51:11.103Z] [ERROR] [T+11m] SSE sse-14 failed to connect: 404
+[2025-08-30T23:51:11.103Z] [ERROR] [T+11m] SSE sse-12 failed to connect: 404
+[2025-08-30T23:51:11.103Z] [ERROR] [T+11m] SSE sse-15 failed to connect: 404
+[2025-08-30T23:51:11.103Z] [ERROR] [T+11m] SSE sse-16 failed to connect: 404
+[2025-08-30T23:51:11.103Z] [ERROR] [T+11m] SSE sse-17 failed to connect: 404
+[2025-08-30T23:51:11.103Z] [ERROR] [T+11m] SSE sse-18 failed to connect: 404
+[2025-08-30T23:51:11.104Z] [ERROR] [T+11m] SSE sse-19 failed to connect: 404
+[2025-08-30T23:51:12.101Z] [ERROR] [T+11m] Run 9051d913-c939-4d93-882c-dd7a21f18c91 failed: Run timeout
+[2025-08-30T23:51:25.409Z] [ERROR] [T+11m] SSE sse-replace-1756597802874-2 failed to connect: 404
+[2025-08-30T23:51:25.410Z] [ERROR] [T+11m] SSE sse-replace-1756597802873-0 failed to connect: 404
+[2025-08-30T23:51:25.411Z] [ERROR] [T+11m] SSE sse-replace-1756597802873-1 failed to connect: 404
+[2025-08-30T23:51:25.411Z] [ERROR] [T+11m] SSE sse-replace-1756597802874-3 failed to connect: 404
+[2025-08-30T23:51:32.117Z] [ERROR] [T+11m] Run c668e4c5-2f1f-4c46-b349-5227cd906c67 failed: Run timeout
+[2025-08-30T23:51:52.118Z] [ERROR] [T+11m] Run a04e63ab-5cbf-4925-901c-65fdd7c817e9 failed: Run timeout
+[2025-08-30T23:52:12.117Z] [ERROR] [T+12m] Run c8b6dcb4-912e-46c8-905c-869c53c81600 failed: Run timeout
+[2025-08-30T23:52:32.135Z] [ERROR] [T+12m] Run 16ca032a-8611-4c62-902b-ee2be4df20b9 failed: Run timeout
+[2025-08-30T23:52:49.222Z] [ERROR] [T+12m] SSE sse-replace-1756597802874-2 failed to connect: 404
+[2025-08-30T23:52:49.223Z] [ERROR] [T+12m] SSE sse-replace-1756597802873-0 failed to connect: 404
+[2025-08-30T23:52:49.223Z] [ERROR] [T+12m] SSE sse-replace-1756597802873-1 failed to connect: 404
+[2025-08-30T23:52:49.223Z] [ERROR] [T+12m] SSE sse-replace-1756597802874-3 failed to connect: 404
+[2025-08-30T23:52:52.150Z] [ERROR] [T+12m] Run 1ef7f435-6eb4-45ca-af7f-6eabdeaa50af failed: Run timeout
+[2025-08-30T23:53:12.158Z] [ERROR] [T+13m] Run cc8b91b4-9452-4c90-9b0e-febc48a68ed0 failed: Run timeout
+[2025-08-30T23:53:32.171Z] [ERROR] [T+13m] Run 185fa1a4-95af-455a-9e7c-5846a8a4f9e8 failed: Run timeout
+[2025-08-30T23:53:52.165Z] [ERROR] [T+13m] Run 5269bd6f-2342-45b2-9802-adc3cbac334c failed: Run timeout
+[2025-08-30T23:54:12.174Z] [ERROR] [T+14m] Run a58c36b3-e9c4-4303-8ebb-273e4b5fb9a7 failed: Run timeout
+[2025-08-30T23:54:32.193Z] [ERROR] [T+14m] Run b1a6e532-0a48-4c8b-a612-c988fbd7caab failed: Run timeout
+[2025-08-30T23:54:52.198Z] [ERROR] [T+14m] Run 062954ed-d225-4548-8a7d-0873abc28a0b failed: Run timeout
+[2025-08-30T23:55:01.837Z] [INFO] [T+15m] ⏰ Master timeout reached - aborting all workers

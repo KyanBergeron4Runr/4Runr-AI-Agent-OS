@@ -1,0 +1,56 @@
+# HELP gateway_process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE gateway_process_start_time_seconds gauge
+gateway_process_start_time_seconds 1755279025.587
+
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="c80bd56a-50bd-4b98-b4d8-c067f89484fb"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="f27543e6-ba45-4775-8360-e4e3204c763d"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="fa1b54a9-4aa6-485b-8e78-ffdcda0dd296"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="15891645-e9d6-497d-9f7c-d5c99ad45c03"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="096ea8dc-cc95-48d3-8560-d923a5e1dbed"} 1
+# HELP gateway_agent_creations_total_total Total number of agent_creations_total
+# TYPE gateway_agent_creations_total_total counter
+gateway_agent_creations_total_total{agent_id="169453b8-4e88-4cac-b51a-4fee56307e1a"} 1
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="15891645-e9d6-497d-9f7c-d5c99ad45c03"} 1600
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="096ea8dc-cc95-48d3-8560-d923a5e1dbed"} 2000
+# HELP gateway_token_generations_total_total Total number of token_generations_total
+# TYPE gateway_token_generations_total_total counter
+gateway_token_generations_total_total{agent_id="169453b8-4e88-4cac-b51a-4fee56307e1a"} 1996
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="15891645-e9d6-497d-9f7c-d5c99ad45c03",success="true"} 281718
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="search",agent_id="15891645-e9d6-497d-9f7c-d5c99ad45c03",tool="serpapi"} 266671
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="096ea8dc-cc95-48d3-8560-d923a5e1dbed",success="true"} 222596
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="get",agent_id="096ea8dc-cc95-48d3-8560-d923a5e1dbed",tool="http_fetch"} 111298
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="chat",agent_id="096ea8dc-cc95-48d3-8560-d923a5e1dbed",tool="openai"} 111298
+# HELP gateway_token_validations_total_total Total number of token_validations_total
+# TYPE gateway_token_validations_total_total counter
+gateway_token_validations_total_total{agent_id="169453b8-4e88-4cac-b51a-4fee56307e1a",success="true"} 37229
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="send",agent_id="169453b8-4e88-4cac-b51a-4fee56307e1a",tool="gmail_send"} 37229
+# HELP gateway_policy_denials_total_total Total number of policy_denials_total
+# TYPE gateway_policy_denials_total_total counter
+gateway_policy_denials_total_total{action="send",agent_id="15891645-e9d6-497d-9f7c-d5c99ad45c03",tool="gmail_send"} 15047
+

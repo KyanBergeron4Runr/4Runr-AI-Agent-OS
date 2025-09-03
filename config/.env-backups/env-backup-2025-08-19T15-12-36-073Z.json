@@ -1,0 +1,8 @@
+{
+  "id": "env-backup-2025-08-19T15-12-36-073Z",
+  "timestamp": "2025-08-19T15:12:36.074Z",
+  "configPath": "config/.env",
+  "reason": "chaos-disable",
+  "checksum": "-5a5a257c",
+  "size": 727
+}

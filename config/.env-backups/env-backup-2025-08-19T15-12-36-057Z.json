@@ -1,0 +1,8 @@
+{
+  "id": "env-backup-2025-08-19T15-12-36-057Z",
+  "timestamp": "2025-08-19T15:12:36.058Z",
+  "configPath": "config/.env",
+  "reason": "config-manager-test",
+  "checksum": "5d63d00",
+  "size": 2708
+}

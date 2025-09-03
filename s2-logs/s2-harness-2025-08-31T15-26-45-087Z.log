@@ -1,0 +1,120 @@
+[2025-08-31T15:26:45.090Z] [INFO] [T+0m] 🚀 Starting S2 — Unkillable Harness (2 Hours, Zero-Leak Cert)
+[2025-08-31T15:26:45.092Z] [INFO] [T+0m] 📝 Logging to: s2-logs/s2-harness-2025-08-31T15-26-45-087Z.log
+[2025-08-31T15:26:45.092Z] [INFO] [T+0m] 🔧 Setting up workspace plan...
+[2025-08-31T15:26:45.115Z] [INFO] [T+0m] ✅ Workspace plan set to pro
+[2025-08-31T15:26:45.115Z] [INFO] [T+0m] 🏃 Starting W1: Realistic Runs
+[2025-08-31T15:26:45.115Z] [INFO] [T+0m] 🔄 Starting W2: SSE Churn
+[2025-08-31T15:26:45.115Z] [INFO] [T+0m] 📦 Starting W3: Registry Pulse
+[2025-08-31T15:26:45.115Z] [INFO] [T+0m] 🛡️ Starting W4: Safety Probes
+[2025-08-31T15:26:45.116Z] [INFO] [T+0m] 🔒 Starting W5: Privacy Slice
+[2025-08-31T15:26:45.116Z] [INFO] [T+0m] 🌪️ Starting W6: Light Chaos
+[2025-08-31T15:26:45.116Z] [INFO] [T+0m] 📊 Starting Availability Monitor
+[2025-08-31T15:26:45.116Z] [INFO] [T+0m] 📈 Starting Metrics Capture
+[2025-08-31T15:26:45.124Z] [INFO] [T+0m] 🔌 SSE sse-0 connected
+[2025-08-31T15:26:45.131Z] [INFO] [T+0m] 🔌 SSE sse-1 connected
+[2025-08-31T15:26:45.131Z] [INFO] [T+0m] 🔌 SSE sse-2 connected
+[2025-08-31T15:26:45.132Z] [INFO] [T+0m] 🔌 SSE sse-3 connected
+[2025-08-31T15:26:45.132Z] [INFO] [T+0m] 🔌 SSE sse-4 connected
+[2025-08-31T15:26:45.132Z] [INFO] [T+0m] 🔌 SSE sse-5 connected
+[2025-08-31T15:26:45.133Z] [INFO] [T+0m] 🔌 SSE sse-6 connected
+[2025-08-31T15:26:45.133Z] [INFO] [T+0m] 🔌 SSE sse-7 connected
+[2025-08-31T15:26:45.134Z] [INFO] [T+0m] 🔌 SSE sse-8 connected
+[2025-08-31T15:26:45.134Z] [INFO] [T+0m] 🔌 SSE sse-9 connected
+[2025-08-31T15:26:45.134Z] [INFO] [T+0m] 🔌 SSE sse-10 connected
+[2025-08-31T15:26:45.135Z] [INFO] [T+0m] 🔌 SSE sse-11 connected
+[2025-08-31T15:26:45.135Z] [INFO] [T+0m] 🔌 SSE sse-12 connected
+[2025-08-31T15:26:45.135Z] [INFO] [T+0m] 🔌 SSE sse-13 connected
+[2025-08-31T15:26:45.135Z] [INFO] [T+0m] 🔌 SSE sse-15 connected
+[2025-08-31T15:26:45.135Z] [INFO] [T+0m] 🔌 SSE sse-14 connected
+[2025-08-31T15:26:45.136Z] [INFO] [T+0m] 🔌 SSE sse-16 connected
+[2025-08-31T15:26:45.136Z] [INFO] [T+0m] 🔌 SSE sse-17 connected
+[2025-08-31T15:26:45.136Z] [INFO] [T+0m] 🔌 SSE sse-18 connected
+[2025-08-31T15:26:45.136Z] [INFO] [T+0m] 🔌 SSE sse-19 connected
+[2025-08-31T15:29:08.459Z] [ERROR] [T+2m] 🔌 SSE sse-11 request error: read ECONNRESET
+[2025-08-31T15:29:08.461Z] [ERROR] [T+2m] 🔌 SSE sse-11 connection error: aborted
+[2025-08-31T15:29:08.461Z] [ERROR] [T+2m] 🔌 SSE sse-8 request error: read ECONNRESET
+[2025-08-31T15:29:08.461Z] [ERROR] [T+2m] 🔌 SSE sse-3 request error: read ECONNRESET
+[2025-08-31T15:29:08.461Z] [ERROR] [T+2m] 🔌 SSE sse-0 request error: read ECONNRESET
+[2025-08-31T15:29:08.462Z] [ERROR] [T+2m] 🔌 SSE sse-1 request error: read ECONNRESET
+[2025-08-31T15:29:08.462Z] [ERROR] [T+2m] 🔌 SSE sse-2 request error: read ECONNRESET
+[2025-08-31T15:29:08.462Z] [ERROR] [T+2m] 🔌 SSE sse-4 request error: read ECONNRESET
+[2025-08-31T15:29:08.463Z] [ERROR] [T+2m] 🔌 SSE sse-5 request error: read ECONNRESET
+[2025-08-31T15:29:08.463Z] [ERROR] [T+2m] 🔌 SSE sse-6 request error: read ECONNRESET
+[2025-08-31T15:29:08.463Z] [ERROR] [T+2m] 🔌 SSE sse-7 request error: read ECONNRESET
+[2025-08-31T15:29:08.463Z] [ERROR] [T+2m] 🔌 SSE sse-9 request error: read ECONNRESET
+[2025-08-31T15:29:08.464Z] [ERROR] [T+2m] 🔌 SSE sse-10 request error: read ECONNRESET
+[2025-08-31T15:29:08.464Z] [ERROR] [T+2m] 🔌 SSE sse-12 request error: read ECONNRESET
+[2025-08-31T15:29:08.464Z] [ERROR] [T+2m] 🔌 SSE sse-13 request error: read ECONNRESET
+[2025-08-31T15:29:08.464Z] [ERROR] [T+2m] 🔌 SSE sse-15 request error: read ECONNRESET
+[2025-08-31T15:29:08.465Z] [ERROR] [T+2m] 🔌 SSE sse-14 request error: read ECONNRESET
+[2025-08-31T15:29:08.465Z] [ERROR] [T+2m] 🔌 SSE sse-16 request error: read ECONNRESET
+[2025-08-31T15:29:08.465Z] [ERROR] [T+2m] 🔌 SSE sse-17 request error: read ECONNRESET
+[2025-08-31T15:29:08.466Z] [ERROR] [T+2m] 🔌 SSE sse-18 request error: read ECONNRESET
+[2025-08-31T15:29:08.466Z] [ERROR] [T+2m] 🔌 SSE sse-19 request error: read ECONNRESET
+[2025-08-31T15:29:08.466Z] [ERROR] [T+2m] 🔌 SSE sse-19 connection error: aborted
+[2025-08-31T15:29:08.466Z] [ERROR] [T+2m] 🔌 SSE sse-18 connection error: aborted
+[2025-08-31T15:29:08.467Z] [ERROR] [T+2m] 🔌 SSE sse-17 connection error: aborted
+[2025-08-31T15:29:08.467Z] [ERROR] [T+2m] 🔌 SSE sse-16 connection error: aborted
+[2025-08-31T15:29:08.467Z] [ERROR] [T+2m] 🔌 SSE sse-14 connection error: aborted
+[2025-08-31T15:29:08.468Z] [ERROR] [T+2m] 🔌 SSE sse-15 connection error: aborted
+[2025-08-31T15:29:08.468Z] [ERROR] [T+2m] 🔌 SSE sse-13 connection error: aborted
+[2025-08-31T15:29:08.468Z] [ERROR] [T+2m] 🔌 SSE sse-12 connection error: aborted
+[2025-08-31T15:29:08.468Z] [ERROR] [T+2m] 🔌 SSE sse-10 connection error: aborted
+[2025-08-31T15:29:08.469Z] [ERROR] [T+2m] 🔌 SSE sse-9 connection error: aborted
+[2025-08-31T15:29:08.469Z] [ERROR] [T+2m] 🔌 SSE sse-7 connection error: aborted
+[2025-08-31T15:29:08.469Z] [ERROR] [T+2m] 🔌 SSE sse-6 connection error: aborted
+[2025-08-31T15:29:08.469Z] [ERROR] [T+2m] 🔌 SSE sse-5 connection error: aborted
+[2025-08-31T15:29:08.470Z] [ERROR] [T+2m] 🔌 SSE sse-4 connection error: aborted
+[2025-08-31T15:29:08.470Z] [ERROR] [T+2m] 🔌 SSE sse-2 connection error: aborted
+[2025-08-31T15:29:08.470Z] [ERROR] [T+2m] 🔌 SSE sse-1 connection error: aborted
+[2025-08-31T15:29:08.471Z] [ERROR] [T+2m] 🔌 SSE sse-0 connection error: aborted
+[2025-08-31T15:29:08.471Z] [ERROR] [T+2m] 🔌 SSE sse-3 connection error: aborted
+[2025-08-31T15:29:08.471Z] [ERROR] [T+2m] 🔌 SSE sse-8 connection error: aborted
+[2025-08-31T15:29:09.187Z] [ERROR] [T+2m] 🌐 Request error (GET /api/runs/fc3ee449-8216-4f40-a731-11609ab31489): 
+[2025-08-31T15:29:09.187Z] [ERROR] [T+2m] ❌ Run creation error: 
+[2025-08-31T15:29:10.485Z] [ERROR] [T+2m] 🔌 SSE sse-13 request error: 
+[2025-08-31T15:29:10.530Z] [ERROR] [T+2m] 🔌 SSE sse-8 request error: 
+[2025-08-31T15:29:10.530Z] [ERROR] [T+2m] 🔌 SSE sse-12 request error: 
+[2025-08-31T15:29:10.531Z] [ERROR] [T+2m] 🔌 SSE sse-0 request error: 
+[2025-08-31T15:29:10.545Z] [ERROR] [T+2m] 🔌 SSE sse-5 request error: 
+[2025-08-31T15:29:10.545Z] [ERROR] [T+2m] 🔌 SSE sse-8 request error: 
+[2025-08-31T15:29:10.546Z] [ERROR] [T+2m] 🔌 SSE sse-5 request error: 
+[2025-08-31T15:29:10.576Z] [ERROR] [T+2m] 🔌 SSE sse-10 request error: 
+[2025-08-31T15:29:10.606Z] [ERROR] [T+2m] 🔌 SSE sse-11 request error: 
+[2025-08-31T15:29:10.622Z] [ERROR] [T+2m] 🔌 SSE sse-6 request error: 
+[2025-08-31T15:29:10.670Z] [ERROR] [T+2m] 🔌 SSE sse-3 request error: 
+[2025-08-31T15:29:10.701Z] [ERROR] [T+2m] 🔌 SSE sse-7 request error: 
+[2025-08-31T15:29:10.701Z] [ERROR] [T+2m] 🔌 SSE sse-2 request error: 
+[2025-08-31T15:29:10.762Z] [ERROR] [T+2m] 🔌 SSE sse-0 request error: 
+[2025-08-31T15:29:10.778Z] [ERROR] [T+2m] 🔌 SSE sse-19 request error: 
+[2025-08-31T15:29:10.794Z] [ERROR] [T+2m] 🔌 SSE sse-16 request error: 
+[2025-08-31T15:29:10.809Z] [ERROR] [T+2m] 🔌 SSE sse-3 request error: 
+[2025-08-31T15:29:10.825Z] [ERROR] [T+2m] 🔌 SSE sse-2 request error: 
+[2025-08-31T15:29:10.826Z] [ERROR] [T+2m] 🔌 SSE sse-12 request error: 
+[2025-08-31T15:29:10.827Z] [ERROR] [T+2m] 🔌 SSE sse-11 request error: 
+[2025-08-31T15:29:10.827Z] [ERROR] [T+2m] 🔌 SSE sse-9 request error: 
+[2025-08-31T15:29:10.871Z] [ERROR] [T+2m] 🔌 SSE sse-1 request error: 
+[2025-08-31T15:29:10.918Z] [ERROR] [T+2m] 🔌 SSE sse-15 request error: 
+[2025-08-31T15:29:10.949Z] [ERROR] [T+2m] 🔌 SSE sse-6 request error: 
+[2025-08-31T15:29:10.963Z] [ERROR] [T+2m] 🔌 SSE sse-17 request error: 
+[2025-08-31T15:29:11.041Z] [ERROR] [T+2m] 🔌 SSE sse-13 request error: 
+[2025-08-31T15:29:11.057Z] [ERROR] [T+2m] 🔌 SSE sse-1 request error: 
+[2025-08-31T15:29:11.088Z] [ERROR] [T+2m] 🔌 SSE sse-15 request error: 
+[2025-08-31T15:29:11.089Z] [ERROR] [T+2m] 🔌 SSE sse-14 request error: 
+[2025-08-31T15:29:11.104Z] [ERROR] [T+2m] 🔌 SSE sse-14 request error: 
+[2025-08-31T15:29:11.151Z] [ERROR] [T+2m] 🔌 SSE sse-18 request error: 
+[2025-08-31T15:29:11.151Z] [ERROR] [T+2m] 🔌 SSE sse-18 request error: 
+[2025-08-31T15:29:11.242Z] [ERROR] [T+2m] 🔌 SSE sse-4 request error: 
+[2025-08-31T15:29:11.288Z] [ERROR] [T+2m] 🔌 SSE sse-4 request error: 
+[2025-08-31T15:29:11.351Z] [ERROR] [T+2m] 🔌 SSE sse-19 request error: 
+[2025-08-31T15:29:11.352Z] [ERROR] [T+2m] 🔌 SSE sse-7 request error: 
+[2025-08-31T15:29:11.412Z] [ERROR] [T+2m] 🔌 SSE sse-17 request error: 
+[2025-08-31T15:29:11.428Z] [ERROR] [T+2m] 🔌 SSE sse-9 request error: 
+[2025-08-31T15:29:11.443Z] [ERROR] [T+2m] 🔌 SSE sse-10 request error: 
+[2025-08-31T15:29:11.474Z] [ERROR] [T+2m] 🔌 SSE sse-16 request error: 
+[2025-08-31T15:29:12.559Z] [ERROR] [T+2m] 🔌 SSE sse-12 request error: 
+[2025-08-31T15:29:12.575Z] [ERROR] [T+2m] 🔌 SSE sse-8 request error: 
+[2025-08-31T15:29:12.667Z] [ERROR] [T+2m] 🔌 SSE sse-10 request error: 
+[2025-08-31T15:29:12.684Z] [ERROR] [T+2m] 🔌 SSE sse-8 request error: 
+[2025-08-31T15:29:12.730Z] [ERROR] [T+2m] 🔌 SSE sse-13 request error: 
+[2025-08-31T15:29:12.736Z] [INFO] [T+2m] 🛑 Received SIGINT - graceful shutdown

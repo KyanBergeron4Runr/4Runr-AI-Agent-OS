@@ -1,0 +1,46 @@
+{
+  "test_id": "BURNIN-48H-2025-08-15-01",
+  "started_at": "2025-08-17T13:18:44.311Z",
+  "duration_hours": 48,
+  "profile": "burn-in-48h",
+  "load_profile": {
+    "steady_rps": 65,
+    "spike_rps": 175,
+    "spike_frequency": "6h",
+    "spike_duration": "10m"
+  },
+  "traffic_mix": {
+    "happy_path": 0.5,
+    "policy_denied": 0.3,
+    "chaos_faulted": 0.2
+  },
+  "chaos_schedule": {
+    "gateway_restarts": "12h intervals",
+    "db_restarts": "24h intervals",
+    "redis_restarts": "12h intervals (offset)",
+    "chaos_windows": "30min at hours 6,18,30,42",
+    "policy_changes": "hour 24 (quota reduction)"
+  },
+  "flags": {
+    "UPSTREAM_MODE": "mock",
+    "FF_POLICY": "on",
+    "FF_CACHE": "on",
+    "FF_RETRY": "on",
+    "FF_BREAKERS": "on",
+    "FF_ASYNC": "on",
+    "FF_CHAOS": "off (toggled during chaos windows)"
+  },
+  "success_criteria": {
+    "availability": "≥97%",
+    "policy_accuracy": "≥99%",
+    "memory_drift": "≤10% sustained",
+    "cpu_stability": "within 70-80% baseline",
+    "recovery_time": "≤60s for breaker events"
+  },
+  "host": {
+    "cpu": "12c",
+    "ram_gb": 8,
+    "os": "WSL2+Docker Desktop",
+    "platform": "Windows 11"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@4runr/sse-worker",
+  "version": "1.0.0",
+  "description": "SSE Worker for 4Runr Guard/Audit events",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "clean": "rimraf dist",
+    "lint": "eslint src --ext .ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@4runr/shared": "file:../../packages/shared",
+    "ioredis": "^5.3.0",
+    "fastify": "^4.24.0",
+    "fastify-cors": "^6.1.0",
+    "prom-client": "^14.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8.53.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "tsx": "^4.6.0",
+    "typescript": "^5.2.2",
+    "rimraf": "^5.0.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

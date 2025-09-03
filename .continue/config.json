@@ -1,0 +1,11 @@
+{
+  "models": [
+    { "title": "GPT-4o", "provider": "openai", "model": "gpt-4o" }
+  ],
+  "tabAutocompleteModel": { "provider": "openai", "model": "gpt-4o-mini" },
+  "contextProviders": [
+    { "provider": "repo" },
+    { "provider": "terminal" }
+  ],
+  "allowAnonymousTelemetry": false
+}

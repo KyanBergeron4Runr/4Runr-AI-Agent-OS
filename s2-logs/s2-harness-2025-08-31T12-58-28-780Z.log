@@ -1,0 +1,36 @@
+[2025-08-31T12:58:28.783Z] [INFO] [T+0m] 🚀 Starting S2 — Unkillable Harness (2 Hours, Zero-Leak Cert)
+[2025-08-31T12:58:28.786Z] [INFO] [T+0m] 📝 Logging to: s2-logs/s2-harness-2025-08-31T12-58-28-780Z.log
+[2025-08-31T12:58:28.786Z] [INFO] [T+0m] 🔧 Setting up workspace plan...
+[2025-08-31T12:58:28.809Z] [INFO] [T+0m] ✅ Workspace plan set to pro
+[2025-08-31T12:58:28.810Z] [INFO] [T+0m] 🏃 Starting W1: Realistic Runs
+[2025-08-31T12:58:28.810Z] [INFO] [T+0m] 🔄 Starting W2: SSE Churn
+[2025-08-31T12:58:28.810Z] [INFO] [T+0m] 📦 Starting W3: Registry Pulse
+[2025-08-31T12:58:28.810Z] [INFO] [T+0m] 🛡️ Starting W4: Safety Probes
+[2025-08-31T12:58:28.810Z] [INFO] [T+0m] 🔒 Starting W5: Privacy Slice
+[2025-08-31T12:58:28.811Z] [INFO] [T+0m] 🌪️ Starting W6: Light Chaos
+[2025-08-31T12:58:28.811Z] [INFO] [T+0m] 📊 Starting Availability Monitor
+[2025-08-31T12:58:28.811Z] [INFO] [T+0m] 📈 Starting Metrics Capture
+[2025-08-31T12:58:28.822Z] [INFO] [T+0m] 🔌 SSE sse-0 connected
+[2025-08-31T12:58:28.827Z] [INFO] [T+0m] 🔌 SSE sse-1 connected
+[2025-08-31T12:58:28.827Z] [INFO] [T+0m] 🔌 SSE sse-2 connected
+[2025-08-31T12:58:28.828Z] [INFO] [T+0m] 🔌 SSE sse-3 connected
+[2025-08-31T12:58:28.828Z] [INFO] [T+0m] 🔌 SSE sse-4 connected
+[2025-08-31T12:58:28.829Z] [INFO] [T+0m] 🔌 SSE sse-5 connected
+[2025-08-31T12:58:28.829Z] [INFO] [T+0m] 🔌 SSE sse-6 connected
+[2025-08-31T12:58:28.830Z] [INFO] [T+0m] 🔌 SSE sse-7 connected
+[2025-08-31T12:58:28.831Z] [INFO] [T+0m] 🔌 SSE sse-8 connected
+[2025-08-31T12:58:28.832Z] [INFO] [T+0m] 🔌 SSE sse-9 connected
+[2025-08-31T12:58:28.832Z] [INFO] [T+0m] 🔌 SSE sse-10 connected
+[2025-08-31T12:58:28.833Z] [INFO] [T+0m] 🔌 SSE sse-11 connected
+[2025-08-31T12:58:28.833Z] [INFO] [T+0m] 🔌 SSE sse-12 connected
+[2025-08-31T12:58:28.833Z] [INFO] [T+0m] 🔌 SSE sse-13 connected
+[2025-08-31T12:58:28.834Z] [INFO] [T+0m] 🔌 SSE sse-14 connected
+[2025-08-31T12:58:28.834Z] [INFO] [T+0m] 🔌 SSE sse-15 connected
+[2025-08-31T12:58:28.834Z] [INFO] [T+0m] 🔌 SSE sse-16 connected
+[2025-08-31T12:58:28.834Z] [INFO] [T+0m] 🔌 SSE sse-17 connected
+[2025-08-31T12:58:28.835Z] [INFO] [T+0m] 🔌 SSE sse-18 connected
+[2025-08-31T12:58:28.835Z] [INFO] [T+0m] 🔌 SSE sse-19 connected
+[2025-08-31T13:00:19.195Z] [ERROR] [T+1m] ⏰ Run f8f70e4d-c65b-4054-88d4-627904470fb7 timed out after 90s
+[2025-08-31T13:00:39.203Z] [ERROR] [T+2m] ⏰ Run 6a0f0b63-6168-4c81-9876-6c55311f3777 timed out after 90s
+[2025-08-31T13:00:59.202Z] [ERROR] [T+2m] ⏰ Run 0fb2e410-c6e7-4250-b702-1b737579fa25 timed out after 90s
+[2025-08-31T13:01:09.598Z] [INFO] [T+2m] 🛑 Received SIGINT - graceful shutdown

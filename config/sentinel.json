@@ -1,0 +1,82 @@
+{
+  "telemetry": {
+    "enabled": true,
+    "privacyMode": "plaintext",
+    "retentionDays": 30
+  },
+  "hallucination": {
+    "enabled": true,
+    "sensitivity": "medium",
+    "patterns": [
+      "I can't verify",
+      "I don't have access to",
+      "I cannot confirm",
+      "I'm not sure",
+      "I don't know",
+      "I cannot provide",
+      "I'm unable to",
+      "I don't have information about"
+    ]
+  },
+  "injection": {
+    "enabled": true,
+    "sensitivity": "high",
+    "patterns": [
+      "ignore previous instructions",
+      "ignore all previous instructions",
+      "you are now",
+      "you have become",
+      "forget everything",
+      "disregard",
+      "ignore the above",
+      "ignore what I said before",
+      "new instructions:",
+      "system:",
+      "assistant:",
+      "user:",
+      "human:",
+      "ignore safety",
+      "bypass",
+      "override"
+    ],
+    "action": "flag"
+  },
+  "pii": {
+    "enabled": true,
+    "sensitivity": "high",
+    "patterns": [
+      "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b",
+      "\\b\\d{3}[-.]?\\d{3}[-.]?\\d{4}\\b",
+      "\\b\\d{3}-\\d{2}-\\d{4}\\b",
+      "\\b\\d{4}[\\s-]?\\d{4}[\\s-]?\\d{4}[\\s-]?\\d{4}\\b",
+      "\\b\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\b"
+    ],
+    "action": "mask"
+  },
+  "cost": {
+    "enabled": true,
+    "maxTokensPerRequest": 10000,
+    "maxCostPerRequest": 1.00,
+    "action": "flag"
+  },
+  "latency": {
+    "enabled": true,
+    "maxLatencyMs": 30000,
+    "action": "flag"
+  },
+  "judge": {
+    "enabled": true,
+    "sampleN": 6,
+    "citationMin": 0.6,
+    "lowThreshold": 0.7,
+    "privacyDefaultGroundedness": 0.5,
+    "latencyBudgetMs": 300,
+    "evidenceCandidates": 3,
+    "maxEvidenceAge": 300000
+  },
+  "shield": {
+    "enabled": true,
+    "mode": "enforce",
+    "defaultAction": "block"
+  }
+}

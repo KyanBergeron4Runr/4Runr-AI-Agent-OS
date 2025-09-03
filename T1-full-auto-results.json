@@ -1,0 +1,235 @@
+{
+  "t0": {
+    "timestamp": "2025-08-23T02:24:33.249Z",
+    "counters": {
+      "sentinel_spans_total": 108,
+      "sentinel_guard_events_total": 72,
+      "registry_agents_total": 1,
+      "registry_publishers_total": 1,
+      "registry_workspaces_total": 1
+    }
+  },
+  "t1": {
+    "timestamp": "2025-08-23T02:24:46.314Z",
+    "counters": {
+      "sentinel_spans_total": 138,
+      "sentinel_guard_events_total": 92,
+      "registry_agents_total": 1,
+      "registry_publishers_total": 1,
+      "registry_workspaces_total": 1
+    }
+  },
+  "t2": {
+    "timestamp": "2025-08-23T02:24:46.315Z",
+    "counters": {
+      "sentinel_spans_total": 138,
+      "sentinel_guard_events_total": 92,
+      "registry_agents_total": 1,
+      "registry_publishers_total": 1,
+      "registry_workspaces_total": 1
+    }
+  },
+  "t3": {
+    "timestamp": "2025-08-23T02:24:46.318Z",
+    "counters": {
+      "sentinel_spans_total": 138,
+      "sentinel_guard_events_total": 92,
+      "registry_agents_total": 1,
+      "registry_publishers_total": 1,
+      "registry_workspaces_total": 1
+    }
+  },
+  "t4": {
+    "timestamp": "2025-08-23T02:24:46.319Z",
+    "counters": {
+      "sentinel_spans_total": 138,
+      "sentinel_guard_events_total": 92,
+      "registry_agents_total": 1,
+      "registry_publishers_total": 1,
+      "registry_workspaces_total": 1
+    }
+  },
+  "runIds": [
+    "d2ff979f-4588-4963-8b49-f67b46ecfb4e",
+    "e8f7ea39-1e73-4bcc-b60c-6124e4aa104e",
+    "8b4de5fc-a71e-4ab5-b75e-40ba72a9d9ad",
+    "e515cbd9-edf3-49f2-b011-d40258c69b98",
+    "cfbac902-f96d-4654-b864-d429fdeda51d",
+    "8d9e959d-87d9-4591-bcff-ee972e34f865",
+    "96e12ea3-0a18-47c6-b3a7-a9afe40133c1",
+    "4d5ad76e-7ac8-4b7b-90e3-8c8458acb731",
+    "02c9a085-2111-424a-b7f8-b4cae2f9cadb",
+    "28ea9be7-a565-4c79-a310-e7b4624e8fbb"
+  ],
+  "sseTranscripts": [
+    {
+      "runId": "d2ff979f-4588-4963-8b49-f67b46ecfb4e",
+      "type": "logs",
+      "events": [],
+      "firstLogTime": 8003
+    },
+    {
+      "runId": "b004db0a-f7d8-4aff-a164-2cbf3564de6e",
+      "type": "guard",
+      "initialEvents": [],
+      "reconnectEvents": [],
+      "duplicates": 0
+    }
+  ],
+  "errorBodies": [],
+  "registryEvidence": {
+    "searchTest": "PASS"
+  },
+  "timing": {
+    "baseline": 34,
+    "agentRuns": 13062,
+    "privacyMode": 0,
+    "registryRoundTrip": 2,
+    "planCaps": 1,
+    "sseReconnect": 3,
+    "total": 13106
+  },
+  "failures": [],
+  "skippedTests": [],
+  "performanceIssues": [
+    "First log time too slow: 8003ms > 1000ms",
+    "P95 duration too slow: 8016ms > 8000ms"
+  ],
+  "missingFeatures": [
+    "Run d2ff979f-4588-4963-8b49-f67b46ecfb4e missing spans",
+    "Run d2ff979f-4588-4963-8b49-f67b46ecfb4e missing verdict",
+    "Run d2ff979f-4588-4963-8b49-f67b46ecfb4e missing shield decision",
+    "Run d2ff979f-4588-4963-8b49-f67b46ecfb4e missing guard events",
+    "Run e8f7ea39-1e73-4bcc-b60c-6124e4aa104e missing spans",
+    "Run e8f7ea39-1e73-4bcc-b60c-6124e4aa104e missing verdict",
+    "Run e8f7ea39-1e73-4bcc-b60c-6124e4aa104e missing shield decision",
+    "Run e8f7ea39-1e73-4bcc-b60c-6124e4aa104e missing guard events",
+    "Run 8b4de5fc-a71e-4ab5-b75e-40ba72a9d9ad missing spans",
+    "Run 8b4de5fc-a71e-4ab5-b75e-40ba72a9d9ad missing verdict",
+    "Run 8b4de5fc-a71e-4ab5-b75e-40ba72a9d9ad missing shield decision",
+    "Run 8b4de5fc-a71e-4ab5-b75e-40ba72a9d9ad missing guard events",
+    "Run e515cbd9-edf3-49f2-b011-d40258c69b98 missing spans",
+    "Run e515cbd9-edf3-49f2-b011-d40258c69b98 missing verdict",
+    "Run e515cbd9-edf3-49f2-b011-d40258c69b98 missing shield decision",
+    "Run e515cbd9-edf3-49f2-b011-d40258c69b98 missing guard events",
+    "Run cfbac902-f96d-4654-b864-d429fdeda51d missing spans",
+    "Run cfbac902-f96d-4654-b864-d429fdeda51d missing verdict",
+    "Run cfbac902-f96d-4654-b864-d429fdeda51d missing shield decision",
+    "Run cfbac902-f96d-4654-b864-d429fdeda51d missing guard events",
+    "Run 8d9e959d-87d9-4591-bcff-ee972e34f865 missing spans",
+    "Run 8d9e959d-87d9-4591-bcff-ee972e34f865 missing verdict",
+    "Run 8d9e959d-87d9-4591-bcff-ee972e34f865 missing shield decision",
+    "Run 8d9e959d-87d9-4591-bcff-ee972e34f865 missing guard events",
+    "Run 96e12ea3-0a18-47c6-b3a7-a9afe40133c1 missing spans",
+    "Run 96e12ea3-0a18-47c6-b3a7-a9afe40133c1 missing verdict",
+    "Run 96e12ea3-0a18-47c6-b3a7-a9afe40133c1 missing shield decision",
+    "Run 96e12ea3-0a18-47c6-b3a7-a9afe40133c1 missing guard events",
+    "Run 4d5ad76e-7ac8-4b7b-90e3-8c8458acb731 missing spans",
+    "Run 4d5ad76e-7ac8-4b7b-90e3-8c8458acb731 missing verdict",
+    "Run 4d5ad76e-7ac8-4b7b-90e3-8c8458acb731 missing shield decision",
+    "Run 4d5ad76e-7ac8-4b7b-90e3-8c8458acb731 missing guard events",
+    "Run 02c9a085-2111-424a-b7f8-b4cae2f9cadb missing spans",
+    "Run 02c9a085-2111-424a-b7f8-b4cae2f9cadb missing verdict",
+    "Run 02c9a085-2111-424a-b7f8-b4cae2f9cadb missing shield decision",
+    "Run 02c9a085-2111-424a-b7f8-b4cae2f9cadb missing guard events",
+    "Run 28ea9be7-a565-4c79-a310-e7b4624e8fbb missing spans",
+    "Run 28ea9be7-a565-4c79-a310-e7b4624e8fbb missing verdict",
+    "Run 28ea9be7-a565-4c79-a310-e7b4624e8fbb missing shield decision",
+    "Run 28ea9be7-a565-4c79-a310-e7b4624e8fbb missing guard events",
+    "Privacy mode endpoint not implemented",
+    "Plan management endpoint not implemented"
+  ],
+  "testRuns": [],
+  "runStatuses": [
+    {
+      "runId": "d2ff979f-4588-4963-8b49-f67b46ecfb4e",
+      "status": "complete",
+      "duration": 8016,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "e8f7ea39-1e73-4bcc-b60c-6124e4aa104e",
+      "status": "complete",
+      "duration": 5051,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "8b4de5fc-a71e-4ab5-b75e-40ba72a9d9ad",
+      "status": "complete",
+      "duration": 5049,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "e515cbd9-edf3-49f2-b011-d40258c69b98",
+      "status": "complete",
+      "duration": 5048,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "cfbac902-f96d-4654-b864-d429fdeda51d",
+      "status": "complete",
+      "duration": 5047,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "8d9e959d-87d9-4591-bcff-ee972e34f865",
+      "status": "complete",
+      "duration": 5046,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "96e12ea3-0a18-47c6-b3a7-a9afe40133c1",
+      "status": "complete",
+      "duration": 5045,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "4d5ad76e-7ac8-4b7b-90e3-8c8458acb731",
+      "status": "complete",
+      "duration": 5046,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "02c9a085-2111-424a-b7f8-b4cae2f9cadb",
+      "status": "complete",
+      "duration": 5045,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    },
+    {
+      "runId": "28ea9be7-a565-4c79-a310-e7b4624e8fbb",
+      "status": "complete",
+      "duration": 5045,
+      "hasVerdict": false,
+      "hasShieldDecision": false,
+      "spans": [],
+      "guard_events": []
+    }
+  ]
+}

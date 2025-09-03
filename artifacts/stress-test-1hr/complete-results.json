@@ -1,0 +1,1486 @@
+{
+  "testConfig": {
+    "GATEWAY_BASE_URL": "http://localhost:3000",
+    "TEST_DURATION_MS": 3600000,
+    "CONCURRENT_USERS": 10,
+    "REQUESTS_PER_USER_PER_SEC": 2,
+    "SSE_CONNECTIONS_PER_USER": 3,
+    "IDEMPOTENCY_REUSE_RATE": 0.3,
+    "CANCEL_RATE": 0.1,
+    "METRICS_INTERVAL_MS": 30000,
+    "ARTIFACT_INTERVAL_MS": 300000,
+    "MAX_RETRIES": 3,
+    "REQUEST_TIMEOUT_MS": 10000,
+    "SSE_TIMEOUT_MS": 30000
+  },
+  "testResults": {
+    "duration": 3600022,
+    "totalRequests": 124980,
+    "successfulRequests": 124980,
+    "failedRequests": 0,
+    "requestsPerSecond": 34.71645451055577,
+    "successRate": 100,
+    "errorRate": 0,
+    "totalSSEConnections": 30,
+    "totalRuns": 49428,
+    "cancelledRuns": 5062,
+    "idempotentHits": 21062,
+    "rateLimitHits": 0,
+    "totalErrors": 0
+  },
+  "metrics": [
+    {
+      "timestamp": "2025-09-01T00:42:31.178Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 405\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 405",
+      "parsed": {
+        "runs_total": 405,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 405
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:43:01.185Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 815\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 815",
+      "parsed": {
+        "runs_total": 815,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 815
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:43:31.192Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 1241\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 1241",
+      "parsed": {
+        "runs_total": 1241,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 1241
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:44:01.201Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 1666\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 1666",
+      "parsed": {
+        "runs_total": 1666,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 1666
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:44:31.208Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 2069\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 2069",
+      "parsed": {
+        "runs_total": 2069,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 2069
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:45:01.222Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 2513\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 2513",
+      "parsed": {
+        "runs_total": 2513,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 2513
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:45:31.227Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 2936\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 2936",
+      "parsed": {
+        "runs_total": 2936,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 2936
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:46:01.231Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 3346\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 3346",
+      "parsed": {
+        "runs_total": 3346,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 3346
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:46:31.233Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 3745\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 3745",
+      "parsed": {
+        "runs_total": 3745,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 3745
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:47:01.236Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 4189\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 4189",
+      "parsed": {
+        "runs_total": 4189,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 4189
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:47:31.241Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 4582\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 4582",
+      "parsed": {
+        "runs_total": 4582,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 4582
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:48:01.249Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 5000\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 5000",
+      "parsed": {
+        "runs_total": 5000,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 5000
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:48:31.259Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 5421\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 5421",
+      "parsed": {
+        "runs_total": 5421,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 5421
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:49:01.273Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 5834\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 5834",
+      "parsed": {
+        "runs_total": 5834,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 5834
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:49:31.288Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 6235\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 6235",
+      "parsed": {
+        "runs_total": 6235,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 6235
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:50:01.302Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 6643\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 6643",
+      "parsed": {
+        "runs_total": 6643,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 6643
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:50:31.313Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 7039\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 7039",
+      "parsed": {
+        "runs_total": 7039,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 7039
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:51:01.321Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 7448\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 7448",
+      "parsed": {
+        "runs_total": 7448,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 7448
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:51:31.332Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 7866\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 7866",
+      "parsed": {
+        "runs_total": 7866,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 7866
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:52:01.342Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 8263\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 8263",
+      "parsed": {
+        "runs_total": 8263,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 8263
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:52:31.341Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 8681\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 8681",
+      "parsed": {
+        "runs_total": 8681,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 8681
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:53:01.349Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 9068\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 9068",
+      "parsed": {
+        "runs_total": 9068,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 9068
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:53:31.355Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 9495\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 9495",
+      "parsed": {
+        "runs_total": 9495,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 9495
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:54:01.368Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 9922\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 9922",
+      "parsed": {
+        "runs_total": 9922,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 9922
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:54:31.368Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 10326\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 10326",
+      "parsed": {
+        "runs_total": 10326,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 10326
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:55:01.373Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 10736\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 10736",
+      "parsed": {
+        "runs_total": 10736,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 10736
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:55:31.388Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 11160\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 11160",
+      "parsed": {
+        "runs_total": 11160,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 11160
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:56:01.391Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 11567\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 11567",
+      "parsed": {
+        "runs_total": 11567,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 11567
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:56:31.397Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 11971\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 11971",
+      "parsed": {
+        "runs_total": 11971,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 11971
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:57:01.401Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 12385\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 12385",
+      "parsed": {
+        "runs_total": 12385,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 12385
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:57:31.415Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 12806\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 12806",
+      "parsed": {
+        "runs_total": 12806,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 12806
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:58:01.416Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 13215\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 13215",
+      "parsed": {
+        "runs_total": 13215,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 13215
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:58:31.429Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 13623\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 13623",
+      "parsed": {
+        "runs_total": 13623,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 13623
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:59:01.442Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 14047\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 14047",
+      "parsed": {
+        "runs_total": 14047,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 14047
+      }
+    },
+    {
+      "timestamp": "2025-09-01T00:59:31.444Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 14444\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 14444",
+      "parsed": {
+        "runs_total": 14444,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 14444
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:00:01.449Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 14844\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 14844",
+      "parsed": {
+        "runs_total": 14844,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 14844
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:00:31.463Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 15268\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 15268",
+      "parsed": {
+        "runs_total": 15268,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 15268
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:01:01.466Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 15679\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 15679",
+      "parsed": {
+        "runs_total": 15679,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 15679
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:01:31.474Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 16104\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 16104",
+      "parsed": {
+        "runs_total": 16104,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 16104
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:02:01.476Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 16540\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 16540",
+      "parsed": {
+        "runs_total": 16540,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 16540
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:02:31.485Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 16953\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 16953",
+      "parsed": {
+        "runs_total": 16953,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 16953
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:03:01.499Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 17360\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 17360",
+      "parsed": {
+        "runs_total": 17360,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 17360
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:03:31.504Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 17755\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 17755",
+      "parsed": {
+        "runs_total": 17755,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 17755
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:04:01.507Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 18178\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 18178",
+      "parsed": {
+        "runs_total": 18178,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 18178
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:04:31.512Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 18575\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 18575",
+      "parsed": {
+        "runs_total": 18575,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 18575
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:05:01.513Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 19012\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 19012",
+      "parsed": {
+        "runs_total": 19012,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 19012
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:05:31.519Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 19417\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 19417",
+      "parsed": {
+        "runs_total": 19417,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 19417
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:06:01.524Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 19797\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 19797",
+      "parsed": {
+        "runs_total": 19797,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 19797
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:06:31.533Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 20215\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 20215",
+      "parsed": {
+        "runs_total": 20215,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 20215
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:07:01.546Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 20641\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 20641",
+      "parsed": {
+        "runs_total": 20641,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 20641
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:07:31.563Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 21046\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 21046",
+      "parsed": {
+        "runs_total": 21046,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 21046
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:08:01.560Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 21455\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 21455",
+      "parsed": {
+        "runs_total": 21455,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 21455
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:08:31.567Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 21888\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 21888",
+      "parsed": {
+        "runs_total": 21888,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 21888
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:09:01.574Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 22285\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 22285",
+      "parsed": {
+        "runs_total": 22285,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 22285
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:09:31.575Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 22685\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 22685",
+      "parsed": {
+        "runs_total": 22685,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 22685
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:10:01.583Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 23095\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 23095",
+      "parsed": {
+        "runs_total": 23095,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 23095
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:10:31.598Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 23486\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 23486",
+      "parsed": {
+        "runs_total": 23486,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 23486
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:11:01.605Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 23904\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 23904",
+      "parsed": {
+        "runs_total": 23904,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 23904
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:11:31.618Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 24325\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 24325",
+      "parsed": {
+        "runs_total": 24325,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 24325
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:12:01.620Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 24749\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 24749",
+      "parsed": {
+        "runs_total": 24749,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 24749
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:12:31.631Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 25174\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 25174",
+      "parsed": {
+        "runs_total": 25174,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 25174
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:13:01.638Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 25572\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 25572",
+      "parsed": {
+        "runs_total": 25572,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 25572
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:13:31.649Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 25989\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 25989",
+      "parsed": {
+        "runs_total": 25989,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 25989
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:14:01.658Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 26404\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 26404",
+      "parsed": {
+        "runs_total": 26404,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 26404
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:14:31.661Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 26824\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 26824",
+      "parsed": {
+        "runs_total": 26824,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 26824
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:15:01.664Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 27231\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 27231",
+      "parsed": {
+        "runs_total": 27231,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 27231
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:15:31.670Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 27658\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 27658",
+      "parsed": {
+        "runs_total": 27658,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 27658
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:16:01.673Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 28094\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 28094",
+      "parsed": {
+        "runs_total": 28094,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 28094
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:16:31.676Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 28489\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 28489",
+      "parsed": {
+        "runs_total": 28489,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 28489
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:17:01.687Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 28926\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 28926",
+      "parsed": {
+        "runs_total": 28926,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 28926
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:17:31.690Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 29337\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 29337",
+      "parsed": {
+        "runs_total": 29337,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 29337
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:18:01.699Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 29745\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 29745",
+      "parsed": {
+        "runs_total": 29745,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 29745
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:18:31.710Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 30153\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 30153",
+      "parsed": {
+        "runs_total": 30153,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 30153
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:19:01.716Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 30562\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 30562",
+      "parsed": {
+        "runs_total": 30562,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 30562
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:19:31.720Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 30963\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 30963",
+      "parsed": {
+        "runs_total": 30963,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 30963
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:20:01.725Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 31379\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 31379",
+      "parsed": {
+        "runs_total": 31379,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 31379
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:20:31.734Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 31786\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 31786",
+      "parsed": {
+        "runs_total": 31786,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 31786
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:21:01.737Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 32195\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 32195",
+      "parsed": {
+        "runs_total": 32195,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 32195
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:21:31.738Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 32603\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 32603",
+      "parsed": {
+        "runs_total": 32603,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 32603
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:22:01.748Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 33010\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 33010",
+      "parsed": {
+        "runs_total": 33010,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 33010
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:22:31.752Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 33430\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 33430",
+      "parsed": {
+        "runs_total": 33430,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 33430
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:23:01.758Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 33839\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 33839",
+      "parsed": {
+        "runs_total": 33839,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 33839
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:23:31.756Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 34248\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 34248",
+      "parsed": {
+        "runs_total": 34248,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 34248
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:24:01.767Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 34665\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 34665",
+      "parsed": {
+        "runs_total": 34665,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 34665
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:24:31.778Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 35088\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 35088",
+      "parsed": {
+        "runs_total": 35088,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 35088
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:25:01.790Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 35491\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 35491",
+      "parsed": {
+        "runs_total": 35491,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 35491
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:25:31.804Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 35922\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 35922",
+      "parsed": {
+        "runs_total": 35922,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 35922
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:26:01.817Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 36333\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 36333",
+      "parsed": {
+        "runs_total": 36333,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 36333
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:26:31.831Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 36766\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 36766",
+      "parsed": {
+        "runs_total": 36766,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 36766
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:27:01.833Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 37177\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 37177",
+      "parsed": {
+        "runs_total": 37177,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 37177
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:27:31.838Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 37571\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 37571",
+      "parsed": {
+        "runs_total": 37571,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 37571
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:28:01.848Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 37982\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 37982",
+      "parsed": {
+        "runs_total": 37982,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 37982
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:28:31.860Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 38397\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 38397",
+      "parsed": {
+        "runs_total": 38397,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 38397
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:29:01.862Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 38822\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 38822",
+      "parsed": {
+        "runs_total": 38822,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 38822
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:29:31.864Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 39220\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 39220",
+      "parsed": {
+        "runs_total": 39220,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 39220
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:30:01.878Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 39622\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 39622",
+      "parsed": {
+        "runs_total": 39622,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 39622
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:30:31.888Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 40039\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 40039",
+      "parsed": {
+        "runs_total": 40039,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 40039
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:31:01.898Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 40449\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 40449",
+      "parsed": {
+        "runs_total": 40449,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 40449
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:31:31.908Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 40860\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 40860",
+      "parsed": {
+        "runs_total": 40860,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 40860
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:32:01.909Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 41255\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 41255",
+      "parsed": {
+        "runs_total": 41255,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 41255
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:32:31.919Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 41660\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 41660",
+      "parsed": {
+        "runs_total": 41660,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 41660
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:33:01.926Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 42064\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 42064",
+      "parsed": {
+        "runs_total": 42064,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 42064
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:33:31.931Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 42497\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 42497",
+      "parsed": {
+        "runs_total": 42497,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 42497
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:34:01.939Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 42920\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 42920",
+      "parsed": {
+        "runs_total": 42920,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 42920
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:34:31.944Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 43303\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 43303",
+      "parsed": {
+        "runs_total": 43303,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 43303
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:35:01.953Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 43710\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 43710",
+      "parsed": {
+        "runs_total": 43710,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 43710
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:35:31.959Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 44118\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 44118",
+      "parsed": {
+        "runs_total": 44118,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 44118
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:36:01.971Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 44536\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 44536",
+      "parsed": {
+        "runs_total": 44536,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 44536
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:36:31.985Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 44944\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 44944",
+      "parsed": {
+        "runs_total": 44944,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 44944
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:37:01.988Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 45336\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 45336",
+      "parsed": {
+        "runs_total": 45336,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 45336
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:37:31.995Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 45761\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 45761",
+      "parsed": {
+        "runs_total": 45761,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 45761
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:38:01.999Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 46170\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 46170",
+      "parsed": {
+        "runs_total": 46170,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 46170
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:38:32.000Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 46566\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 46566",
+      "parsed": {
+        "runs_total": 46566,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 46566
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:39:02.010Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 46987\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 46987",
+      "parsed": {
+        "runs_total": 46987,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 46987
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:39:32.017Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 47413\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 47413",
+      "parsed": {
+        "runs_total": 47413,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 47413
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:40:02.031Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 47836\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 47836",
+      "parsed": {
+        "runs_total": 47836,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 47836
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:40:32.042Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 48247\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 48247",
+      "parsed": {
+        "runs_total": 48247,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 48247
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:41:02.044Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 48646\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 48646",
+      "parsed": {
+        "runs_total": 48646,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 48646
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:41:32.053Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 49053\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 49053",
+      "parsed": {
+        "runs_total": 49053,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 49053
+      }
+    },
+    {
+      "timestamp": "2025-09-01T01:42:01.185Z",
+      "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 49435\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 49435",
+      "parsed": {
+        "runs_total": 49435,
+        "sse_connections_opened": 40,
+        "sse_connections_closed": 47,
+        "sse_active_connections": 0,
+        "sse_messages_total": 140,
+        "idempotency_store_size": 49435
+      }
+    }
+  ],
+  "errors": [],
+  "finalMetrics": {
+    "timestamp": "2025-09-01T01:42:01.185Z",
+    "raw": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 49435\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 40\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 47\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 140\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 49435",
+    "parsed": {
+      "runs_total": 49435,
+      "sse_connections_opened": 40,
+      "sse_connections_closed": 47,
+      "sse_active_connections": 0,
+      "sse_messages_total": 140,
+      "idempotency_store_size": 49435
+    }
+  }
+}

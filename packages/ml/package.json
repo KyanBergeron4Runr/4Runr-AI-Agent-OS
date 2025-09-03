@@ -1,0 +1,31 @@
+{
+  "name": "@4runr/ml",
+  "version": "1.0.0",
+  "description": "4Runr ML Services - Feedback, Training, and Model Registry",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@4runr/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2",
+    "rimraf": "^5.0.5"
+  },
+  "keywords": [
+    "4runr",
+    "ml",
+    "machine-learning",
+    "feedback",
+    "training",
+    "registry"
+  ],
+  "author": "4Runr Team",
+  "license": "MIT"
+}

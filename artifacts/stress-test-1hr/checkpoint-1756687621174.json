@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-09-01T00:47:01.173Z",
+  "type": "checkpoint",
+  "data": {
+    "message": "Regular checkpoint during stress test"
+  },
+  "testState": {
+    "totalRequests": 10463,
+    "successfulRequests": 10463,
+    "failedRequests": 0,
+    "totalSSEConnections": 30,
+    "activeSSEConnections": 0,
+    "totalRuns": 4182,
+    "cancelledRuns": 401,
+    "idempotentHits": 1698,
+    "rateLimitHits": 0,
+    "errors": 0
+  }
+}

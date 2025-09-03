@@ -1,5 +1,13 @@
 # 4Runr AI Agent OS - Production Gateway
 
+> **Build Policy:** This repository prioritizes reuse & adapters over rewrites.
+> 
+> Do not create new gateway or runtime components when existing ones satisfy the contract.
+> 
+> Additions must appear under `packages/adapters/*` or `agents/*`.
+> 
+> All PRs must link to `ARCHITECTURE/REUSE-MAP.md`.
+
 A high-performance, production-ready gateway for AI agent orchestration and execution management.
 
 ## 🚀 System Overview
@@ -422,6 +430,19 @@ curl -X POST http://localhost:3000/api/runs \
   }'
 ```
 
+#### Create a Run with Idempotency
+```bash
+curl -X POST http://localhost:3000/api/runs \
+  -H "Content-Type: application/json" \
+  -H "Idempotency-Key: 550e8400-e29b-41d4-a716-446655440000" \
+  -d '{
+    "name": "Test Run",
+    "input": {"message": "Hello World"},
+    "client_token": "test-token-12345",
+    "tags": ["test", "demo"]
+  }'
+```
+
 #### Start a Run
 ```bash
 curl -X POST http://localhost:3000/api/runs/run-1756690920472-49420/start
@@ -562,11 +583,20 @@ idempotency_store_size 1245
 ## 🔒 Security Features
 
 ### **Input Validation**
-- JSON schema validation for all requests
-- Field type checking and length limits
-- Pattern matching for client tokens
-- Object size validation
-- Required field enforcement
+- **Zod schema validation** for all requests with machine-readable error codes
+- **Field type checking** and length limits (128 chars for names, 64KB for strings, 128KB for objects)
+- **Pattern matching** for client tokens (alphanumeric + underscore + dash)
+- **Object size validation** with configurable limits
+- **Required field enforcement** with detailed error messages
+- **Feature flags**: `VALIDATION_ENFORCE=strict|warn|off`
+
+### **Idempotency**
+- **UUID v4 keys** via `Idempotency-Key` header for safe request replays
+- **Redis-based storage** with 24-hour TTL (configurable)
+- **Body normalization** for consistent hashing
+- **Conflict detection** when same key used with different body
+- **Feature flags**: `IDEMPOTENCY_ENABLED=true|false`
+- **Fail-open design**: Continues working if Redis is unavailable
 
 ### **Rate Limiting**
 - Per-IP rate limiting with sliding window

@@ -1,0 +1,304 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "4Runr Gateway - Performance Dashboard",
+    "tags": ["4runr", "gateway", "performance"],
+    "style": "dark",
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Request Rate by Tool",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(gateway_requests_total{tool=~\".*\"}[5m])",
+            "legendFormat": "{{tool}} - {{action}}"
+          }
+        ],
+        "yAxes": [
+          {
+            "label": "Requests/sec",
+            "min": 0
+          }
+        ],
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "id": 2,
+        "title": "Latency Distribution (p50/p95/p99)",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "histogram_quantile(0.50, rate(gateway_request_duration_seconds_bucket[5m]))",
+            "legendFormat": "p50 - {{tool}}"
+          },
+          {
+            "expr": "histogram_quantile(0.95, rate(gateway_request_duration_seconds_bucket[5m]))",
+            "legendFormat": "p95 - {{tool}}"
+          },
+          {
+            "expr": "histogram_quantile(0.99, rate(gateway_request_duration_seconds_bucket[5m]))",
+            "legendFormat": "p99 - {{tool}}"
+          }
+        ],
+        "yAxes": [
+          {
+            "label": "Latency (seconds)",
+            "min": 0
+          }
+        ],
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 12,
+          "y": 0
+        }
+      },
+      {
+        "id": 3,
+        "title": "Error Rate by Type",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(gateway_errors_total{error_type=\"policy\"}[5m])",
+            "legendFormat": "Policy Denials"
+          },
+          {
+            "expr": "rate(gateway_errors_total{error_type=\"auth\"}[5m])",
+            "legendFormat": "Auth Errors"
+          },
+          {
+            "expr": "rate(gateway_errors_total{error_type=\"upstream\"}[5m])",
+            "legendFormat": "Upstream Errors"
+          },
+          {
+            "expr": "rate(gateway_errors_total{error_type=\"network\"}[5m])",
+            "legendFormat": "Network Errors"
+          }
+        ],
+        "yAxes": [
+          {
+            "label": "Errors/sec",
+            "min": 0
+          }
+        ],
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 0,
+          "y": 8
+        }
+      },
+      {
+        "id": 4,
+        "title": "Circuit Breaker Status",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "gateway_circuit_breaker_state{tool=~\".*\"}",
+            "legendFormat": "{{tool}} - {{state}}"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                { "color": "green", "value": 0 },
+                { "color": "yellow", "value": 1 },
+                { "color": "red", "value": 2 }
+              ]
+            },
+            "mappings": [
+              { "options": { "0": { "text": "CLOSED" } } },
+              { "options": { "1": { "text": "HALF_OPEN" } } },
+              { "options": { "2": { "text": "OPEN" } } }
+            ]
+          }
+        },
+        "gridPos": {
+          "h": 4,
+          "w": 6,
+          "x": 12,
+          "y": 8
+        }
+      },
+      {
+        "id": 5,
+        "title": "Cache Hit Ratio",
+        "type": "gauge",
+        "targets": [
+          {
+            "expr": "rate(gateway_cache_hits_total[5m]) / (rate(gateway_cache_hits_total[5m]) + rate(gateway_cache_misses_total[5m])) * 100",
+            "legendFormat": "Cache Hit %"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "min": 0,
+            "max": 100,
+            "unit": "percent",
+            "thresholds": {
+              "steps": [
+                { "color": "red", "value": 0 },
+                { "color": "yellow", "value": 40 },
+                { "color": "green", "value": 80 }
+              ]
+            }
+          }
+        },
+        "gridPos": {
+          "h": 4,
+          "w": 6,
+          "x": 18,
+          "y": 8
+        }
+      },
+      {
+        "id": 6,
+        "title": "Token Rotations/sec",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(gateway_token_rotations_total[5m])",
+            "legendFormat": "Token Rotations"
+          }
+        ],
+        "yAxes": [
+          {
+            "label": "Rotations/sec",
+            "min": 0
+          }
+        ],
+        "gridPos": {
+          "h": 6,
+          "w": 12,
+          "x": 0,
+          "y": 16
+        }
+      },
+      {
+        "id": 7,
+        "title": "Success Rate",
+        "type": "gauge",
+        "targets": [
+          {
+            "expr": "(1 - (rate(gateway_errors_total[5m]) / rate(gateway_requests_total[5m]))) * 100",
+            "legendFormat": "Success Rate %"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "min": 0,
+            "max": 100,
+            "unit": "percent",
+            "thresholds": {
+              "steps": [
+                { "color": "red", "value": 0 },
+                { "color": "yellow", "value": 95 },
+                { "color": "green", "value": 99.5 }
+              ]
+            }
+          }
+        },
+        "gridPos": {
+          "h": 6,
+          "w": 6,
+          "x": 12,
+          "y": 16
+        }
+      },
+      {
+        "id": 8,
+        "title": "Resource Usage",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "process_cpu_seconds_total",
+            "legendFormat": "CPU Usage"
+          },
+          {
+            "expr": "process_resident_memory_bytes / 1024 / 1024",
+            "legendFormat": "Memory (MB)"
+          }
+        ],
+        "yAxes": [
+          {
+            "label": "Usage",
+            "min": 0
+          }
+        ],
+        "gridPos": {
+          "h": 6,
+          "w": 6,
+          "x": 18,
+          "y": 16
+        }
+      },
+      {
+        "id": 9,
+        "title": "Policy Denials by Reason",
+        "type": "piechart",
+        "targets": [
+          {
+            "expr": "gateway_policy_denials_total",
+            "legendFormat": "{{reason}}"
+          }
+        ],
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 0,
+          "y": 22
+        }
+      },
+      {
+        "id": 10,
+        "title": "Security Events",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "gateway_security_events_total{event_type=\"provenance_mismatch\"}",
+            "legendFormat": "Provenance Mismatches"
+          },
+          {
+            "expr": "gateway_security_events_total{event_type=\"token_revocation\"}",
+            "legendFormat": "Token Revocations"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                { "color": "green", "value": 0 },
+                { "color": "red", "value": 1 }
+              ]
+            }
+          }
+        },
+        "gridPos": {
+          "h": 4,
+          "w": 12,
+          "x": 12,
+          "y": 22
+        }
+      }
+    ],
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    },
+    "refresh": "5s"
+  }
+}

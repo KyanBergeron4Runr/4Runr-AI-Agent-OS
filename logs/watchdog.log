@@ -1,0 +1,10 @@
+[2025-08-18T21:37:16.679Z] 🐕 Watchdog started monitoring PID 19680
+[2025-08-18T21:37:18.703Z] 🛑 Watchdog stopped monitoring
+[2025-08-18T21:37:18.706Z] 🐕 Watchdog started monitoring PID 19680
+[2025-08-18T21:37:18.714Z] ⚠️ Health check failed: 
+[2025-08-18T21:37:19.718Z] ⚠️ Health check failed: 
+[2025-08-18T21:37:19.719Z] 🚨 Health failure threshold reached: 
+[2025-08-18T21:37:19.720Z] 🔄 Restarting process (attempt 1/5): 
+[2025-08-19T16:08:16.024Z] ⚠️ PowerShell metrics failed, using fallback: Error: PowerShell command failed: Command failed with exit code 255: 'Select-Object' is not recognized as an internal or external command,
+operable program or batch file.
+[2025-08-19T16:08:18.148Z] ⚠️ Failed to get process metrics for PID 31976: Error: Unable to get Windows process metrics

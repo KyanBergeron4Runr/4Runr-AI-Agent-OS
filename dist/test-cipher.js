@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const _4runr_cipher_1 = require("./src/services/4runr-cipher");
+// Test the cipher module
+const { publicKey, privateKey } = (0, _4runr_cipher_1.generateAgentKeyPair)();
+const message = "secure token payload";
+console.log('Generated keypair:');
+console.log('Public key length:', publicKey.length);
+console.log('Private key length:', privateKey.length);
+const encrypted = (0, _4runr_cipher_1.encryptForAgent)(publicKey, message);
+console.log('\nEncrypted (base64):', encrypted);
+const decrypted = (0, _4runr_cipher_1.decryptByAgent)(privateKey, encrypted);
+console.log('Decrypted:', decrypted);
+// Verify the decryption worked correctly
+console.log('\nTest result:', decrypted === message ? '✅ SUCCESS' : '❌ FAILED');
+//# sourceMappingURL=test-cipher.js.map

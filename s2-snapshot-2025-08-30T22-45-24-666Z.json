@@ -1,0 +1,25 @@
+{
+  "timestamp": 1756593924666,
+  "elapsed": 90,
+  "metrics": {
+    "runs_total": 358,
+    "sse_active_connections": 88,
+    "sse_messages_total": 58274,
+    "sse_connections_total": 90,
+    "rate_limit_requests_total": 0,
+    "rate_limit_rejected_total": 0,
+    "concurrency_rejected_total": 0,
+    "auth_failures_total": 0
+  },
+  "testState": {
+    "runsStarted": 269,
+    "runsSuccessful": 269,
+    "runsFailed": 0,
+    "sseActive": 20,
+    "sseReconnects": 0,
+    "sseDuplicatesDropped": 0,
+    "availabilityChecks": 179,
+    "availabilityFailures": 0,
+    "lastSnapshot": "s2-snapshot-2025-08-30T22-35-24-653Z.json"
+  }
+}

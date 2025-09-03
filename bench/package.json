@@ -1,0 +1,30 @@
+{
+  "name": "4runr-gateway-bench",
+  "version": "1.0.0",
+  "description": "Load testing and benchmarking suite for 4Runr Gateway",
+  "main": "run-tests.js",
+  "scripts": {
+    "test": "node run-tests.js",
+    "baseline": "artillery run artillery.yml --phase baseline-ramp",
+    "spike": "artillery run artillery.yml --phase spike",
+    "cache": "artillery run artillery.yml --scenario cache-test",
+    "chaos": "node run-tests.js --chaos-only",
+    "install-artillery": "npm install -g artillery"
+  },
+  "dependencies": {
+    "artillery": "^2.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "4runr",
+    "gateway",
+    "load-testing",
+    "benchmark",
+    "artillery"
+  ],
+  "author": "4Runr Team",
+  "license": "MIT"
+}

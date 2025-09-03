@@ -1,0 +1,71 @@
+{
+  "test_run_id": "itg-20250901-98c100c8",
+  "start_time": "2025-09-01T00:23:14.871Z",
+  "end_time": "2025-09-01T00:23:24.931Z",
+  "duration_ms": 10060,
+  "test_state": {
+    "agent_id": "test-agent-itg-20250901-98c100c8",
+    "agent_version": "1.0.0",
+    "manifest_digest": "1e4b45c4cb6b6120ac1b74d5e256ec2c",
+    "run_id": "run-1756686194902-7",
+    "last_event_id": "4",
+    "sse_events": [
+      {
+        "type": "connected",
+        "runId": "run-1756686194902-7",
+        "timestamp": "2025-09-01T00:23:14.907Z"
+      },
+      {
+        "type": "status_update",
+        "runId": "run-1756686194902-7",
+        "status": "in-progress",
+        "timestamp": "2025-09-01T00:23:19.908Z"
+      },
+      {
+        "type": "connected",
+        "runId": "run-1756686194902-7",
+        "timestamp": "2025-09-01T00:23:19.912Z"
+      },
+      {
+        "type": "status_update",
+        "runId": "run-1756686194902-7",
+        "status": "canceled",
+        "timestamp": "2025-09-01T00:23:24.927Z"
+      }
+    ],
+    "metrics_before": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 6\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 8\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 12\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 41\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 6",
+    "metrics_after": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 7\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 10\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 15\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 48\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 7",
+    "start_time": 1756686194871
+  },
+  "metrics_before": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 6\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 8\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 12\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 41\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 6",
+  "metrics_after": "# HELP runs_total Total number of runs\n# TYPE runs_total counter\nruns_total 7\n\n# HELP sse_connections_opened Total SSE connections opened\n# TYPE sse_connections_opened counter\nsse_connections_opened 10\n\n# HELP sse_connections_closed Total SSE connections closed\n# TYPE sse_connections_closed counter\nsse_connections_closed 15\n\n# HELP sse_active_connections Active SSE connections\n# TYPE sse_active_connections gauge\nsse_active_connections 0\n\n# HELP sse_messages_total Total SSE messages sent\n# TYPE sse_messages_total counter\nsse_messages_total 48\n\n# HELP idempotency_store_size Current idempotency store size\n# TYPE idempotency_store_size gauge\nidempotency_store_size 7",
+  "sse_events": [
+    {
+      "type": "connected",
+      "runId": "run-1756686194902-7",
+      "timestamp": "2025-09-01T00:23:14.907Z"
+    },
+    {
+      "type": "status_update",
+      "runId": "run-1756686194902-7",
+      "status": "in-progress",
+      "timestamp": "2025-09-01T00:23:19.908Z"
+    },
+    {
+      "type": "connected",
+      "runId": "run-1756686194902-7",
+      "timestamp": "2025-09-01T00:23:19.912Z"
+    },
+    {
+      "type": "status_update",
+      "runId": "run-1756686194902-7",
+      "status": "canceled",
+      "timestamp": "2025-09-01T00:23:24.927Z"
+    }
+  ],
+  "results": {
+    "passed": 15,
+    "failed": 0,
+    "errors": []
+  }
+}

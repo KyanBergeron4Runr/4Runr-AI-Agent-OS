@@ -1,0 +1,45 @@
+[2025-08-30T14:33:33.013Z] [INFO] [T+0m] 🚀 Starting S2 — Unkillable Harness (2 Hours, Zero-Leak Cert)
+[2025-08-30T14:33:33.016Z] [INFO] [T+0m] 📝 Logging to: s2-logs/s2-harness-2025-08-30T14-33-33-011Z.log
+[2025-08-30T14:33:33.016Z] [INFO] [T+0m] 🔧 Setting up workspace plan...
+[2025-08-30T14:33:33.036Z] [INFO] [T+0m] ✅ Workspace plan set to pro
+[2025-08-30T14:33:33.036Z] [INFO] [T+0m] 🏃 Starting W1: Realistic Runs
+[2025-08-30T14:33:33.036Z] [INFO] [T+0m] 🔄 Starting W2: SSE Churn
+[2025-08-30T14:33:33.036Z] [INFO] [T+0m] 📦 Starting W3: Registry Pulse
+[2025-08-30T14:33:33.037Z] [INFO] [T+0m] 🛡️ Starting W4: Safety Probes
+[2025-08-30T14:33:33.037Z] [INFO] [T+0m] 🔒 Starting W5: Privacy Slice
+[2025-08-30T14:33:33.037Z] [INFO] [T+0m] 🌪️ Starting W6: Light Chaos
+[2025-08-30T14:33:33.037Z] [INFO] [T+0m] 📊 Starting Availability Monitor
+[2025-08-30T14:33:33.037Z] [INFO] [T+0m] 📈 Starting Metrics Capture
+[2025-08-30T14:38:33.040Z] [HEARTBEAT] [T+5m] 💓 S2 alive — t=5m, active SSE=20, runs started=14 (100.0% success)
+[2025-08-30T14:38:33.055Z] [INFO] [T+5m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-30T14:38:34.056Z] [INFO] [T+5m] 🔄 SSE churn: replaced 4 clients
+[2025-08-30T14:43:33.052Z] [HEARTBEAT] [T+10m] 💓 S2 alive — t=10m, active SSE=20, runs started=29 (100.0% success)
+[2025-08-30T14:43:33.056Z] [INFO] [T+10m] 📊 Metrics snapshot saved: s2-snapshot-2025-08-30T14-43-33-055Z.json
+[2025-08-30T14:43:33.056Z] [INFO] [T+10m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-30T14:43:34.071Z] [INFO] [T+10m] 🔄 SSE churn: replaced 4 clients
+[2025-08-30T14:48:33.067Z] [HEARTBEAT] [T+15m] 💓 S2 alive — t=15m, active SSE=20, runs started=44 (100.0% success)
+[2025-08-30T14:48:33.068Z] [INFO] [T+15m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-30T14:48:34.075Z] [INFO] [T+15m] 🔄 SSE churn: replaced 4 clients
+[2025-08-30T14:53:33.064Z] [INFO] [T+20m] 📊 Metrics snapshot saved: s2-snapshot-2025-08-30T14-53-33-063Z.json
+[2025-08-30T14:53:33.078Z] [HEARTBEAT] [T+20m] 💓 S2 alive — t=20m, active SSE=20, runs started=59 (100.0% success)
+[2025-08-30T14:53:33.078Z] [INFO] [T+20m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-30T14:53:34.084Z] [INFO] [T+20m] 🔄 SSE churn: replaced 4 clients
+[2025-08-30T14:58:33.087Z] [HEARTBEAT] [T+25m] 💓 S2 alive — t=25m, active SSE=20, runs started=74 (100.0% success)
+[2025-08-30T14:58:33.087Z] [INFO] [T+25m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-30T14:58:34.091Z] [INFO] [T+25m] 🔄 SSE churn: replaced 4 clients
+[2025-08-30T15:03:33.079Z] [INFO] [T+30m] 📊 Metrics snapshot saved: s2-snapshot-2025-08-30T15-03-33-078Z.json
+[2025-08-30T15:03:33.092Z] [HEARTBEAT] [T+30m] 💓 S2 alive — t=30m, active SSE=20, runs started=89 (100.0% success)
+[2025-08-30T15:03:33.092Z] [INFO] [T+30m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-30T15:03:34.097Z] [INFO] [T+30m] 🔄 SSE churn: replaced 4 clients
+[2025-08-30T15:08:33.104Z] [HEARTBEAT] [T+35m] 💓 S2 alive — t=35m, active SSE=20, runs started=104 (100.0% success)
+[2025-08-30T15:08:33.104Z] [INFO] [T+35m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-30T15:08:34.112Z] [INFO] [T+35m] 🔄 SSE churn: replaced 4 clients
+[2025-08-30T15:13:33.080Z] [INFO] [T+40m] 📊 Metrics snapshot saved: s2-snapshot-2025-08-30T15-13-33-079Z.json
+[2025-08-30T15:13:33.109Z] [HEARTBEAT] [T+40m] 💓 S2 alive — t=40m, active SSE=20, runs started=119 (100.0% success)
+[2025-08-30T15:13:33.109Z] [INFO] [T+40m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-30T15:13:34.118Z] [INFO] [T+40m] 🔄 SSE churn: replaced 4 clients
+[2025-08-30T15:18:33.056Z] [INFO] [T+45m] 🌪️ Chaos: Redis restart scheduled
+[2025-08-30T15:18:33.116Z] [HEARTBEAT] [T+45m] 💓 S2 alive — t=45m, active SSE=20, runs started=134 (100.0% success)
+[2025-08-30T15:18:33.117Z] [INFO] [T+45m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-30T15:18:34.129Z] [INFO] [T+45m] 🔄 SSE churn: replaced 4 clients
+[2025-08-30T15:23:29.803Z] [INFO] [T+49m] 🛑 Received SIGINT - graceful shutdown

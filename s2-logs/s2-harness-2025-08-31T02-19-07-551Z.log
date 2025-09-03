@@ -1,0 +1,66 @@
+[2025-08-31T02:19:07.553Z] [INFO] [T+0m] 🚀 Starting S2 — Unkillable Harness (2 Hours, Zero-Leak Cert)
+[2025-08-31T02:19:07.556Z] [INFO] [T+0m] 📝 Logging to: s2-logs/s2-harness-2025-08-31T02-19-07-551Z.log
+[2025-08-31T02:19:07.556Z] [INFO] [T+0m] 🔧 Setting up workspace plan...
+[2025-08-31T02:19:07.583Z] [INFO] [T+0m] ✅ Workspace plan set to pro
+[2025-08-31T02:19:07.583Z] [INFO] [T+0m] 🏃 Starting W1: Realistic Runs
+[2025-08-31T02:19:07.583Z] [INFO] [T+0m] 🔄 Starting W2: SSE Churn
+[2025-08-31T02:19:07.583Z] [INFO] [T+0m] 📦 Starting W3: Registry Pulse
+[2025-08-31T02:19:07.584Z] [INFO] [T+0m] 🛡️ Starting W4: Safety Probes
+[2025-08-31T02:19:07.584Z] [INFO] [T+0m] 🔒 Starting W5: Privacy Slice
+[2025-08-31T02:19:07.584Z] [INFO] [T+0m] 🌪️ Starting W6: Light Chaos
+[2025-08-31T02:19:07.584Z] [INFO] [T+0m] 📊 Starting Availability Monitor
+[2025-08-31T02:19:07.584Z] [INFO] [T+0m] 📈 Starting Metrics Capture
+[2025-08-31T02:19:07.593Z] [INFO] [T+0m] 🔌 SSE sse-0 connected
+[2025-08-31T02:19:07.602Z] [INFO] [T+0m] 🔌 SSE sse-1 connected
+[2025-08-31T02:19:07.603Z] [INFO] [T+0m] 🔌 SSE sse-2 connected
+[2025-08-31T02:19:07.603Z] [INFO] [T+0m] 🔌 SSE sse-3 connected
+[2025-08-31T02:19:07.603Z] [INFO] [T+0m] 🔌 SSE sse-4 connected
+[2025-08-31T02:19:07.604Z] [INFO] [T+0m] 🔌 SSE sse-5 connected
+[2025-08-31T02:19:07.604Z] [INFO] [T+0m] 🔌 SSE sse-6 connected
+[2025-08-31T02:19:07.605Z] [INFO] [T+0m] 🔌 SSE sse-7 connected
+[2025-08-31T02:19:07.605Z] [INFO] [T+0m] 🔌 SSE sse-8 connected
+[2025-08-31T02:19:07.605Z] [INFO] [T+0m] 🔌 SSE sse-9 connected
+[2025-08-31T02:19:07.606Z] [INFO] [T+0m] 🔌 SSE sse-10 connected
+[2025-08-31T02:19:07.606Z] [INFO] [T+0m] 🔌 SSE sse-11 connected
+[2025-08-31T02:19:07.606Z] [INFO] [T+0m] 🔌 SSE sse-12 connected
+[2025-08-31T02:19:07.606Z] [INFO] [T+0m] 🔌 SSE sse-13 connected
+[2025-08-31T02:19:07.607Z] [INFO] [T+0m] 🔌 SSE sse-14 connected
+[2025-08-31T02:19:07.607Z] [INFO] [T+0m] 🔌 SSE sse-15 connected
+[2025-08-31T02:19:07.607Z] [INFO] [T+0m] 🔌 SSE sse-16 connected
+[2025-08-31T02:19:07.607Z] [INFO] [T+0m] 🔌 SSE sse-17 connected
+[2025-08-31T02:19:07.608Z] [INFO] [T+0m] 🔌 SSE sse-18 connected
+[2025-08-31T02:19:07.608Z] [INFO] [T+0m] 🔌 SSE sse-19 connected
+[2025-08-31T02:19:27.596Z] [ERROR] [T+0m] ❌ Run 8881c61e-800a-4b8f-86bb-6f5d06bdfe1f start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:19:47.594Z] [ERROR] [T+0m] ❌ Run 3a05f45d-6c85-48ab-9dca-d467c84bfefa start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:20:07.603Z] [ERROR] [T+1m] ❌ Run 71b61938-f39e-4f77-92a8-59f142de80af start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:20:27.614Z] [ERROR] [T+1m] ❌ Run 9cdfd7bb-358c-4da5-8b85-fc59dee22ff0 start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:20:47.625Z] [ERROR] [T+1m] ❌ Run 298a7c54-9e07-4be4-a1cd-b9d0039e86db start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:21:07.630Z] [ERROR] [T+2m] ❌ Run ea672a62-b584-444d-80c0-c5ad99af74ce start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:21:27.633Z] [ERROR] [T+2m] ❌ Run daa0a751-927a-4e86-bdad-3f24071d5288 start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:21:47.643Z] [ERROR] [T+2m] ❌ Run 41c07ed0-5e59-45d6-9cd7-0d5366f3b31d start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:22:07.644Z] [ERROR] [T+3m] ❌ Run 2bbe58d0-6522-4cdd-aa33-ec40bafb6af3 start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:22:27.650Z] [ERROR] [T+3m] ❌ Run 817587a2-7395-4ad4-bfdb-6809b7a78305 start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:22:47.656Z] [ERROR] [T+3m] ❌ Run d253ba90-80ca-4e4a-9898-958f97415285 start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:23:07.668Z] [ERROR] [T+4m] ❌ Run c16196c6-88f2-4689-9136-1bea3acad639 start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:23:27.678Z] [ERROR] [T+4m] ❌ Run 85b76882-431a-4b21-a240-cf8e98675ffb start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:23:47.694Z] [ERROR] [T+4m] ❌ Run b0021df3-e7be-442d-ac87-384711dd50f6 start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:24:07.598Z] [HEARTBEAT] [T+5m] 💓 S2 alive — t=5m, active SSE=20, runs started=14 (0.0% success)
+[2025-08-31T02:24:07.598Z] [INFO] [T+5m] 🔄 SSE churn: closing 4/20 clients
+[2025-08-31T02:24:07.708Z] [ERROR] [T+5m] ❌ Run f03d4527-d967-4ebb-bc63-9fcae9b149dc start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:24:08.603Z] [INFO] [T+5m] 🔄 SSE churn: replaced 4 clients
+[2025-08-31T02:24:08.604Z] [INFO] [T+5m] 🔌 SSE sse-replace-1756607048602-0 connected
+[2025-08-31T02:24:08.604Z] [INFO] [T+5m] 🔌 SSE sse-replace-1756607048602-1 connected
+[2025-08-31T02:24:08.604Z] [INFO] [T+5m] 🔌 SSE sse-replace-1756607048602-2 connected
+[2025-08-31T02:24:08.604Z] [INFO] [T+5m] 🔌 SSE sse-replace-1756607048602-3 connected
+[2025-08-31T02:24:27.713Z] [ERROR] [T+5m] ❌ Run 373bdb26-5c4a-481c-97a4-3dfefa3dcc36 start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:24:47.728Z] [ERROR] [T+5m] ❌ Run 32b2c94f-c54b-4f08-9140-e3b1fafab1fe start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:25:07.728Z] [ERROR] [T+6m] ❌ Run b7febf17-0c55-41a9-a2f4-2861c7625e45 start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:25:27.740Z] [ERROR] [T+6m] ❌ Run f959534d-cbcb-4787-83c3-c2d64e510663 start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:25:47.742Z] [ERROR] [T+6m] ❌ Run 1ee9e0c1-4c2b-45a2-98f0-bc2b06e74a25 start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:26:07.754Z] [ERROR] [T+7m] ❌ Run 5c778ad3-2d80-479c-98d6-a29afe66a0bc start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:26:27.758Z] [ERROR] [T+7m] ❌ Run da0485cc-7c01-45d7-ac0a-77b0f3964099 start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:26:47.762Z] [ERROR] [T+7m] ❌ Run 6f9198b6-ecf5-4574-96fb-602b65b709bf start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:27:07.776Z] [ERROR] [T+8m] ❌ Run b1a33b4b-266f-478a-9fb2-997d0fc69e17 start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:27:27.789Z] [ERROR] [T+8m] ❌ Run 7819bc1a-17f1-4d6f-9535-c85336cc9960 start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T02:27:47.802Z] [ERROR] [T+8m] ❌ Run 6454de5c-8483-44e7-8966-5521fd23b5c1 start failed: 400 - {"statusCode":400,"code":"FST_ERR_CTP_EMPTY_JSON_BODY","error":"Bad Request","message":"Body cannot be empty when content-type is set to 'application/json'"}
+[2025-08-31T11:33:45.681Z] [HEARTBEAT] [T+554m] 💓 S2 alive — t=554m, active SSE=20, runs started=27 (0.0% success)

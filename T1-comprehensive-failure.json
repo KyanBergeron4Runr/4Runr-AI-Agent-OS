@@ -1,0 +1,27 @@
+{
+  "t0": {
+    "timestamp": "2025-08-23T02:12:05.255Z",
+    "counters": {
+      "sentinel_spans_total": 0,
+      "sentinel_guard_events_total": 0,
+      "registry_agents_total": 1,
+      "registry_publishers_total": 1,
+      "registry_workspaces_total": 1
+    }
+  },
+  "t1": null,
+  "t2": null,
+  "t3": null,
+  "t4": null,
+  "runIds": [],
+  "sseTranscripts": [],
+  "errorBodies": [],
+  "registryEvidence": {},
+  "timing": {
+    "baseline": 39,
+    "total": 42
+  },
+  "failures": [],
+  "error": "Failed to create Agent A",
+  "stack": "Error: Failed to create Agent A\n    at testAgentsRuns (C:\\Users\\kyanb\\4Runr.Gateway\\T1-comprehensive-test.js:213:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async runT1ComprehensiveTest (C:\\Users\\kyanb\\4Runr.Gateway\\T1-comprehensive-test.js:662:9)"
+}

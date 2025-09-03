@@ -1,0 +1,13 @@
+[2025-08-30T14:25:01.792Z] [INFO] [T+0m] 🚀 Starting S2 — Unkillable Harness (2 Hours, Zero-Leak Cert)
+[2025-08-30T14:25:01.795Z] [INFO] [T+0m] 📝 Logging to: s2-logs/s2-harness-2025-08-30T14-25-01-789Z.log
+[2025-08-30T14:25:01.795Z] [INFO] [T+0m] 🔧 Setting up workspace plan...
+[2025-08-30T14:25:01.817Z] [INFO] [T+0m] ✅ Workspace plan set to pro
+[2025-08-30T14:25:01.818Z] [INFO] [T+0m] 🏃 Starting W1: Realistic Runs
+[2025-08-30T14:25:01.818Z] [INFO] [T+0m] 🔄 Starting W2: SSE Churn
+[2025-08-30T14:25:01.818Z] [INFO] [T+0m] 📦 Starting W3: Registry Pulse
+[2025-08-30T14:25:01.818Z] [INFO] [T+0m] 🛡️ Starting W4: Safety Probes
+[2025-08-30T14:25:01.818Z] [INFO] [T+0m] 🔒 Starting W5: Privacy Slice
+[2025-08-30T14:25:01.819Z] [INFO] [T+0m] 🌪️ Starting W6: Light Chaos
+[2025-08-30T14:25:01.819Z] [INFO] [T+0m] 📊 Starting Availability Monitor
+[2025-08-30T14:25:01.819Z] [INFO] [T+0m] 📈 Starting Metrics Capture
+[2025-08-30T14:27:50.090Z] [INFO] [T+2m] 🛑 Received SIGINT - graceful shutdown
